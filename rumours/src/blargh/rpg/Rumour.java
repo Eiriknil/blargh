@@ -2,7 +2,7 @@ package blargh.rpg;
 
 public interface Rumour {
 
-	public Rumour travel(Time time, Danger danger, Place place);
+	public Rumour travel(Time time, Place place);
 
 	public Rumour evolve(Place place);
 	
@@ -13,7 +13,7 @@ public interface Rumour {
 		protected static final Rumour DEAD_RUMOUR = new Rumour() {
 			
 			@Override
-			public Rumour travel(Time time, Danger danger, Place place) {
+			public Rumour travel(Time time, Place place) {
 				return this;
 			}
 			
@@ -30,31 +30,40 @@ public interface Rumour {
 
 		public static Rumour create(final Time time, final Place place) {
 			
-			return new Rumour() {
+			Rumour newRumour = new Implementation(time);
 			
-				private Time rumourTime = time;
-				
-				@Override
-				public Rumour travel(Time time, Danger danger, Place place) {
-
-					if(danger.avoids()) {
-						return Rumour.Factory.create(rumourTime.add(time), Place.NOWHERE);
-					}
-					
-					return DEAD_RUMOUR;
-				}
-				
-				@Override
-				public Rumour evolve(Place place) {
-					return null;
-				}
-
-				@Override
-				public boolean isDead() {
-					return false;
-				}
-			};
+			place.addRumour(newRumour);
+			
+			return newRumour;
 		}
 		
+	}
+	
+	public static class Implementation implements Rumour {
+
+		private Time rumourTime;
+		
+		@SuppressWarnings("unused")
+		private Implementation() {}
+		
+		public Implementation(Time time) {
+			this.rumourTime = time;
+		}
+
+		@Override
+		public Rumour travel(Time time, Place place) {
+
+			return new Implementation(this.rumourTime.add(time));
+		}
+		
+		@Override
+		public Rumour evolve(Place place) {
+			return null;
+		}
+
+		@Override
+		public boolean isDead() {
+			return false;
+		}
 	}
 }
