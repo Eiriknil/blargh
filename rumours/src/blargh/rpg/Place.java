@@ -30,10 +30,16 @@ public interface Place {
 		public void addRoute(Route route) {
 			// No routes nowhere
 		}
+
+		@Override
+		public Rumour createLocalRumour() {
+			throw new RuntimeException("Rumours need to be created somewhere!");
+		}
 	};
 
 	public Set<Route> routes();
 	public void addRumour(Rumour rumour);
+	public Rumour createLocalRumour();
 	public Set<Rumour> rumours();
 	public void addRoute(Route route);
 	
@@ -42,7 +48,7 @@ public interface Place {
 		private Factory() {
 		};
 		
-		public static Place create(Set<Route> routes) {
+		public static Place create(final Set<Route> routes, final int population) {
 			Place place = new Place() {
 				
 				private Set<Rumour> rumourSet = new HashSet<>();
@@ -64,7 +70,7 @@ public interface Place {
 				@Override
 				public Set<Route> routes() {
 
-					return new HashSet<Route>(routes);
+					return new HashSet<>(routes);
 				}
 
 				@Override
@@ -75,6 +81,11 @@ public interface Place {
 				@Override
 				public void addRoute(Route route) {
 					routes.add(route);
+				}
+
+				@Override
+				public Rumour createLocalRumour() {
+					return null;
 				}
 			};
 

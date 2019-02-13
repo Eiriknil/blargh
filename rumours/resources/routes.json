@@ -1,27 +1,27 @@
 [
 	{
-		"from": "Übersreik",
+		"from": "Ubersreik",
 		"to": "Wurfel",
 		"type": "land",
 		"danger": "low",
 		"time": 0.5
 	},
 	{
-		"from": "Übersreik",
+		"from": "Ubersreik",
 		"to": "Buchendorf",
 		"type": "river",
 		"danger": "low",
 		"time": 0.5
 	},
 	{
-		"from": "Übersreik",
+		"from": "Ubersreik",
 		"to": "Halheim",
 		"type": "land",
 		"danger": "low",
 		"time": 0.5
 	},
 	{
-		"from": "Übersreik",
+		"from": "Ubersreik",
 		"to": "Grey Lady Pass",
 		"type": "mountain",
 		"danger": "medium",
