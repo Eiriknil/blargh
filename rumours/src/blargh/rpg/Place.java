@@ -1,7 +1,10 @@
 package blargh.rpg;
 
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Random;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 public interface Place {
@@ -35,6 +38,17 @@ public interface Place {
 		public Rumour createLocalRumour() {
 			throw new RuntimeException("Rumours need to be created somewhere!");
 		}
+
+		@Override
+		public void timePasses() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public String name() {
+			return "Nowhere";
+		}
 	};
 
 	public Set<Route> routes();
@@ -42,17 +56,23 @@ public interface Place {
 	public Rumour createLocalRumour();
 	public Set<Rumour> rumours();
 	public void addRoute(Route route);
+	public void timePasses();
+	public String name();
 	
 	public static class Factory{
 		
 		private Factory() {
 		};
 		
-		public static Place create(final Set<Route> routes, final int population) {
+		public static Place create(String name, final Set<Route> routes, final int population, Random randomizer) {
 			Place place = new Place() {
 				
 				private Set<Rumour> rumourSet = new HashSet<>();
 				private Set<Route> routes = new HashSet<>();
+				private int day = 0;
+				private int eventChance = calculateEventChance();
+				private Map<Integer, Set<Event>> eventHistory = new ConcurrentHashMap<>();
+				private int rumourChance = calculateRumourChance();
 
 				@Override
 				public Set<Rumour> rumours() {
@@ -67,6 +87,18 @@ public interface Place {
 					return rumourSet;
 				}
 				
+				private int calculateRumourChance() {
+					
+					int chance = 100*50/population;
+					return chance > 50?50:chance;
+				}
+
+				private int calculateEventChance() {
+					
+					int chance = 20*50/population;
+					return chance > 10?10:chance;
+				}
+
 				@Override
 				public Set<Route> routes() {
 
@@ -86,6 +118,35 @@ public interface Place {
 				@Override
 				public Rumour createLocalRumour() {
 					return null;
+				}
+
+				@Override
+				public void timePasses() {
+					
+					day++;
+					
+					Event createdEvent = createEvent(day);
+					if(createdEvent != Event.NO_EVENT) {
+						if(randomizer.nextInt(20/rumourchance))
+					}
+				}
+				
+
+				private Event createEvent(int day) {
+					Event newEvent = Event.NO_EVENT;
+					if(randomizer.nextInt(20/eventChance) == 0) {
+						Event event = Event.Factory.create(this, "" + day, new HashSet<>());
+						Set<Event> eventSet = eventHistory.getOrDefault(day, new HashSet<Event>());
+						eventHistory.put(day, eventSet);
+						eventSet.add(event);
+					}
+					
+					return newEvent;
+				}	
+
+				@Override
+				public String name() {
+					return name;
 				}
 			};
 

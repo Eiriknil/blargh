@@ -1,5 +1,7 @@
 package blargh.rpg;
 
+import java.util.Random;
+
 public interface Rumour {
 
 	public Rumour travel(Time time, Place place);
@@ -9,6 +11,8 @@ public interface Rumour {
 	public boolean isDead();
 	
 	public static class Factory {
+		
+		private Factory() {}
 		
 		protected static final Rumour DEAD_RUMOUR = new Rumour() {
 			
