@@ -127,7 +127,9 @@ public interface Place {
 					
 					Event createdEvent = createEvent(day);
 					if(createdEvent != Event.NO_EVENT) {
-						if(randomizer.nextInt(20/rumourchance))
+						if(randomizer.nextInt(20/rumourChance) == 0) {
+							
+						}
 					}
 				}
 				
