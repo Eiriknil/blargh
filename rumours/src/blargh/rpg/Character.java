@@ -23,7 +23,7 @@ public interface Character {
 		WP,
 		FEL
 	}
-	
+
 	public enum HitLocation {
 		HEAD,
 		RIGHT_ARM,
@@ -32,7 +32,7 @@ public interface Character {
 		RIGHT_LEG,
 		LEFT_LEG
 	}
-	
+
 	public enum Skill {
 		ART(Characteristics.DEX), ATHLETICS(Characteristics.AG), BRIBERY(Characteristics.FEL), CHARM(Characteristics.FEL), CHARM_ANIMAL(Characteristics.WP), 
 		CLIMB(Characteristics.S), COOL(Characteristics.WP), CONSUME_ALCOHOL(Characteristics.T), DODGE(Characteristics.AG), DRIVE(Characteristics.AG), 
@@ -42,14 +42,14 @@ public interface Character {
 		ANIMAL_CARE, ANIMAL_TRAINING, CHANNELING, EVALUATE, HEAL,
 		LANGUAGE, LORE, PERFORM, PICK_LOCK, PLAY, PRAY, RANGED, RESEARCH,
 		SAIL, SECRET_SIGNS, SET_TRAP, SLEIGHT_OF_HAND, SWIM, TRACK, TRADE;
-		
+
 		private Characteristics characteristic;
 		private Skill() {}
 		private Skill(Characteristics characteristic) {
 			this.characteristic = characteristic;
 		}
 	}
-	
+
 	public enum Talents {
 		ACCURATE_SHOT, ACUTE_SENSE, AETHYRIC_ATTUNEMENT, ALLEY_CAT, AMBIDEXTROUS, ANIMAL_AFFINITY, ARCANE_MAGIC_LORE, ARGUMENTATIVE, ARTISTIC, ATTRACTIVE,
 		AVERAGE_SIZE, BATTLE_RAGE, BEAT_BLADE, BENEATH_NOTICE, BERSERK_CHARGE, BLATHER, BLESS, BOOKISH, BREAK_AND_ENTER, BRIBER, CARDSHARP, CAREFUL_STRIKE,
@@ -67,80 +67,95 @@ public interface Character {
 		SUPER_NUMERATE, SUPPORTIVE, SURE_SHOT, SURGERY, TENACIOUS, TINKER, TOWER_OF_MEMORIES, TRAPPER, TRICK_RIDING, TUNNEL_RAT, UNSHAKEABLE, VERY_RESILIENT, 
 		VERY_STRONG, WAR_LEADER, WAR_WIZARD, WARRIOR_BORN, WATERMAN, WEALTHY, WELL_PREPARED, WITCH
 	}
-	
+
 	public int maxWounds();
 	public int currentWounds();
 	public List<Crit> crits();
 	public int characteristic(Characteristics characteristics);
 	public int characteristicBonus(Characteristics characteristics);
 	public int skillValue(Skill skill);
-	
+
 	public static Set<Skill> advancedSkills(){
 		return new HashSet<>(Arrays.asList(Skill.ANIMAL_CARE, Skill.ANIMAL_TRAINING, Skill.CHANNELING, Skill.EVALUATE, Skill.HEAL, Skill.LANGUAGE, 
 				Skill.LORE, Skill.PERFORM, Skill.PICK_LOCK, Skill.PLAY, Skill.PRAY, Skill.RANGED, Skill.RESEARCH, Skill.SAIL, Skill.SECRET_SIGNS, 
 				Skill.SET_TRAP, Skill.SLEIGHT_OF_HAND, Skill.SWIM, Skill.TRACK, Skill.TRADE));
 	}
-	
+
 	public static Set<Skill> basicSkills(){
 		return new HashSet<>(Arrays.asList(Skill.ART, Skill.ATHLETICS, Skill.BRIBERY, Skill.CHARM, Skill.CHARM_ANIMAL, Skill.CLIMB, Skill.COOL,
 				Skill.CONSUME_ALCOHOL, Skill.DODGE, Skill.DRIVE, Skill.ENDURANCE, Skill.ENTERTAIN, Skill.GAMBLE,
 				Skill.GOSSIP, Skill.HAGGLE, Skill.INTIMIDATE, Skill.INTUITION, Skill.LEADERSHIP, Skill.MELEE,
 				Skill.NAVIGATION, Skill.OUTDOOR_SURVIVAL, Skill.PERCEPTION, Skill.RIDE, Skill.ROW, Skill.STEALTH));
 	}
-	
+
 	public static class Factory {
-		
+
 		public Character create() {
-			
-			return new Character() {
 
-				private Map<Characteristics, Integer> charMap = new ConcurrentHashMap<>();
-				private List<Talents> talentList = new CopyOnWriteArrayList<>();
-				private Map<Skill, Integer> skillMap = new ConcurrentHashMap<>();
-				private int woundsTaken = 0;
-				private List<Crit> critList = new CopyOnWriteArrayList<>();
-				
-				@Override
-				public int skillValue(Skill skill) {
+			return new CharacterImpl();
+		}
+		
+		public Character create(Map<Characteristics, Integer> statMap) {
+			return new CharacterImpl(statMap);
+		}
 
-					return skillMap.get(skill);
-				}
-				
-				@Override
-				public int maxWounds() {
-					return calculateMaxWounds();
-				}
-				
-				private int calculateMaxWounds() {
+		private static class CharacterImpl implements Character {
 
-					if(talentList.contains(Talents.SMALL)) {
-						return characteristicBonus(Characteristics.T)*2 + characteristicBonus(Characteristics.WP);
-					}
-					return characteristicBonus(Characteristics.T)*2 + characteristicBonus(Characteristics.WP) + characteristicBonus(Characteristics.S);
-				}
+			private Map<Characteristics, Integer> charMap = new ConcurrentHashMap<>();
+			private List<Talents> talentList = new CopyOnWriteArrayList<>();
+			private Map<Skill, Integer> skillMap = new ConcurrentHashMap<>();
+			private int woundsTaken = 0;
+			private List<Crit> critList = new CopyOnWriteArrayList<>();
 
-				@Override
-				public int currentWounds() {
-					return maxWounds() - woundsTaken;
-				}
-				
-				@Override
-				public List<Crit> crits() {
-					return new CopyOnWriteArrayList<>(critList);
-				}
-				
-				@Override
-				public int characteristicBonus(Characteristics characteristics) {
-					
-					return (int)(characteristic(characteristics) - 0.5)/10;
-				}
-				
-				@Override
-				public int characteristic(Characteristics characteristic) {
+			public CharacterImpl(Map<Characteristics, Integer> charMap) {
+				this.charMap = new ConcurrentHashMap<>(charMap);
+			}
 
-					return charMap.get(characteristic);
+			public CharacterImpl() {
+				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, 30));
+				charMap.put(Characteristics.M, 4);
+			}
+
+			@Override
+			public int skillValue(Skill skill) {
+
+				return skillMap.get(skill);
+			}
+
+			@Override
+			public int maxWounds() {
+				return calculateMaxWounds();
+			}
+
+			private int calculateMaxWounds() {
+
+				if(talentList.contains(Talents.SMALL)) {
+					return characteristicBonus(Characteristics.T)*2 + characteristicBonus(Characteristics.WP);
 				}
-			};
+				return characteristicBonus(Characteristics.T)*2 + characteristicBonus(Characteristics.WP) + characteristicBonus(Characteristics.S);
+			}
+
+			@Override
+			public int currentWounds() {
+				return maxWounds() - woundsTaken;
+			}
+
+			@Override
+			public List<Crit> crits() {
+				return new CopyOnWriteArrayList<>(critList);
+			}
+
+			@Override
+			public int characteristicBonus(Characteristics characteristics) {
+
+				return (int)(characteristic(characteristics) - 0.5)/10;
+			}
+
+			@Override
+			public int characteristic(Characteristics characteristic) {
+
+				return charMap.get(characteristic);
+			}
 		}
 	}
 }
