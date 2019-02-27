@@ -48,7 +48,7 @@ public interface Event {
 				
 				@Override
 				public String description() {
-					return place.name() + "  " + time;
+					return place.name() + " " + time;
 				}
 			};
 		}
