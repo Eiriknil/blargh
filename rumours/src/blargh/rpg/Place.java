@@ -41,8 +41,7 @@ public interface Place {
 
 		@Override
 		public void timePasses() {
-			// TODO Auto-generated method stub
-			
+			// Time is endless...
 		}
 
 		@Override

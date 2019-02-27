@@ -1,7 +1,5 @@
 package blargh.rpg;
 
-import java.util.Random;
-
 public interface Rumour {
 
 	public Rumour travel(Time time, Place place);
