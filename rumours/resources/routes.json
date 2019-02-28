@@ -2,29 +2,49 @@
 	{
 		"from": "Ubersreik",
 		"to": "Wurfel",
-		"type": "land",
-		"danger": "low",
-		"time": 0.5
+		"types": ["WALKING"],
+		"time": 1
+	},
+	{
+		"from": "Wurfel",
+		"to": "Ubersreik",
+		"types": ["WALKING"],
+		"time": 1
 	},
 	{
 		"from": "Ubersreik",
 		"to": "Buchendorf",
-		"type": "river",
-		"danger": "low",
-		"time": 0.5
+		"types": ["BOAT"],
+		"time": 1
+	},
+	{
+		"from": "Buchendorf",
+		"to": "Ubersreik",
+		"types": ["BOAT"],
+		"time": 1
 	},
 	{
 		"from": "Ubersreik",
 		"to": "Halheim",
-		"type": "land",
-		"danger": "low",
-		"time": 0.5
+		"types": ["WALKING"],
+		"time": 1
+	},
+	{
+		"from": "Halheim",
+		"to": "Ubersreik",
+		"types": ["WALKING"],
+		"time": 1
 	},
 	{
 		"from": "Ubersreik",
 		"to": "Grey Lady Pass",
-		"type": "mountain",
-		"danger": "medium",
+		"types": ["WALKING"],
+		"time": 4
+	},
+	{
+		"from": "Grey Lady Pass",
+		"to": "Ubersreik",
+		"types": ["WALKING"],
 		"time": 4
 	}
 ]

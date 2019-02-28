@@ -60,7 +60,7 @@ public interface Rumour {
 		
 		@Override
 		public Rumour evolve(Place place) {
-			return null;
+			return this;
 		}
 
 		@Override

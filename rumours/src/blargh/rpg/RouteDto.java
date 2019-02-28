@@ -1,12 +1,13 @@
 package blargh.rpg;
 
+import java.util.Arrays;
+
 public class RouteDto {
 
 	private String from;
 	private String to;
-	private String type;
-	private String danger;
-	private float time;
+	private String[] types;
+	private int time;
 	
 	public String getFrom() {
 		return from;
@@ -24,33 +25,24 @@ public class RouteDto {
 		this.to = to;
 	}
 	
-	public String getType() {
-		return type;
+	public String[] getTypes() {
+		return types;
 	}
 	
-	public void setType(String type) {
-		this.type = type;
+	public void setTypes(String[] types) {
+		this.types = types;
 	}
 	
-	public String getDanger() {
-		return danger;
-	}
-	
-	public void setDanger(String danger) {
-		this.danger = danger;
-	}
-	
-	public float getTime() {
+	public int getTime() {
 		return time;
 	}
 
-	public void setTime(float time) {
+	public void setTime(int time) {
 		this.time = time;
 	}
 
 	@Override
 	public String toString() {
-		return "RouteDto [from=" + from + ", to=" + to + ", type=" + type + ", danger=" + danger + ", time=" + time
-				+ "]";
+		return "RouteDto [from=" + from + ", to=" + to + ", types=" + Arrays.toString(types) + ", time=" + time + "]";
 	}
 }

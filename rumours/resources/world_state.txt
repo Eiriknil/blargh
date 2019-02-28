@@ -1,0 +1,18 @@
+Name: Grey Lady Pass Population: 100
+Routes:
+From Grey Lady Pass to Ubersreik, distance: 4
+Name: Halheim Population: 50
+Routes:
+From Halheim to Ubersreik, distance: 1
+Name: Ubersreik Population: 3500
+Routes:
+From Ubersreik to Grey Lady Pass, distance: 4
+From Ubersreik to Wurfel, distance: 1
+From Ubersreik to Buchendorf, distance: 1
+From Ubersreik to Halheim, distance: 1
+Name: Wurfel Population: 50
+Routes:
+From Wurfel to Ubersreik, distance: 1
+Name: Buchendorf Population: 50
+Routes:
+From Buchendorf to Ubersreik, distance: 1
