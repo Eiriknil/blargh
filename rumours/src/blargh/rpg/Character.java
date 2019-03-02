@@ -99,11 +99,11 @@ public interface Character {
 		ENDURANCE(Characteristics.T), ENTERTAIN(Characteristics.FEL), GAMBLE(Characteristics.INT), GOSSIP(Characteristics.FEL), HAGGLE(Characteristics.FEL), 
 		INTIMIDATE(Characteristics.S), INTUITION(Characteristics.I), LEADERSHIP(Characteristics.FEL), MELEE(Characteristics.WS), NAVIGATION(Characteristics.I), 
 		OUTDOOR_SURVIVAL(Characteristics.INT), PERCEPTION(Characteristics.I), RIDE(Characteristics.AG), ROW(Characteristics.S), STEALTH(Characteristics.AG),
-		ANIMAL_CARE(Characteristics.INT), ANIMAL_TRAINING(Characteristics.FEL), CHANNELING(Characteristics.WP), EVALUATE(Characteristics.INT), 
-		HEAL(Characteristics.INT), LANGUAGE(Characteristics.INT), LORE(Characteristics.INT), PERFORM(Characteristics.FEL), PICK_LOCK(Characteristics.DEX), 
-		PLAY(Characteristics.FEL), PRAY(Characteristics.WP), RANGED(Characteristics.BS), RESEARCH(Characteristics.INT), SAIL(Characteristics.AG), 
+		ANIMAL_CARE(Characteristics.INT), ANIMAL_TRAINING(Characteristics.INT), CHANNELING(Characteristics.WP), EVALUATE(Characteristics.INT), 
+		HEAL(Characteristics.INT), LANGUAGE(Characteristics.INT), LORE(Characteristics.INT), PERFORM(Characteristics.AG), PICK_LOCK(Characteristics.DEX), 
+		PLAY(Characteristics.DEX), PRAY(Characteristics.FEL), RANGED(Characteristics.BS), RESEARCH(Characteristics.INT), SAIL(Characteristics.AG), 
 		SECRET_SIGNS(Characteristics.INT), SET_TRAP(Characteristics.DEX), SLEIGHT_OF_HAND(Characteristics.DEX), SWIM(Characteristics.S), 
-		TRACK(Characteristics.I), TRADE(Characteristics.FEL);
+		TRACK(Characteristics.I), TRADE(Characteristics.DEX);
 
 		private Characteristics characteristic;
 		private Skill() {}
