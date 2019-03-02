@@ -1,0 +1,50 @@
+[
+	{
+		"from": "Ubersreik",
+		"to": "Wurfel",
+		"types": ["WALKING"],
+		"time": 1
+	},
+	{
+		"from": "Wurfel",
+		"to": "Ubersreik",
+		"types": ["WALKING"],
+		"time": 1
+	},
+	{
+		"from": "Ubersreik",
+		"to": "Buchendorf",
+		"types": ["BOAT"],
+		"time": 1
+	},
+	{
+		"from": "Buchendorf",
+		"to": "Ubersreik",
+		"types": ["BOAT"],
+		"time": 1
+	},
+	{
+		"from": "Ubersreik",
+		"to": "Halheim",
+		"types": ["WALKING"],
+		"time": 1
+	},
+	{
+		"from": "Halheim",
+		"to": "Ubersreik",
+		"types": ["WALKING"],
+		"time": 1
+	},
+	{
+		"from": "Ubersreik",
+		"to": "Grey Lady Pass",
+		"types": ["WALKING"],
+		"time": 4
+	},
+	{
+		"from": "Grey Lady Pass",
+		"to": "Ubersreik",
+		"types": ["WALKING"],
+		"time": 4
+	}
+]

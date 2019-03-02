@@ -1,0 +1,7 @@
+Rykte oppstår på et sted
+- basert på virkelige hendelser
+Rykte reiser til et annet sted
+Rykte utvikler seg
+- endrer antall som sprer
+  - avhengig av tid siden ryktet oppstod
+- muterer til andre rykte(r)
