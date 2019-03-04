@@ -1,11 +1,9 @@
 package blargh.rpg;
 
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.util.Random;
-
-import static org.hamcrest.core.Is.is;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

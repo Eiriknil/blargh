@@ -1,7 +1,6 @@
 package blargh.rpg;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -61,7 +60,7 @@ public interface Character {
 	}
 
 	public enum Characteristics {
-		M, WS, BS, S, T, I, AG, DEX, INT, WP, FEL;
+		M, WS, BS, S, T, I, AG, DEX, INT, WP, FEL, NONE;
 	}
 
 	public enum HitLocation {
@@ -127,7 +126,26 @@ public interface Character {
 		SHADOW, SHARP, SHARPSHOOTER, SHIELDSMAN, SIXTH_SENSE, SLAYER, SMALL, SNIPER, SPEEDREADER, SPRINTER, STEP_ASIDE, STONE_SOUP, STOUT_HEARTED, 
 		STRIDER_TERRAIN, STRIKE_MIGHTY_BLOW, STRIKE_TO_INJURE, STRIKE_TO_STUN, STRONG_BACK, STRONG_LEGS, STRONG_MINDED, STRONG_SWIMMER, STURDY, SUAVE, 
 		SUPER_NUMERATE, SUPPORTIVE, SURE_SHOT, SURGERY, TENACIOUS, TINKER, TOWER_OF_MEMORIES, TRAPPER, TRICK_RIDING, TUNNEL_RAT, UNSHAKEABLE, VERY_RESILIENT, 
-		VERY_STRONG, WAR_LEADER, WAR_WIZARD, WARRIOR_BORN, WATERMAN, WEALTHY, WELL_PREPARED, WITCH
+		VERY_STRONG, WAR_LEADER, WAR_WIZARD, WARRIOR_BORN, WATERMAN, WEALTHY, WELL_PREPARED, WITCH;
+		
+		private Characteristics stat = Characteristics.NONE;
+		private int bonus;
+
+		private Talents() {
+		}
+		
+		private Talents(Characteristics stat, int bonus) {
+			this.stat = stat;
+			this.bonus = bonus;
+		}
+		
+		public Characteristics hasBonus() {
+			return stat;
+		}
+		
+		public int bonus() {
+			return bonus;
+		}
 	}
 
 	public int maxWounds();
