@@ -60,7 +60,30 @@ public interface Character {
 	}
 
 	public enum Characteristics {
-		M, WS, BS, S, T, I, AG, DEX, INT, WP, FEL, NONE;
+		M, WS, BS, S, T, AG, I, DEX, INT, WP, FEL, NONE;
+	}
+	
+	public enum Races {
+		
+		HUMAN(4,20,20,20,20,20,20,20,20,20,20,0),
+		DWARF(3,30,20,20,30,10,20,20,20,40,10,0),
+		HALFLING(3,10,20,10,20,20,30,20,20,30,30,0),
+		HIGH_ELF(5,30,30,20,20,30,40,30,30,30,20,0),
+		WOOD_ELF(5,30,30,20,20,30,40,30,30,30,20,0);
+		
+		private Map<Characteristics, Integer> modifierMap = new ConcurrentHashMap<>();
+		
+		private Races(Integer... modifiers) {
+			
+			int index = 0;
+			for(Characteristics stat:Characteristics.values()) {
+				modifierMap.put(stat, modifiers[index++]);
+			}
+		}
+		
+		public int statModifier(Characteristics stat) {
+			return modifierMap.get(stat);
+		}
 	}
 
 	public enum HitLocation {
@@ -205,15 +228,17 @@ public interface Character {
 			private Map<Skill, Integer> skillMap = new ConcurrentHashMap<>();
 			private int woundsTaken = 0;
 			private List<Crit> critList = new CopyOnWriteArrayList<>();
-			private static final int[] skillCosts = {10, 15, 20, 30, 40, 60, 80, 110, 140, 180, 220, 270, 320, 380};
+			private Races race;
+			private static final int[] skillCosts = {10, 15, 20, 30, 40, 60, 80, 110, 140, 180, 220, 270, 320, 380, 450};
 
 			public CharacterImpl(Map<Characteristics, Characteristic> charMap) {
 				this.charMap = new ConcurrentHashMap<>(charMap);
 			}
 
 			public CharacterImpl() {
-				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, new Characteristic(stat, 20 + 2 + random.nextInt(10) + random.nextInt(10))));
-				charMap.put(Characteristics.M, new Characteristic(Characteristics.M, 4));
+				race = Races.HUMAN;
+				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, new Characteristic(stat, race.statModifier(stat) + 2 + random.nextInt(10) + random.nextInt(10))));
+				charMap.put(Characteristics.M, new Characteristic(Characteristics.M, race.statModifier(Characteristics.M)));
 				basicSkills().forEach(skill -> skillMap.put(skill, 0));
 			}
 
@@ -364,7 +389,7 @@ public interface Character {
 			private int advances;
 			private int initialValue;
 
-			private static int[] costs = {25, 30, 40, 50, 70, 90, 120, 150, 190, 230, 280, 330, 390, 450};
+			private static int[] costs = {25, 30, 40, 50, 70, 90, 120, 150, 190, 230, 280, 330, 390, 450, 520};
 
 			Characteristic(Characteristics type, int initialValue){
 				this.type = type;

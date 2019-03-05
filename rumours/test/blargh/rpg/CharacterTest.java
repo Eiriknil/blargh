@@ -26,6 +26,8 @@ class CharacterTest {
 	
 	@Test
 	void createCharacter_randomSeed0_correctSetOfStats() {
+		Character.Factory.setRandomizer(new Random(0));
+		character = Character.Factory.create();
 		assertThat(character.characteristic(Characteristics.M), is(4));
 		assertThat(character.characteristic(Characteristics.WS), is(38));
 		assertThat(character.characteristicBonus(Characteristics.WS), is(3));
@@ -35,10 +37,10 @@ class CharacterTest {
 		assertThat(character.characteristicBonus(Characteristics.S), is(2));
 		assertThat(character.characteristic(Characteristics.T), is(35));
 		assertThat(character.characteristicBonus(Characteristics.T), is(3));
-		assertThat(character.characteristic(Characteristics.I), is(36));
-		assertThat(character.characteristicBonus(Characteristics.I), is(3));
-		assertThat(character.characteristic(Characteristics.AG), is(27));
-		assertThat(character.characteristicBonus(Characteristics.AG), is(2));
+		assertThat(character.characteristic(Characteristics.AG), is(36));
+		assertThat(character.characteristicBonus(Characteristics.AG), is(3));
+		assertThat(character.characteristic(Characteristics.I), is(27));
+		assertThat(character.characteristicBonus(Characteristics.I), is(2));
 		assertThat(character.characteristic(Characteristics.DEX), is(31));
 		assertThat(character.characteristicBonus(Characteristics.DEX), is(3));
 		assertThat(character.characteristic(Characteristics.INT), is(31));
@@ -53,18 +55,18 @@ class CharacterTest {
 	@Test
 	void rollSkill_randomSeed0_correctSkillResults() {
 		character.advanceSkill(Skill.CLIMB, 10);
-		assertThat(character.checkSkill(Skill.CLIMB), is(1));
-		assertThat(character.checkSkill(Skill.CLIMB), is(-1));
 		assertThat(character.checkSkill(Skill.CLIMB), is(-2));
 		assertThat(character.checkSkill(Skill.CLIMB), is(-3));
 		assertThat(character.checkSkill(Skill.CLIMB), is(3));
+		assertThat(character.checkSkill(Skill.CLIMB), is(-5));
+		assertThat(character.checkSkill(Skill.CLIMB), is(-6));
 
-		assertThat(character.checkSkill(Skill.CLIMB, Modifier.VERY_EASY), is(1));
-		assertThat(character.checkSkill(Skill.CLIMB, Modifier.EASY), is(-2));
-		assertThat(character.checkSkill(Skill.CLIMB, Modifier.AVERAGE), is(3));
-		assertThat(character.checkSkill(Skill.CLIMB, Modifier.CHALLENGING), is(-1));
-		assertThat(character.checkSkill(Skill.CLIMB, Modifier.HARD), is(-3));
-		assertThat(character.checkSkill(Skill.CLIMB, Modifier.VERY_HARD), is(-3));
+		assertThat(character.checkSkill(Skill.CLIMB, Modifier.VERY_EASY), is(7));
+		assertThat(character.checkSkill(Skill.CLIMB, Modifier.EASY), is(3));
+		assertThat(character.checkSkill(Skill.CLIMB, Modifier.AVERAGE), is(1));
+		assertThat(character.checkSkill(Skill.CLIMB, Modifier.CHALLENGING), is(0));
+		assertThat(character.checkSkill(Skill.CLIMB, Modifier.HARD), is(-7));
+		assertThat(character.checkSkill(Skill.CLIMB, Modifier.VERY_HARD), is(0));
 	}
 	
 	@Test

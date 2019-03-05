@@ -1,0 +1,25 @@
+[
+	{
+		"career":"Apothacary",
+		"level_1": {
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		"level_2": {
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		"level_3": {
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		"level_4": {
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}
+	}
+]
