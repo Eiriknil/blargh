@@ -1,5 +1,13 @@
 package blargh.rpg;
 
+import static blargh.rpg.Characteristics.M;
+import static blargh.rpg.Characteristics.S;
+import static blargh.rpg.Characteristics.T;
+import static blargh.rpg.Characteristics.WP;
+import static blargh.rpg.Modifier.CHALLENGING;
+import static blargh.rpg.Races.HUMAN;
+import static blargh.rpg.Talents.SMALL;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -8,7 +16,6 @@ import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.stream.Collectors;
 
 public interface Character {
 
@@ -31,146 +38,6 @@ public interface Character {
 		}
 	}
 
-	public enum Modifier {
-		VERY_EASY(60),
-		EASY(40),
-		AVERAGE(20),
-		CHALLENGING(0),
-		DIFFICULT(-10),
-		HARD(-20),
-		VERY_HARD(-30);
-		
-		private int value;
-
-		private Modifier(int value) {
-			this.value = value;
-		}
-		
-		public int value() {
-			return value;
-		}
-		
-		public String modifierPresentation() {
-			if(value >= 0) {
-				return name() + "(+" + value + ")";
-			}
-			
-			return name() + "(" + value + ")";
-		}
-	}
-
-	public enum Characteristics {
-		M, WS, BS, S, T, AG, I, DEX, INT, WP, FEL, NONE;
-	}
-	
-	public enum Races {
-		
-		HUMAN(4,20,20,20,20,20,20,20,20,20,20,0),
-		DWARF(3,30,20,20,30,10,20,20,20,40,10,0),
-		HALFLING(3,10,20,10,20,20,30,20,20,30,30,0),
-		HIGH_ELF(5,30,30,20,20,30,40,30,30,30,20,0),
-		WOOD_ELF(5,30,30,20,20,30,40,30,30,30,20,0);
-		
-		private Map<Characteristics, Integer> modifierMap = new ConcurrentHashMap<>();
-		
-		private Races(Integer... modifiers) {
-			
-			int index = 0;
-			for(Characteristics stat:Characteristics.values()) {
-				modifierMap.put(stat, modifiers[index++]);
-			}
-		}
-		
-		public int statModifier(Characteristics stat) {
-			return modifierMap.get(stat);
-		}
-	}
-
-	public enum HitLocation {
-		HEAD(0),
-		LEFT_ARM(9),
-		RIGHT_ARM(24),
-		BODY(44),
-		LEFT_LEG(79),
-		RIGHT_LEG(89);
-		
-		private int range;
-		private static Random randomizer = new Random();
-
-		private HitLocation(int range) {
-			this.range = range;
-		}
-		
-		public static HitLocation randomHitLocation() {
-			
-			int roll = randomizer.nextInt(100);
-			List<HitLocation> locations = Arrays.stream(values()).filter(location -> location.range < roll).collect(Collectors.toList());
-			System.out.println("Hit location roll = " + roll + " => " + locations.get(locations.size() - 1).name());
-			
-			return locations.get(locations.size() -1);
-		}
-
-		public static void setRandomizer(Random randomizer) {
-			HitLocation.randomizer = randomizer;
-		}
-	}
-
-	public enum Skill {
-		ART(Characteristics.DEX), ATHLETICS(Characteristics.AG), BRIBERY(Characteristics.FEL), CHARM(Characteristics.FEL), CHARM_ANIMAL(Characteristics.WP), 
-		CLIMB(Characteristics.S), COOL(Characteristics.WP), CONSUME_ALCOHOL(Characteristics.T), DODGE(Characteristics.AG), DRIVE(Characteristics.AG), 
-		ENDURANCE(Characteristics.T), ENTERTAIN(Characteristics.FEL), GAMBLE(Characteristics.INT), GOSSIP(Characteristics.FEL), HAGGLE(Characteristics.FEL), 
-		INTIMIDATE(Characteristics.S), INTUITION(Characteristics.I), LEADERSHIP(Characteristics.FEL), MELEE(Characteristics.WS), NAVIGATION(Characteristics.I), 
-		OUTDOOR_SURVIVAL(Characteristics.INT), PERCEPTION(Characteristics.I), RIDE(Characteristics.AG), ROW(Characteristics.S), STEALTH(Characteristics.AG),
-		ANIMAL_CARE(Characteristics.INT), ANIMAL_TRAINING(Characteristics.INT), CHANNELING(Characteristics.WP), EVALUATE(Characteristics.INT), 
-		HEAL(Characteristics.INT), LANGUAGE(Characteristics.INT), LORE(Characteristics.INT), PERFORM(Characteristics.AG), PICK_LOCK(Characteristics.DEX), 
-		PLAY(Characteristics.DEX), PRAY(Characteristics.FEL), RANGED(Characteristics.BS), RESEARCH(Characteristics.INT), SAIL(Characteristics.AG), 
-		SECRET_SIGNS(Characteristics.INT), SET_TRAP(Characteristics.DEX), SLEIGHT_OF_HAND(Characteristics.DEX), SWIM(Characteristics.S), 
-		TRACK(Characteristics.I), TRADE(Characteristics.DEX);
-
-		private Characteristics characteristic;
-		private Skill() {}
-		private Skill(Characteristics characteristic) {
-			this.characteristic = characteristic;
-		}
-	}
-
-	public enum Talents {
-		ACCURATE_SHOT, ACUTE_SENSE, AETHYRIC_ATTUNEMENT, ALLEY_CAT, AMBIDEXTROUS, ANIMAL_AFFINITY, ARCANE_MAGIC_LORE, ARGUMENTATIVE, ARTISTIC, ATTRACTIVE,
-		AVERAGE_SIZE, BATTLE_RAGE, BEAT_BLADE, BENEATH_NOTICE, BERSERK_CHARGE, BLATHER, BLESS, BOOKISH, BREAK_AND_ENTER, BRIBER, CARDSHARP, CAREFUL_STRIKE,
-		CAROUSER, CATFALL, CAT_TONGUED, CHAOS_MAGIC_LORE, COMBAT_AWARE, COMBAT_MASTER, COMBAT_REFLEXES, COMMANDING_PRESENCE, CONCOCT, CONTORTIONIST, 
-		COOLHEADED, CRACK_THE_WHIP, CRAFTSMAN_TRADE, CRIMINAL, DEADEYE_SHOT, DEALMAKER, DETECT_ARTEFACT, DICEMAN, DIRTY_FIGHTING, DISARM, DISTRACT, DOOMED, 
-		DRILLED, DUAL_WIELDER, EMBEZZLE, ENCLOSED_FIGHTER, ETIQUETTE_SOCIAL_GROUP, FAST_HANDS, FAST_SHOT, FEARLESS_ANY, FEINT, FIELD_DRESSING, FISHERMAN, 
-		FLAGELLANT, FLEE, FLEET_FOOTED, FRENZY, FRIGHTENING, FURIOUS_ASSAULT, GREGARIOUS, GUNNER, HARDY, HATRED_GROUP, HOLY_HATRED, HOLY_VISIONS, HUNTERS_EYE, 
-		IMPASSIONED_ZEAL, IMPLACABLE, IN_FIGHTER, INSPIRING, INSTINCTIVE_DICTION, INVOKE_ANY, IRON_JAW, IRON_WILL, JUMP_UP, KINGPIN, LIGHTNING_REFLEXES, 
-		LINGUISTICS, LIP_READING, LUCK, MAGICAL_SENSE, MAGIC_RESISTANCE, MAGNUM_OPUS, MARKSMAN, MASTER_OF_DISGUISE, MASTER_ORATOR, MASTER_TRADESMAN_TRADE, 
-		MENACING, MIMIC, NIGHT_VISION, NIMBLE_FINGERED, NOBLE_BLOOD, NOSE_FOR_TROUBLE, NUMISMATICS, OLD_SALT, ORIENTATION, PANHANDLE, PERFECT_PITCH, PETTY_MAGIC, 
-		PHARMACIST, PILOT, PUBLIC_SPEAKING, PURE_SOUL, RAPID_RELOAD, REACTION_STRIKE, READ_WRITE, RELENTLESS, RESISTANCE_THREAT, RESOLUTE, REVERSAL, RIPOSTE, 
-		RIVER_GUIDE, ROBUST, ROUGHRIDER, ROVER, SAVANT_LORE, SAVVY, SCALE_SHEER_SURFACE, SCHEMER, SEA_LEGS, SEASONED_TRAVELLER, SECOND_SIGHT, SECRET_IDENTITY, 
-		SHADOW, SHARP, SHARPSHOOTER, SHIELDSMAN, SIXTH_SENSE, SLAYER, SMALL, SNIPER, SPEEDREADER, SPRINTER, STEP_ASIDE, STONE_SOUP, STOUT_HEARTED, 
-		STRIDER_TERRAIN, STRIKE_MIGHTY_BLOW, STRIKE_TO_INJURE, STRIKE_TO_STUN, STRONG_BACK, STRONG_LEGS, STRONG_MINDED, STRONG_SWIMMER, STURDY, SUAVE, 
-		SUPER_NUMERATE, SUPPORTIVE, SURE_SHOT, SURGERY, TENACIOUS, TINKER, TOWER_OF_MEMORIES, TRAPPER, TRICK_RIDING, TUNNEL_RAT, UNSHAKEABLE, VERY_RESILIENT, 
-		VERY_STRONG, WAR_LEADER, WAR_WIZARD, WARRIOR_BORN, WATERMAN, WEALTHY, WELL_PREPARED, WITCH;
-		
-		private Characteristics stat = Characteristics.NONE;
-		private int bonus;
-
-		private Talents() {
-		}
-		
-		private Talents(Characteristics stat, int bonus) {
-			this.stat = stat;
-			this.bonus = bonus;
-		}
-		
-		public Characteristics hasBonus() {
-			return stat;
-		}
-		
-		public int bonus() {
-			return bonus;
-		}
-	}
-
 	public int maxWounds();
 	
 	public int currentWounds();
@@ -183,27 +50,15 @@ public interface Character {
 	public int charAdvances(Characteristics characteristic);
 	public TrainingResult trainCharacteristic(Characteristics characteristic, int xp);
 
-	public int skillValue(Skill skill);
-	public int skillAdvances(Skill skill);
-	public int advanceSkill(Skill skill, int value);
-	public int checkSkill(Skill skill);
-	public int checkSkill(Skill skill, Modifier modifier);
-	public TrainingResult trainSkill(Skill skill, int xp);
+	public int skillValue(Skills skill);
+	public int skillAdvances(Skills skill);
+	public int advanceSkill(Skills skill, int value);
+	public int checkSkill(Skills skill);
+	public int checkSkill(Skills skill, Modifier modifier);
+	public TrainingResult trainSkill(Skills skill, int xp);
 
+	public void addTalent(Talents talent);
 	
-	public static Set<Skill> advancedSkills(){
-		return new HashSet<>(Arrays.asList(Skill.ANIMAL_CARE, Skill.ANIMAL_TRAINING, Skill.CHANNELING, Skill.EVALUATE, Skill.HEAL, Skill.LANGUAGE, 
-				Skill.LORE, Skill.PERFORM, Skill.PICK_LOCK, Skill.PLAY, Skill.PRAY, Skill.RANGED, Skill.RESEARCH, Skill.SAIL, Skill.SECRET_SIGNS, 
-				Skill.SET_TRAP, Skill.SLEIGHT_OF_HAND, Skill.SWIM, Skill.TRACK, Skill.TRADE));
-	}
-
-	public static Set<Skill> basicSkills(){
-		return new HashSet<>(Arrays.asList(Skill.ART, Skill.ATHLETICS, Skill.BRIBERY, Skill.CHARM, Skill.CHARM_ANIMAL, Skill.CLIMB, Skill.COOL,
-				Skill.CONSUME_ALCOHOL, Skill.DODGE, Skill.DRIVE, Skill.ENDURANCE, Skill.ENTERTAIN, Skill.GAMBLE,
-				Skill.GOSSIP, Skill.HAGGLE, Skill.INTIMIDATE, Skill.INTUITION, Skill.LEADERSHIP, Skill.MELEE,
-				Skill.NAVIGATION, Skill.OUTDOOR_SURVIVAL, Skill.PERCEPTION, Skill.RIDE, Skill.ROW, Skill.STEALTH));
-	}
-
 	public static class Factory {
 
 		private static Random random = new Random();
@@ -224,8 +79,8 @@ public interface Character {
 		private static class CharacterImpl implements Character {
 			
 			private Map<Characteristics, Characteristic> charMap = new ConcurrentHashMap<>();
-			private List<Talents> talentList = new CopyOnWriteArrayList<>();
-			private Map<Skill, Integer> skillMap = new ConcurrentHashMap<>();
+			private Set<Talents> talentSet = new HashSet<>();
+			private Map<Skills, Integer> skillMap = new ConcurrentHashMap<>();
 			private int woundsTaken = 0;
 			private List<Crit> critList = new CopyOnWriteArrayList<>();
 			private Races race;
@@ -236,14 +91,14 @@ public interface Character {
 			}
 
 			public CharacterImpl() {
-				race = Races.HUMAN;
+				race = HUMAN;
 				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, new Characteristic(stat, race.statModifier(stat) + 2 + random.nextInt(10) + random.nextInt(10))));
-				charMap.put(Characteristics.M, new Characteristic(Characteristics.M, race.statModifier(Characteristics.M)));
-				basicSkills().forEach(skill -> skillMap.put(skill, 0));
+				charMap.put(M, new Characteristic(M, race.statModifier(M)));
+				Skills.basicSkills().forEach(skill -> skillMap.put(skill, 0));
 			}
 
 			@Override
-			public int skillAdvances(Skill skill) {
+			public int skillAdvances(Skills skill) {
 
 				return skillMap.getOrDefault(skill, 0);
 			}
@@ -251,10 +106,10 @@ public interface Character {
 			@Override
 			public int maxWounds() {
 
-				if(talentList.contains(Talents.SMALL)) {
-					return characteristicBonus(Characteristics.T)*2 + characteristicBonus(Characteristics.WP);
+				if(talentSet.contains(SMALL)) {
+					return characteristicBonus(T)*2 + characteristicBonus(WP);
 				}
-				return characteristicBonus(Characteristics.T)*2 + characteristicBonus(Characteristics.WP) + characteristicBonus(Characteristics.S);
+				return characteristicBonus(T)*2 + characteristicBonus(WP) + characteristicBonus(S);
 			}
 
 			@Override
@@ -280,12 +135,12 @@ public interface Character {
 			}
 
 			@Override
-			public int checkSkill(Skill skill) {
-				return checkSkill(skill, Modifier.CHALLENGING);
+			public int checkSkill(Skills skill) {
+				return checkSkill(skill, CHALLENGING);
 			}
 
 			@Override
-			public int checkSkill(Skill skill, Modifier modifier) {
+			public int checkSkill(Skills skill, Modifier modifier) {
 				int roll = random.nextInt(100) + 1;
 				int successLevel = (int)((skillValue(skill) + modifier.value())/10) - (int)(roll/10);
 				
@@ -296,12 +151,12 @@ public interface Character {
 			}
 			
 			@Override
-			public int skillValue(Skill skill) {
-				return skillAdvances(skill) + characteristic(skill.characteristic);
+			public int skillValue(Skills skill) {
+				return skillAdvances(skill) + characteristic(skill.characteristics());
 			}
 
 			@Override
-			public int advanceSkill(Skill skill, int value) {
+			public int advanceSkill(Skills skill, int value) {
 				
 				Integer skillValue = skillAdvances(skill);
 				skillMap.put(skill, skillValue + value);
@@ -329,7 +184,7 @@ public interface Character {
 			}
 
 			@Override
-			public TrainingResult trainSkill(Skill skill, int xp) {
+			public TrainingResult trainSkill(Skills skill, int xp) {
 
 				int usedXp = 0;
 				int skillAdvances = skillMap.get(skill);
@@ -377,9 +232,14 @@ public interface Character {
 			@Override
 			public void applyCrit(Crit crit) {
 				critList.add(crit);
-				if(critList.size() > characteristicBonus(Characteristics.T)) {
+				if(critList.size() > characteristicBonus(T)) {
 					throw new RuntimeException("Character is dead!");
 				}
+			}
+
+			@Override
+			public void addTalent(Talents talent) {
+				talentSet.add(talent);
 			}
 
 		}
@@ -434,4 +294,23 @@ public interface Character {
 		return null;
 	}
 	
+	public static class RandomCharacter {
+		
+		public static Character create(String career, Races race, int careerRank) {
+			Character character = Factory.create();
+			
+			return randomizeCharacter(character);
+		}
+		
+		
+		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.Character.Factory.Characteristic> stats) {
+			Character character = Factory.create(stats);
+			
+			return randomizeCharacter(character);
+		}
+
+		private static Character randomizeCharacter(Character character) {
+			return character;
+		}
+	}
 }

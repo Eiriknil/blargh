@@ -1,0 +1,521 @@
+[{
+  "name" : "Dagger",
+  "group" : "Basic",
+  "price" : "16/-",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "Very",
+  "damage" : "Short",
+  "qualitiesFlaws" : "–"
+},
+{
+  "name" : "HandWeapon",
+  "group" : "Basic",
+  "price" : "1GC",
+  "enc" : "1",
+  "availability" : "Common",
+  "reach" : "Average",
+  "damage" : "+SB+4",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "ImprovisedWeapon",
+  "group" : "Basic",
+  "price" : "N/A",
+  "enc" : "Varies",
+  "availability" : "N/A",
+  "reach" : "Varies",
+  "damage" : "+SB+1",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Knife",
+  "group" : "Basic",
+  "price" : "8/–",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "Very",
+  "damage" : "Short",
+  "qualitiesFlaws" : "Undamaging"
+},
+{
+  "name" : "Shield",
+  "group" : "Basic",
+  "price" : "2GC",
+  "enc" : "1",
+  "availability" : "Common",
+  "reach" : "Very",
+  "damage" : "Short",
+  "qualitiesFlaws" : "Shield2, Defensive, Undamaging"
+},
+{
+  "name" : "Shield(Buckler)",
+  "group" : "Basic",
+  "price" : "18/2",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "Personal",
+  "damage" : "+SB+1",
+  "qualitiesFlaws" : "Defensive, Undamaging"
+},
+{
+  "name" : "Shield(Large)",
+  "group" : "Basic",
+  "price" : "3GC",
+  "enc" : "3",
+  "availability" : "Common",
+  "reach" : "Very",
+  "damage" : "Short",
+  "qualitiesFlaws" : "Shield3, Defensive, Undamaging"
+},
+{
+  "name" : "CavalryHammer2H",
+  "group" : "Cavalry",
+  "price" : "3GC",
+  "enc" : "3",
+  "availability" : "Scarce",
+  "reach" : "Long",
+  "damage" : "+SB+5",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Lance",
+  "group" : "Cavalry",
+  "price" : "1GC",
+  "enc" : "3",
+  "availability" : "Rare",
+  "reach" : "Very",
+  "damage" : "Long",
+  "qualitiesFlaws" : "Impact, Impale, Tiring"
+},
+{
+  "name" : "Foil",
+  "group" : "Fencing",
+  "price" : "5GC",
+  "enc" : "1",
+  "availability" : "Scarce",
+  "reach" : "Medium",
+  "damage" : "+SB+3",
+  "qualitiesFlaws" : "Impale, Precise, Undamaging"
+},
+{
+  "name" : "Rapier",
+  "group" : "Fencing",
+  "price" : "5GC",
+  "enc" : "1",
+  "availability" : "Scarce",
+  "reach" : "Long",
+  "damage" : "+SB+4",
+  "qualitiesFlaws" : "Impale"
+},
+{
+  "name" : "Knuckledusters",
+  "group" : "Fist",
+  "price" : "2/6",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "Personal",
+  "damage" : "+SB+2",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Unarmed",
+  "group" : "Fist",
+  "price" : "N/A",
+  "enc" : "0",
+  "availability" : "–",
+  "reach" : "Personal",
+  "damage" : "+SB+0",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Flail",
+  "group" : "Flail",
+  "price" : "2GC",
+  "enc" : "1",
+  "availability" : "Scarce",
+  "reach" : "Average",
+  "damage" : "+SB+5",
+  "qualitiesFlaws" : "Wrap"
+},
+{
+  "name" : "GrainFlail",
+  "group" : "Flail",
+  "price" : "10/–",
+  "enc" : "?",
+  "availability" : "Common",
+  "reach" : "Average",
+  "damage" : "+SB+3",
+  "qualitiesFlaws" : "Imprecise, Wrap"
+},
+{
+  "name" : "MilitaryFlail2H",
+  "group" : "Flail",
+  "price" : "3GC",
+  "enc" : "?",
+  "availability" : "Rare",
+  "reach" : "Long",
+  "damage" : "+SB+6",
+  "qualitiesFlaws" : "Impact, Tiring, Wrap"
+},
+{
+  "name" : "MainGauche",
+  "group" : "Parry",
+  "price" : "1GC",
+  "enc" : "0",
+  "availability" : "Rare",
+  "reach" : "Very",
+  "damage" : "Short",
+  "qualitiesFlaws" : "Defensive"
+},
+{
+  "name" : "Swordbreaker",
+  "group" : "Parry",
+  "price" : "1GC",
+  "enc" : "2/6",
+  "availability" : "1",
+  "reach" : "Scarce",
+  "damage" : "Short",
+  "qualitiesFlaws" : "Defensive, Trap-blade"
+},
+{
+  "name" : "Halberd2H",
+  "group" : "Polearm",
+  "price" : "2GC",
+  "enc" : "3",
+  "availability" : "Common",
+  "reach" : "Very",
+  "damage" : "Long",
+  "qualitiesFlaws" : "Defensive, Hack, Impale"
+},
+{
+  "name" : "Pike2H",
+  "group" : "Polearm",
+  "price" : "18/–",
+  "enc" : "4",
+  "availability" : "Rare",
+  "reach" : "Massive",
+  "damage" : "+SB+4",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "QuarterStaff2H",
+  "group" : "Polearm",
+  "price" : "3/–",
+  "enc" : "2",
+  "availability" : "Common",
+  "reach" : "Long",
+  "damage" : "+SB+4",
+  "qualitiesFlaws" : "Pummel"
+},
+{
+  "name" : "Spear2H",
+  "group" : "Polearm",
+  "price" : "15/–",
+  "enc" : "2",
+  "availability" : "Common",
+  "reach" : "Long",
+  "damage" : "+SB+4",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "BastardSword2H",
+  "group" : "Two-handed",
+  "price" : "8GC",
+  "enc" : "3",
+  "availability" : "Scarce",
+  "reach" : "Long",
+  "damage" : "+SB+5",
+  "qualitiesFlaws" : "Defensive"
+},
+{
+  "name" : "GreatAxe2H",
+  "group" : "Two-handed",
+  "price" : "4GC",
+  "enc" : "3",
+  "availability" : "Scarce",
+  "reach" : "Long",
+  "damage" : "+SB+6",
+  "qualitiesFlaws" : "Impact, Tiring"
+},
+{
+  "name" : "Pick",
+  "group" : "2H",
+  "price" : "Two-handed",
+  "enc" : "9/–",
+  "availability" : "3",
+  "reach" : "Common",
+  "damage" : "Average",
+  "qualitiesFlaws" : "Damaging, Impale"
+},
+{
+  "name" : "Warhammer2H",
+  "group" : "Two-handed",
+  "price" : "3GC",
+  "enc" : "3",
+  "availability" : "Common",
+  "reach" : "Average",
+  "damage" : "+SB+6",
+  "qualitiesFlaws" : "Pummel"
+},
+{
+  "name" : "Zweihänder2H",
+  "group" : "Two-handed",
+  "price" : "10GC",
+  "enc" : "3",
+  "availability" : "Scarce",
+  "reach" : "Long",
+  "damage" : "+SB+5",
+  "qualitiesFlaws" : "Hack"
+},
+{
+  "name" : "Blunderbuss2H",
+  "group" : "Blackpowder",
+  "price" : "2GC",
+  "enc" : "1",
+  "availability" : "Scarce",
+  "reach" : "20",
+  "damage" : "+8",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Handgun2H",
+  "group" : "Blackpowder",
+  "price" : "4GC",
+  "enc" : "2",
+  "availability" : "Scarce",
+  "reach" : "50",
+  "damage" : "+9",
+  "qualitiesFlaws" : "Reload3"
+},
+{
+  "name" : "HochlandLongRifle2H",
+  "group" : "Blackpowder",
+  "price" : "100GC",
+  "enc" : "3",
+  "availability" : "Exotic",
+  "reach" : "100",
+  "damage" : "+9",
+  "qualitiesFlaws" : "Precise, Reload4"
+},
+{
+  "name" : "Pistol",
+  "group" : "Blackpowder",
+  "price" : "8GC",
+  "enc" : "0",
+  "availability" : "Rare",
+  "reach" : "20",
+  "damage" : "+8",
+  "qualitiesFlaws" : "Reload1"
+},
+{
+  "name" : "Bow2H",
+  "group" : "Bow",
+  "price" : "4GC",
+  "enc" : "2",
+  "availability" : "Common",
+  "reach" : "50",
+  "damage" : "+SB+3",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "ElfBow2H",
+  "group" : "Bow",
+  "price" : "10GC",
+  "enc" : "2",
+  "availability" : "Exotic",
+  "reach" : "150",
+  "damage" : "+SB+4",
+  "qualitiesFlaws" : "Precise"
+},
+{
+  "name" : "Longbow2H",
+  "group" : "Bow",
+  "price" : "5GC",
+  "enc" : "3",
+  "availability" : "Scarce",
+  "reach" : "100",
+  "damage" : "+SB+4",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Shortbow2H",
+  "group" : "Bow",
+  "price" : "3GC",
+  "enc" : "1",
+  "availability" : "Common",
+  "reach" : "20",
+  "damage" : "+SB+2",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Crossbow2H",
+  "group" : "Crossbow",
+  "price" : "5GC",
+  "enc" : "2",
+  "availability" : "Common",
+  "reach" : "60",
+  "damage" : "+9",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Crossbow",
+  "group" : "Pistol",
+  "price" : "Crossbow",
+  "enc" : "6GC",
+  "availability" : "0",
+  "reach" : "Scarce",
+  "damage" : "10",
+  "qualitiesFlaws" : "Pistol"
+},
+{
+  "name" : "HeavyCrossbow2H",
+  "group" : "Crossbow",
+  "price" : "7GC",
+  "enc" : "3",
+  "availability" : "Rare",
+  "reach" : "100",
+  "damage" : "+9",
+  "qualitiesFlaws" : "Reload2"
+},
+{
+  "name" : "RepeaterHandgun2H",
+  "group" : "Engineering",
+  "price" : "10GC",
+  "enc" : "3",
+  "availability" : "Rare",
+  "reach" : "30",
+  "damage" : "+9",
+  "qualitiesFlaws" : "Reload5, Repeater4"
+},
+{
+  "name" : "RepeaterPistol",
+  "group" : "Engineering",
+  "price" : "15GC",
+  "enc" : "1",
+  "availability" : "Rare",
+  "reach" : "10",
+  "damage" : "+8",
+  "qualitiesFlaws" : "Repeater, Reload4, Repeater4"
+},
+{
+  "name" : "Lasso",
+  "group" : "Entangling",
+  "price" : "6/–",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "SBx2",
+  "damage" : "–",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Whip",
+  "group" : "Entangling",
+  "price" : "5/–",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "6",
+  "damage" : "+SB+2",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Bomb",
+  "group" : "Explosives",
+  "price" : "3GC",
+  "enc" : "0",
+  "availability" : "Rare",
+  "reach" : "SB",
+  "damage" : "+12",
+  "qualitiesFlaws" : "5, Dangerous, Impact"
+},
+{
+  "name" : "IncendiaryExplosives",
+  "group" : "1GC",
+  "price" : "0",
+  "enc" : "Scarce",
+  "availability" : "SB",
+  "reach" : "Special***",
+  "damage" : "Blast4,",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Sling",
+  "group" : "Sling",
+  "price" : "1/–",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "60",
+  "damage" : "+6",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Staff",
+  "group" : "Sling",
+  "price" : "2H",
+  "enc" : "Sling",
+  "availability" : "4/–",
+  "reach" : "2",
+  "damage" : "Scarce",
+  "qualitiesFlaws" : "+7 –"
+},
+{
+  "name" : "Bolas",
+  "group" : "Throwing",
+  "price" : "10/–",
+  "enc" : "0",
+  "availability" : "Rare",
+  "reach" : "SB×3",
+  "damage" : "+SB",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Dart",
+  "group" : "Throwing",
+  "price" : "2/–",
+  "enc" : "0",
+  "availability" : "Scarce",
+  "reach" : "SB×2",
+  "damage" : "+SB+1",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Javelin",
+  "group" : "Throwing",
+  "price" : "10/6",
+  "enc" : "1",
+  "availability" : "Scarce",
+  "reach" : "SB×3",
+  "damage" : "+SB+3",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "Rock",
+  "group" : "Throwing",
+  "price" : "–",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "SB×3",
+  "damage" : "+SB+0",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "ThrowingAxe",
+  "group" : "Throwing",
+  "price" : "1GC",
+  "enc" : "1",
+  "availability" : "Common",
+  "reach" : "SB×2",
+  "damage" : "+SB+3",
+  "qualitiesFlaws" : ""
+},
+{
+  "name" : "ThrowingKnife",
+  "group" : "Throwing",
+  "price" : "18/–",
+  "enc" : "0",
+  "availability" : "Common",
+  "reach" : "SB×2",
+  "damage" : "+SB+2",
+  "qualitiesFlaws" : ""
+}
+]
