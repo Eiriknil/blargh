@@ -8,6 +8,8 @@ import static blargh.rpg.Modifier.CHALLENGING;
 import static blargh.rpg.Races.HUMAN;
 import static blargh.rpg.Talents.SMALL;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -16,6 +18,8 @@ import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public interface Character {
 
@@ -72,10 +76,19 @@ public interface Character {
 			return new CharacterImpl();
 		}
 		
+		public static Character create(Races race) {
+			
+			return new CharacterImpl(race);
+		}
+		
 		public static Character create(Map<Characteristics, Characteristic> statMap) {
 			return new CharacterImpl(statMap);
 		}
 
+		public static Character create(Map<Characteristics, Characteristic> statMap, Races race) {
+			return new CharacterImpl(statMap, race);
+		}
+		
 		private static class CharacterImpl implements Character {
 			
 			private Map<Characteristics, Characteristic> charMap = new ConcurrentHashMap<>();
@@ -87,11 +100,21 @@ public interface Character {
 			private static final int[] skillCosts = {10, 15, 20, 30, 40, 60, 80, 110, 140, 180, 220, 270, 320, 380, 450};
 
 			public CharacterImpl(Map<Characteristics, Characteristic> charMap) {
+				this(charMap, HUMAN);
+			}
+			
+			public CharacterImpl(Map<Characteristics, Characteristic> charMap, Races race) {
+				
+				this.race = race;
 				this.charMap = new ConcurrentHashMap<>(charMap);
 			}
 
 			public CharacterImpl() {
-				race = HUMAN;
+				this(HUMAN);
+			}
+			
+			public CharacterImpl(Races characterRace) {
+				this.race = characterRace;
 				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, new Characteristic(stat, race.statModifier(stat) + 2 + random.nextInt(10) + random.nextInt(10))));
 				charMap.put(M, new Characteristic(M, race.statModifier(M)));
 				Skills.basicSkills().forEach(skill -> skillMap.put(skill, 0));
@@ -282,34 +305,37 @@ public interface Character {
 			public int getAdvances() {
 				return advances;
 			}
-
-			public int getInitialValue() {
-				return initialValue;
-			}
 		}
 	}
 
-	public static HitLocation randomHitLocation() {
-		
-		return null;
-	}
-	
 	public static class RandomCharacter {
 		
-		public static Character create(String career, Races race, int careerRank) {
-			Character character = Factory.create();
+		public static CareerDto readCareerTemplate(String fileName) {
 			
-			return randomizeCharacter(character);
+			ObjectMapper mapper = new ObjectMapper();
+			try {
+				 return mapper.readValue(new File(fileName), CareerDto.class);
+			} catch (IOException e) {
+				e.printStackTrace();
+				throw new RuntimeException(e);
+			}
+		}
+		
+		public static Character create(String career, Races race, int careerRank) {
+			Character character = Factory.create(race);
+			
+			return randomizeCharacter(character, careerRank);
 		}
 		
 		
 		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.Character.Factory.Characteristic> stats) {
 			Character character = Factory.create(stats);
 			
-			return randomizeCharacter(character);
+			return randomizeCharacter(character, careerRank);
 		}
 
-		private static Character randomizeCharacter(Character character) {
+		private static Character randomizeCharacter(Character character, int rank) {
+			
 			return character;
 		}
 	}

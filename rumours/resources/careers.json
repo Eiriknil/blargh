@@ -1,5 +1,27 @@
 [
 	{
+		"career":"Testcareer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade", "", "", "", "", "", "", ""],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
 		"career":"Apothecary",
 		"level": [{
 			"stats": ["T", "DEX", "INT"],

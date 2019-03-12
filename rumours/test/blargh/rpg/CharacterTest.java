@@ -176,4 +176,13 @@ class CharacterTest {
 		character.applyCrit(Crit.Factory.create(1));
 		character.applyCrit(Crit.Factory.create(1));
 	}
+	
+	@Test
+	void readCareerTemplate_testcareerTemplate_CareerDto() {
+		CareerDto careerTemplate = Character.RandomCharacter.readCareerTemplate("resources/testcareers.json");
+		assertThat(careerTemplate.getCareer(), is ("Testcareer"));
+		assertThat(careerTemplate.getLevel().get(0).get("stats").get(0), is("T"));
+		assertThat(careerTemplate.getLevel().get(0).get("skills").get(0), is("Trade"));
+		assertThat(careerTemplate.getLevel().get(0).get("talents").get(0), is("Very Resilient"));
+	}
 }
