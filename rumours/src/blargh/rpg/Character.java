@@ -51,6 +51,7 @@ public interface Character {
 	public int characteristicBonus(Characteristics characteristics);
 	public int charAdvances(Characteristics characteristic);
 	public TrainingResult trainCharacteristic(Characteristics characteristic, int xp);
+	public void advanceCharacteristic(Characteristics stat, int advance);
 
 	public int skillValue(Skills skill);
 	public int skillAdvances(Skills skill);
@@ -62,6 +63,7 @@ public interface Character {
 	public Map<Skills, Integer> allTrainedSkills();
 
 	public void addTalent(Talents talent);
+	public Set<Talents> talents();
 	
 	public Career career();
 	public void changeCareer(Career career);
@@ -291,16 +293,25 @@ public interface Character {
 
 			@Override
 			public Map<Skills, Integer> allSkills() {
-				return skillMap;
+				return new ConcurrentHashMap<>(skillMap);
 			}
 
 			@Override
 			public Map<Skills, Integer> allTrainedSkills() {
-				Map<Skills, Integer> trainedSkillMap = new ConcurrentHashMap<>();
 				
 				return skillMap.entrySet().stream()
 						.filter(entry -> entry.getValue() > 0)
 						.collect(Collectors.toMap(Entry::getKey, Entry::getValue));
+			}
+
+			@Override
+			public void advanceCharacteristic(Characteristics stat, int advance) {
+				charMap.get(stat).advance(advance);
+			}
+
+			@Override
+			public Set<Talents> talents() {
+				return new HashSet<>(talentSet);
 			}
 		}
 		
@@ -379,17 +390,36 @@ public interface Character {
 			
 			Skills primarySkill =  character.career().allSkills(1).get(0);
 			character.advanceSkill(primarySkill, rank*5);
+
 			for(int i = 1;i <= rank;i++) {
-				List<Skills> allSkills = character.career().allSkills(i);
-				for(int count = 0; count < 7; count++) {
-					Skills randomSkill = allSkills.remove(randomizer.nextInt(allSkills.size() - 1) + 1);
-					 int advances = character.skillAdvances(randomSkill);
-					 character.advanceSkill(randomSkill, (i*5)-advances);
-				}
+				
+				improveStats(character, i);
+				improveSkills(character, randomizer, i);
+				character.addTalent(character.career().talentList(i).get(randomizer.nextInt(4)));
 			}
 			
 			return character;
 		}
+
+		private static void improveStats(Character character, int i) {
+			final int maxAdvances = i*5;
+			character.career().allStats(i).forEach(stat -> {
+				while(character.charAdvances(stat) < maxAdvances) { 
+					character.advanceCharacteristic(stat, 5);
+					}
+				});
+		}
+
+		private static void improveSkills(Character character, Random randomizer, int i) {
+			List<Skills> allSkills = character.career().allSkills(i);
+			for(int count = 0; count < 7; count++) {
+				Skills randomSkill = allSkills.remove(randomizer.nextInt(allSkills.size() - 1) + 1);
+				 int advances = character.skillAdvances(randomSkill);
+				 character.advanceSkill(randomSkill, (i*5)-advances);
+			}
+		}
 	}
+
+
 
 }

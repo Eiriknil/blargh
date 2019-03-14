@@ -3,7 +3,6 @@ package blargh.rpg;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import java.util.Set;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
 
@@ -13,7 +12,7 @@ public interface Career {
 
 	public List<Skills> skillList(int level);
 	public List<Skills> allSkills(int level);
-	public Set<Talents> talentSet(int level);
+	public List<Talents> talentList(int level);
 	public List<Characteristics> statList(int level);
 	public List<Characteristics> allStats(int level);
 	public String name();
@@ -51,10 +50,10 @@ public interface Career {
 			}
 
 			@Override
-			public Set<Talents> talentSet(int level) {
+			public List<Talents> talentList(int level) {
 
 				List<String> talentList = careerDef.getLevel().get(level - 1).get("talents");
-				return talentList.stream().map(talentName -> Talents.valueOf(talentName.toUpperCase().replace(" ", "_"))).collect(Collectors.toSet());
+				return talentList.stream().map(talentName -> Talents.valueOf(talentName.toUpperCase().replace(" ", "_"))).collect(Collectors.toList());
 			}
 
 			@Override
