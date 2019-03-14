@@ -1,0 +1,23 @@
+{
+	"career":"Engineer",
+	"level": [{
+		"stats": ["BS", "DEX", "INT"],
+		"skills": ["Trade(Engineer)", "Consume Alcohol", "Cool", "Endurance", "Language(Classical)", "Lore(Engineer)", "Perception", "Ranged(Blackpowder)"],
+		"talents": ["Artistic", "Gunner", "Read/Write", "Tinker"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Drive", "Dodge", "Navigation", "Ranged(Engineering)", "Research", "Language(Guilder)"],
+		"talents": ["Craftsman(Engineer)", "Etiquette(Guilder)", "Marksman", "Orientation"]
+	},
+	{
+		"stats": ["T"],
+		"skills": ["Language(Khazalid)", "Leadership", "Ride(Horse)", "Secret Signs(Guilder)"],
+		"talents": ["Etiquette(Scholar)", "Master Tradesman(Engineering)", "Sniper", "Super Numerate"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Language(Any)", "Lore(Any)"],
+		"talents": ["Magnum Opus", "Rapid Reload", "Savant(Engineering)", "Unshakeable"]
+	}]
+}

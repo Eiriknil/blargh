@@ -17,12 +17,12 @@ import static blargh.rpg.HitLocation.LEFT_ARM;
 import static blargh.rpg.HitLocation.RIGHT_ARM;
 import static blargh.rpg.HitLocation.RIGHT_LEG;
 import static blargh.rpg.Races.HUMAN;
-import static blargh.rpg.Skills.ART;
+import static blargh.rpg.Skills.ART_WRITING;
 import static blargh.rpg.Skills.ATHLETICS;
 import static blargh.rpg.Skills.CHARM;
 import static blargh.rpg.Skills.CLIMB;
-import static blargh.rpg.Skills.MELEE;
-import static blargh.rpg.Skills.TRADE;
+import static blargh.rpg.Skills.MELEE_BASIC;
+import static blargh.rpg.Skills.TRADE_APOTHECARY;
 import static blargh.rpg.Talents.SMALL;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -137,8 +137,8 @@ class CharacterTest {
 		assertThat(trainingResultCharm.remainingXp(), is(5));
 		
 		int xpMelee = 1500;
-		TrainingResult trainingResultMelee = character.trainSkill(MELEE, xpMelee);
-		assertThat(character.skillValue(MELEE), is(75));
+		TrainingResult trainingResultMelee = character.trainSkill(MELEE_BASIC, xpMelee);
+		assertThat(character.skillValue(MELEE_BASIC), is(75));
 		assertThat(trainingResultMelee.endValue(), is(37));
 		assertThat(trainingResultMelee.remainingXp(), is(5));
 		
@@ -195,8 +195,8 @@ class CharacterTest {
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(36));
-			assertThat(randomCharacter.skillValue(TRADE), is(41));
-			assertThat(randomCharacter.skillValue(ART), is(41));
+			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(41));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(41));
 			assertThat(randomCharacter.characteristic(AG), is(36));
 			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
 			assertThat(randomCharacter.characteristic(FEL), is(33));
@@ -208,8 +208,8 @@ class CharacterTest {
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(41));
-			assertThat(randomCharacter.skillValue(TRADE), is(51));
-			assertThat(randomCharacter.skillValue(ART), is(51));
+			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(51));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(51));
 			assertThat(randomCharacter.characteristic(AG), is(36));
 			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
 			assertThat(randomCharacter.characteristic(FEL), is(33));
@@ -221,8 +221,8 @@ class CharacterTest {
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(46));
-			assertThat(randomCharacter.skillValue(TRADE), is(61));
-			assertThat(randomCharacter.skillValue(ART), is(61));
+			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(61));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(61));
 			assertThat(randomCharacter.characteristic(AG), is(36));
 			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
 			assertThat(randomCharacter.characteristic(FEL), is(33));
@@ -234,8 +234,8 @@ class CharacterTest {
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(51));
-			assertThat(randomCharacter.skillValue(TRADE), is(71));
-			assertThat(randomCharacter.skillValue(ART), is(71));
+			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(71));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(71));
 			assertThat(randomCharacter.characteristic(AG), is(36));
 			assertThat(randomCharacter.skillValue(ATHLETICS), is(56));
 			assertThat(randomCharacter.characteristic(FEL), is(53));
@@ -245,16 +245,17 @@ class CharacterTest {
 	
 	@Test
 	public void presentCharacter() {
-		Character randomCharacter = Character.RandomCharacter.create("roadwarden", HUMAN, 4, new Random());
+		Character randomCharacter = Character.RandomCharacter.create("nun", HUMAN, 4, new Random());
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4s ", stat.name()));
 		System.out.println();
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4d ", randomCharacter.characteristic(stat)));
 		System.out.println();
+		
 		System.out.println("Skills:");
-		Map<Skills, Integer> allSkills = randomCharacter.allSkills();
+		Map<Skills, Integer> allSkills = randomCharacter.allTrainedSkills();
 		List<Skills> sortedSkills = new CopyOnWriteArrayList<Skills>(allSkills.keySet());
 		Collections.sort(sortedSkills);
-		sortedSkills.forEach(skill -> System.out.printf("%-20s = %2d (%d)%n", skill.name(), randomCharacter.skillValue(skill), randomCharacter.skillAdvances(skill)));
+		sortedSkills.forEach(skill -> System.out.printf("%-25s = %2d (%d)%n", skill.name(), randomCharacter.skillValue(skill), randomCharacter.skillAdvances(skill)));
 		
 		System.out.println("Talents:");
 		randomCharacter.talents().forEach(talent -> System.out.printf("%s, ", talent));;

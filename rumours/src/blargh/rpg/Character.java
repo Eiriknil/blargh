@@ -392,7 +392,7 @@ public interface Character {
 			character.advanceSkill(primarySkill, rank*5);
 
 			for(int i = 1;i <= rank;i++) {
-				
+
 				improveStats(character, i);
 				improveSkills(character, randomizer, i);
 				character.addTalent(character.career().talentList(i).get(randomizer.nextInt(4)));

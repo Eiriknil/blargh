@@ -1,0 +1,24 @@
+{
+	"career":"Apothecary",
+	"level": [{
+		"stats": ["T", "DEX", "INT"],
+		"skills": ["Trade(Apothecary)", "Consume Alcohol", "Heal", "Language(Classical)", "Lore(Chemistry)", "Lore(Medicine)", "Lore(Plants)", "Trade(Poisoner)"],
+		"talents": ["Concoct", "Craftsman(Apothecary)", "Etiquette(Scholar)", "Read/Write"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Haggle", "Lore(Science)", "Gossip", "Language(Guilder)", "Perception"],
+		"talents": ["Criminal", "Dealmaker", "Etiquette(Guilder)", "Pharmacist"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Intuition", "Leadership", "Research", "Secret Signs(Guilder)"],
+		"talents": ["Bookish", "Master Tradesman(Apothecary)", "Resistance(Poison)", "Savvy"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Intimidate", "Ride(Horse)"],
+		"talents": ["Acute Sense(Taste)", "Coolheaded", "Master Tradesman(Poisoner)", "Savant(Apothecary)"]
+	}]
+}
+

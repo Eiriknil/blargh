@@ -27,7 +27,7 @@ public interface Career {
 			ObjectMapper mapper = new ObjectMapper();
 			CareerDto careerDef = null;
 			try {
-				careerDef = mapper.readValue(new File(String.format("resources/%s.json", careerName)), CareerDto.class);
+				careerDef = mapper.readValue(new File(String.format("resources/careers/%s.json", careerName)), CareerDto.class);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -53,7 +53,10 @@ public interface Career {
 			public List<Talents> talentList(int level) {
 
 				List<String> talentList = careerDef.getLevel().get(level - 1).get("talents");
-				return talentList.stream().map(talentName -> Talents.valueOf(talentName.toUpperCase().replace(" ", "_"))).collect(Collectors.toList());
+				return talentList.stream().map(talentName -> Talents.valueOf(talentName.toUpperCase()
+						.replaceAll("[ /-]", "_")
+						.replace("(", "_")
+						.replace(")", ""))).collect(Collectors.toList());
 			}
 
 			@Override
@@ -65,7 +68,10 @@ public interface Career {
 			@Override
 			public List<Skills> skillList(int level) {
 				List<String> skillList = careerDef.getLevel().get(level - 1).get("skills");
-				return skillList.stream().map(skillName -> Skills.valueOf(skillName.toUpperCase().replace(" ", "_"))).collect(Collectors.toList());
+				return skillList.stream().map(skillName -> Skills.valueOf(skillName.toUpperCase()
+						.replace(" ", "_")
+						.replace("(", "_")
+						.replace(")", ""))).collect(Collectors.toList());
 			}
 
 			@Override
