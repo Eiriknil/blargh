@@ -15,13 +15,18 @@ import static blargh.rpg.HitLocation.BODY;
 import static blargh.rpg.HitLocation.LEFT_ARM;
 import static blargh.rpg.HitLocation.RIGHT_ARM;
 import static blargh.rpg.HitLocation.RIGHT_LEG;
+import static blargh.rpg.Races.HUMAN;
+import static blargh.rpg.Skills.ART;
+import static blargh.rpg.Skills.ATHLETICS;
 import static blargh.rpg.Skills.CHARM;
 import static blargh.rpg.Skills.CLIMB;
 import static blargh.rpg.Skills.MELEE;
+import static blargh.rpg.Skills.TRADE;
 import static blargh.rpg.Talents.SMALL;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
+import java.io.IOException;
 import java.util.Random;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -178,11 +183,45 @@ class CharacterTest {
 	}
 	
 	@Test
-	void readCareerTemplate_testcareerTemplate_CareerDto() {
-		CareerDto careerTemplate = Character.RandomCharacter.readCareerTemplate("resources/testcareers.json");
-		assertThat(careerTemplate.getCareer(), is ("Testcareer"));
-		assertThat(careerTemplate.getLevel().get(0).get("stats").get(0), is("T"));
-		assertThat(careerTemplate.getLevel().get(0).get("skills").get(0), is("Trade"));
-		assertThat(careerTemplate.getLevel().get(0).get("talents").get(0), is("Very Resilient"));
+	void createRandomCharacter_testCareer_character() {
+		
+		{
+			Character randomCharacter = Character.RandomCharacter.create("testcareers", HUMAN, 1, new Random(0));
+			System.out.println(randomCharacter.toString());
+			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d", skill.name(), value));
+			assertThat(randomCharacter.characteristic(DEX), is(31));
+			assertThat(randomCharacter.skillValue(TRADE), is(36));
+			assertThat(randomCharacter.skillValue(ART), is(36));
+			assertThat(randomCharacter.characteristic(AG), is(36));
+			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
+			assertThat(randomCharacter.characteristic(FEL), is(33));
+			assertThat(randomCharacter.skillValue(CHARM), is(38));
+		}
+
+		{
+			Character randomCharacter = Character.RandomCharacter.create("testcareers", HUMAN, 2, new Random(0));
+			System.out.println(randomCharacter.toString());
+			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d", skill.name(), value));
+			assertThat(randomCharacter.characteristic(DEX), is(31));
+			assertThat(randomCharacter.skillValue(TRADE), is(41));
+			assertThat(randomCharacter.skillValue(ART), is(41));
+			assertThat(randomCharacter.characteristic(AG), is(36));
+			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
+			assertThat(randomCharacter.characteristic(FEL), is(33));
+			assertThat(randomCharacter.skillValue(CHARM), is(38));
+		}
+		
+		{
+			Character randomCharacter = Character.RandomCharacter.create("testcareers", HUMAN, 3, new Random(0));
+			System.out.println(randomCharacter.toString());
+			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d", skill.name(), value));
+			assertThat(randomCharacter.characteristic(DEX), is(31));
+			assertThat(randomCharacter.skillValue(TRADE), is(46));
+			assertThat(randomCharacter.skillValue(ART), is(46));
+			assertThat(randomCharacter.characteristic(AG), is(36));
+			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
+			assertThat(randomCharacter.characteristic(FEL), is(33));
+			assertThat(randomCharacter.skillValue(CHARM), is(48));
+		}
 	}
 }

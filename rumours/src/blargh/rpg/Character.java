@@ -8,18 +8,16 @@ import static blargh.rpg.Modifier.CHALLENGING;
 import static blargh.rpg.Races.HUMAN;
 import static blargh.rpg.Talents.SMALL;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
+import java.util.stream.Collectors;
 
 public interface Character {
 
@@ -60,13 +58,21 @@ public interface Character {
 	public int checkSkill(Skills skill);
 	public int checkSkill(Skills skill, Modifier modifier);
 	public TrainingResult trainSkill(Skills skill, int xp);
+	public Map<Skills, Integer> allSkills();
+	public Map<Skills, Integer> allTrainedSkills();
 
 	public void addTalent(Talents talent);
 	
+	public Career career();
+	public void changeCareer(Career career);
+
 	public static class Factory {
 
 		private static Random random = new Random();
 
+		private Factory() {
+		}
+		
 		public static void setRandomizer(Random random) {
 			Factory.random = random;
 		}
@@ -97,6 +103,7 @@ public interface Character {
 			private int woundsTaken = 0;
 			private List<Crit> critList = new CopyOnWriteArrayList<>();
 			private Races race;
+			private Career career;
 			private static final int[] skillCosts = {10, 15, 20, 30, 40, 60, 80, 110, 140, 180, 220, 270, 320, 380, 450};
 
 			public CharacterImpl(Map<Characteristics, Characteristic> charMap) {
@@ -256,7 +263,7 @@ public interface Character {
 			public void applyCrit(Crit crit) {
 				critList.add(crit);
 				if(critList.size() > characteristicBonus(T)) {
-					throw new RuntimeException("Character is dead!");
+					throw new CharacterIsDeadException();
 				}
 			}
 
@@ -265,6 +272,36 @@ public interface Character {
 				talentSet.add(talent);
 			}
 
+			@Override
+			public Career career() {
+				return career;
+			}
+
+			@Override
+			public void changeCareer(Career career) {
+				this.career = career;
+			}
+
+			@Override
+			public String toString() {
+				return String.format(
+						"Character [charMap=%s, talentSet=%s, skillMap=%s, woundsTaken=%s, critList=%s, race=%s, career=%s]",
+						charMap, talentSet, skillMap, woundsTaken, critList, race, career);
+			}
+
+			@Override
+			public Map<Skills, Integer> allSkills() {
+				return skillMap;
+			}
+
+			@Override
+			public Map<Skills, Integer> allTrainedSkills() {
+				Map<Skills, Integer> trainedSkillMap = new ConcurrentHashMap<>();
+				
+				return skillMap.entrySet().stream()
+						.filter(entry -> entry.getValue() > 0)
+						.collect(Collectors.toMap(Entry::getKey, Entry::getValue));
+			}
 		}
 		
 		private static class Characteristic {
@@ -305,38 +342,54 @@ public interface Character {
 			public int getAdvances() {
 				return advances;
 			}
+
+			@Override
+			public String toString() {
+				return String.format("Characteristic [type=%s, advances=%s, initialValue=%s]", type, advances,
+						initialValue);
+			}
 		}
 	}
 
 	public static class RandomCharacter {
 		
-		public static CareerDto readCareerTemplate(String fileName) {
-			
-			ObjectMapper mapper = new ObjectMapper();
-			try {
-				 return mapper.readValue(new File(fileName), CareerDto.class);
-			} catch (IOException e) {
-				e.printStackTrace();
-				throw new RuntimeException(e);
-			}
+		private RandomCharacter() {
 		}
 		
-		public static Character create(String career, Races race, int careerRank) {
+		public static Character create(String career, Races race, int careerRank, Random randomizer) {
+			
+			Character.Factory.setRandomizer(randomizer);
 			Character character = Factory.create(race);
+			character.changeCareer(Career.Factory.create(career));
 			
-			return randomizeCharacter(character, careerRank);
+			return randomizeCharacter(character, careerRank, randomizer);
 		}
 		
 		
-		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.Character.Factory.Characteristic> stats) {
+		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.Character.Factory.Characteristic> stats, Random randomizer) {
+
+			Character.Factory.setRandomizer(randomizer);
 			Character character = Factory.create(stats);
+			character.changeCareer(Career.Factory.create(career));
 			
-			return randomizeCharacter(character, careerRank);
+			return randomizeCharacter(character, careerRank, randomizer);
 		}
 
-		private static Character randomizeCharacter(Character character, int rank) {
+		private static Character randomizeCharacter(Character character, int rank, Random randomizer) {
+			
+			Skills primarySkill =  character.career().allSkills(1).get(0);
+			character.advanceSkill(primarySkill, rank*5);
+			for(int i = 1;i <= rank;i++) {
+				List<Skills> allSkills = character.career().allSkills(i);
+				for(int count = 0; count < 7; count++) {
+					Skills randomSkill = allSkills.remove(randomizer.nextInt(allSkills.size() - 1) + 1);
+					 int advances = character.skillAdvances(randomSkill);
+					 character.advanceSkill(randomSkill, (i*5)-advances);
+				}
+			}
 			
 			return character;
 		}
 	}
+
 }

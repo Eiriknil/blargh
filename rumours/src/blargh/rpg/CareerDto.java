@@ -23,4 +23,9 @@ public class CareerDto {
 	public void setLevel(List<Map<String, List<String>>> level) {
 		this.level = level;
 	}
+
+	@Override
+	public String toString() {
+		return String.format("CareerDto [career=%s, level=%s]", career, level);
+	}
 }
