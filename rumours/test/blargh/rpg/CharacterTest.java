@@ -16,6 +16,7 @@ import static blargh.rpg.HitLocation.BODY;
 import static blargh.rpg.HitLocation.LEFT_ARM;
 import static blargh.rpg.HitLocation.RIGHT_ARM;
 import static blargh.rpg.HitLocation.RIGHT_LEG;
+import static blargh.rpg.Races.HIGH_ELF;
 import static blargh.rpg.Races.HUMAN;
 import static blargh.rpg.Skills.ART_WRITING;
 import static blargh.rpg.Skills.ATHLETICS;
@@ -245,7 +246,8 @@ class CharacterTest {
 	
 	@Test
 	public void presentCharacter() {
-		Character randomCharacter = Character.RandomCharacter.create("physician", HUMAN, 4, new Random());
+		Character randomCharacter = Character.RandomCharacter.create("wizard", HIGH_ELF, 4, new Random());
+		System.out.println(randomCharacter.career().name());
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4s ", stat.name()));
 		System.out.println();
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4d ", randomCharacter.characteristic(stat)));
@@ -255,7 +257,7 @@ class CharacterTest {
 		Map<Skills, Integer> allSkills = randomCharacter.allTrainedSkills();
 		List<Skills> sortedSkills = new CopyOnWriteArrayList<Skills>(allSkills.keySet());
 		Collections.sort(sortedSkills);
-		sortedSkills.forEach(skill -> System.out.printf("%-25s = %2d (%d)%n", skill.name(), randomCharacter.skillValue(skill), randomCharacter.skillAdvances(skill)));
+		sortedSkills.forEach(skill -> System.out.printf("%-25s (%2d) = %2d%n", skill.name(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill)));
 		
 		System.out.println("Talents:");
 		randomCharacter.talents().forEach(talent -> System.out.printf("%s, ", talent));;

@@ -1,0 +1,23 @@
+{
+	"career":"Priest",
+	"level": [{
+		"stats": ["T", "AG", "WP"],
+		"skills": ["Pray", "Athletics", "Cool", "Endurance", "Intuition", "Lore(Theology)", "Perception", "Research"],
+		"talents": ["Bless(Any)", "Holy Visions", "Read/Write", "Suave"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Entertain(Storytelling)", "Gossip", "Heal", "Intimidate", "Melee(Basic)"],
+		"talents": ["Blather", "Bookish", "Etiquette(Cultists)", "Invoke(Any)"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Art(Writing)", "Entertain(Speeches)", "Leadership", "Lore(Heraldry)"],
+		"talents": ["Acute Sense(Any)", "Hatred(Any)", "Impassioned Zeal", "Strong-minded"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Language(Any)", "Lore(Politics)"],
+		"talents": ["Master Orator", "Pure Soul", "Resistance(Any)", "Savant(Theology)"]
+	}]
+}

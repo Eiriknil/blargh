@@ -56,6 +56,7 @@ public interface Career {
 				return talentList.stream().map(talentName -> Talents.valueOf(talentName.toUpperCase()
 						.replaceAll("[ /-]", "_")
 						.replace("(", "_")
+						.replace("!", "")
 						.replace(")", ""))).collect(Collectors.toList());
 			}
 
