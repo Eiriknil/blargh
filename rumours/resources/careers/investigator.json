@@ -1,0 +1,23 @@
+{
+	"career":"Investigator",
+	"level": [{
+		"stats": ["T", "AG", "FEL"],
+		"skills": ["Charm", "Climb", "Cool", "Gossip", "Intuition", "Perception", "Stealth(Urban)", "Track"],
+		"talents": ["Alley Cat", "Beneath Notice", "Read/Write", "Sharp"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Consume Alcohol", "Dodge", "Lore(Law)", "Melee(Brawling)", "Pick Lock", "Sleight of Hand"],
+		"talents": ["Etiquette(Any)", "Savvy", "Shadow", "Tenacious"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Bribery", "Evaluate", "Leadership", "Lore(Any)"],
+		"talents": ["Bookish", "Break and Enter", "Sixth Sense", "Suave"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Intimidate", "Lore(any)"],
+		"talents": ["Acute Sense(Any)", "Savant(Any)", "Speedreader", "Tower of Memories"]
+	}]
+}
