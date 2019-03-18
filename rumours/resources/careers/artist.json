@@ -1,0 +1,23 @@
+{
+	"career":"Artist",
+	"level": [{
+		"stats": ["S", "I", "DEX"],
+		"skills": ["Art(Any)", "Cool", "Consume Alcohol", "Evaluate", "Endurance", "Gossip", "Perception", "Stealth(Urban)"],
+		"talents": ["Artistic", "Sharp", "Strong Back", "Tenacious"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Climb", "Gamble", "Haggle", "Intuition", "Language(Classical)", "Trade(Art Supplies)"],
+		"talents": ["Carouser", "Criminal", "Gregarious", "Nimble Fingered"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Charm", "Leadership", "Lore(Art)", "Lore(Heraldry)"],
+		"talents": ["Acute Sense(Any)", "Dealmaker", "Etiquette(any)", "Nose for Trouble"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Research", "Ride(Horse)"],
+		"talents": ["Ambidextrous", "Kingpin", "Magnum Opus", "Read/Write"]
+	}]
+}

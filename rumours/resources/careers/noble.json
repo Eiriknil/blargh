@@ -1,0 +1,23 @@
+{
+	"career":"Noble",
+	"level": [{
+		"stats": ["WS", "I", "DEX"],
+		"skills": ["Leadership", "Bribery", "Consume Alcohol", "Gamble", "Intimidate", "Lore(Heraldry)", "Melee(Fencing)", "Play(Any)"],
+		"talents": ["Etiquette(Nobles)", "Luck", "Noble Blood", "Read/Write"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Gossip", "Language(Classical)", "Lore(Local)", "Ride(Horse)", "Melee(Parry)"],
+		"talents": ["Attractive", "Briber", "Carouser", "Suave"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Language(Any)", "Intuition", "Lore(Politics)", "Perception"],
+		"talents": ["Coolheaded", "Dealmaker", "Public Speaker", "Schemer"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Lore(Any)", "Track"],
+		"talents": ["Commanding Presence", "Iron Will", "Warleader", "Wealthy"]
+	}]
+}

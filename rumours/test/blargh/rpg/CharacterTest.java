@@ -192,61 +192,61 @@ class CharacterTest {
 	void createRandomCharacter_testCareer_character() {
 		
 		{
-			Character randomCharacter = Character.RandomCharacter.create("testcareers", HUMAN, 1, new Random(0));
+			Character randomCharacter = Character.RandomCharacter.create("apothecary", HUMAN, 1, new Random(0));
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(36));
 			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(41));
-			assertThat(randomCharacter.skillValue(ART_WRITING), is(41));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(36));
 			assertThat(randomCharacter.characteristic(AG), is(36));
-			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
+			assertThat(randomCharacter.skillValue(ATHLETICS), is(36));
 			assertThat(randomCharacter.characteristic(FEL), is(33));
-			assertThat(randomCharacter.skillValue(CHARM), is(38));
+			assertThat(randomCharacter.skillValue(CHARM), is(33));
 		}
 
 		{
-			Character randomCharacter = Character.RandomCharacter.create("testcareers", HUMAN, 2, new Random(0));
+			Character randomCharacter = Character.RandomCharacter.create("apothecary", HUMAN, 2, new Random(0));
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(41));
 			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(51));
-			assertThat(randomCharacter.skillValue(ART_WRITING), is(51));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(41));
 			assertThat(randomCharacter.characteristic(AG), is(36));
-			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
-			assertThat(randomCharacter.characteristic(FEL), is(33));
-			assertThat(randomCharacter.skillValue(CHARM), is(38));
+			assertThat(randomCharacter.skillValue(ATHLETICS), is(36));
+			assertThat(randomCharacter.characteristic(FEL), is(43));
+			assertThat(randomCharacter.skillValue(CHARM), is(43));
 		}
 		
 		{
-			Character randomCharacter = Character.RandomCharacter.create("testcareers", HUMAN, 3, new Random(0));
+			Character randomCharacter = Character.RandomCharacter.create("apothecary", HUMAN, 3, new Random(0));
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(46));
 			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(61));
-			assertThat(randomCharacter.skillValue(ART_WRITING), is(61));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(46));
 			assertThat(randomCharacter.characteristic(AG), is(36));
-			assertThat(randomCharacter.skillValue(ATHLETICS), is(41));
-			assertThat(randomCharacter.characteristic(FEL), is(33));
+			assertThat(randomCharacter.skillValue(ATHLETICS), is(36));
+			assertThat(randomCharacter.characteristic(FEL), is(48));
 			assertThat(randomCharacter.skillValue(CHARM), is(48));
 		}
 
 		{
-			Character randomCharacter = Character.RandomCharacter.create("testcareers", HUMAN, 4, new Random(0));
+			Character randomCharacter = Character.RandomCharacter.create("apothecary", HUMAN, 4, new Random(0));
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(51));
 			assertThat(randomCharacter.skillValue(TRADE_APOTHECARY), is(71));
-			assertThat(randomCharacter.skillValue(ART_WRITING), is(71));
+			assertThat(randomCharacter.skillValue(ART_WRITING), is(51));
 			assertThat(randomCharacter.characteristic(AG), is(36));
-			assertThat(randomCharacter.skillValue(ATHLETICS), is(56));
+			assertThat(randomCharacter.skillValue(ATHLETICS), is(36));
 			assertThat(randomCharacter.characteristic(FEL), is(53));
-			assertThat(randomCharacter.skillValue(CHARM), is(68));
+			assertThat(randomCharacter.skillValue(CHARM), is(73));
 		}
 	}
 	
 	@Test
 	public void presentCharacter() {
-		Character randomCharacter = Character.RandomCharacter.create("investigator", HUMAN, 4, new Random());
+		Character randomCharacter = Character.RandomCharacter.create("servant", HUMAN, 4, new Random());
 		System.out.println(randomCharacter.career().name());
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4s ", stat.name()));
 		System.out.println();

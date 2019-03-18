@@ -1,0 +1,23 @@
+{
+	"career":"Watchman",
+	"level": [{
+		"stats": ["WS", "S", "FEL"],
+		"skills": ["Perception", "Athletics", "Climb", "Consume Alcohol", "Dodge", "Endurance", "Gamble", "Melee(Any)"],
+		"talents": ["Drilled", "Hardy", "Strike to Stun", "Tenacious"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Charm", "Cool", "Gossip", "Intimidate", "Intuition", "Lore(Local)"],
+		"talents": ["Break and Enter", "Criminal", "Night Vision", "Sprinter"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Entertain(Storytelling)", "Haggle", "Leadership", "Lore(Law)"],
+		"talents": ["Disarm", "Etiquette(Soldiers)", "Fearless(Criminals)", "Nose for Trouble"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Politics)", "Ride(Horse)"],
+		"talents": ["Public Speaker", "Robust", "Kingpin", "Schemer"]
+	}]
+}

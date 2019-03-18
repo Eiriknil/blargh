@@ -1,0 +1,23 @@
+{
+	"career":"Servant",
+	"level": [{
+		"stats": ["S", "T", "AG"],
+		"skills": ["Endurance", "Athletics", "Climb", "Drive", "Dodge", "Intuition", "Perception", "Stealth(Any)"],
+		"talents": ["Beneath Notice", "Strong Back", "Strong-minded", "Sturdy"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Animal Care", "Consume Alcohol", "Evaluate", "Gamble", "Gossip", "Haggle"],
+		"talents": ["Etiquette(Servants)", "Shadow", "Tenacious", "Wellprepared"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Charm", "Cool", "Intimidate", "Lore(Local)"],
+		"talents": ["Embezzle", "Resistance(Poison)", "Suave", "Supportive"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Leadership", "Melee(Basic)"],
+		"talents": ["Etiquette(any)", "Numismatics", "Read/Write", "Savvy"]
+	}]
+}

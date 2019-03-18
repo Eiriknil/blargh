@@ -1,0 +1,23 @@
+{
+	"career":"Merchant",
+	"level": [{
+		"stats": ["AG", "WP", "FEL"],
+		"skills": ["Haggle", "Animal Care", "Bribery", "Charm", "Consume Alcohol", "Drive", "Gamble", "Gossip"],
+		"talents": ["Blather", "Dealmaker", "Read/Write", "Suave"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Evaluate", "Intuition", "Language(Any)", "Language(Guilder)", "Lore(Local)", "Perception"],
+		"talents": ["Briber", "Embezzle", "Etiquette(Guilder)", "Savvy"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Cool", "Language(Classical)", "Navigation", "Secret Signs(Guilder)"],
+		"talents": ["Cat-tongued", "Etiquette(Any)", "Numismatics", "Sharp"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Lore(Any)", "Intimidate"],
+		"talents": ["Iron Will", "Luck", "Schemer", "Wealthy"]
+	}]
+}

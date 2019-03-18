@@ -1,0 +1,23 @@
+{
+	"career":"Rat Catcher",
+	"level": [{
+		"stats": ["WS", "BS", "WP"],
+		"skills": ["Melee(Basic)", "Athletics", "Animal Training(Dog)", "Charm Animal", "Consume Alcohol", "Endurance", "Ranged(Sling)", "Stealth(Underground)", "Stealth(Urban)"],
+		"talents": ["Night Vision", "Resistance(Disease)", "Strike Mighty Blow", "Strike to Stun"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Animal Care", "Gossip", "Haggle", "Lore(Poison)", "Perception", "Set Trap"],
+		"talents": ["Enclosed Fighter", "Etiquette(Guilder)", "Fearless(Rats)", "Very Resilient"]
+	},
+	{
+		"stats": ["S"],
+		"skills": ["Climb", "Cool", "Dodge", "Ranged(Crossbow Pistol)"],
+		"talents": ["Hardy", "Stout-hearted", "Strong Legs", "Tunnel Rat"]
+	},
+	{
+		"stats": ["T"],
+		"skills": ["Leadership", "Track"],
+		"talents": ["Fearless(Skaven)", "Menacing", "Robust", "Strong-minded"]
+	}]
+}

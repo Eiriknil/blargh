@@ -356,8 +356,7 @@ public interface Character {
 
 			@Override
 			public String toString() {
-				return String.format("Characteristic [type=%s, advances=%s, initialValue=%s]", type, advances,
-						initialValue);
+				return String.format("Characteristic [type=%s, advances=%s, initialValue=%s]", type, advances, initialValue);
 			}
 		}
 	}
@@ -394,28 +393,37 @@ public interface Character {
 			for(int i = 1;i <= rank;i++) {
 
 				improveStats(character, i);
-				improveSkills(character, randomizer, i);
+				improveSkills(character, randomizer, i, i == rank);
 				character.addTalent(character.career().talentList(i).get(randomizer.nextInt(4)));
 			}
 			
 			return character;
 		}
 
-		private static void improveStats(Character character, int i) {
-			final int maxAdvances = i*5;
-			character.career().allStats(i).forEach(stat -> {
+		private static void improveStats(Character character, int rank) {
+			final int maxAdvances = rank*5;
+			int lastRank = rank - 1;
+			if(lastRank == 0) {
+				lastRank = 1;
+			}
+			character.career().allStats(lastRank).forEach(stat -> {
 				while(character.charAdvances(stat) < maxAdvances) { 
 					character.advanceCharacteristic(stat, 5);
 					}
 				});
 		}
 
-		private static void improveSkills(Character character, Random randomizer, int i) {
-			List<Skills> allSkills = character.career().allSkills(i);
-			for(int count = 0; count < 7; count++) {
-				Skills randomSkill = allSkills.remove(randomizer.nextInt(allSkills.size() - 1) + 1);
-				 int advances = character.skillAdvances(randomSkill);
-				 character.advanceSkill(randomSkill, (i*5)-advances);
+		private static void improveSkills(Character character, Random randomizer, int rank, boolean halfRank) {
+			List<Skills> allSkills = character.career().allSkills(rank);
+			int max = 7;
+			if(halfRank) {
+				max = 3;
+			}
+			for(int count = 0; count < max; count++) {
+				int random = randomizer.nextInt(allSkills.size() - 1) + 1;
+				Skills randomSkill = allSkills.remove(random);
+				int advances = character.skillAdvances(randomSkill);
+				character.advanceSkill(randomSkill, (rank*5)-advances);
 			}
 		}
 	}

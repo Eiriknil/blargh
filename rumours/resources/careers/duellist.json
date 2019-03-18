@@ -1,0 +1,31 @@
+{
+	"career":"Duellist",
+	"level": [{
+		"stats": ["WS", "AG", "I"],
+		"skills": ["Melee(Any)", "Athletics", "Dodge", "Endurance", "Heal", "Intuition", "Language(Classical)", "Perception"],
+		"talents": ["Beat Blade", "Distract", "Feint", "Step Aside"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Charm", "Cool", "Gamble", "Melee(Parry)", "Ranged(Blackpowder)", "Trade(Gunsmith)"],
+		"talents": ["Combat Reflexes", "Etiquette(Any)", "Fast Shot", "Reversal"]
+	},
+	{
+		"stats": ["S"],
+		"skills": ["Intimidate", "Leadership", "Melee(Basic)", "Perform(Acrobatics)"],
+		"talents": ["Ambidextrous", "Disarm", "Dual Wielder", "Riposte"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Lore(Law)", "Melee(Any)"],
+		"talents": ["Combat Master", "Menacing", "Reaction Strike", "Strike to Injure"]
+	}]
+}
+Skills: 
+Talents: 
+Skills: 
+Talents: 
+Skills: 
+Talents: 
+Skills: 
+Talents: 
