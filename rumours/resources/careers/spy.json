@@ -1,0 +1,23 @@
+{
+	"career":"Spy",
+	"level": [{
+		"stats": ["AG", "WP", "FEL"],
+		"skills": ["Gossip", "Bribery", "Charm", "Cool", "Gamble", "Haggle", "Perception", "Stealth(Any)"],
+		"talents": ["Blather", "Carouser", "Gregarious", "Shadow"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Climb", "Entertain(Acting)", "Intuition", "Melee(Basic)", "Secret Signs(Any)", "Sleight of Hand"],
+		"talents": ["Etiquette(Any)", "Lip Reading", "Read/Write", "Secret Identity"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Animal Care", "Animal Training(Pigeon)", "Language(Any)", "Leadership"],
+		"talents": ["Attractive", "Cat-tongued", "Master of Disguise", "Mimic"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Any)", "Research"],
+		"talents": ["Briber", "Schemer", "Suave", "Tower of Memories"]
+	}]
+}

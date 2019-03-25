@@ -1,0 +1,23 @@
+{
+	"career":"Hedge Witch",
+	"level": [{
+		"stats": ["T", "I", "DEX"],
+		"skills": ["Intuition", "Channelling", "Endurance", "Language(Magick)", "Lore(Folklore)", "Lore(Herbs)", "Outdoor Survival", "Perception"],
+		"talents": ["Fast Hands", "Petty Magic", "Rover", "Strider(Woodlands)"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Cool", "Gossip", "Heal", "Lore(Local)", "Trade(Charms)", "Trade(Herbalist)"],
+		"talents": ["Aethyric Attunement", "Animal Affinity", "Arcane Magic(Hedgecraft)", "Sixth Sense"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Haggle", "Lore(Genealogy)", "Lore(Magic)", "Lore(Spirits)"],
+		"talents": ["Craftsman(Herbalist)", "Magical Sense", "Pure Soul", "Resistance(Disease)"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Intimidate", "Pray"],
+		"talents": ["Acute Sense(Any)", "Master Tradesman(Herbalist)", "Night Vision", "Strong-minded"]
+	}]
+}

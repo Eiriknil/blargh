@@ -1,0 +1,23 @@
+{
+	"career":"Bailiff",
+	"level": [{
+		"stats": ["WS", "I", "WP"],
+		"skills": ["Intimidate", "Cool", "Dodge", "Endurance", "Gossip", "Haggle", "Melee(Basic)", "Perception"],
+		"talents": ["Embezzle", "Numismatics", "Strong Back", "Tenacious"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Bribery", "Charm", "Evaluate", "Intuition", "Leadership", "Lore(Local)"],
+		"talents": ["Break and Enter", "Criminal", "Public Speaker", "Strike to Stun"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Animal Care", "Lore(Heraldry)", "Navigation", "Ride(Horse)"],
+		"talents": ["Kingpin", "Menacing", "Nose for Trouble", "Read/Write"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Language(Classical)", "Lore(Law)"],
+		"talents": ["Commanding Presence", "Iron Will", "Savvy", "Schemer"]
+	}]
+}

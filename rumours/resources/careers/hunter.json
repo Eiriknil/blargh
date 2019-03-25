@@ -1,0 +1,23 @@
+{
+	"career":"Hunter",
+	"level": [{
+		"stats": ["S", "T", "DEX"],
+		"skills": ["Charm Animal", "Climb", "Endurance", "Lore(Beasts)", "Outdoor Survival", "Perception", "Ranged(Sling)", "Set Trap"],
+		"talents": ["Hardy", "Rover", "Strider(any)", "Trapper"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Cool", "Intuition", "Melee(Basic)", "Ranged(Bow)", "Secret Signs(Hunter)", "Stealth(Rural)"],
+		"talents": ["Accurate Shot", "Fast Shot", "Hunters Eye", "Marksman"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Navigation", "Ride(Horse)", "Swim", "Track"],
+		"talents": ["Acute Sense(any)", "Deadeye Shot", "Fearless(Animals)", "Sharpshooter"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Animal Care", "Animal Training(Any)"],
+		"talents": ["Fearless(Monsters)", "Robust", "Sniper", "Sure Shot"]
+	}]
+}

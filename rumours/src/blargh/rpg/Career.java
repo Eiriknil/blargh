@@ -70,7 +70,8 @@ public interface Career {
 			public List<Skills> skillList(int level) {
 				List<String> skillList = careerDef.getLevel().get(level - 1).get("skills");
 				return skillList.stream().map(skillName -> Skills.valueOf(skillName.toUpperCase()
-						.replace(" ", "_")
+						.replaceAll(" ", "_")
+						.replace("-", "_")
 						.replace("(", "_")
 						.replace(")", ""))).collect(Collectors.toList());
 			}
