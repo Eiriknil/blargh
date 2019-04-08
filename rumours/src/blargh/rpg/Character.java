@@ -13,13 +13,65 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Objects;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
 
+import blargh.rpg.Character.Skill;
+import blargh.rpg.exception.CharacterIsDeadException;
+
 public interface Character {
+
+	public static class Skill implements Comparable<Skill>{
+		private Skills skillType;
+		private String spesialisation;
+		
+		public Skill(Skills skillType, String spesialisation) {
+			this.skillType = skillType;
+			this.spesialisation = spesialisation;
+		}
+		
+		public Skill(Skills skillType) {
+			this.skillType = skillType;
+			this.spesialisation = "";
+		}
+		
+		@Override
+		public int hashCode() {
+			return Objects.hash(skillType, spesialisation);
+		}
+		
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj) {
+				return true;
+			}
+			if (obj == null) {
+				return false;
+			}
+			if (!(obj instanceof Skill)) {
+				return false;
+			}
+			Skill other = (Skill) obj;
+			return skillType == other.skillType && Objects.equals(spesialisation, other.spesialisation);
+		}
+
+		public Skills getSkillType() {
+			return skillType;
+		}
+
+		public String getSpesialisation() {
+			return spesialisation;
+		}
+
+		@Override
+		public int compareTo(Skill o) {
+			return skillType.compareTo(o.getSkillType());
+		}
+	}
 
 	public class TrainingResult {
 
@@ -53,14 +105,14 @@ public interface Character {
 	public TrainingResult trainCharacteristic(Characteristics characteristic, int xp);
 	public void advanceCharacteristic(Characteristics stat, int advance);
 
-	public int skillValue(Skills skill);
-	public int skillAdvances(Skills skill);
-	public int advanceSkill(Skills skill, int value);
-	public int checkSkill(Skills skill);
-	public int checkSkill(Skills skill, Modifier modifier);
-	public TrainingResult trainSkill(Skills skill, int xp);
-	public Map<Skills, Integer> allSkills();
-	public Map<Skills, Integer> allTrainedSkills();
+	public int skillValue(Skill skill);
+	public int skillAdvances(Skill skill);
+	public int advanceSkill(Skill skill, int value);
+	public int checkSkill(Skill skill);
+	public int checkSkill(Skill skill, Modifier modifier);
+	public TrainingResult trainSkill(Skill skill, int xp);
+	public Map<Skill, Integer> allSkills();
+	public Map<Skill, Integer> allTrainedSkills();
 
 	public void addTalent(Talents talent);
 	public Set<Talents> talents();
@@ -101,7 +153,7 @@ public interface Character {
 			
 			private Map<Characteristics, Characteristic> charMap = new ConcurrentHashMap<>();
 			private Set<Talents> talentSet = new HashSet<>();
-			private Map<Skills, Integer> skillMap = new ConcurrentHashMap<>();
+			private Map<Skill, Integer> skillMap = new ConcurrentHashMap<>();
 			private int woundsTaken = 0;
 			private List<Crit> critList = new CopyOnWriteArrayList<>();
 			private Races race;
@@ -126,11 +178,11 @@ public interface Character {
 				this.race = characterRace;
 				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, new Characteristic(stat, race.statModifier(stat) + 2 + random.nextInt(10) + random.nextInt(10))));
 				charMap.put(M, new Characteristic(M, race.statModifier(M)));
-				Skills.basicSkills().forEach(skill -> skillMap.put(skill, 0));
+				Skills.basicSkills().forEach(skill -> skillMap.put(new Skill(skill, skill.defaultSpec()), 0));
 			}
 
 			@Override
-			public int skillAdvances(Skills skill) {
+			public int skillAdvances(Skill skill) {
 
 				return skillMap.getOrDefault(skill, 0);
 			}
@@ -167,14 +219,14 @@ public interface Character {
 			}
 
 			@Override
-			public int checkSkill(Skills skill) {
+			public int checkSkill(Skill skill) {
 				return checkSkill(skill, CHALLENGING);
 			}
 
 			@Override
-			public int checkSkill(Skills skill, Modifier modifier) {
+			public int checkSkill(Skill skill, Modifier modifier) {
 				int roll = random.nextInt(100) + 1;
-				int successLevel = (int)((skillValue(skill) + modifier.value())/10) - (int)(roll/10);
+				int successLevel = ((skillValue(skill) + modifier.value())/10) - (roll/10);
 				
 				System.out.println("Skill: " + skillValue(skill) + " Modifier: " + modifier.modifierPresentation() + " = " + (skillValue(skill) + modifier.value()) 
 						+ " Roll: " + roll + " => SL = " + successLevel );
@@ -183,12 +235,12 @@ public interface Character {
 			}
 			
 			@Override
-			public int skillValue(Skills skill) {
-				return skillAdvances(skill) + characteristic(skill.characteristics());
+			public int skillValue(Skill skill) {
+				return skillAdvances(skill) + characteristic(skill.getSkillType().characteristics());
 			}
 
 			@Override
-			public int advanceSkill(Skills skill, int value) {
+			public int advanceSkill(Skill skill, int value) {
 				
 				Integer skillValue = skillAdvances(skill);
 				skillMap.put(skill, skillValue + value);
@@ -216,7 +268,7 @@ public interface Character {
 			}
 
 			@Override
-			public TrainingResult trainSkill(Skills skill, int xp) {
+			public TrainingResult trainSkill(Skill skill, int xp) {
 
 				int usedXp = 0;
 				int skillAdvances = skillMap.get(skill);
@@ -230,7 +282,7 @@ public interface Character {
 				
 				advanceSkill(skill, boughtAdvances);
 				
-				System.out.println(skill.name() + " advanced " + boughtAdvances + " to " + skillMap.get(skill) + " using " + usedXp + " of " + xp + " xp");
+				System.out.println(skill.getSkillType().name() + " advanced " + boughtAdvances + " to " + skillMap.get(skill) + " using " + usedXp + " of " + xp + " xp");
 				
 				return new TrainingResult(xp - usedXp, skillMap.get(skill));
 			}
@@ -292,12 +344,12 @@ public interface Character {
 			}
 
 			@Override
-			public Map<Skills, Integer> allSkills() {
+			public Map<Skill, Integer> allSkills() {
 				return new ConcurrentHashMap<>(skillMap);
 			}
 
 			@Override
-			public Map<Skills, Integer> allTrainedSkills() {
+			public Map<Skill, Integer> allTrainedSkills() {
 				
 				return skillMap.entrySet().stream()
 						.filter(entry -> entry.getValue() > 0)
@@ -387,7 +439,7 @@ public interface Character {
 
 		private static Character randomizeCharacter(Character character, int rank, Random randomizer) {
 			
-			Skills primarySkill =  character.career().allSkills(1).get(0);
+			Skill primarySkill =  character.career().allSkills(1).get(0);
 			character.advanceSkill(primarySkill, rank*5);
 
 			for(int i = 1;i <= rank;i++) {
@@ -414,14 +466,14 @@ public interface Character {
 		}
 
 		private static void improveSkills(Character character, Random randomizer, int rank, boolean halfRank) {
-			List<Skills> allSkills = character.career().allSkills(rank);
+			List<Skill> allSkills = character.career().allSkills(rank);
 			int max = 7;
 			if(halfRank) {
 				max = 3;
 			}
 			for(int count = 0; count < max; count++) {
 				int random = randomizer.nextInt(allSkills.size() - 1) + 1;
-				Skills randomSkill = allSkills.remove(random);
+				Skill randomSkill = allSkills.remove(random);
 				int advances = character.skillAdvances(randomSkill);
 				character.advanceSkill(randomSkill, (rank*5)-advances);
 			}

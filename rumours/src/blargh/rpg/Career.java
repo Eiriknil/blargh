@@ -8,10 +8,12 @@ import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import blargh.rpg.Character.Skill;
+
 public interface Career {
 
-	public List<Skills> skillList(int level);
-	public List<Skills> allSkills(int level);
+	public List<Skill> skillList(int level);
+	public List<Skill> allSkills(int level);
 	public List<Talents> talentList(int level);
 	public List<Characteristics> statList(int level);
 	public List<Characteristics> allStats(int level);
@@ -67,13 +69,14 @@ public interface Career {
 			}
 
 			@Override
-			public List<Skills> skillList(int level) {
-				List<String> skillList = careerDef.getLevel().get(level - 1).get("skills");
-				return skillList.stream().map(skillName -> Skills.valueOf(skillName.toUpperCase()
+			public List<Skill> skillList(int level) {
+				List<String> skillNameList = careerDef.getLevel().get(level - 1).get("skills");
+				skillNameList.stream().map(skillName -> Skills.valueOf(skillName.toUpperCase()
 						.replaceAll(" ", "_")
 						.replace("-", "_")
 						.replace("(", "_")
 						.replace(")", ""))).collect(Collectors.toList());
+				return null;
 			}
 
 			@Override
@@ -82,9 +85,9 @@ public interface Career {
 			}
 
 			@Override
-			public List<Skills> allSkills(int level) {
+			public List<Skill> allSkills(int level) {
 
-				List<Skills> allSkills = new CopyOnWriteArrayList<Skills>();
+				List<Skill> allSkills = new CopyOnWriteArrayList<>();
 				for(int index = 1; index <= level; index++) {
 					allSkills.addAll(skillList(index));
 				}

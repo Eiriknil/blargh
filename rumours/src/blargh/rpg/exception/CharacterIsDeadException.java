@@ -1,4 +1,4 @@
-package blargh.rpg;
+package blargh.rpg.exception;
 
 public class CharacterIsDeadException extends RuntimeException {
 
