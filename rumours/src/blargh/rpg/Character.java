@@ -20,7 +20,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
 
-import blargh.rpg.Character.Skill;
 import blargh.rpg.exception.CharacterIsDeadException;
 
 public interface Character {
@@ -28,6 +27,17 @@ public interface Character {
 	public static class Skill implements Comparable<Skill>{
 		private Skills skillType;
 		private String spesialisation;
+		
+		public Skill(String skillName) {
+			String skillTypeString = skillName;
+			spesialisation = "";
+			if(skillName.contains("(")) {
+				String[] splitSkillName = skillName.split("\\(");
+				skillTypeString = splitSkillName[0];
+				spesialisation = splitSkillName[1].replace("(", "").replace(")", "");
+			}
+			skillType = Skills.valueOf(skillTypeString);
+		}
 		
 		public Skill(Skills skillType, String spesialisation) {
 			this.skillType = skillType;

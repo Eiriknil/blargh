@@ -71,12 +71,11 @@ public interface Career {
 			@Override
 			public List<Skill> skillList(int level) {
 				List<String> skillNameList = careerDef.getLevel().get(level - 1).get("skills");
-				skillNameList.stream().map(skillName -> Skills.valueOf(skillName.toUpperCase()
+				return skillNameList.stream().map(skillName -> skillName.toUpperCase()
 						.replaceAll(" ", "_")
-						.replace("-", "_")
-						.replace("(", "_")
-						.replace(")", ""))).collect(Collectors.toList());
-				return null;
+						.replace("-", "_"))
+				.map(skillName -> new Skill(skillName))
+				.collect(Collectors.toList());
 			}
 
 			@Override
