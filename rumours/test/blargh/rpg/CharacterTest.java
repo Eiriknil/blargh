@@ -35,6 +35,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import blargh.rpg.Character.Skill;
+import blargh.rpg.Character.Talent;
 import blargh.rpg.Character.TrainingResult;
 
 class CharacterTest {
@@ -74,7 +75,7 @@ class CharacterTest {
 		assertThat(character.characteristicBonus(FEL), is(3));
 		assertThat(character.maxWounds(), is(10));
 		
-		character.addTalent(SMALL);
+		character.addTalent(new Talent(SMALL));
 		assertThat(character.maxWounds(), is(8));
 	}
 	
@@ -247,7 +248,7 @@ class CharacterTest {
 	
 	@Test
 	public void presentCharacter() {
-		Character randomCharacter = Character.RandomCharacter.create("scout", HUMAN, 4, new Random());
+		Character randomCharacter = Character.RandomCharacter.create("villager", HUMAN, 4, new Random());
 		System.out.println(randomCharacter.career().name());
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4s ", stat.name()));
 		System.out.println();
@@ -261,7 +262,7 @@ class CharacterTest {
 		sortedSkills.forEach(skill -> System.out.printf("%-40s (%2d) = %2d%n", skill.presentation(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill)));
 		
 		System.out.println("Talents:");
-		randomCharacter.talents().forEach(talent -> System.out.printf("%s, ", Character.capitilizeAndClean(talent.name())));;
+		randomCharacter.talents().forEach(talent -> System.out.printf("%s, ", Character.capitilizeAndClean(talent.getTalentType().name())));;
 		System.out.println();
 	}
 }

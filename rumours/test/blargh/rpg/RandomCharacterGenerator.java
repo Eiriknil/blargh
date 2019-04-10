@@ -35,7 +35,7 @@ public class RandomCharacterGenerator {
 		sortedSkills.forEach(skill -> output.append(String.format("%-40s (%2d) = %2d%n", skill.presentation(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill))));
 		
 		output.append("Talents:%n");
-		randomCharacter.talents().forEach(talent -> output.append(String.format("%s, ", Character.capitilizeAndClean(talent.name()))));
+		randomCharacter.talents().forEach(talent -> output.append(String.format("%s, ", Character.capitilizeAndClean(talent.getTalentType().name()))));
 
 		return output.substring(0, output.length() - 2).toString() + "%n";
 	}

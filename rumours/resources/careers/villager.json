@@ -1,5 +1,5 @@
 {
-	"career":"Physician",
+	"career":"Villager",
 	"level": [{
 		"stats": ["S", "T", "AG"],
 		"skills": ["Endurance", "Animal Care", "Athletics", "Consume Alcohol", "Gossip", "Melee(Brawling)", "Lore(Local)", "Outdoor Survival"],
@@ -7,7 +7,7 @@
 	},
 	{
 		"stats": ["WS"],
-		"skills": ["Dodge", "Drive", "", "Entertain(Storytelling)", "Haggle", "Melee(Basic)", "Trade(Any)"],
+		"skills": ["Dodge", "Drive", "Entertain(Storytelling)", "Haggle", "Melee(Basic)", "Trade(Any)"],
 		"talents": ["Animal Affinity", "Hardy", "Tenacious", "Very Strong"]
 	},
 	{

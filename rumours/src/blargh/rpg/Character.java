@@ -100,6 +100,18 @@ public interface Character {
 
 		public Talent(Talents talentType) {
 			this.talentType = talentType;
+			specialisation = "";
+		}
+		
+		public Talent(String talentName) {
+			String talentTypeString = talentName;
+			specialisation = "";
+			if(talentName.contains("(")) {
+				String[] splitTalentName = talentName.split("\\(");
+				talentTypeString = splitTalentName[0];
+				specialisation = splitTalentName[1].replace("(", "").replace(")", "");
+			}
+			talentType = Talents.valueOf(talentTypeString);
 		}
 		
 		public Talent(Talents talentType, String specialisation) {
@@ -183,8 +195,8 @@ public interface Character {
 	public Map<Skill, Integer> allSkills();
 	public Map<Skill, Integer> allTrainedSkills();
 
-	public void addTalent(Talents talent);
-	public Set<Talents> talents();
+	public void addTalent(Talent talent);
+	public Set<Talent> talents();
 	
 	public Career career();
 	public void changeCareer(Career career);
@@ -225,7 +237,7 @@ public interface Character {
 		private static class CharacterImpl implements Character {
 			
 			private Map<Characteristics, Characteristic> charMap = new ConcurrentHashMap<>();
-			private Set<Talents> talentSet = new HashSet<>();
+			private Set<Talent> talentSet = new HashSet<>();
 			private Map<Skill, Integer> skillMap = new ConcurrentHashMap<>();
 			private int woundsTaken = 0;
 			private List<Crit> critList = new CopyOnWriteArrayList<>();
@@ -395,7 +407,7 @@ public interface Character {
 			}
 
 			@Override
-			public void addTalent(Talents talent) {
+			public void addTalent(Talent talent) {
 				talentSet.add(talent);
 			}
 
@@ -435,7 +447,7 @@ public interface Character {
 			}
 
 			@Override
-			public Set<Talents> talents() {
+			public Set<Talent> talents() {
 				return new HashSet<>(talentSet);
 			}
 		}

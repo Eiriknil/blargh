@@ -9,12 +9,13 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import blargh.rpg.Character.Skill;
+import blargh.rpg.Character.Talent;
 
 public interface Career {
 
 	public List<Skill> skillList(int level);
 	public List<Skill> allSkills(int level);
-	public List<Talents> talentList(int level);
+	public List<Talent> talentList(int level);
 	public List<Characteristics> statList(int level);
 	public List<Characteristics> allStats(int level);
 	public String name();
@@ -52,14 +53,12 @@ public interface Career {
 			}
 
 			@Override
-			public List<Talents> talentList(int level) {
+			public List<Talent> talentList(int level) {
 
 				List<String> talentList = careerDef.getLevel().get(level - 1).get("talents");
-				return talentList.stream().map(talentName -> Talents.valueOf(talentName.toUpperCase()
+				return talentList.stream().map(talentName -> new Talent(talentName.toUpperCase()
 						.replaceAll("[ /-]", "_")
-						.replace("(", "_")
-						.replace("!", "")
-						.replace(")", ""))).collect(Collectors.toList());
+						.replace("!", ""))).collect(Collectors.toList());
 			}
 
 			@Override
