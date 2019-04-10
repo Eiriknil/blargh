@@ -26,32 +26,32 @@ public interface Character {
 
 	public static class Skill implements Comparable<Skill>{
 		private Skills skillType;
-		private String spesialisation;
+		private String specialisation;
 		
 		public Skill(String skillName) {
 			String skillTypeString = skillName;
-			spesialisation = "";
+			specialisation = "";
 			if(skillName.contains("(")) {
 				String[] splitSkillName = skillName.split("\\(");
 				skillTypeString = splitSkillName[0];
-				spesialisation = splitSkillName[1].replace("(", "").replace(")", "");
+				specialisation = splitSkillName[1].replace("(", "").replace(")", "");
 			}
 			skillType = Skills.valueOf(skillTypeString);
 		}
 		
-		public Skill(Skills skillType, String spesialisation) {
+		public Skill(Skills skillType, String specialisation) {
 			this.skillType = skillType;
-			this.spesialisation = spesialisation;
+			this.specialisation = specialisation;
 		}
 		
 		public Skill(Skills skillType) {
 			this.skillType = skillType;
-			this.spesialisation = "";
+			this.specialisation = "";
 		}
 		
 		@Override
 		public int hashCode() {
-			return Objects.hash(skillType, spesialisation);
+			return Objects.hash(skillType, specialisation);
 		}
 		
 		@Override
@@ -66,7 +66,7 @@ public interface Character {
 				return false;
 			}
 			Skill other = (Skill) obj;
-			return skillType == other.skillType && Objects.equals(spesialisation, other.spesialisation);
+			return skillType == other.skillType && Objects.equals(specialisation, other.specialisation);
 		}
 
 		public Skills getSkillType() {
@@ -74,12 +74,71 @@ public interface Character {
 		}
 
 		public String getSpesialisation() {
-			return spesialisation;
+			return specialisation;
 		}
 
 		@Override
 		public int compareTo(Skill o) {
 			return skillType.compareTo(o.getSkillType());
+		}
+
+		public String presentation() {
+			
+			String presentation = capitilizeAndClean(skillType.name());
+			if(!Objects.isNull(specialisation)&&!specialisation.isEmpty()) {
+				presentation = String.format("%s(%s)", capitilizeAndClean(presentation), capitilizeAndClean(specialisation));
+			}
+			
+			return presentation;
+		}
+	}
+	
+	public static class Talent implements Comparable<Talent> {
+
+		private Talents talentType;
+		private String specialisation;
+
+		public Talent(Talents talentType) {
+			this.talentType = talentType;
+		}
+		
+		public Talent(Talents talentType, String specialisation) {
+			this.talentType = talentType;
+			this.specialisation = specialisation;
+		}
+		
+		@Override
+		public int compareTo(Talent o) {
+			
+			return talentType.compareTo(o.getTalentType());
+		}
+
+		public Talents getTalentType() {
+			return talentType;
+		}
+		
+		public String getSpecialisation() {
+			return specialisation;
+		}
+
+		@Override
+		public int hashCode() {
+			return Objects.hash(specialisation, talentType);
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj) {
+				return true;
+			}
+			if (obj == null) {
+				return false;
+			}
+			if (!(obj instanceof Talent)) {
+				return false;
+			}
+			Talent other = (Talent) obj;
+			return Objects.equals(specialisation, other.specialisation) && talentType == other.talentType;
 		}
 	}
 
@@ -130,6 +189,10 @@ public interface Character {
 	public Career career();
 	public void changeCareer(Career career);
 
+	public static String capitilizeAndClean(String input) {
+		return String.format("%S%s", input.substring(0, 1).toUpperCase(), input.substring(1).toLowerCase()).replace("_", " ");
+	}
+	
 	public static class Factory {
 
 		private static Random random = new Random();

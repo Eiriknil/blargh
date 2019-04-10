@@ -258,10 +258,10 @@ class CharacterTest {
 		Map<Skill, Integer> allSkills = randomCharacter.allTrainedSkills();
 		List<Skill> sortedSkills = new CopyOnWriteArrayList<>(allSkills.keySet());
 		Collections.sort(sortedSkills);
-		sortedSkills.forEach(skill -> System.out.printf("%-25s (%2d) = %2d%n", skill.getSkillType().name(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill)));
+		sortedSkills.forEach(skill -> System.out.printf("%-40s (%2d) = %2d%n", skill.presentation(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill)));
 		
 		System.out.println("Talents:");
-		randomCharacter.talents().forEach(talent -> System.out.printf("%s, ", talent));;
+		randomCharacter.talents().forEach(talent -> System.out.printf("%s, ", Character.capitilizeAndClean(talent.name())));;
 		System.out.println();
 	}
 }
