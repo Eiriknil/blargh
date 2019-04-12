@@ -1,0 +1,23 @@
+{
+	"career":"Stevedore",
+	"level": [{
+		"stats": ["WS", "T", "I"],
+		"skills": ["Endurance", "Athletics", "Climb", "Consume Alcohol", "Dodge", "Gossip", "Melee(Basic)", "Swim"],
+		"talents": ["Dirty Fighting", "Strong Back", "Sturdy", "Very Strong"]
+	},
+	{
+		"stats": ["S"],
+		"skills": ["Bribery", "Entertain(Storytelling)", "Gamble", "Intimidate", "Perception", "Stealth(Urban)"],
+		"talents": ["Criminal", "Etiquette(Guilders)", "Strong Legs", "Tenacious"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Cool", "Evaluate", "Intuition", "Leadership"],
+		"talents": ["Dealmaker", "Embezzle", "Etiquette(Criminals)", "Public Speaker"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Charm", "Lore(Taxes)"],
+		"talents": ["Kingpin", "Menacing", "Numismatics", "Read/Write"]
+	}]
+}
