@@ -1,0 +1,23 @@
+{
+	"career":"Entertainer",
+	"level": [{
+		"stats": ["AG", "DEX", "FEL"],
+		"skills": ["Athletics", "Charm", "Entertain(Any) ", "Gossip", "Haggle", "Perform(Any)", "Play(any)", "Sleight of Hand"],
+		"talents": ["Attractive", "Mimic", "Public-Speaker", "Suave"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Entertain(Any)", "Ride(Any)", "Melee(Basic)", "Perform(Any)", "Play(Any) Ranged(Throwing)"],
+		"talents": ["Contortionist", "Jump Up", "Sharpshooter", "Trick Riding"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Animal Care", "Animal Training(Any)", "Art(Writing)", "Language(Any)"],
+		"talents": ["Blather", "Master of Disguise", "Perfect Pitch", "Read/Write"]
+	},
+	{
+		"stats": ["T"],
+		"skills": ["Drive", "Leadership"],
+		"talents": ["Dealmaker", "Etiquette(Any)", "Seasoned Traveller", "Sharp"]
+	}]
+}

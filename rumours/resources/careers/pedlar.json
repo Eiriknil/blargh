@@ -1,0 +1,23 @@
+{
+	"career":"Pedlar",
+	"level": [{
+		"stats": ["T", "DEX", "WP"],
+		"skills": ["Haggle", "Charm", "Endurance", "Entertain(Storytelling)", "Gossip", "Intuition", "Outdoor Survival", "Stealth(Rural or Urban)"],
+		"talents": ["Fisherman", "Flee!", "Rover", "Tinker"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Animal Care", "Charm Animal", "Consume Alcohol", "Evaluate", "Ride(Horse)", "Trade(Tinker)"],
+		"talents": ["Dealmaker", "Orientation", "Seasoned Traveller", "Strong Back"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Drive", "Intimidate", "Language(any)", "Perception"],
+		"talents": ["Numismatics", "Sturdy", "Well-prepared", "Very Resilient"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Local)", "Lore(Geography)"],
+		"talents": ["Cat-tongued", "Strong-minded", "Suave", "Tenacious"]
+	}]
+}

@@ -152,6 +152,17 @@ public interface Character {
 			Talent other = (Talent) obj;
 			return Objects.equals(specialisation, other.specialisation) && talentType == other.talentType;
 		}
+
+		public String presentation() {
+			
+			StringBuilder presentation = new StringBuilder(capitilizeAndClean(talentType.name()));
+			
+			if(!specialisation.isEmpty()) {
+				presentation.append(String.format("(%s)", capitilizeAndClean(specialisation)));
+			}
+			
+			return presentation.toString();
+		}
 	}
 
 	public class TrainingResult {
@@ -275,7 +286,7 @@ public interface Character {
 			@Override
 			public int maxWounds() {
 
-				if(talentSet.contains(SMALL)) {
+				if(talentSet.contains(new Talent(SMALL))) {
 					return characteristicBonus(T)*2 + characteristicBonus(WP);
 				}
 				return characteristicBonus(T)*2 + characteristicBonus(WP) + characteristicBonus(S);
@@ -554,7 +565,7 @@ public interface Character {
 			List<Skill> allSkills = character.career().allSkills(rank);
 			int max = 7;
 			if(halfRank) {
-				max = 3;
+				max = randomizer.nextInt(7);
 			}
 			for(int count = 0; count < max; count++) {
 				int random = randomizer.nextInt(allSkills.size() - 1) + 1;

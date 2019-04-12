@@ -248,7 +248,7 @@ class CharacterTest {
 	
 	@Test
 	public void presentCharacter() {
-		Character randomCharacter = Character.RandomCharacter.create("villager", HUMAN, 4, new Random());
+		Character randomCharacter = Character.RandomCharacter.create("witchhunter", HUMAN, 4, new Random());
 		System.out.println(randomCharacter.career().name());
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4s ", stat.name()));
 		System.out.println();
