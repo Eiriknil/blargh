@@ -1,0 +1,23 @@
+{
+	"career":"Smuggler",
+	"level": [{
+		"stats": ["AG", "DEX", "WP"],
+		"skills": ["Stealth(Rural or Urban)", "Athletics", "Bribery", "Cool", "Consume Alcohol", "Row", "Sail", "Swim"],
+		"talents": ["Criminal", "Fisherman", "Strider(Marshes)", "Strong Back"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Haggle", "Gossip", "Lore(Local)", "Melee(Basic)", "Perception", "Secret Signs(Smuggler)"],
+		"talents": ["Dealmaker", "Etiquette(Criminals)", "Waterman", "Very Strong"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Evaluate", "Intimidate", "Intuition", "Lore(Riverways)"],
+		"talents": ["Briber", "Fearless(Riverwardens)", "Pilot", "Strong Swimmer"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Language(Any)", "Leadership"],
+		"talents": ["Kingpin", "Savvy", "Strider(Coastal)", "Sea Legs"]
+	}]
+}
