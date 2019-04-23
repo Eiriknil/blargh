@@ -1,0 +1,23 @@
+{
+	"career":"Charlatan",
+	"level": [{
+		"stats": ["I", "DEX", "FEL"],
+		"skills": ["Charm", "Bribery", "Consume Alcohol", "Entertain(Storytelling)", "Gamble", "Gossip", "Haggle", "Sleight of Hand"],
+		"talents": ["Cardsharp", "Diceman", "Etiquette(Any)", "Luck"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Cool", "Dodge", "Entertain(Acting)", "Evaluate", "Intuition", "Perception"],
+		"talents": ["Blather", "Criminal", "Fast Hands", "Secret Identity"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Language(Thief)", "Lore(Heraldry)", "Pick Lock", "Secret Signs(Thief)"],
+		"talents": ["Attractive", "Cat-tongued", "Dealmaker", "Read/Write"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Genealogy)", "Research"],
+		"talents": ["Gregarious", "Master of Disguise", "Nose for Trouble", "Suave"]
+	}]
+}

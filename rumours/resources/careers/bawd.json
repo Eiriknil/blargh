@@ -1,0 +1,23 @@
+{
+	"career":"Bawd",
+	"level": [{
+		"stats": ["AG", "DEX", "FEL"],
+		"skills": ["Charm", "Bribery", "Consume Alcohol", "Entertain(Any)", "Gamble", "Gossip", "Haggle", "Intimidate"],
+		"talents": ["Attractive", "Alley Cat", "Blather", "Gregarious"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Dodge", "Endurance", "Intuition", "Lore(Local)", "Melee(Basic)", "Perception"],
+		"talents": ["Ambidextrous", "Carouser", "Criminal", "Resistance(Disease)"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Cool", "Evaluate", "Language(any)", "Lore(Law)"],
+		"talents": ["Dealmaker", "Embezzle", "Etiquette(Any)", "Suave"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Leadership", "Lore(Heraldry)"],
+		"talents": ["Briber", "Kingpin", "Numismatics", "Savvy"]
+	}]
+}

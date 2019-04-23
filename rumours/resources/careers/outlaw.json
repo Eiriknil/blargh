@@ -1,0 +1,23 @@
+{
+	"career":"Outlaw",
+	"level": [{
+		"stats": ["WS", "S", "T"],
+		"skills": ["Intimidate", "Athletics", "Consume Alcohol", "Cool", "Endurance", "Gamble", "Melee(Basic)", "Outdoor Survival"],
+		"talents": ["Combat Aware", "Criminal", "Rover", "Flee!"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Dodge", "Heal", "Lore(Local)", "Perception", "Ranged(Bow)", "Stealth(Rural)"],
+		"talents": ["Dirty Fighting", "Marksman", "Strike to Stun", "Trapper"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Gossip", "Intuition", "Leadership", "Ride(Horse)"],
+		"talents": ["Rapid Reload", "Roughrider", "Menacing", "Very Resilient"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Lore(Empire)"],
+		"talents": ["Deadeye Shot", "Fearless(Road Wardens)", "Iron Will", "Robust"]
+	}]
+}

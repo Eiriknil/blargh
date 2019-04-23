@@ -1,0 +1,23 @@
+{
+	"career":"Racketeer",
+	"level": [{
+		"stats": ["WS", "S", "T"],
+		"skills": ["Intimidate", "Consume Alcohol", "Cool", "Dodge", "Endurance", "Lore(Local)", "Melee(Brawling)", "Stealth(Urban)"],
+		"talents": ["Criminal", "Etiquette(Criminals)", "Menacing", "Strike Mighty Blow"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Bribery", "Charm", "Evaluate", "Gossip", "Language(Estalian or Tilean)", "Melee(Basic)"],
+		"talents": ["Dirty Fighting", "Embezzle", "Strike to Stun", "Warrior Born"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Intuition", "Leadership", "Perception", "Ranged(Crossbow)"],
+		"talents": ["Fearless(Watchmen)", "Iron Will", "Resistance(Poison)", "Robust"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Law)", "Lore(Politics)"],
+		"talents": ["Commanding Presence", "Kingpin", "Frightening", "Wealthy"]
+	}]
+}

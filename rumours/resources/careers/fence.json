@@ -1,0 +1,23 @@
+{
+	"career":"Fence",
+	"level": [{
+		"stats": ["I", "AG", "FEL"],
+		"skills": ["Evaluate", "Charm", "Consume Alcohol", "Dodge", "Gamble", "Gossip", "Haggle", "Melee(Basic)"],
+		"talents": ["Alley Cat", "Cardsharp", "Dealmaker", "Gregarious"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Cool", "Intimidate", "Intuition", "Perception", "Secret Signs(Thief)", "Trade(Engraver)"],
+		"talents": ["Criminal", "Etiquette(Criminals)", "Numismatics", "Savvy"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Bribery", "Entertain(Storytelling)", "Lore(Art)", "Lore(Local)"],
+		"talents": ["Kingpin", "Strike to Stun", "Suave", "Super Numerate"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Lore(Heraldry)", "Research"],
+		"talents": ["Dirty Fighting", "Iron Will", "Menacing", "Briber"]
+	}]
+}

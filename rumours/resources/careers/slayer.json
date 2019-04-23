@@ -1,0 +1,23 @@
+{
+	"career":"Slayer",
+	"level": [{
+		"stats": ["WS", "S", "WP"],
+		"skills": ["Melee(Basic)", "Consume Alcohol", "Cool", "Dodge", "Endurance", "Gamble", "Heal", "Lore(Trolls)"],
+		"talents": ["Dual Wielder", "Fearless(Everything)", "Frenzy", "Slayer"]
+	},
+	{
+		"stats": ["T"],
+		"skills": ["Evaluate", "Intimidate", "Language(Battle)", "Lore(Giants)", "Melee(Two-handed)", "Outdoor Survival"],
+		"talents": ["Hardy", "Implacable", "Menacing", "Reversal"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Entertain(Storytelling)", "Lore(Dragons)", "Perception", "Ranged(Thrown)"],
+		"talents": ["Ambidextrous", "Furious Assault", "Relentless", "Robust"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Intuition", "Lore(Chaos)"],
+		"talents": ["Combat Master", "Frightening", "Strike Mighty Blow", "Very Strong"]
+	}]
+}

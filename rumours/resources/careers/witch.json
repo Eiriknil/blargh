@@ -1,0 +1,23 @@
+{
+	"career":"Witch",
+	"level": [{
+		"stats": ["WS", "T", "WP"],
+		"skills": ["Channelling", "Cool", "Endurance", "Gossip", "Intimidate", "Language(Magick)", "Sleight of Hand", "Stealth(Rural)"],
+		"talents": ["Criminal", "Instinctive Diction", "Menacing", "Petty Magic"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Charm Animal", "Dodge", "Intuition", "Melee(Polearm)", "Perception", "Trade(Herbalist)"],
+		"talents": ["Arcane Magic(Witchery)", "Attractive", "Second Sight", "Witch!"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Bribery", "Charm", "Haggle", "Lore(Dark Magic)"],
+		"talents": ["Animal Affinity", "Fast Hands", "Frightening", "Magical Sense"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Daemonology)", "Lore(Magic)"],
+		"talents": ["Aethyric Attunement", "Luck", "Strong-minded", "Very Resilient"]
+	}]
+}

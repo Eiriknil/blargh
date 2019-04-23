@@ -1,0 +1,23 @@
+{
+	"career":"Guard",
+	"level": [{
+		"stats": ["WS", "T", "AG"],
+		"skills": ["Perception", "Consume Alcohol", "Endurance", "Entertain(Storytelling)", "Gamble", "Gossip", "Intuition", "Melee(Basic)"],
+		"talents": ["Diceman", "Etiquette(Servants)", "Strike to Stun", "Tenacious"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Athletics", "Cool", "Dodge", "Intimidate", "Melee(Polearm)", "Ranged(Bow)"],
+		"talents": ["Relentless", "Reversal", "Shieldsman", "Strike Mighty Blow"]
+	},
+	{
+		"stats": ["S"],
+		"skills": ["Heal", "Language(Battle)", "Lore(Etiquette)", "Melee(Two-handed)"],
+		"talents": ["Fearless(Intruders)", "Jump Up", "Stout-hearted", "Unshakeable"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Leadership", "Lore(Warfare)"],
+		"talents": ["Combat Master", "Furious Assault", "Iron Will", "Robust"]
+	}]
+}

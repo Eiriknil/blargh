@@ -1,0 +1,23 @@
+{
+	"career":"Cavalryman",
+	"level": [{
+		"stats": ["WS", "S", "AG"],
+		"skills": ["Ride(Horse)", "Animal Care", "Charm Animal", "Endurance", "Language(Battle)", "Melee(Basic)", "Outdoor Survival", "Perception"],
+		"talents": ["Combat Aware", "Crack the Whip", "Lightning Reflexes", "Roughrider"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Charm", "Consume Alcohol", "Cool", "Gossip", "Melee(Cavalry)", "Ranged(Blackpowder)"],
+		"talents": ["Etiquette(Soldiers)", "Gunner", "Seasoned Traveller", "Trick Riding"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Intimidate", "Intuition", "Leadership", "Lore(Warfare)"],
+		"talents": ["Combat Reflexes", "Fast Shot", "Hatred(Any)", "Warleader"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Gamble", "Lore(Heraldry)"],
+		"talents": ["Accurate Shot", "Inspiring", "Reaction Strike", "Robust"]
+	}]
+}

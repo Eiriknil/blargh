@@ -248,7 +248,7 @@ class CharacterTest {
 	
 	@Test
 	public void presentCharacter() {
-		Character randomCharacter = Character.RandomCharacter.create("wrecker", HUMAN, 4, new Random());
+		Character randomCharacter = Character.RandomCharacter.create("warriorpriest", HUMAN, 4, new Random());
 		System.out.println(randomCharacter.career().name());
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4s ", stat.name()));
 		System.out.println();
@@ -259,10 +259,11 @@ class CharacterTest {
 		Map<Skill, Integer> allSkills = randomCharacter.allTrainedSkills();
 		List<Skill> sortedSkills = new CopyOnWriteArrayList<>(allSkills.keySet());
 		Collections.sort(sortedSkills);
-		sortedSkills.forEach(skill -> System.out.printf("%-40s (%2d) = %2d%n", skill.presentation(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill)));
+		sortedSkills.forEach(skill -> System.out.printf("%-40s (%2d) = %2d (%s)%n", skill.presentation(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill), skill.getSkillType().characteristics().name()));
 		
 		System.out.println("Talents:");
-		randomCharacter.talents().forEach(talent -> System.out.printf("%s, ", Character.capitilizeAndClean(talent.getTalentType().name())));;
-		System.out.println();
+		StringBuilder talentString = new StringBuilder("");
+		randomCharacter.talents().forEach(talent -> talentString.append(talentString.length() > 0 ? ", " : "").append(Character.capitilizeAndClean(talent.presentation())));
+		System.out.println(talentString.toString());
 	}
 }
