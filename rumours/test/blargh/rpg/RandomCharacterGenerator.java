@@ -32,7 +32,7 @@ public class RandomCharacterGenerator {
 		Map<Skill, Integer> allSkills = randomCharacter.allTrainedSkills();
 		List<Skill> sortedSkills = new CopyOnWriteArrayList<>(allSkills.keySet());
 		Collections.sort(sortedSkills);
-		sortedSkills.forEach(skill -> output.append(String.format("%-40s (%2d) = %2d%n", skill.presentation(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill))));
+		sortedSkills.forEach(skill -> output.append(String.format("%-40s (%2d) = %2d (%s)%n", skill.presentation(), randomCharacter.skillAdvances(skill), randomCharacter.skillValue(skill), skill.getSkillType().characteristics().name())));
 		
 		output.append("Talents:%n");
 		randomCharacter.talents().forEach(talent -> output.append(String.format("%s, ", Character.capitilizeAndClean(talent.presentation()))));
@@ -43,18 +43,9 @@ public class RandomCharacterGenerator {
 	public static void main(String... args) {
 		Random randomizer = new Random();
 		try {
-			try(BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("/temp/warhammer/chargen"))){
-				bufferedWriter.write(String.format(create("scout", 1, Races.HUMAN, randomizer)));
-				bufferedWriter.write("\n");
-				bufferedWriter.write(String.format(create("scout", 1, Races.HUMAN, randomizer)));
-				bufferedWriter.write("\n");
-				bufferedWriter.write(String.format(create("scout", 2, Races.HUMAN, randomizer)));
-				bufferedWriter.write("\n");
-				bufferedWriter.write(String.format(create("scout", 2, Races.HUMAN, randomizer)));
-				bufferedWriter.write("\n");
-				bufferedWriter.write(String.format(create("scout", 3, Races.HUMAN, randomizer)));
-			}
+			Files.list(Paths.get("resources/careers")).forEach(path -> System.out.printf(create(path.getFileName().toString().replace(".json", ""), 4, Races.HUMAN, randomizer)));
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

@@ -1,0 +1,40 @@
+Apothecary’s Apprentice — Brass 3
+Trappings: Book (Blank), Healing Draught, Leather Jerkin, Pestle and Mortar
+Apothecary — Silver 1
+Trappings: Guild Licence, Trade Tools
+Master Apothecary — Silver 3
+Trappings: Book (Apothecary), Apprentice, Workshop
+Apothecary-General — Gold 1
+Trappings: Commission Papers, Large Workshop
+Student Engineer — Brass 4
+Trappings: Book (Engineer), Hammer and Spikes
+Engineer — Silver 2
+Trappings: Guild Licence, Trade Tools
+Master Engineer — Silver 4
+Trappings: Workshop
+Chartered Engineer — Gold 2
+Trappings: Guild License, Library (Engineer), Quality
+Student Lawyer — Brass 4
+Trappings: Book (Law), Magnifying Glass
+Lawyer — Silver 3
+Trappings: Court Robes, Guild Licence, Writing Kit
+Barrister — Gold 1
+Trappings: Office, Assistant (Student or Servant)
+Judge— Gold 2
+Trappings: Gavel, Ostentatious Wig
+Novitiate — Brass 1
+Trappings: Religious Symbol, Robes
+Nun — Brass 4
+Trappings: Book (Religion), Religious Relic, Trade Tools (Any)
+Abbess — Silver 2
+Trappings: Abbey, Library (Theology)
+Prioress General — Silver 5
+Trappings: Religious Order
+Physician’s Apprentice — Brass 4
+Trappings: Bandages, Healing Draught
+Physician — Silver 3
+Trappings: Book (Medicine), Guild Licence, Trade Tools (Medicine)
+Doktor — Silver 5
+Trappings: Apprentice, Workshop (Medicine)
+Court Physician — Gold 1
+Trappings: Courtly Attire, Letter of Appointment
