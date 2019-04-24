@@ -1,0 +1,23 @@
+{
+	"career":"Townsman",
+	"level": [{
+		"stats": ["AG", "INT", "FEL"],
+		"skills": ["Haggle", "Charm", "Climb", "Consume Alcohol", "Drive", "Dodge", "Gamble", "Gossip"],
+		"talents": ["Alley Cat", "Beneath Notice", "Etiquette(Servants)", "Sturdy"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Bribery", "Evaluate", "Intuition", "Lore(Local)", "Melee(Brawling)", "Play(Any)"],
+		"talents": ["Dealmaker", "Embezzle", "Etiquette(Any)", "Gregarious"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Cool", "Lore(Law)", "Perception", "Research"],
+		"talents": ["Briber", "Public Speaker", "Read/Write", "Supportive"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Lore(Politics)", "Intimidate"],
+		"talents": ["Commanding Presence", "Master Orator", "Schemer", "Suave"]
+	}]
+}

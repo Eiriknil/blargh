@@ -1,0 +1,23 @@
+{
+	"career":"Physician",
+	"level": [{
+		"stats": ["WP", "DEX", "INT"],
+		"skills": ["Bribery", "Cool", "Drive", "Endurance", "Gossip", "Heal", "Perception", "Sleight of Hand"],
+		"talents": ["Bookish", "Field Dressing", "Read/Write", "Strike to Stun"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Haggle", "Language(Guilder)", "Lore(Anatomy)", "Lore(Medicine)", "Trade(Barber)"],
+		"talents": ["Coolheaded", "Criminal", "Etiquette(Guilder)", "Surgery"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Consume Alcohol", "Intimidate", "Leadership", "Research"],
+		"talents": ["Etiquette(Scholars)", "Resistance(Disease)", "Savvy", "Strike to Injure"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Lore(Noble)", "Perform(Dancing)"],
+		"talents": ["Etiquette(Nobles)", "Nimble Fingered", "Savant(Medicine)", "Strong-minded"]
+	}]
+}

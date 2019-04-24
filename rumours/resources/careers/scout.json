@@ -1,0 +1,23 @@
+{
+	"career":"Scout",
+	"level": [{
+		"stats": ["T", "I", "AG"],
+		"skills": ["Perception", "Charm Animal", "Climb", "Endurance", "Gossip", "Lore(Local)", "Melee(Basic)", "Outdoor Survival"],
+		"talents": ["Orientation", "Rover", "Sharp", "Strider(any)"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Athletics", "Navigation", "Ranged(Bow)", "Ride(Horse)", "Stealth(Rural)", "Track"],
+		"talents": ["Combat Aware", "Night Vision", "Nose for Trouble", "Seasoned Traveller"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Animal Care", "Haggle", "Secret Signs(Hunter)", "Swim"],
+		"talents": ["Acute Sense(Sight)", "Sixth Sense", "Strong Legs", "Very Resilient"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Language(any)", "Trade(Cartographer)"],
+		"talents": ["Hardy", "Linguistics", "Savant(Local)", "Tenacious"]
+	}]
+}

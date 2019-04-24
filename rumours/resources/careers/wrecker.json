@@ -1,0 +1,23 @@
+{
+	"career":"Wrecker",
+	"level": [{
+		"stats": ["WS", "S", "I"],
+		"skills": ["Melee(Basic)", "Climb", "Consume Alcohol", "Dodge", "Endurance", "Row", "Outdoor Survival", "Swim"],
+		"talents": ["Break and Enter", "Criminal", "Fisherman", "Strong Back"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Bribery", "Cool", "Intuition", "Navigation", "Perception", "Set Trap"],
+		"talents": ["Flee!", "Rover", "Strong Swimmer", "Trapper"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Gossip", "Intimidate", "Ranged(Crossbow)", "Stealth(Rural)"],
+		"talents": ["Dirty Fighting", "Etiquette(Criminals)", "Menacing", "Waterman"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Leadership", "Lore(Riverways)"],
+		"talents": ["Furious Assault", "In-fighter", "Pilot", "Warrior Born"]
+	}]
+}

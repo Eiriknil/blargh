@@ -1,0 +1,23 @@
+{
+	"career":"Beggar",
+	"level": [{
+		"stats": ["T", "AG", "FEL"],
+		"skills": ["Charm", "Athletics", "Consume Alcohol", "Cool", "Dodge", "Endurance", "Intuition", "Stealth(Urban)"],
+		"talents": ["Panhandle", "Resistance(Disease)", "Stone Soup", "Very Resilient"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Entertain(Acting)", "Entertain(Any)", "Gossip", "Haggle", "Perception", "Sleight of Hand"],
+		"talents": ["Alley Cat", "Beneath Notice", "Criminal", "Etiquette(Criminals)"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Charm Animal", "Leadership", "Lore(Local)", "Secret Signs(Vagabond)"],
+		"talents": ["Blather", "Dirty Fighting", "Hardy", "Step Aside"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Bribery", "Intimidate"],
+		"talents": ["Cat-tongued", "Fearless(Watchmen)", "Kingpin", "Suave"]
+	}]
+}

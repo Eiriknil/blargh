@@ -1,0 +1,23 @@
+{
+	"career":"Witch hunter",
+	"level": [{
+		"stats": ["WS", "T", "WP"],
+		"skills": ["Intimidate", "Charm", "Consume Alcohol", "Heal", "Intuition", "Lore(Torture)", "Melee(Brawling)", "Perception"],
+		"talents": ["Coolheaded", "Menacing", "Read/Write", "Resolute"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Cool", "Gossip", "Melee(Basic)", "Lore(Witches)", "Ranged(Any)", "Ride(Horse)"],
+		"talents": ["Dual Wielder", "Marksman", "Seasoned Traveller", "Shadow"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Endurance", "Leadership", "Lore(Law)", "Lore(Local)"],
+		"talents": ["Fearless(Witches)", "Nose for Trouble", "Relentless", "Strong-minded"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Chaos)", "Lore(Politics)"],
+		"talents": ["Frightening", "Iron Will", "Magical Sense", "Pure Soul"]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	"career":"Scholar",
+	"level": [{
+		"stats": ["T", "INT", "WP"],
+		"skills": ["Consume Alcohol", "Entertain(Storytelling)", "Gamble", "Gossip", "Haggle", "Language(Classical)", "Lore(Any)", "Research"],
+		"talents": ["Carouser", "Read/Write", "Savvy", "Super Numerate"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Art(Writing)", "Intuition", "Language(Any)", "Lore(Any)", "Perception", "Trade(Any)"],
+		"talents": ["Bookish", "Etiquette(Scholar)", "Speedreader", "Suave"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Entertain(Lecture)", "Intimidate", "Language(Any)", "Lore(Any)"],
+		"talents": ["Linguistics", "Public Speaker", "Savant(Any)", "Tower of Memories"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Entertain(Rhetoric)", "Lore(Any)"],
+		"talents": ["Magnum Opus", "Master Orator", "Savant(Any)", "Sharp"]
+	}]
+}

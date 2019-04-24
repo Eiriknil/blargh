@@ -1,0 +1,23 @@
+{
+	"career":"Flagellant",
+	"level": [{
+		"stats": ["WS", "S", "T"],
+		"skills": ["Melee(Flail)", "Dodge", "Endurance", "Heal", "Intimidate", "Intuition", "Lore(Sigmar)", "Outdoor Survival"],
+		"talents": ["Berserk Charge", "Frenzy", "Read/Write", "Stone Soup"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Art(Icons)", "Athletics", "Cool", "Language(Classical)", "Lore(The Empire)", "Ranged(Sling)"],
+		"talents": ["Hardy", "Hatred(Heretics)", "Flagellant", "Implacable"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Charm", "Language(any)", "Lore(Theology)", "Perception"],
+		"talents": ["Field Dressing", "Furious Assault", "Menacing", "Seasoned Traveller"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Entertain(Speeches)", "Leadership"],
+		"talents": ["Battle Rage", "Fearless(Heretics)", "Frightening", "Impassioned Zeal"]
+	}]
+}

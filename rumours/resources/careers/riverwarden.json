@@ -1,0 +1,23 @@
+{
+	"career":"Riverwarden",
+	"level": [{
+		"stats": ["BS", "S", "FEL"],
+		"skills": ["Melee(Basic)", "Athletics", "Dodge", "Endurance", "Perception", "Row", "Sail", "Swim"],
+		"talents": ["Strong Swimmer", "Strong Back", "Very Strong", "Waterman"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Bribery", "Charm", "Intimidate", "Gossip", "Lore(Riverways)", "Ranged(Blackpowder)"],
+		"talents": ["Criminal", "Gunner", "Fisherman", "Seasoned Traveller"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Climb", "Cool", "Intuition", "Leadership"],
+		"talents": ["Fearless(Wreckers)", "Hatred(Any)", "Pilot", "Sea Legs"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Law)", "Navigation"],
+		"talents": ["Commanding Presence", "Kingpin", "Menacing", "Orientation"]
+	}]
+}

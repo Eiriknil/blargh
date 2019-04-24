@@ -1,0 +1,23 @@
+{
+	"career":"Messenger",
+	"level": [{
+		"stats": ["T", "I", "AG"],
+		"skills": ["Endurance", "Athletics", "Climb", "Dodge", "Gossip", "Navigation", "Perception", "Melee(Brawling)"],
+		"talents": ["Flee!", "Fleet Footed", "Sprinter", "Step Aside"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Animal Care", "Charm", "Cool", "Lore(Local)", "Melee(Basic)", "Ride(Horse)"],
+		"talents": ["Crack the Whip", "Criminal", "Orientation", "Seasoned Traveller"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Charm Animal", "Bribery", "Consume Alcohol", "Outdoor Survival"],
+		"talents": ["Nose for Trouble", "Relentless", "Tenacious", "Trick-Riding"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Intimidate", "Leadership"],
+		"talents": ["Dealmaker", "Hatred(Outlaws)", "Kingpin", "Very Resilient"]
+	}]
+}

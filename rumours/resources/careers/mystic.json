@@ -1,0 +1,23 @@
+{
+	"career":"Mystic",
+	"level": [{
+		"stats": ["I", "DEX", "FEL"],
+		"skills": ["Intuition", "Charm", "Entertain(Fortune Telling)", "Dodge", "Gossip", "Haggle", "Perception", "Sleight of Hand"],
+		"talents": ["Attractive", "Luck", "Second Sight", "Suave"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Bribery", "Cool", "Entertain(Prophecy)", "Evaluate", "Intimidate", "Lore(Astrology)"],
+		"talents": ["Detect Artefact", "Holy Visions", "Sixth Sense", "Well-prepared"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Art(Writing)", "Charm Animal", "Entertain(Storytelling)", "Language(Any)"],
+		"talents": ["Nose for Trouble", "Petty Magic", "Read/Write", "Witch"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Prophecy)", "Channelling(Azyr)"],
+		"talents": ["Arcane Magic(Celestial)", "Magical Sense", "Menacing", "Strong-minded"]
+	}]
+}

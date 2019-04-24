@@ -1,0 +1,23 @@
+{
+	"career":"Bounty hunter",
+	"level": [{
+		"stats": ["WS", "T", "AG"],
+		"skills": ["Bribery", "Charm", "Gossip", "Haggle", "Intuition", "Melee(Basic)", "Outdoor Survival", "Perception"],
+		"talents": ["Break and Enter", "Shadow", "Strike to Stun", "Suave"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Athletics", "Endurance", "Intimidate", "Ranged(Crossbow)", "Ranged(Entangling)", "Track"],
+		"talents": ["Marksman", "Relentless", "Seasoned Traveller", "Strong Back"]
+	},
+	{
+		"stats": ["S"],
+		"skills": ["Animal Care", "Climb", "Ride(Horse)", "Swim"],
+		"talents": ["Accurate Shot", "Careful Strike", "Dual Wielder", "Sprinter"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Drive", "Lore(Law)"],
+		"talents": ["Deadeye Shot", "Fearless(Bounties)", "Hardy", "Sure Shot"]
+	}]
+}

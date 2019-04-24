@@ -1,0 +1,23 @@
+{
+	"career":"Envoy",
+	"level": [{
+		"stats": ["T", "AG", "FEL"],
+		"skills": ["Charm", "Athletics", "Drive", "Dodge", "Endurance", "Intuition", "Ride(Horse)", "Row"],
+		"talents": ["Blather", "Etiquette(Nobles)", "Read/Write", "Suave"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Art(Writing)", "Bribery", "Cool", "Gossip", "Haggle", "Lore(Politics)"],
+		"talents": ["Attractive", "Cat-tongued", "Etiquette(any)", "Seasoned Traveller"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Intimidate", "Language(Any)", "Leadership", "Navigation"],
+		"talents": ["Carouser", "Dealmaker", "Gregarious", "Schemer"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Language(Any)", "Lore(Any)"],
+		"talents": ["Briber", "Commanding Presence", "Noble Blood", "Savvy"]
+	}]
+}

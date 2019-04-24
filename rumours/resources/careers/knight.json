@@ -1,0 +1,23 @@
+{
+	"career":"Knight",
+	"level": [{
+		"stats": ["I", "S", "AG"],
+		"skills": ["Melee(Cavalry)", "Athletics", "Animal Care", "Charm Animal", "Heal", "Lore(Heraldry)", "Ride(Horse)", "Trade(Farrier)"],
+		"talents": ["Etiquette(any)", "Roughrider", "Sturdy", "Warrior Born"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Cool", "Dodge", "Endurance", "Intimidate", "Language(Battle)", "Melee(Any)"],
+		"talents": ["Menacing", "Seasoned Traveller", "Shieldsman", "Strike Mighty Blow"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Charm", "Consume Alcohol", "Leadership", "Lore(Warfare)"],
+		"talents": ["Fearless(Any)", "Stout-hearted", "Unshakeable", "Warleader"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Lore(Any)", "Secret Signs(Knightly Order)"],
+		"talents": ["Disarm", "Inspiring", "Iron Will", "Strike to Injure"]
+	}]
+}

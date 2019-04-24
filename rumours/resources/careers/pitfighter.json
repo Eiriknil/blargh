@@ -1,0 +1,23 @@
+{
+	"career":"Pit Fighter",
+	"level": [{
+		"stats": ["WS", "S", "T"],
+		"skills": ["Melee(Any)", "Athletics", "Cool", "Dodge", "Endurance", "Gamble", "Intimidate", "Melee(Brawling)"],
+		"talents": ["Dirty Fighting", "In-fighter", "Iron Jaw", "Reversal"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Haggle", "Intuition", "Melee(Basic)", "Melee(Flail or Two-handed)", "Perception", "Ranged(Entangling)"],
+		"talents": ["Ambidextrous", "Combat Reflexes", "Dual Wielder", "Shieldsman"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Consume Alcohol", "Gossip", "Lore(Anatomy)", "Perform(Fight)"],
+		"talents": ["Combat Master", "Disarm", "Menacing", "Robust"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Ranged(Any)"],
+		"talents": ["Frightening", "Furious Assault", "Implacable", "Reaction Strike"]
+	}]
+}

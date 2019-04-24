@@ -1,0 +1,23 @@
+{
+	"career":"Grave Robber",
+	"level": [{
+		"stats": ["S", "I", "WP"],
+		"skills": ["Stealth(Any)", "Climb", "Cool", "Dodge", "Endurance", "Gossip", "Intuition", "Perception"],
+		"talents": ["Alley Cat", "Criminal", "Flee!", "Strong Back"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Bribery", "Drive", "Evaluate", "Haggle", "Lore(Medicine)", "Melee(Basic)"],
+		"talents": ["Break and Enter", "Night Vision", "Resistance(Disease)", "Very Strong"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Lore(History)", "Pick Lock", "Research", "Set Trap"],
+		"talents": ["Read/Write", "Strike Mighty Blow", "Tenacious", "Tunnel Rat"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Navigation", "Trade(Engineer)"],
+		"talents": ["Fearless(Undead)", "Sixth Sense", "Strong minded", "Trapper"]
+	}]
+}

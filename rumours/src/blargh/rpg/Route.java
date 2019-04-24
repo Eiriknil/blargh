@@ -5,10 +5,20 @@ import java.util.Arrays;
 public interface Route {
 
 	public enum TravelType {
-		WALKING,
-		COACH,
-		HORSE,
-		BOAT
+		WALKING(4),
+		COACH(8),
+		HORSE(8),
+		BOAT(6);
+
+		private int speed;
+
+		private TravelType(int speed) {
+			this.speed = speed;
+		}
+		
+		public int speed() {
+			return speed;
+		}
 	}
 
 	public Place origin();
@@ -57,7 +67,7 @@ public interface Route {
 
 			@Override
 			public int duration(TravelType travelType) {
-				return 0;
+				return distance/travelType.speed();
 			}
 
 			@Override

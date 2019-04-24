@@ -1,0 +1,23 @@
+{
+	"career":"Advisor",
+	"level": [{
+		"stats": ["T", "AG", "I"],
+		"skills": ["Lore(Politics)", "Bribery", "Consume Alcohol", "Endurance", "Gossip", "Haggle", "Language(Classical)", "Perception"],
+		"talents": ["Beneath Notice", "Etiquette(Any)", "Gregarious", "Read/Write"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Cool", "Evaluate", "Gamble", "Intuition", "Lore(Local)"],
+		"talents": ["Blather", "Criminal", "Schemer", "Supportive"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Entertain(Storytelling)", "Leadership", "Language(Any)", "Lore(Any)"],
+		"talents": ["Argumentative", "Briber", "Carouser", "Cat-tongued"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Lore(Heraldry)", "Ride(Horse)"],
+		"talents": ["Commanding Presence", "Embezzle", "Kingpin", "Suave"]
+	}]
+}

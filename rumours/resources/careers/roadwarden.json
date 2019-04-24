@@ -1,0 +1,24 @@
+{
+	"career":"Road Warden",
+	"level": [{
+		"stats": ["BS", "T", "I"],
+		"skills": ["Perception", "Bribery", "Consume Alcohol", "Gamble", "Gossip", "Haggle", "Melee(Basic)", "Ranged(Crossbow)"],
+		"talents": ["Coolheaded", "Embezzle", "Marksman", "Numismatics"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Animal Care", "Endurance", "Intimidate", "Intuition", "Outdoor Survival", "Ride(Horse)"],
+		"talents": ["Crack the Whip", "Criminal", "Roughrider", "Seasoned Traveller"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Athletics", "Charm", "Leadership", "Ranged(Blackpowder)"],
+		"talents": ["Etiquette(Soldiers)", "Fearless(Outlaws)", "Hatred(any)", "Nose for Trouble"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Lore(Empire)", "Navigation"],
+		"talents": ["Combat Aware", "Commanding Presence", "Kingpin", "Public Speaker"]
+	}]
+}
+

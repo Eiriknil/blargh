@@ -1,0 +1,23 @@
+{
+	"career":"Warrior Priest",
+	"level": [{
+		"stats": ["WS", "T", "WP"],
+		"skills": ["Leadership", "Cool", "Dodge", "Endurance", "Heal", "Lore(Theology)", "Melee(Any)", "Pray"],
+		"talents": ["Bless(Any)", "Etiquette(Cultists)", "Read/Write", "Strong-minded"]
+	},
+	{
+		"stats": ["S"],
+		"skills": ["Charm", "Entertain(Speeches)", "Intimidate", "Language(battle)", "Melee(Any)", "Ranged(Any)"],
+		"talents": ["Dual Wielder", "Inspiring", "Invoke(Any)", "Seasoned Traveller"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Animal Care", "Intuition", "Perception", "Ride(Horse)"],
+		"talents": ["Combat Aware", "Holy Visions", "Pure Soul", "Stout hearted"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Consume Alcohol", "Lore(Warfare)"],
+		"talents": ["Fearless(Any)", "Furious Assault", "Holy Hatred", "Warleader"]
+	}]
+}

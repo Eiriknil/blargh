@@ -1,0 +1,23 @@
+{
+	"career":"Agitator",
+	"level": [{
+		"stats": ["BS", "INT", "FEL"],
+		"skills": ["Art(Writing)", "Bribery", "Charm", "Consume Alcohol", "Gossip", "Haggle", "Lore(Politics)", "Trade(Printing)"],
+		"talents": ["Blather", "Gregarious", "Panhandle", "Read/Write"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Cool", "Dodge", "Entertain(Storytelling)", "Gamble", "Intuition", "Leadership"],
+		"talents": ["Alley Cat", "Argumentative", "Impassioned Zeal", "Public Speaker"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Athletics", "Intimidate", "Melee(Brawling)", "Perception"],
+		"talents": ["Cat-tongued", "Dirty Fighting", "Flee!", "Step Aside"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Lore(Heraldry)", "Ride(Horse)"],
+		"talents": ["Etiquette(Any)", "Master Orator", "Schemer", "Suave"]
+	}]
+}

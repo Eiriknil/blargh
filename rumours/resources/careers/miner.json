@@ -1,0 +1,23 @@
+{
+	"career":"Miner",
+	"level": [{
+		"stats": ["S", "T", "WP"],
+		"skills": ["Melee(Two-handed)", "Cool", "Endurance", "Intuition", "Lore(Local)", "Outdoor Survival", "Perception", "Swim"],
+		"talents": ["Rover", "Strider(Rocky)", "Sturdy", "Tenacious"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Climb", "Consume Alcohol", "Evaluate", "Melee(Basic)", "Secret Signs(Miner)", "Trade(Explosives)"],
+		"talents": ["Night Vision", "Strike Mighty Blow", "Strong Back", "Very Strong"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Gossip", "Lore(Geology)", "Stealth(Underground)", "Trade(Engineer)"],
+		"talents": ["Careful Strike", "Craftsman(Explosives)", "Tinker", "Tunnel Rat"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Leadership"],
+		"talents": ["Argumentative", "Strong-minded", "Embezzle", "Read/Write"]
+	}]
+}

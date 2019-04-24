@@ -1,0 +1,23 @@
+{
+	"career":"Thief",
+	"level": [{
+		"stats": ["I", "AG", "WP"],
+		"skills": ["Stealth(Urban)", "Athletics", "Climb", "Cool", "Dodge", "Endurance", "Intuition", "Perception"],
+		"talents": ["Alley Cat", "Criminal", "Flee!", "Strike to Stun"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Evaluate", "Gossip", "Lore(Local)", "Pick Lock", "Secret Signs(Thief)", "Sleight of Hand"],
+		"talents": ["Break and Enter", "Etiquette(Criminals)", "Fast Hands", "Shadow"]
+	},
+	{
+		"stats": ["S"],
+		"skills": ["Bribery", "Gamble", "Intimidate", "Ranged(Crossbow)"],
+		"talents": ["Night Vision", "Nimble Fingered", "Step Aside", "Trapper"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Set Trap"],
+		"talents": ["Catfall", "Scale Sheer Surface", "Strong Legs", "Wealthy"]
+	}]
+}

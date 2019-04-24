@@ -1,0 +1,23 @@
+{
+	"career":"Soldier",
+	"level": [{
+		"stats": ["WS", "T", "WP"],
+		"skills": ["Melee(Basic)", "Athletics", "Climb", "Cool", "Dodge", "Endurance", "Language(Battle)", "Play(Drum or Fife)"],
+		"talents": ["Diceman", "Marksman", "Strong Back", "Warrior Born"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Consume Alcohol", "Gamble", "Gossip", "Melee(Any)", "Ranged(Any)", "Outdoor Survival"],
+		"talents": ["Drilled", "Etiquette(Soldiers)", "Rapid Reload", "Shieldsman"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Heal", "Intuition", "Leadership", "Perception"],
+		"talents": ["Combat Aware", "Enclosed Fighter", "Unshakeable", "Warleader"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Lore(Warfare)", "Navigation"],
+		"talents": ["Inspiring", "Public Speaker", "Seasoned Traveller", "Stout-hearted"]
+	}]
+}

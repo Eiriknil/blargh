@@ -1,0 +1,23 @@
+{
+	"career":"Boatman",
+	"level": [{
+		"stats": ["S", "T", "AG"],
+		"skills": ["Sail", "Consume Alcohol", "Dodge", "Endurance", "Gossip", "Melee(Brawling)", "Row", "Swim"],
+		"talents": ["Dirty Fighting", "Fisherman", "Strong Back", "Strong Swimmer"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Athletics", "Entertain(Storytelling)", "Haggle", "Intuition", "Lore(Riverways)", "Perception"],
+		"talents": ["Etiquette(Guilder)", "Seasoned Traveller", "Very Strong", "Waterman"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Climb", "Entertain(Singing)", "Heal", "Trade(Boatbuilding)"],
+		"talents": ["Dealmaker", "Embezzle", "Nose for Trouble", "Strike Mighty Blow"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Leadership", "Navigation"],
+		"talents": ["Menacing", "Orientation", "Pilot", "Public Speaker"]
+	}]
+}

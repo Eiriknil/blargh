@@ -1,0 +1,1455 @@
+[
+	{
+		"career":"Testcareer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade", "", "", "", "", "", "", ""],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Apothecary",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Apothecary",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Engineer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Lawyer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Nun",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Physician",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Priest",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Scholar",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Wizard",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Agitator",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Artisan",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Beggar",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Investigator",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Merchant",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Rat Catcher",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Townsman",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Watchman",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Advisor",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Artist",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Duellist",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Envoy",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Noble",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Servant",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Spy",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Warden",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Bailiff",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Hedge Witch",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Herbalist",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Hunter",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Miner",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Mystic",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Scout",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Villager",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Bounty Hunter",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Coachman",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Entertainer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Flagellant",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Messenger",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Pedlar",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Roadwarden",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Witch Hunter",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Boatman",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Huffer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Riverwoman",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Riverwarden",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Seaman",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Smuggler",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Stevedore",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Wrecker",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Bawd",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Charlatan",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Fence",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Grave Robber",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Outlaw",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Thief",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Racketeer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Witch",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Cavalryman",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Guard",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Knight",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Pit Fighter",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Protagonist",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Soldier",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Troll Slayer",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}, {
+		"career":"Warrior Priest",
+		"level": [{
+			"stats": ["T", "DEX", "INT"],
+			"skills": ["Trade"],
+			"talents": ["Very Resilient"]
+		},
+		{
+			"stats": ["WP"],
+			"skills": ["Lore"],
+			"talents": [""]
+		},
+		{
+			"stats": ["S"],
+			"skills": ["Research"],
+			"talents": [""]
+		},
+		{
+			"stats": ["FEL"],
+			"skills": ["Endurance"],
+			"talents": [""]
+		}]
+	}
+]

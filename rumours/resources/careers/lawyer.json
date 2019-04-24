@@ -1,0 +1,23 @@
+{
+	"career":"Lawyer",
+	"level": [{
+		"stats": ["I", "DEX", "INT"],
+		"skills": ["Lore(Law)", "Consume Alcohol", "Endurance", "Haggle", "Language(Classical)", "Lore(Theology)", "Perception", "Research"],
+		"talents": ["Blather", "Etiquette(Scholar)", "Read/Write", "Speedreader"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Bribery", "Charm", "Gossip", "Intuition", "Language(Guilder)", "Secret Signs(Guilder)"],
+		"talents": ["Argumentative", "Criminal", "Etiquette(Guilder)", "Suave"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Art(Writing)", "Entertain(Speeches)", "Intimidate", "Lore(Any)"],
+		"talents": ["Bookish", "Cat-tongued", "Impassioned Zeal", "Savvy"]
+	},
+	{
+		"stats": ["T"],
+		"skills": ["Cool", "Lore(Any)"],
+		"talents": ["Commanding Presence", "Kingpin", "Savant(Law)", "Wealthy"]
+	}]
+}

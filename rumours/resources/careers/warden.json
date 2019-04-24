@@ -1,0 +1,23 @@
+{
+	"career":"Warden",
+	"level": [{
+		"stats": ["S", "T", "WP"],
+		"skills": ["Perception", "Athletics", "Charm Animal", "Consume Alcohol", "Cool", "Endurance", "Intuition", "Lore(Local)"],
+		"talents": ["Menacing", "Night Vision", "Sharp", "Strike to Stun"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Animal Care", "Melee(Basic)", "Outdoor Survival", "Ranged(Bow)", "Ride(Horse)", "Swim"],
+		"talents": ["Animal Affinity", "Etiquette(Servants)", "Strider(any)", "Rover"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Bribery", "Charm", "Gossip", "Leadership"],
+		"talents": ["Embezzle", "Numismatics", "Read/Write", "Supportive"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Evaluate", "Language(Any)"],
+		"talents": ["Commanding Presence", "Etiquette(any)", "Savant(local)", "Suave"]
+	}]
+}

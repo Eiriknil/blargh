@@ -1,0 +1,23 @@
+{
+	"career":"Seaman",
+	"level": [{
+		"stats": ["AG", "DEX", "FEL"],
+		"skills": ["Sail", "Climb", "Consume Alcohol", "Gamble", "Gossip", "Row", "Melee(Brawling)", "Swim"],
+		"talents": ["Fisherman", "Strider(Coastal)", "Strong Back", "Strong Swimmer"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Athletics", "Dodge", "Endurance", "Entertain(Singing)", "Language(any)", "Melee(Basic)"],
+		"talents": ["Catfall", "Sea Legs", "Seasoned Traveller", "Strong Legs"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Cool", "Leadership", "Perception", "Trade(Carpenter)"],
+		"talents": ["Old Salt", "Strike Mighty Blow", "Tenacious", "Very Strong"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Charm", "Navigation"],
+		"talents": ["Orientation", "Pilot", "Public Speaker", "Savvy"]
+	}]
+}

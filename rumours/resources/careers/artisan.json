@@ -1,0 +1,23 @@
+{
+	"career":"Artisan",
+	"level": [{
+		"stats": ["T", "S", "DEX"],
+		"skills": ["Athletics", "Cool", "Consume Alcohol", "Dodge", "Endurance", "Evaluate", "Stealth(Urban)", "Trade(Any)"],
+		"talents": ["Artistic", "Craftsman(any)", "Strong Back", "Very Strong"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Charm", "Haggle", "Lore(Local)", "Gossip", "Language(Guilder)", "Perception"],
+		"talents": ["Dealmaker", "Etiquette(Guilder)", "Nimble Fingered", "Sturdy"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Intuition", "Leadership", "Research", "Secret Signs(Guilder)"],
+		"talents": ["Acute Sense(Taste)", "Acute Sense(Touch)", "Master Tradesman(Any)", "Read/Write", "Tinker"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Bribery", "Intimidate"],
+		"talents": ["Briber", "Magnum Opus", "Public Speaker", "Schemer"]
+	}]
+}

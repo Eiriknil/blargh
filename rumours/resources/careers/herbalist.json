@@ -1,0 +1,23 @@
+{
+	"career":"Herbalist",
+	"level": [{
+		"stats": ["T", "I", "AG"],
+		"skills": ["Trade(Herbalist)", "Charm Animal", "Climb", "Endurance", "Lore(Herbs)", "Outdoor Survival", "Perception", "Swim"],
+		"talents": ["Acute Sense(Taste)", "Orientation", "Rover", "Strider(any)"]
+	},
+	{
+		"stats": ["DEX"],
+		"skills": ["Consume Alcohol", "Cool", "Gossip", "Haggle", "Heal", "Lore(Local)"],
+		"talents": ["Dealmaker", "Nimble Fingered", "Sharp", "Sturdy"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Intuition", "Leadership", "Lore(Medicine)", "Trade(Poisoner)"],
+		"talents": ["Craftsman(Herbalist)", "Field Dressing", "Hardy", "Savvy"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Drive", "Navigation"],
+		"talents": ["Concoct", "Master Tradesman(Herbalist)", "Resistance(Poison)", "Savant(Herbs)"]
+	}]
+}

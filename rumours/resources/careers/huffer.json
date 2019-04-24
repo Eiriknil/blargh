@@ -1,0 +1,23 @@
+{
+	"career":"Huffer",
+	"level": [{
+		"stats": ["WS", "T", "I"],
+		"skills": ["Lore(Riverways)", "Consume Alcohol", "Gossip", "Intuition", "Lore(Local)", "Perception", "Row", "Swim"],
+		"talents": ["Fisherman", "Night Vision", "Orientation", "Waterman"]
+	},
+	{
+		"stats": ["WP"],
+		"skills": ["Charm", "Cool", "Entertain(Storytelling)", "Language(Any)", "Melee(Basic)", "Navigation"],
+		"talents": ["Dealmaker", "Etiquette(Guilder)", "Nose for Trouble", "River Guide"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Haggle", "Intimidate", "Lore(Local)", "Lore(Wrecks)"],
+		"talents": ["Acute Sense(Sight)", "Pilot", "Sea Legs", "Very Strong"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Leadership", "Sail"],
+		"talents": ["Sixth Sense", "Sharp", "Strong Swimmer", "Tenacious"]
+	}]
+}

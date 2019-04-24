@@ -1,0 +1,23 @@
+{
+	"career":"Wizard",
+	"level": [{
+		"stats": ["WS", "INT", "WP"],
+		"skills": ["Language(Magick)", "Channelling(Any Colour)", "Dodge", "Intuition", "Lore(Magic)", "Melee(Basic)", "Melee(Polearm)", "Perception"],
+		"talents": ["Aethyric Attunement", "Petty Magic", "Read/Write", "Second Sight"]
+	},
+	{
+		"stats": ["AG"],
+		"skills": ["Charm", "Cool", "Gossip", "Intimidate", "Language(Battle)", "Language(Any)"],
+		"talents": ["Arcane Magic(Any)", "Detect Artefact", "Fast Hands", "Sixth Sense"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Animal Care", "Evaluate", "Lore(Warfare)", "Ride(Horse)"],
+		"talents": ["Dual Wielder", "Instinctive Diction", "Magical Sense", "Menacing"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Language(Any)", "Lore(Any)"],
+		"talents": ["Combat Aware", "Frightening", "Iron Will", "War Wizard"]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	"career":"Villager",
+	"level": [{
+		"stats": ["S", "T", "AG"],
+		"skills": ["Endurance", "Animal Care", "Athletics", "Consume Alcohol", "Gossip", "Melee(Brawling)", "Lore(Local)", "Outdoor Survival"],
+		"talents": ["Rover", "Strong Back", "Strong-minded", "Stone Soup"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Dodge", "Drive", "Entertain(Storytelling)", "Haggle", "Melee(Basic)", "Trade(Any)"],
+		"talents": ["Animal Affinity", "Hardy", "Tenacious", "Very Strong"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Bribery", "Charm", "Intimidate", "Leadership"],
+		"talents": ["Craftsman(Any)", "Dealmaker", "Stout-hearted", "Very Resilient"]
+	},
+	{
+		"stats": ["INT"],
+		"skills": ["Intuition", "Lore(History)"],
+		"talents": ["Master Tradesman(Any)", "Nimble Fingered", "Public Speaker", "Savant(Local)"]
+	}]
+}

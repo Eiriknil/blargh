@@ -1,0 +1,23 @@
+{
+	"career":"Riverwoman",
+	"level": [{
+		"stats": ["T", "AG", "DEX"],
+		"skills": ["Endurance", "Athletics", "Consume Alcohol", "Dodge", "Gossip", "Outdoor Survival", "Row", "Swim"],
+		"talents": ["Fisherman", "Gregarious", "Strider(Marshes)", "Strong Swimmer"]
+	},
+	{
+		"stats": ["WS"],
+		"skills": ["Gamble", "Lore(Local)", "Lore(Riverways)", "Ranged(Entangling)", "Ranged(Throwing)", "Set Trap"],
+		"talents": ["Craftsman(Boatbuilder)", "Rover", "Strong Back", "Waterman"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Charm", "Intuition", "Melee(Polearm)", "Perception"],
+		"talents": ["Savant(Riverways)", "Stout-hearted", "Tenacious", "Very Strong"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Entertain(Storytelling)", "Lore(Folklore)"],
+		"talents": ["Master Craftsman(Boatbuilder)", "Public Speaker", "Sharp", "Strong-minded"]
+	}]
+}

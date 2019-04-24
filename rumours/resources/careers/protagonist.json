@@ -1,0 +1,23 @@
+{
+	"career":"Protagonist",
+	"level": [{
+		"stats": ["WS", "T", "AG"],
+		"skills": ["Athletics", "Dodge", "Endurance", "Entertain(Taunt)", "Gossip", "Haggle", "Intimidate", "Melee(Any)"],
+		"talents": ["In-fighter", "Dirty Fighting", "Menacing", "Warrior Born"]
+	},
+	{
+		"stats": ["I"],
+		"skills": ["Bribery", "Charm", "Intuition", "Melee(Basic)", "Perception", "Ride(Horse)"],
+		"talents": ["Combat Reflexes", "Criminal", "Reversal", "Strike to Stun"]
+	},
+	{
+		"stats": ["BS"],
+		"skills": ["Climb", "Cool", "Navigation", "Ranged(Thrown)"],
+		"talents": ["Careful Strike", "Disarm", "Marksman", "Relentless"]
+	},
+	{
+		"stats": ["FEL"],
+		"skills": ["Entertain(Acting)", "Ranged(Crossbow)"],
+		"talents": ["Accurate Shot", "Ambidextrous", "Furious Assault", "Strike to Injure"]
+	}]
+}
