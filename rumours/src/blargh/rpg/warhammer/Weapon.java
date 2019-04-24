@@ -1,11 +1,11 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
 import java.util.Set;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import blargh.rpg.Weapon.WeaponDTO;
+import blargh.rpg.warhammer.Weapon.WeaponDTO;
 
 public interface Weapon {
 

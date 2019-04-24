@@ -1,4 +1,4 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
 public enum WeaponFlaws {
 	UNDAMAGING,

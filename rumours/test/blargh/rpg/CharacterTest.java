@@ -1,26 +1,26 @@
 package blargh.rpg;
 
-import static blargh.rpg.Characteristics.AG;
-import static blargh.rpg.Characteristics.BS;
-import static blargh.rpg.Characteristics.DEX;
-import static blargh.rpg.Characteristics.FEL;
-import static blargh.rpg.Characteristics.I;
-import static blargh.rpg.Characteristics.INT;
-import static blargh.rpg.Characteristics.M;
-import static blargh.rpg.Characteristics.NONE;
-import static blargh.rpg.Characteristics.S;
-import static blargh.rpg.Characteristics.T;
-import static blargh.rpg.Characteristics.WP;
-import static blargh.rpg.Characteristics.WS;
-import static blargh.rpg.HitLocation.BODY;
-import static blargh.rpg.HitLocation.LEFT_ARM;
-import static blargh.rpg.HitLocation.RIGHT_ARM;
-import static blargh.rpg.HitLocation.RIGHT_LEG;
-import static blargh.rpg.Races.HUMAN;
-import static blargh.rpg.Skills.CHARM;
-import static blargh.rpg.Skills.CLIMB;
-import static blargh.rpg.Skills.MELEE;
-import static blargh.rpg.Talents.SMALL;
+import static blargh.rpg.warhammer.Characteristics.AG;
+import static blargh.rpg.warhammer.Characteristics.BS;
+import static blargh.rpg.warhammer.Characteristics.DEX;
+import static blargh.rpg.warhammer.Characteristics.FEL;
+import static blargh.rpg.warhammer.Characteristics.I;
+import static blargh.rpg.warhammer.Characteristics.INT;
+import static blargh.rpg.warhammer.Characteristics.M;
+import static blargh.rpg.warhammer.Characteristics.NONE;
+import static blargh.rpg.warhammer.Characteristics.S;
+import static blargh.rpg.warhammer.Characteristics.T;
+import static blargh.rpg.warhammer.Characteristics.WP;
+import static blargh.rpg.warhammer.Characteristics.WS;
+import static blargh.rpg.warhammer.HitLocation.BODY;
+import static blargh.rpg.warhammer.HitLocation.LEFT_ARM;
+import static blargh.rpg.warhammer.HitLocation.RIGHT_ARM;
+import static blargh.rpg.warhammer.HitLocation.RIGHT_LEG;
+import static blargh.rpg.warhammer.Races.HUMAN;
+import static blargh.rpg.warhammer.Skills.CHARM;
+import static blargh.rpg.warhammer.Skills.CLIMB;
+import static blargh.rpg.warhammer.Skills.MELEE;
+import static blargh.rpg.warhammer.Talents.SMALL;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -34,9 +34,15 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import blargh.rpg.Character.Skill;
-import blargh.rpg.Character.Talent;
-import blargh.rpg.Character.TrainingResult;
+import blargh.rpg.warhammer.Character;
+import blargh.rpg.warhammer.Characteristics;
+import blargh.rpg.warhammer.Crit;
+import blargh.rpg.warhammer.HitLocation;
+import blargh.rpg.warhammer.Modifier;
+import blargh.rpg.warhammer.Skills;
+import blargh.rpg.warhammer.Character.Skill;
+import blargh.rpg.warhammer.Character.Talent;
+import blargh.rpg.warhammer.Character.TrainingResult;
 
 class CharacterTest {
 

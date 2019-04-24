@@ -1,10 +1,12 @@
 package blargh.rpg;
 
-import static blargh.rpg.Characteristics.T;
+import static blargh.rpg.warhammer.Characteristics.T;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 import org.junit.jupiter.api.Test;
+
+import blargh.rpg.warhammer.Career;
 
 class CareerTest {
 

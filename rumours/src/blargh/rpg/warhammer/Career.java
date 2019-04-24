@@ -1,4 +1,4 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,8 +8,8 @@ import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import blargh.rpg.Character.Skill;
-import blargh.rpg.Character.Talent;
+import blargh.rpg.warhammer.Character.Skill;
+import blargh.rpg.warhammer.Character.Talent;
 
 public interface Career {
 

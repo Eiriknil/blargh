@@ -1,4 +1,4 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
 import java.util.List;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
-import blargh.rpg.HitLocation;
+import blargh.rpg.warhammer.HitLocation;
 
 public interface Crit {
 

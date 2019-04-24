@@ -1,14 +1,14 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
-import static blargh.rpg.Characteristics.DEX;
-import static blargh.rpg.Characteristics.FEL;
-import static blargh.rpg.Characteristics.I;
-import static blargh.rpg.Characteristics.INT;
-import static blargh.rpg.Characteristics.NONE;
-import static blargh.rpg.Characteristics.S;
-import static blargh.rpg.Characteristics.T;
-import static blargh.rpg.Characteristics.WP;
-import static blargh.rpg.Characteristics.WS;
+import static blargh.rpg.warhammer.Characteristics.DEX;
+import static blargh.rpg.warhammer.Characteristics.FEL;
+import static blargh.rpg.warhammer.Characteristics.I;
+import static blargh.rpg.warhammer.Characteristics.INT;
+import static blargh.rpg.warhammer.Characteristics.NONE;
+import static blargh.rpg.warhammer.Characteristics.S;
+import static blargh.rpg.warhammer.Characteristics.T;
+import static blargh.rpg.warhammer.Characteristics.WP;
+import static blargh.rpg.warhammer.Characteristics.WS;
 
 public enum Talents {
 	ACCURATE_SHOT, ACUTE_SENSE, AETHYRIC_ATTUNEMENT, ALLEY_CAT, AMBIDEXTROUS, ANIMAL_AFFINITY, 

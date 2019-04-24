@@ -1,6 +1,7 @@
 package blargh.rpg;
 
-import static blargh.rpg.Characteristics.NONE;
+import static blargh.rpg.warhammer.Characteristics.NONE;
+import static blargh.rpg.warhammer.Races.HUMAN;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -13,7 +14,10 @@ import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import blargh.rpg.Character.Skill;
+import blargh.rpg.warhammer.Character;
+import blargh.rpg.warhammer.Characteristics;
+import blargh.rpg.warhammer.Races;
+import blargh.rpg.warhammer.Character.Skill;
 
 public class RandomCharacterGenerator {
 
@@ -42,10 +46,10 @@ public class RandomCharacterGenerator {
 	
 	public static void main(String... args) {
 		Random randomizer = new Random();
-		try {
-			Files.list(Paths.get("resources/careers")).forEach(path -> System.out.printf(create(path.getFileName().toString().replace(".json", ""), 4, Races.HUMAN, randomizer)));
+		try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("/temp/soldier.txt")))
+		{
+			bufferedWriter.write(String.format(create("soldier", 3, HUMAN, randomizer)));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

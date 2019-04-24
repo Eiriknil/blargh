@@ -1,12 +1,12 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
-import static blargh.rpg.Characteristics.M;
-import static blargh.rpg.Characteristics.S;
-import static blargh.rpg.Characteristics.T;
-import static blargh.rpg.Characteristics.WP;
-import static blargh.rpg.Modifier.CHALLENGING;
-import static blargh.rpg.Races.HUMAN;
-import static blargh.rpg.Talents.SMALL;
+import static blargh.rpg.warhammer.Characteristics.M;
+import static blargh.rpg.warhammer.Characteristics.S;
+import static blargh.rpg.warhammer.Characteristics.T;
+import static blargh.rpg.warhammer.Characteristics.WP;
+import static blargh.rpg.warhammer.Modifier.CHALLENGING;
+import static blargh.rpg.warhammer.Races.HUMAN;
+import static blargh.rpg.warhammer.Talents.SMALL;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -524,7 +524,7 @@ public interface Character {
 		}
 		
 		
-		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.Character.Factory.Characteristic> stats, Random randomizer) {
+		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.warhammer.Character.Factory.Characteristic> stats, Random randomizer) {
 
 			Character.Factory.setRandomizer(randomizer);
 			Character character = Factory.create(stats);
