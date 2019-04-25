@@ -1,4 +1,4 @@
-package blargh.rpg;
+package blargh.rpg.warhammer;
 
 import static blargh.rpg.warhammer.Characteristics.NONE;
 import static blargh.rpg.warhammer.Races.HUMAN;
@@ -14,9 +14,6 @@ import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import blargh.rpg.warhammer.Character;
-import blargh.rpg.warhammer.Characteristics;
-import blargh.rpg.warhammer.Races;
 import blargh.rpg.warhammer.Character.Skill;
 
 public class RandomCharacterGenerator {
