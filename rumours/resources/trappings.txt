@@ -1,2230 +1,512 @@
-Apothecary’s Apprentice — Brass 3
+Apothecary's Apprentice - Brass 3
 Trappings: Book (Blank), Healing Draught, Leather Jerkin, Pestle and Mortar
-Apothecary — Silver 1
+Apothecary - Silver 1
 Trappings: Guild Licence, Trade Tools
-Master Apothecary — Silver 3
+Master Apothecary - Silver 3
 Trappings: Book (Apothecary), Apprentice, Workshop
-Apothecary-General — Gold 1
+Apothecary-General - Gold 1
 Trappings: Commission Papers, Large Workshop
-Student Engineer — Brass 4
+Student Engineer - Brass 4
 Trappings: Book (Engineer), Hammer and Spikes
-Engineer — Silver 2
+Engineer - Silver 2
 Trappings: Guild Licence, Trade Tools
-Master Engineer — Silver 4
+Master Engineer - Silver 4
 Trappings: Workshop
-Chartered Engineer — Gold 2
+Chartered Engineer - Gold 2
 Trappings: Guild License, Library (Engineer), Quality
-Student Lawyer — Brass 4
+Student Lawyer - Brass 4
 Trappings: Book (Law), Magnifying Glass
-Lawyer — Silver 3
+Lawyer - Silver 3
 Trappings: Court Robes, Guild Licence, Writing Kit
-Barrister — Gold 1
+Barrister - Gold 1
 Trappings: Office, Assistant (Student or Servant)
-Judge— Gold 2
+Judge - Gold 2
 Trappings: Gavel, Ostentatious Wig
-Novitiate — Brass 1
+Novitiate - Brass 1
 Trappings: Religious Symbol, Robes
-Nun — Brass 4
+Nun - Brass 4
 Trappings: Book (Religion), Religious Relic, Trade Tools (Any)
-Abbess — Silver 2
+Abbess - Silver 2
 Trappings: Abbey, Library (Theology)
-Prioress General — Silver 5
+Prioress General - Silver 5
 Trappings: Religious Order
-Physician’s Apprentice — Brass 4
+Physician's Apprentice - Brass 4
 Trappings: Bandages, Healing Draught
-Physician — Silver 3
+Physician - Silver 3
 Trappings: Book (Medicine), Guild Licence, Trade Tools (Medicine)
-Doktor — Silver 5
+Doktor - Silver 5
 Trappings: Apprentice, Workshop (Medicine)
-Court Physician — Gold 1
+Court Physician - Gold 1
 Trappings: Courtly Attire, Letter of Appointment
-Initiate — Brass 2
+Initiate - Brass 2
 Trappings: Religious Symbol, Robes
-Priest — Silver 1
+Priest - Silver 1
 Trappings: Book (Religion), Ceremonial Robes
-High Priest — Gold 1
+High Priest - Gold 1
 Trappings: Quality Robes, Religious Relic, Subordinate Priests, Temple
-Lector — Gold 2
+Lector - Gold 2
 Trappings: Library (Theology), Subordinate High Priests
-Student — Brass 3
+Student - Brass 3
 Trappings: Alcohol, Book, Opinions, Writing Kit
-Scholar — Silver 2
+Scholar - Silver 2
 Trappings: Access to a Library, Degree
-Fellow — Silver 5
+Fellow - Silver 5
 Trappings: Mortarboard, Robes
-Professor — Gold 1
+Professor - Gold 1
 Trappings: Study
-Wizard’s Apprentice — Brass 3
+Wizard's Apprentice - Brass 3
 Trappings: Grimoire, Quarterstaff
-Wizard — Silver 3
+Wizard - Silver 3
 Trappings: Magical License
-Master Wizard — Gold 1
+Master Wizard - Gold 1
 Trappings: Apprentice, Light Warhorse, Magical Item
-Wizard Lord — Gold 2
+Wizard Lord - Gold 2
 Trappings: Apprentice, Library (Magic), Workshop (Magic)
-Pamphleteer — Brass 1
+Pamphleteer - Brass 1
 Trappings: Writing Kit, Hammer and Nails, Pile of Leaflets
-Agitator — Brass 2
+Agitator - Brass 2
 Trappings: Leather Jack
-Rabble Rouser — Brass 3
+Rabble Rouser - Brass 3
 Trappings: Hand Weapon, Pamphleteer
-Demagogue — Brass 5
+Demagogue - Brass 5
 Trappings: 3 Pamphleteers, Patron, Printing Press, Impressive Hat
-Apprentice Artisan — Brass 2
+Apprentice Artisan - Brass 2
 Trappings: Chalk, Leather Jerkin, d10 rags
-Artisan — Silver 1
+Artisan - Silver 1
 Trappings: Guild Licence, Trade Tools
-Master Artisan — Silver 3
+Master Artisan - Silver 3
 Trappings: Apprentice, Workshop
-Guildmaster — Gold 1
+Guildmaster - Gold 1
 Trappings: Guild, Quality Clothing
-Pauper — Brass 0
+Pauper - Brass 0
 Trappings: Poor Quality Blanket, Cup
-Beggar — Brass 2
+Beggar - Brass 2
 Trappings: Crutch, Bowl
-Master Beggar — Brass 4
+Master Beggar - Brass 4
 Trappings: Disguise Kit, Hiding Place, Pauper Follower
-Beggar King — Silver 2
+Beggar King - Silver 2
 Trappings: Lair, Large Group of Beggar Followers
-Sleuth — Silver 1
+Sleuth - Silver 1
 Trappings: Lantern, Lamp Oil, Journal, Quill and Ink
-Investigator — Silver 2
+Investigator - Silver 2
 Trappings: Leather Jack, Hand Weapon, Magnifying Glass, Lockpick
-Master Investigator — Silver 3
+Master Investigator - Silver 3
 Trappings: Assistant, Office
-Detective — Silver 5
+Detective - Silver 5
 Trappings: Network of Informants, Spyglass
-Trader — Silver 2
+Trader - Silver 2
 Trappings: Abacus, Mule and Cart, Canvas Tarpaulin, 3d10 Silver Shillings
-Merchant — Silver 5
+Merchant - Silver 5
 Trappings: Riverboat or 2 Wagons, Guild License, 20 GC
-Master Merchant — Gold 1
+Master Merchant - Gold 1
 Trappings: Town House with Servants, Warehouse, 100 GC
-Merchant Prince — Gold 3
+Merchant Prince - Gold 3
 Trappings: 2 Riverboats or 4 Wagons, Large Town Estate, 2 Warehouses, 1000 GC, Quality Clothing
-Rat Hunter — Brass 3
+Rat Hunter - Brass 3
 Trappings: Sling with Ammunition, Sack, Small but Vicious Dog
-Rat Catcher — Silver 1
+Rat Catcher - Silver 1
 Trappings: Animal Traps, Pole for Dead Rats
-Sewer Jack — Silver 2
+Sewer Jack - Silver 2
 Trappings: Davrich Lantern, Hand Weapon, Leather Jack
-Exterminator — Silver 3
+Exterminator - Silver 3
 Trappings: Assistant, Large and Vicious Dog, Sack
-Clerk — Silver 1
+Clerk - Silver 1
 Trappings: Lodgings, Sturdy Boots
-Townsman — Silver 2
+Townsman - Silver 2
 Trappings: Modest Townhouse, Servant, Quill and Ink
-Town Councillor — Silver 5
+Town Councillor - Silver 5
 Trappings: Coach and Driver, Townhouse
-Burgomeister — Gold 1
+Burgomeister - Gold 1
 Trappings: Chains of Office, Coach and Footman, Quality Clothing, Large Townhouse with Gardens and Servants
-Watch Recruit — Brass 3
+Watch Recruit - Brass 3
 Trappings: Hand Weapon, Leather Jack, Uniform
-Watchman — Silver 1
+Watchman - Silver 1
 Trappings: Lantern and Pole, Lamp Oil, Copper Badge
-Watch Sergeant — Silver 3
+Watch Sergeant - Silver 3
 Trappings: Breastplate, Helm, Symbol of Rank
-Watch Captain — Gold 1
+Watch Captain - Gold 1
 Trappings: Riding Horse with Saddle and Tack, Quality Hat, Quality Hand weapon, Quality Symbol of Rank
-Aide — Silver 2
+Aide - Silver 2
 Trappings: Writing Kit
-Advisor — Silver 4
+Advisor - Silver 4
 Trappings: Livery
-Counsellor — Gold 1
+Counsellor - Gold 1
 Trappings: Quality Clothing, Aide
-Chancellor — Gold 3
+Chancellor - Gold 3
 Trappings: Riding Horse with Saddle and Harness, Quality Courtly Garb, Staff of Advisors and Aides
-Apprentice Artist — Silver 1
+Apprentice Artist - Silver 1
 Trappings: Brush or Chisel or Quill Pen
-Artist — Silver 3
+Artist - Silver 3
 Trappings: Sling Bag containing Trade Tools (Artist)
-Master Artist — Silver 5
+Master Artist - Silver 5
 Trappings: Apprentice, Patron, Workshop (Artist)
-Maestro — Gold 2
+Maestro - Gold 2
 Trappings: Large Workshop (Artist), Library (Art), 3 Apprentices
-Fencer — Silver 3
+Fencer - Silver 3
 Trappings: Hand Weapon or Rapier, Sling Bag containing Clothing and 1d10 Bandages
-Duellist — Silver 5
+Duellist - Silver 5
 Trappings: Main Gauche or Sword-breaker, Pistol with Gunpowder and Ammunition
-Duelmaster — Gold 1
+Duelmaster - Gold 1
 Trappings: Quality Rapier, Hand Weapon, Trusty Second, 2 Wooden Training Swords
-Judicial Champion — Gold 3
+Judicial Champion - Gold 3
 Trappings: 2 Quality Weapons
-Herald — Silver 2
+Herald - Silver 2
 Trappings: Leather Jack, Livery, Scroll Case
-Envoy — Silver 4
+Envoy - Silver 4
 Trappings: Quill and Ink, 10 sheets of parchment
-Diplomat — Gold 2
+Diplomat - Gold 2
 Trappings: Aide, Quality Clothes, Map
-Ambassador — Gold 5
+Ambassador - Gold 5
 Trappings: Aide, Best Quality Courtly Clothes, Staff of Diplomats, Herald
-Scion — Gold 1
+Scion - Gold 1
 Trappings: Courtly Garb, Foil or Hand Mirror, Jewellery worth 3d10 gc , Personal Servant
-Noble — Gold 3
+Noble - Gold 3
 Trappings: 4 Household Servants, Quality Courtly Garb, Courtly Garb, Riding Horse with Saddle and Harness or Coach, Main Gauche or Quality Cloak, Jewellery worth 50 gc
-Magnate — Gold 5
+Magnate - Gold 5
 Trappings: 2 sets of Quality Courtly Garb, 200 gc , Fiefdom, Jewellery worth 200 gc , Signet Ring
-Noble Lord — Gold 7
+Noble Lord - Gold 7
 Trappings: 4 sets of Best Quality Courtly Garb, Quality Foil or Hand Mirror, 500 gc , Jewellery worth 500 gc , Province
-Menial — Silver 1
+Menial - Silver 1
 Trappings: Floor Brush
-Servant — Silver 3
-Attendant — Silver 5
-Steward — Gold 1
+Servant - Silver 3
+Trappings: Livery
+Attendant - Silver 5
+Trappings: Quality Livery, Storm Lantern, Tinderbox, Lamp Oil
+Steward - Gold 1
 Trappings: Hand Weapon, Fine Clothes, Servant
-Informer — Brass 3
+Informer - Brass 3
 Trappings: Charcoal stick, Sling Bag containing 2 different sets of clothing and Hooded Cloak
-Spy — Silver 3
+Spy - Silver 3
 Trappings: Informer, Hand Weapon, Disguise Kit, Ring of Informers, Telescope
-Agent — Gold 1
+Agent - Gold 1
 Trappings: Book (Cryptography), Ring of Spies and Informers, Loft of Homing Pigeons, Quill and Ink
-Spymaster — Gold 4
+Spymaster - Gold 4
 Trappings: Office and Staff, Large Spy Ring of Agents, Spies, and Informers
-Custodian — Silver 1
+Custodian - Silver 1
 Trappings: Keys, Lantern, Lamp Oil, Livery
-Warden — Silver 3
+Warden - Silver 3
 Trappings: Hand Weapon or Bow with 10 arrows, Riding Horse with Saddle and Harness, Leather Jack
-Seneschal— Gold 1
+Seneschal - Gold 1
 Trappings: Breastplate, Ceremonial Staff of Office, Staff of Wardens and Custodians
-Governor — Gold 3
-Trappings: Aide, Governor’s Residence, Servant
-Tax Collector — Silver 1
+Governor - Gold 3
+Trappings: Aide, Governor's Residence, Servant
+Tax Collector - Silver 1
 Trappings: Hand weapon, small lock box
-Bailiff — Silver 5
+Bailiff - Silver 5
 Trappings: Leather Jack, 3 Tax Collectors
-Reeve — Gold 1
+Reeve - Gold 1
 Trappings: Horse with Saddle and Tack, Breastplate, Bailiff
-Magistrate — Gold 3
+Magistrate - Gold 3
 Trappings: Library (Law), Quality Robes, Seal of Office
-Hedge Apprentice — Brass 1
+Hedge Apprentice - Brass 1
 Trappings: 1d10 Lucky Charms, Quarterstaff, Backpack
-Hedge Witch — Brass 2
+Hedge Witch - Brass 2
 Trappings: Antitoxin Kit, Healing Poultice, Trade Tools(Herbalist)
-Hedge Master — Brass 3
+Hedge Master - Brass 3
 Trappings: Isolated Hut, Apprentice
-Hedgewise — Brass 5
+Hedgewise - Brass 5
 Trappings: Assortment of Animal Skulls, Ceremonial Cloak and Garland
-Herb Gatherer — Brass 2
+Herb Gatherer - Brass 2
 Trappings: Boots, Cloak, Sling Bag containing Assortment of Herbs
-Herbalist — Brass 4
+Herbalist - Brass 4
 Trappings: Hand Weapon (Sickle), Healing Poultice, Trade Tools (Herbalist)
-Herb Master — Silver 1
+Herb Master - Silver 1
 Trappings: Herb Gatherer, 3 Healing Poultices, Healing Draught, Workshop (Herbalist)
-Herbwise — Silver 3
+Herbwise - Silver 3
 Trappings: Pony and Cart
-Trapper — Brass 2
+Trapper - Brass 2
 Trappings: Selection of Animal Traps, Hand Weapon, Sling with 10 Stone Bullets, Sturdy Boots and Cloak
-Hunter — Brass 4
+Hunter - Brass 4
 Trappings: Bow with 10 arrows
-Tracker — Silver 1
+Tracker - Silver 1
 Trappings: Backpack, Bedroll, Tent
-Huntsmaster — Silver 3
+Huntsmaster - Silver 3
 Trappings: Riding Horse with Saddle and Tack, Kennel of Hunting Dogs
-Prospector — Brass 2
+Prospector - Brass 2
 Trappings: Charcoal Stick, Crude Map, Pan, Spade
-Miner — Brass 4
+Miner - Brass 4
 Trappings: Davrich Lamp, Hand Weapon (Pick), Lamp Oil, Leather Jack
-Master Miner — Brass 5
+Master Miner - Brass 5
 Trappings: Great Weapon (Two-handed Pick), Helmet, Trade Tools (Engineer)
-Mine Foreman — Silver 4
+Mine Foreman - Silver 4
 Trappings: Crew of Miners, Writing Kit
-Fortune Teller — Brass 1
+Fortune Teller - Brass 1
 Trappings: Deck of Cards or Dice, Cheap Jewellery
-Mystic — Brass 2
+Mystic - Brass 2
 Trappings: Selection of Amulets
-Sage — Brass 3
+Sage - Brass 3
 Trappings: Trade Tools (Writing)
-Seer — Brass 4
+Seer - Brass 4
 Trappings: Trade Tools (Astrology)
-Guide — Brass 3
-Skills: Charm Animal, Climb, Endurance, Gossip, Lore
-(Local), Melee (Basic), Outdoor Survival, Perception
-Talents: Orientation, Rover, Sharp, Strider (any)
-Trappings: Hand Weapon, Leather Jack, Sturdy Boots
-and Cloak, Rope
-Scout — Brass 5
-Skills: Athletics, Navigation, Ranged (Bow), Ride
-(Horse), Stealth (Rural), Track
-Talents: Combat Aware, Night Vision, Nose for
-Trouble, Seasoned Traveller
+Guide - Brass 3
+Trappings: Hand Weapon, Leather Jack, Sturdy Boots and Cloak, Rope
+Scout - Brass 5
 Trappings: Bow and 10 Arrows, Mail Shirt
-Pathfinder — Silver 1
-Skills: Animal Care, Haggle, Secret Signs (Hunter),
-Swim
-Talents: Acute Sense (Sight), Sixth Sense, Strong Legs,
-Very Resilient
-Trappings: Map, Riding Horse with Saddle and Tack,
-Saddlebags with 2 weeks’ Rations, Tent
-Explorer — Silver 5
-Skills: Language (any), Trade (Cartographer)
-Talents: Hardy, Linguistics, Savant (Local), Tenacious
+Pathfinder - Silver 1
+Trappings: Map, Riding Horse with Saddle and Tack, Saddlebags with 2 weeks' Rations, Tent
+Explorer - Silver 5
 Trappings: Selection of Maps, Trade Tools (Cartographer)
-‘You don’t want to be going off the road down by the bluff without a
-guide. There’s man-traps in them woods what the reeve put down to
-catch poachers. Almost ’ad old Billi’s leg off last week it did.’
-– Gwyn, Scout
-Scouts can be invaluable to a group of adventurers, especially those
-venturing out from a city for the first time to find their fortune.
-Reliable and knowledgeable Guides may find themselves asked to
-stay on and act as Scouts, although many still act the loner, slipping
-in and out of the woods to protect the group from ambush or warn
-of enemies ahead.
-III
-83
-Cl ass and Careers - peasants
-Warhammer Fantasy Rolepl ay
-Villager
-Dwarf, Halfling, Human
-You are the beating heart of rural life, working the countryside to feed
-civilisation.
-Sigmar’s bountiful Empire provides an abundant harvest of crops,
-livestock, and other marketable goods, so there is always plenty of
-work to be found in the countryside. Villagers make up most of the
-Empire’s population and perform a variety of valuable roles, including
-Farmers, Charcoal Burners, Woodsmen, Millers, Herders, and many
-more. Most villages fall under the domain of a noble family, where
-day-to-day administration of the estate is overseen by a bailiff. Village
-affairs are usually managed by a village council of local tradesmen
-and farmers led by an Elder. A village Councillor or Elder can hold
-significant local influence overseeing many decisions concerning the
-surrounding land.
-Villager Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Peasant — Brass 2
-Skills: Animal Care, Athletics, Consume Alcohol,
-Endurance , Gossip, Melee (Brawling), Lore (Local),
-Outdoor Survival
-Talents: Rover, Strong Back, Strong-minded, Stone Soup
+Peasant - Brass 2
 Trappings: None
-Villager — Brass 3
-Skills: Dodge, Drive, , Entertain (Storytelling),
-Haggle, Melee (Basic), Trade (Any)
-Talents: Animal Affinity, Hardy,
-Tenacious, Very Strong
-Trappings: Leather Jerkin, Hand Weapon
-(Axe), Trade Tools (as Trade)
-Councillor — Brass 4
-Skills: Bribery, Charm, Intimidate,
-Leadership
-Talents: Craftsman (Any), Dealmaker,
-Stout-hearted, Very Resilient
-Trappings: Mule and Cart, Village Home
-and Workshop
-Village Elder — Silver 2
-Skills: Intuition, Lore (History)
-Talents: Master Tradesman (Any), Nimble Fingered, Public
-Speaker, Savant (Local)
+Villager - Brass 3
+Trappings: Leather Jerkin, Hand Weapon (Axe), Trade Tools (as Trade)
+Councillor - Brass 4
+Trappings: Mule and Cart, Village Home and Workshop
+Village Elder - Silver 2
 Trappings: The Respect of the Village
-‘It’s a hard life, for sure, but it’s a good one. Every year the lady from
-the manor sends out her guard to clear out the forest and drive off the
-beastmen and the like. The family keep us safe, we keep their flocks.
-It’s a fair trade most of the time.’
-– Gunni Ackermann, Shepherdess
-‘Look, you can sneer at me all you want, but Konrad the Hero hisbloomin’-
-self was from a village just like mine, so don’t you be talking
-us down, you hear! Us villagers are good folk!’
-– Erika Bauer, Farmer
-The pastoral safety of a sheltered village is an unspeakable bore for
-some young Villagers who listen avidly to the tales of faraway lands.
-Of course, the stories they hear from wandering Pedlars and Strigany,
-all fuelling schemes to escape, bear little relation to the harsh reality
-of Empire life. During winter, when food is short, and the fields do
-not need tending, young folk venturing to nearby towns and cities
-for work often never return, soon caught in the net of civilisation’s
-excitement and adventure.
-III
-84
-III
-Bounty Hunter
-Dwarf, Halfling, High Elf, Human, Wood Elf
-Ruthless and determined, you pursue your quarry to the bitter end:
-for justice, or for money.
-Bounty Hunters track down fugitives and outlaws for coin. Most
-are legally appointed by provincial courts and receive warrant papers
-granting licence to seize or sometimes kill the target. While some are
-motivated by Verena’s justice, most are more concerned by the rewards,
-often finding the ‘dead’ in ‘dead or alive’ to be the most convenient route
-to their fortune. Many Bounty Hunters start as Thief-Takers, those
-hired by crime victims to retrieve stolen goods. Over time, those with
-an established reputation may find permanent work from a merchant or
-noble house, guild, or cult, or may build a company of Bounty Hunters,
-working as a group to collect the largest rewards.
-Bounty Hunter Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Thief-taker — Silver 1
-Skills: Bribery, Charm, Gossip, Haggle, Intuition, Melee
-(Basic), Outdoor Survival, Perception
-Talents: Break and Enter, Shadow, Strike to Stun, Suave
+Thief-taker - Silver 1
 Trappings: Hand Weapon, Leather Jerkin, Rope
-Bounty Hunter — Silver 3
-Skills: Athletics, Endurance, Intimidate, Ranged
-(Crossbow), Ranged (Entangling), Track
-Talents: Marksman, Relentless, Seasoned Traveller,
-Strong Back
-Trappings: Crossbow and 10 bolts, Leather Skullcap,
-Manacles, Net, Warrant Papers
-Master Bounty Hunter — Silver 5
-Skills: Animal Care, Climb, Ride (Horse), Swim
-Talents: Accurate Shot, Careful Strike, Dual Wielder,
-Sprinter
+Bounty Hunter - Silver 3
+Trappings: Crossbow and 10 bolts, Leather Skullcap, Manacles, Net, Warrant Papers
+Master Bounty Hunter - Silver 5
 Trappings: Mail Shirt, Riding Horse and Saddle
-Bounty Hunter General — Gold 1
-Skills: Drive, Lore (Law)
-Talents: Deadeye Shot, Fearless (Bounties),
-Hardy, Sure Shot
-Trappings: Draught Horse and Cart, Mail
-Shirt, 4 Pairs of Manacles
-‘It’s amazing just how many boys will wrap themselves in manacles
-if you smile sweetly enough. And if that doesn’t work, it’s out with
-the knives!’
-– Anke Dorflinger, Bounty Hunter
-In their pursuit of wanted criminals, Bounty Hunters often stumble
-into unplanned adventures. As independent operatives, Bounty
-Hunters are perfectly suited to dropping their day job to pursue
-whatever business is afoot. Further, given their broad base of skills
-are always in demand, it is not uncommon to see Bounty Hunters
-turning their hand to adventuring full-time, hiring their skills out in
-return for payments. Bounty Hunters are a perfect starting career as
-they present a solid mixture of social and combat skills allowing you
-to contribute no matter the circumstances.
-85
-Cl ass and Careers - rangers
-Warhammer Fantasy Rolepl ay
-Coachman
-Dwarf, Halfling, Human
-Determined and rugged, you deliver passengers safely by coach
-despite the daily dangers you face.
-For many, the coach is the only way to get from one town to the next.
-The wild places between teem with Beastmen, Bandits, and worse,
-but with just a team of fresh horses and a blunderbuss, brave and
-hardworking Coachmen make travel possible. To help evade danger,
-most coaching companies relentlessly pursue speed, and their employees
-have a reputation for ruthlessness towards other travellers on the roads,
-never trusting anyone. Coachmen often start as Postilions, riding the
-lead horse of the team through wind and rain. Instead of transporting
-passengers, some Coachmen deliver mail, work as chauffeurs for nobles,
-drive cabs or goods wagons, or the big omnibuses of the great cities, or
-even become a getaway driver.
-Coachman Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Postilion — Silver 1
-Skills: Animal Care, Charm Animal, Climb, Drive ,
-Endurance, Perception, Ranged (Entangling), Ride (Horse)
-Talents: Animal Affinity, Seasoned Traveller, Trick-Riding,
-Tenacious
+Bounty Hunter General - Gold 1
+Trappings: Draught Horse and Cart, Mail Shirt, 4 Pairs of Manacles
+Postilion - Silver 1
 Trappings: Warm Coat and Gloves, Whip
-Coachman — Silver 2
-Skills: Consume Alcohol, Gossip, Intuition, Lore (Local),
-Navigation, Ranged (Blackpowder)
-Talents: Coolheaded, Crack the Whip, Gunner, Strongminded
-Trappings: Blunderbuss with 10 Shots, Coach Horn, Leather
-Jack, Hat
-Coach Master — Silver 3
-Skills: Animal Training (Horse), Intimidation, Language
-(any), Lore (Routes)
-Talents: Accurate Shot, Dealmaker, Fearless (Outlaws), Nose
-for Trouble
+Coachman - Silver 2
+Trappings: Blunderbuss with 10 Shots, Coach Horn, Leather Jack, Hat
+Coach Master - Silver 3
 Trappings: Mail Shirt, Pistol, Quality Cloak
-Route Master — Silver 5
-Skills: Charm, Leadership
-Talents: Fearless (Beastmen), Marksman, Orientation,
-Rapid Reload
+Route Master - Silver 5
 Trappings: Fleet of Coaches and Horses, Maps
-‘Get ‘em fed in a quarter bell. No second portions. We ain’t paid for
-that. Coach Mistress eats last but save ‘er the best. One minute longer
-than the quarter and I take a pfennig off you, the Mistress takes a
-shilling off me, and Castle Rock Coaches will be in here as quick as
-silver.’
-– Bettina Hoch, Innkeeper
-‘Three days I was stuck in Weissbruck during the storms. Not a
-single thing came in and out. Then just when I thought I’d miss my
-appointment in Bogenhafen there appeared three coaches coming
-up the frozen track, all together. Bloody typical! You wait days for a
-coach, and then three come along at once.’
-– Stelle Grabbe, Merchant
-Good Coachmen are always in demand for unusual, dangerous or
-illegal jobs. A Coachman looking for a change may find winter is
-a good time to take a break, as cross-country services are greatly
-reduced. Coaching companies are always ready to snap up experienced
-coachmen, so returning to work is usually simple.
-III
-86
-Entertainer
-Dwarf, Halfling, High Elf, Human, Wood Elf
-Whether high-born or low-brow, you distract people from the harsh
-realities of life.
-Entertainers crop up all over the Old World, and many wander the
-Reikland’s roads, earning their crust. Some stay put at a single theatre,
-some work as individuals, some as part of a troupe. The worst are little
-more than itinerant beggars, the best lauded in the company of counts
-and princes. It is not an easy life and the people will not tolerate poor
-acts, running them out of town pelted with rotten vegetables.
-The most common Entertainers are the perennial crowd-pleasers like
-jesters, singers, actors, musicians, acrobats, dancers, and jugglers, but the
-Old World is also home to more obscure and bizarre acts.
-Entertainer Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Busker — Brass 3
-Skills: Athletics, Charm, Entertain (Any) , Gossip, Haggle,
-Perform (Any), Play (any), Sleight of Hand
-Talents: Attractive, Mimic, Public-Speaking, Suave
+Busker - Brass 3
 Trappings: Bowl, Instrument
-Entertainer — Brass 5
-Skills: Entertain (Any), Ride (Any), Melee (Basic), Perform
-(Any), Play (Any) Ranged (Throwing)
-Talents: Contortionist, Jump Up, Sharpshooter, Trick Riding
-Trappings: Costume, Instrument, Selection of Scripts (that
-you can’t yet read), Throwing Weapons
-Troubadour — Silver 3
-Skills: Animal Care, Animal Training (Any), Art (Writing),
-Language (Any)
-Talents: Blather, Master of Disguise, Perfect Pitch, Read/
-Write
+Entertainer - Brass 5
+Trappings: Costume, Instrument, Selection of Scripts (that you can't yet read), Throwing Weapons
+Troubadour - Silver 3
 Trappings: Trained Animal, Writing Kit
-Troupe Leader — Gold 1
-Skills: Drive, Leadership
-Talents: Dealmaker, Etiquette (Any), Seasoned Traveller,
-Sharp
-Trappings: Draught Horses and Wagon (Stage), Wardrobe of
-Costumes and Props, Troupe of Entertainers
-A wandering minstrel I,
-A thing of shreds and patches,
-Of ballads, songs, and snatches,
-And dreamy lullaby!
-– Libretto from The Emperor of Nippon, by Guillibert and Solomon
-‘How do you get to the Luitpold Theatre? Practise!’
-– Well known Altdorf joke
-‘Musician and prodigy, Vladimira Tchaikofiev, toured the courts of
-the Empire performing her compositions for the great and good.
-On her triumphant return to her native Kislev, during the reign of
-Bloody Katerin, she premiered her first opera, “The Vampire Counts
-of Stirland” based on her travels in Sylvania. Unconventionally, she
-always chose to conduct with a silver baton.’
-– ‘A Defence Against Necromancy’, Patriarch Felip Iyrtu, 2415IC,
-from the 1st year required reading list, Amethyst College
-The open road, a new village every night, the smell of greasepaint
-and the roar of the crowd — life itself can be an adventure for the
-Entertainer as they bring excitement to the humdrum, everyday
-reality of those they captivate. Given their existence on the edge
-of respectable society, curious Entertainers all-too-often find real
-adventures of their own.
-III
-87
-Cl ass and Careers - rangers
-Warhammer Fantasy Rolepl ay
-Flagellant
-Human
-Just when you abandoned all hope, your suffering and the righteousness
-of Sigmar saved you!
-Forgiveness does not come easily, only through struggle, pain, and
-doing Sigmar’s will. Flagellants travel the Empire, flogging themselves
-in penance for their sins, and the sins of others. They are determined
-to serve Sigmar until the end of the world, something they believe is
-imminent. All good folk are expected to welcome, help, and feed them,
-and to pray with them.
-Most Flagellants wander in large groups, guided by a Prophet of Doom
-who interprets Sigmar’s will. Some follow armies, whipping themselves
-into a frenzy as battle is joined and fighting without any thought for
-their own safety. Others wander by themselves, believing they best serve
-Sigmar by righting the wrongs he guides them towards.
-Flagellant Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Zealot — Brass 0
-Skills: Dodge, Endurance, Heal, Intimidate, Intuition, Lore
-(Sigmar), Melee (Flail) , Outdoor Survival
-Talents: Berserk Charge, Frenzy, Read/Write, Stone Soup
+Troupe Leader - Gold 1
+Trappings: Draught Horses and Wagon (Stage), Wardrobe of Costumes and Props, Troupe of Entertainers
+Zealot - Brass 0
 Trappings: Flail, Tattered Robes
-Flagellant — Brass 0
-Skills: Art (Icons), Athletics, Cool, Language
-(Classical), Lore (The Empire), Ranged (Sling)
-Talents: Hardy, Hatred (Heretics), Flagellant,
-Implacable
+Flagellant - Brass 0
 Trappings: Placard, Religious Symbol, Sling
-Penitent — Brass 0
-Skills: Charm, Language (any), Lore (Theology), Perception
-Talents: Field Dressing, Furious Assault, Menacing,
-Seasoned Traveller
+Penitent - Brass 0
 Trappings: Religious Relic
-Prophet of Doom — Brass 0
-Skills: Entertain (Speeches), Leadership
-Talents: Battle Rage, Fearless (Heretics), Frightening,
-Impassioned Zeal
-Trappings: Book (Religion), Followers (including Penitents,
-Flagellants, and Zealots)
-‘We strike this flesh and spill this blood, for his Empire, in the name
-of Sigmar!’
-– Viktorina Schwefel, Flagellant
-‘We had some flagellants going through the village a couple of months
-back. Terrible they were: the agony, the pain, the suffering, and that
-was just watching them. We knew what to do. We knew we had to
-open our doors and feed them and pray with them. But in the end, we
-just hid in the cellar until they’d gone. Scary folk.’
-– Wulfrum Barth, villager
-‘The Ende is Nigh!’
-– Common placard carried by Flagellants
-It’s not hard for Flagellants to stumble upon an adventure, especially
-involving recognised foes of Sigmar. Flagellants can continue their
-lifestyle as they adventure, relying on the honest folk of the Empire
-to offer them food, drink and shelter as they trudge ever onwards to
-the end of all things.
-III
-88
-Messenger
-Dwarf, Halfling, High Elf, Human, Wood Elf
-Swift and sure-footed, nothing stops you delivering your messages
-on time.
-When the postal service is unsecure or too slow, people send a
-Messenger. Several courier companies provide express services,
-competing to show they are the fastest and safest. Most Messengers
-take their duties very seriously, guarding their packages with their lives.
-Some courier companies have arrangements with coaching houses
-allowing their Messengers to swap tired horses for fresh ones, for topspeed
-delivery.
-Runners are employed to carry urgent messages in cities. Many larger
-settlements host competitions to celebrate the fastest, with the winners
-taking prizes and lucrative job contracts. Messengers can also be found
-working for the military, noble houses, large merchant houses, and for
-criminal gangs seeking to maintain their privacy.
-Messenger Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Runner — Brass 3
-Skills: Athletics, Climb, Dodge, Endurance ,
-Gossip, Navigation, Perception, Melee (Brawling)
-Talents: Flee!, Fleet Footed, Sprinter, Step Aside
+Prophet of Doom - Brass 0
+Trappings: Book (Religion), Followers (including Penitents, Flagellants, and Zealots)
+Runner - Brass 3
 Trappings: Scroll Case
-Messenger — Silver 1
-Skills: Animal Care, Charm, Cool, Lore (Local),
-Melee (Basic), Ride (Horse)
-Talents: Crack the Whip, Criminal, Orientation,
-Seasoned Traveller
-Trappings: Hand Weapon, Leather Jack, Riding
-Horse with Saddle and Tack
-Courier — Silver 3
-Skills: Charm Animal, Bribery, Consume Alcohol,
-Outdoor Survival
-Talents: Nose for Trouble, Relentless, Tenacious, Trick
-Rider
+Messenger - Silver 1
+Trappings: Hand Weapon, Leather Jack, Riding Horse with Saddle and Tack
+Courier - Silver 3
 Trappings: Backpack, Saddlebags, Shield
-Courier-Captain — Silver 5
-Skills: Intimidate, Leadership
-Talents: Dealmaker, Hatred (Outlaws), Kingpin, Very
-Resilient
+Courier-Captain - Silver 5
 Trappings: Couriers, Mail Shirt, Writing Kit
-‘Are you Herr Schmidt of Hochplatz, Kemperbad? Erm, do you
-know a Herr Schmidt of Hochplatz, Kemperbad? Erm, do you know
-a Hochplatz? Kemperbad?’
-– Willi Winkle, Messenger on his first day
-‘It looked like an interesting package, if you know what I mean. I
-thought I’d just have a quick peek. Thought it was to his girlfriend.
-Thought it might be a bit, you know, juicy. How was I to know it was
-all that boring spying stuff. Where’s Bretonnia, anyway?’
-– Rufus Drucht, Messenger who single-handedly busted the Bloody
-Bretonnian spy ring, then lost his job.
-Messages can contain all sorts of information, and some lead to
-adventure should they be intercepted. The easiest way for any villain
-(or innocent party) to get hold of such information will be to waylay
-a Messenger. If this happens, it will be the Messenger’s duty to follow
-things through until the message is recovered. As Messengers are
-usually freelance, paid per package delivered, it is simple enough to
-drop everything then pick-up work when they return.
-III
-89
-Cl ass and Careers - rangers
-Warhammer Fantasy Rolepl ay
-Pedlar
-Dwarf, Halfling, Human
-Worldly-wise and free of interference, you wander the Empire selling
-your wares where you will.
-Pedlars traipse from village to hamlet, selling goods and services such
-as knife sharpening, mending, and tinkering. Most carry cheap stock
-readily available in larger towns, including small luxuries such as
-ribbons and hair pins. Pedlars are always welcome as even suspicious
-folk like to treat themselves to baubles and knickknacks.
-Some Pedlars also take on messenger work; others act as de facto town
-criers, bringing news and gossip to the quietest corners of the Empire
-in exchange for bed-and-board. Given the dangers on the road, some
-Pedlars prefer to keep a stall at a regular town marketplace. It is also
-common to find them on pilgrim routes making a living selling relics
-to the devout.
-Pedlar Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Vagabond — Brass 1
-Skills: Charm, Endurance, Entertain (Storytelling), Gossip,
-Haggle , Intuition, Outdoor Survival, Stealth (Rural or Urban)
-Talents: Fisherman, Flee!, Rover, Tinker
-Trappings: Backpack, Bedroll, Goods worth 2d10 Brass,
-Tent
-Pedlar — Brass 4
-Skills: Animal Care, Charm Animal, Consume Alcohol,
-Evaluate, Ride (Horse), Trade (Tinker)
-Talents: Dealmaker, Orientation, Seasoned Traveller, Strong
-Back
-Trappings: Mule and Saddlebags, Goods worth 2d10 Silver,
-Selection of Pots and Pans, Trade Tools (Tinker)
-Master Pedlar — Silver 1
-Skills: Drive, Intimidate, Language (any), Perception
-Talents: Numismatics, Sturdy, Well-prepared, Very Resilient
+Vagabond - Brass 1
+Trappings: Backpack, Bedroll, Goods worth 2d10 Brass, Tent
+Pedlar - Brass 4
+Trappings: Mule and Saddlebags, Goods worth 2d10 Silver, Selection of Pots and Pans, Trade Tools (Tinker)
+Master Pedlar - Silver 1
 Trappings: Cart, Goods worth at least 2d10 Gold
-Wandering Trader — Silver 3
-Skills: Lore (Local), Lore (Geography)
-Talents: Cat-tongued, Strong-minded, Suave, Tenacious
-Trappings: Draught Horse and Wagon, Goods worth at
-least 5d10 Gold, 50 Silver in Coin
-‘This here is an absolutely unique, one-of-a-kind, only-one-inexistence,
-work of art. If you want more, don’t worry, I’ve got another
-couple of dozen on the back of the cart.’
-– Delberz Trötte, Trader
-Hearing of profits to be made in far-off lands and listening to the
-stories of well-travelled merchants is always going to whet the appetite
-of an ambitious Pedlar. Being self-reliant, they can follow up on any
-adventure, making a decent profit along the way. They can also gain
-access to strongholds and settlements without awkward questions.
-III
-90
-Road Warden
-Halfling, Human
-With a wary eye and ready weapon, you tour the highways of the
-Empire enforcing the law.
-Road Wardens protect travellers from the bandits, Greenskins,
-Beastmen and other dangers that threaten the Empire’s highways. The
-Wardens are supported by a system of tolls, taxes they often collect
-personally. Successful Road Wardens are well-received and respected,
-and often have bunks in each inn along their route. Most mainroad
-Road Wardens are part of the State Army, patrolling primary
-thoroughfares during peace time, so are well-trained and resplendent
-in neat uniforms. Less-travelled roads make do with local equivalents,
-some of whom take advantage of their position and lack of supervision
-for their own gain. Some Wardens prefer sitting in their safe, fortified
-toll stations to clearing the roads, but travellers often balk at handing
-over coin when the roads are dangerous and in disrepair.
-Road Warden Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Toll Keeper — Brass 5
-Skills: Bribery, Consume Alcohol, Gamble, Gossip,
-Haggle, Melee (Basic), Perception , Ranged (Crossbow)
-Talents: Coolheaded, Embezzle, Marksman,
-Numismatics
+Wandering Trader - Silver 3
+Trappings: Draught Horse and Wagon, Goods worth at least 5d10 Gold, 50 Silver in Coin
+Toll Keeper - Brass 5
 Trappings: Crossbow with 10 Bolts, Leather Jack
-Road Warden — Silver 2
-Skills: Animal Care, Endurance, Intimidate,
-Intuition, Outdoor Survival, Ride (Horse)
-Talents: Crack the Whip, Criminal, Roughrider, Seasoned
-Traveller
-Trappings: Hand Weapon, Mail Shirt, Riding Horse with
-Saddle and Harness, Rope
-Road Sergeant — Silver 4
-Skills: Athletics, Charm, Leadership, Ranged (Blackpowder)
-Talents: Etiquette (Soldiers), Fearless (Outlaws), Hatred
-(any), Nose for Trouble
-Trappings: Squad of Road Wardens, Pistol with 10 Shots,
-Shield, Symbol of Rank
-Road Captain — Gold 1
-Skills: Lore (Empire), Navigation
-Talents: Combat Aware, Commanding Presence, Kingpin,
-Public Speaker
-Trappings: Light Warhorse, Pistol with 10 Shots, Quality
-Hat and Cloak, Unit of Road Wardens
-‘What can I say, it’s a pfennig a leg. Them’s the rules. Nothing I can do
-about it. Perhaps you should try to find a different route to get your
-bees to Grünburg.’
-– Andreas Muller, jobsworth Toll Keeper
-‘So, I was stopped by a road warden t’other day. She said I should
-beware an unscrupulous character out patrolling the roads and
-charging hapless travellers a thruppence to let them pass. I thanked
-the warden for the valuable advice. “Taal guide you,” she said, “that
-will be thruppence.”’
-– Ullrich the Pedlar
-Road Wardens frequently find adventure. Anything untoward
-happening in the countryside is often close to a well-patrolled
-roadside. When trouble occurs, Road Wardens are summoned to
-resolve any problems. If they follow up and become involved in an
-investigation, they are simply doing their job, and might even secure
-extra pay for their time, even if the resulting adventure takes them far
-from their regular beat.
-III
-91
-Cl ass and Careers - rangers
-Warhammer Fantasy Rolepl ay
-Witch Hunter
-Human
-You hunt the illegal witches plaguing the Empire by any and all
-means necessary.
-There are few so feared and respected as the Witch Hunter, and they
-are given extraordinary leeway in performing their duties. Typically
-armed with silvered blades and a brace of pistols — for lead is not
-so easily dispelled — they stalk all corners of the Old World ready to
-dispense judgement on any witch they find, or any who would harbour
-them. Most Witch Hunters in the Empire are attached to the Cult of
-Sigmar. Secular Witch Hunters are sometimes employed by provincial
-government, though these are little more than specialist bounty hunters.
-The Colleges of Magic also have Witch Hunters called Wizards
-Vigilant who pursue rogue wizards, necromancers, and daemonologists
-— they believe it is wisest to set a witch to catch a witch.
-Witch Hunter Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Interrogator — Silver 1
-Skills: Charm, Consume Alcohol, Heal, Intimidate ,
-Intuition, Lore (Torture), Melee (Brawling), Perception
-Talents: Coolheaded, Menacing, Read/Write, Resolute
+Road Warden - Silver 2
+Trappings: Hand Weapon, Mail Shirt, Riding Horse with Saddle and Harness, Rope
+Road Sergeant - Silver 4
+Trappings: Squad of Road Wardens, Pistol with 10 Shots, Shield, Symbol of Rank
+Road Captain - Gold 1
+Trappings: Light Warhorse, Pistol with 10 Shots, Quality Hat and Cloak, Unit of Road Wardens
+Interrogator - Silver 1
 Trappings: Hand Weapon, Instruments of Torture
-Witch Hunter — Silver 3
-Skills: Cool, Gossip, Melee (Basic), Lore (Witches), Ranged
-(Any), Ride (Horse)
-Talents: Dual Wielder, Marksman, Seasoned Traveller,
-Shadow
-Trappings: Crossbow Pistol or Pistol, Hat (Henin), Leather
-Jack, Riding Horse with Saddle and Tack, Rope, Silvered
-Sword
-Inquisitor — Silver 5
-Skills: Endurance, Leadership, Lore (Law), Lore (Local)
-Talents: Fearless (Witches), Nose for Trouble, Relentless,
-Strong-minded
+Witch Hunter - Silver 3
+Trappings: Crossbow Pistol or Pistol, Hat (Henin), Leather Jack, Riding Horse with Saddle and Tack, Rope, Silvered Sword
+Inquisitor - Silver 5
 Trappings: Quality Clothing, Subordinate Interrogators
-Witchfinder General — Gold 1
-Skills: Lore (Chaos), Lore (Politics)
-Talents: Frightening, Iron Will, Magical Sense, Pure Soul
-Trappings: Best Quality Courtly Garb, Subordinate Witch
-Hunters
-‘I ain’t met a witch yet that won’t catch fire.’
-– Father Linken Donatus, Priest of Sigmar,
-murdered by a rogue pyromancer
-‘If you’re not a witch, you have nothing to fear.’
-– Walter Keller, Witch Hunter Captain,
-said the night before the burning of Almshof
-A Witch Hunter’s existence is one of constant adventure, often
-ranging the length and breadth of the grand provinces. They are called
-upon whenever the foul influence of unsanctioned magic emerges,
-and are expected to hunt it down. The bigger the reputation a Witch
-Hunter earns, the more dangerous the foes assigned, and the greater
-the adventures that follow. If you play a Witch Hunter, it is worth
-while making sure others aren’t playing a Hedge Witch or Witch as
-this may immediately bring the party into conflict.
-III
-92
-Boatman
-Dwarf, Halfling, High Elf, Human
-You ply the dangerous waters of the Old World, transporting people,
-goods, and the latest news.
-Boats and barges travel the Empire’s waterways, bringing goods
-from the remotest corners of the provinces to the greatest cities.
-These shallow-drafted vessels can travel much further upriver than
-larger ships, and a comprehensive network of canals adds to their
-reach. Barge Masters are expert river sailors and have an exhaustive
-knowledge of their rivers. A Boat-hand is the dogsbody, but will learn
-the ropes swiftly. Boatmen crew merchant barges carrying cargo to and
-from markets, either working for themselves or for a larger Merchant
-House. Many Boatmen are also ferrymen, taking passengers across
-rivers, or to and from towns. In large towns, some also crew rivertaxis,
-sail pleasure vessels, or otherwise pilot boats on the behalf of others.
-Boatman Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Boat-hand — Silver 1
-Skills: Consume Alcohol, Dodge, Endurance, Gossip, Melee
-(Brawling), Row, Sail , Swim
-Talents: Dirty Fighting, Fisherman, Strong Back, Strong
-Swimmer
-Trappings: Hand Weapon (Boat Hook), Leather Jack,
-Pole
-Boatman — Silver 2
-Skills: Athletics, Entertain (Storytelling),
-Haggle, Intuition, Lore (Riverways),
-Perception
-Talents: Etiquette (Guilder), Seasoned
-Traveller, Very Strong, Waterman
+Witchfinder General - Gold 1
+Trappings: Best Quality Courtly Garb, Subordinate Witch Hunters
+Boat-hand - Silver 1
+Trappings: Hand Weapon (Boat Hook), Leather Jack, Pole
+Boatman - Silver 2
 Trappings: Rope, Rowboat
-Bargeswain — Silver 3
-Skills: Climb, Entertain (Singing), Heal,
-Trade (Boatbuilding)
-Talents: Dealmaker, Embezzle, Nose for
-Trouble, Strike Mighty Blow
-Trappings: Backpack, Trade Tools
-(Carpenter)
-Barge Master — Silver 5
-Skills: Leadership, Navigation
-Talents: Menacing, Orientation, Pilot, Public Speaker
+Bargeswain - Silver 3
+Trappings: Backpack, Trade Tools (Carpenter)
+Barge Master - Silver 5
 Trappings: Hat, Riverboat and Crew
-‘Someday a real rain will come. So, don’t forget your hat, madam.’
-– Travis Binckel, Rivertaxi
-‘Beware of forking. I say this as an experienced bargeswain. If you
-approach a dangerous rock or other river hazard be sure to go
-astarboard and stay astarboard while laying astarboard, or go alarboard
-and stay alarboard while laying alarboard. Or you will fork, and you
-might sink. And no-one wants to sink their forking barge.’
-– Jacob Walles, Bargeswain who sank his forking barge
-A boatman will not need to seek out adventure, for more than likely
-adventure will come to them. Boats are useful to nearly everyone,
-and therefore useful to almost any adventure plot; they also make an
-excellent base of operations. Boatmen will not need to worry about
-following investigation and adventure if the plot stays on or close to
-the river. Even if the plot leaves the river, they could still easily allow a
-talented Boathand to look after their business while they take a break
-from river life.
-III
-93
-Cl ass and Careers - riverfolk
-Warhammer Fantasy Rolepl ay
-Huffer
-Dwarf, Halfling, Human
-You pilot ships and boats through the most treacherous waters of the
-Old World.
-Huffers are specialist river guides with expert knowledge of local river
-systems. They are a common sight near the most dangerous stretches of
-the Empire’s rivers and can command significant wages for what many
-view as easy work. Others view it as cheap compared to the potential
-cost of lost cargo.
-Many Huffers specialise in a single, notorious stretch of water, while
-others make their money at certain times of the year when the waters
-are at their worst. Other Huffers have broader knowledge and will
-guide vessels for their entire journey, effectively acting as navigators.
-This is especially true of merchant ships with particularly valuable cargo
-at difficult times of the year.
-Huffer Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Riverguide — Brass 4
-Skills: Consume Alcohol, Gossip, Intuition, Lore
-(Local), Lore (Riverways), Perception, Row, Swim
-Talents: Fisherman, Night Vision, Orientation, Waterman
-Trappings: Hand Weapon (Boat Hook), Storm Lantern
-and Oil
-Huffer — Silver 1
-Skills: Charm, Cool, Entertain (Storytelling),
-Language (Any), Melee (Basic), Navigation
-Talents: Dealmaker, Etiquette (Guilder), Nose for
-Trouble, River Guide
+Riverguide - Brass 4
+Trappings: Hand Weapon (Boat Hook), Storm Lantern and Oil
+Huffer - Silver 1
 Trappings: Leather Jerkin, Rope, Row Boat
-Pilot — Silver 3
-Skills: Haggle, Intimidate, Lore (Local), Lore
-(Wrecks)
-Talents: Acute Sense (Sight), Pilot, Sea Legs, Very
-Strong
+Pilot - Silver 3
 Trappings: Pole, Storm Lantern and Oil
-Master Pilot — Silver 5
-Skills: Leadership, Sail
-Talents: Sixth Sense, Sharp, Strong Swimmer, Tenacious
+Master Pilot - Silver 5
 Trappings: Boathand, Small Riverboat
-‘A great big ship came in from Marienburg, low in the water and
-packed to the gunwales. I said that it would cost them a crown to
-take them through the Furdienst. Steep, yes, but it was a big ship.
-The arrogant Wastelander scoffed, said he’d do it himself. But sure
-enough, they drifted right into the shallows and were holed. They
-lost a good part of their cargo and it took them a week to repair the
-damage. Reckon it cost them a bit more than a crown.’
-– Ilsa Dasche, Huffer
-As an expert for hire, Huffers are often hired by wealthy patrons,
-frequently brought in as specialists on journeys of discovery. Even
-when travelling into the unknown, Huffers are useful for their broad
-range of knowledge concerning river conditions and piloting. Because
-of the regional and seasonal nature of the work, many Huffers are
-ready to drop everything and travel to where they’re needed. This
-freedom transfers well to the adventuring lifestyle, and also suits
-those seeking to return to Huffing should adventuring not supply
-their needs.
-III
-94
-III
-95
-Cl ass and Careers - riverfolk
-Riverwar den
-Halfling, Human
-Strong-backed and sure, you patrol the riverways in pursuit of
-lawbreakers and troublemakers.
-A clarion call across the waterways heralds the arrival of the Imperial
-River Patrol, a river-borne police force known as much for its harassing
-thugs as for its good work. Most riverside villages and inns set aside
-moorings for them as, without them, worse criminals would rule
-the waters. The overworked patrols concentrate on egregious crimes,
-resolving petty misdemeanours with spot fines. On major trade-routes,
-the patrols have larger vessels manned by ‘Shipswords’ trained to tackle
-larger threats like Greenskins or Trolls.
-Some Riverwardens rarely see the water, instead manning remote
-outposts overlooking strategically important waters. Others crew fast
-riverboats charged to intercept smugglers in the night. The largest
-Riverwarden vessels are effectively sea-worthy warships, bristling with
-cannon and mortars, ready for almost any eventuality.
-Riverwar den Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h River Recruit — Silver 1
-Skills: Athletics, Dodge, Endurance, Melee (Basic) ,
-Perception, Row, Sail, Swim
-Talents: Strong Swimmer, Strong Back, Very
-Strong, Waterman
-Trappings: Hand Weapon (Sword), Leather Jack,
-Uniform
-Riverwarden — Silver 2
-Skills: Bribery, Charm, Intimidate, Gossip, Lore
-(Riverways), Ranged (Blackpowder)
-Talents: Criminal, Gunner, Fisherman, Seasoned Traveller
-Trappings: Lantern and Oil, Pistol with 10 shot, Shield
-Shipsword — Silver 4
-Skills: Climb, Cool, Intuition, Leadership
-Talents: Fearless (Wreckers), Hatred (Any), Pilot, Sea Legs
+River Recruit - Silver 1
+Trappings: Hand Weapon (Sword), Leather Jack, Uniform
+Riverwarden - Silver 2
+Trappings: Lantern and Oil, Pistol with 10 shot, Shield 
+Shipsword - Silver 4
 Trappings: Grappling Hook, Helmet, Mail Shirt
-Shipsword Master — Gold 1
-Skills: Lore (Law), Navigation
-Talents: Commanding Presence, Kingpin, Menacing,
-Orientation
+Shipsword Master - Gold 1
 Trappings: Patrol Boats and Crew, Symbol of Rank
-‘So back in the day, when I was a riverwarden, Big Willi came round
-to tell me I had to leave a certain shipment alone. He said I should just
-let it through and everything would be alright. Of course, I was young,
-wasn’t I? I told the ship’s Master all about it. And was I rewarded for
-my honesty? Nah, Big Willi came round and beat me up, and the next
-day I was drummed out of the river patrol. They were all in it together,
-weren’t they?’
-– Nikki Schnelling, ex-riverwarden
-A diligent Riverwarden, searching vessels and following up leads,
-might stumble across any sort of nefarious plot or sinister cargo.
-Riverwardens typically work month-long shifts, but this means they
-also have months off. This structure is ideal for adventuring: as a
-Riverwarden need not desert their post to pursue private matters, or
-even have to persuade their Sergeant that it is their duty to follow up
-crimes. They can head off, investigate, and be back long before their
-next cycle begins.
-Warhammer III Fantasy Rolepl ay
-96
-Riverw oman
-Dwarf, Halfling, Human
-Rivers carry most of the Old World’s traffic, and you stand in the
-heart of that excitement.
-The fertile banks of the great rivers of the Empire are densely
-populated, and the folk working day-in, day-out in the nearby waters
-and marshes provide much of the fresh fish, eels, and crustaceans
-feeding the towns and cities. Unlike the inland villages, those on
-the great rivers frequently receive outsiders who trade and restock,
-meaning Riverwomen are somewhat more open and diverse, and
-often the first with news from distant lands. There are any number of
-diverse jobs supported by the river. Many harvest the Reik’s bounty:
-fisherfolk (using rod, spear, or net), eelers (using traps or pots), or
-diggers for shellfish. Many live in riverside villages labouring,
-dredging, or lugging, and maintaining the Reik’s many thousands of
-vessels.
-Riverw oman Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Greenfish — Brass 2
-Skills: Athletics, Consume Alcohol, Dodge, Endurance ,
-Gossip, Outdoor Survival, Row, Swim
-Talents: Fisherman, Gregarious, Strider (Marshes), Strong
-Swimmer
+Greenfish - Brass 2
 Trappings: Bucket, Fishing Rod and Bait, Leather Leggings
-Riverwoman — Brass 3
-Skills: Gamble, Lore (Local), Lore (Riverways), Ranged
-(Entangling), Ranged (Throwing), Set Trap
-Talents: Craftsman (Boatbuilder), Rover, Strong Back,
-Waterman
+Riverwoman - Brass 3
 Trappings: Eel Trap, Leather Jerkin, Net, Spear
-Riverwise — Brass 5
-Skills: Charm, Intuition, Melee (Polearm), Perception
-Talents: Savant (Riverways), Stout-hearted, Tenacious,
-Very Strong
+Riverwise - Brass 5
 Trappings: Row Boat, Storm Lantern and Oil
-River Elder — Silver 2
-Skills: Entertain (Storytelling), Lore
-(Folklore)
-Talents: Master Craftsman (Boatbuilder),
-Public Speaker, Sharp, Strong-minded
+River Elder - Silver 2
 Trappings: Hut or Riverboat
-‘If I drop this branch in the water now, it will eventually get to
-Marienburg. Unless it sticks in the mud, of course.’
-– Jemima the Greenfish
-‘They say the whole Empire will eventually float by if you sit by the
-Reik long enough. Well, I’ve sat here, rod in hand, for twenty years,
-watching the flow downriver. The things I could tell you. I’ve seen war
-and I’ve seen peace. I’ve seen good times and bad. I’ve seen happiness
-and sorrow. And in all that time, I can honestly say, I’ve not caught a
-single bloody fish.’
-– Thys Lange, the Reikland’s worst Fisherman
-A Riverwoman will feel at home on any stretch of water, and their
-skills ensure they can drop everything, confident that they will be able
-to find work elsewhere should they need to. A Riverwoman is wellplaced
-to get the lowdown on the more iniquitous side of river life and
-may have contacts among the river’s lowlifes. With their knowledge
-and experience they can make all the difference to a water-based
-expedition or investigation.
-Seaman
-Dwarf, Halfling, High Elf, Human
-A life on the ocean waves calls to you, though many Reiklander
-Seamen never see the sea…
-Seamen sail the high seas in the Imperial Navy or for one of the
-Merchant houses. The Reikland may have no coast, but the River Reik
-from the Wasteland to Altdorf is miles wide and full of ocean-going
-vessels. The Imperial First Fleet that patrols these waters rarely sees
-the open sea, because the taxes to pass warships through Marienburg
-are exorbitantly high.
-Seamen can always find work, whether as cabin staff on an Imperial
-battleship or on the crew of a small trading sloop. Some Seamen
-travel the world by working to pay their passage. The Reik also houses
-many ‘Missions’, buildings provided by the Imperial Navy for their
-staff, many of which employ Seamen.
-Seaman Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Landsman — Silver 1
-Skills: Climb, Consume Alcohol, Gamble, Gossip,
-Row, Melee (Brawling), Sail , Swim
-Talents: Fisherman, Strider (Coastal), Strong
-Back, Strong Swimmer
+Landsman - Silver 1
 Trappings: Bucket, Brush, Mop
-Seaman — Silver 3
-Skills: Athletics, Dodge, Endurance, Entertain
-(Singing), Language (any), Melee (Basic)
-Talents: Catfall, Sea Legs, Seasoned Traveller, Strong
-Legs
+Seaman - Silver 3
 Trappings: Hand Weapon (Boat Hook), Leather Jerkin
-Boatswain — Silver 5
-Skills: Cool, Leadership, Perception, Trade (Carpenter)
-Talents: Old Salt, Strike Mighty Blow, Tenacious, Very
-Strong
+Boatswain - Silver 5
 Trappings: Trade Tools (Carpenter)
-Ship’s Master — Gold 2
-Skills: Charm, Navigation
-Talents: Orientation, Pilot, Public Speaking, Savvy
-Trappings: Shipping Charts, Sailing Ship and Crew,
-Sextant, Spyglass
-‘I can see the Sea!’
-– Marian Zelman, Optimistic Reiklander Sailor
-‘Yeah, I’ve sailed through Marienburg. Bloody Wastelanders made it
-as difficult as possible for us to get out to sea. I swear the huffer took
-us three times round the islands just for fun before we even smelled
-salt water. And they taxed us twice for everything. Even the ship’s cat
-got taxed. Glad to be home, to be honest.’
-– Thom Wesserbrug, Boatswain
-Beyond Marienburg, the whole world awaits a Seaman: the perilous
-Sea of Claws, the unfathomable Great Ocean, the exotic Thousand
-Islands, the Southern Sea, the Black Gulf. And at home, a Seaman
-can spend a whole life plying the Reik’s waters and never have the
-same day twice.
-III
-97
-Cl ass and Careers - riverfolk
-Warhammer Fantasy Rolepl ay
-Smuggler
-Dwarf, Halfling, High Elf, Human
-You smuggle cargo, avoiding taxes and risking riverwarden
-inspections to secure maximum profit.
-Most trade is legally taxed by local lords, as well as illegally taxed by
-bandits and protection rackets. Smugglers see themselves as charitable
-helpers: merchants make more profit, customers pay less coin, morally
-flexible Riverwardens take a cut, outlaws are avoided, and more besides.
-It takes experience and ingenuity to circumvent all the bailiffs, custom
-officials, excisemen, and busy bodies keen to stop them, but Smugglers
-dare the risks to support themselves and their families.
-Smugglers come in many forms, perhaps transporting tiny, highvalue
-goods for nobles, or large cargoes for shady merchants. Some
-Smugglers also deal in illicit goods, a crime that will incur significantly
-more repercussions than a burned finger or smugglers’ brand.
-Smuggler Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h River Runner — Brass 2
-Skills: Athletics, Bribery, Cool, Consume Alcohol,
-Row, Sail, Stealth (Rural or Urban) , Swim
-Talents: Criminal, Fisherman, Strider (Marshes),
-Strong Back
-Trappings: Large Sack, Mask or Scarves, Tinderbox,
-Storm Lantern and Oil
-Smuggler — Brass 3
-Skills: Haggle, Gossip, Lore (Local), Melee
-(Basic), Perception, Secret Signs (Smuggler)
-Talents: Dealmaker, Etiquette (Criminals), Waterman,
-Very Strong
-Trappings: 2 Barrels, Hand Weapon, Leather Jack, Row
-Boat
-Master Smuggler — Brass 5
-Skills: Evaluate, Intimidate, Intuition, Lore
-(Riverways)
-Talents: Briber, Fearless (Riverwardens), Pilot, Strong
-Swimmer
+Ship's Master - Gold 2
+Trappings: Shipping Charts, Sailing Ship and Crew, Sextant, Spyglass
+River Runner - Brass 2
+Trappings: Large Sack, Mask or Scarves, Tinderbox, Storm Lantern and Oil
+Smuggler - Brass 3
+Trappings: 2 Barrels, Hand Weapon, Leather Jack, Row Boat
+Master Smuggler - Brass 5
 Trappings: River Runner, Speedy Riverboat
-Smuggler King — Silver 2
-Skills: Language (Any), Leadership
-Talents: Kingpin, Savvy, Strider (Coastal), Sea Legs
+Smuggler King - Silver 2
 Trappings: Disguise Kit, Small Fleet of Riverboats
-‘See, this is where the bottle of best Bordeleaux goes. The river wardens
-will search behind here, and find it, and confiscate it. That’s what we
-want because it means they don’t find the twelve bottles we have
-hidden under here. And if they find those, all is not lost, because they
-will be so pleased with themselves they won’t even bother searching
-over there where there’s twenty-four bottles.’
-– Hansel Solomon, Smuggler
-Smugglers find adventure, even though they usually want things to
-stay quiet and uneventful. Any number of things can go wrong on a
-smuggling mission, and even if things go right, there will always be
-the lure of the next job, likely bigger and better than the last. Whole
-adventures can be played out solely on smuggling missions. Similarly,
-it will be easy for a smuggler to find gainful employment away from
-their usual work. Someone with a trick up their sleeve, an eye for
-detail, and a cool head when things get hot is always going to be a
-desirable companion on dangerous expeditions and adventures.
-III
-98
-Stevedore
-Dwarf, Halfling, Human
-You may officially load cargo for coin, but everyone knows the
-Stevedores rule the docklands.
-With their sole right to load and unload vessels, Stevedore Guilds
-can slow or even stop trade. This grants power, with many docksides
-effectively ruled by the guilds. In larger towns, several gangs might
-violently compete for supremacy. Scowling Foremen deal with guild
-matters and blow their whistles to summon their gangs from riverside
-inns, either for fresh work or to defend their territory.
-A Stevedore might work alone in a riverside village, or in a large gang
-on a busy, chaotic city dockside. Sometimes they might be part of a
-criminal gang that just moves a bit of cargo on the side to cover their
-tracks. Some Stevedores are enforcers, making sure everyone else is
-working hard.
-Stevedore Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Dockhand — Brass 3
-Skills: Athletics, Climb, Consume Alcohol, Dodge,
-Endurance , Gossip, Melee (Basic), Swim
-Talents: Dirty Fighting, Strong Back, Sturdy, Very
-Strong
-Trappings: Hand Weapon (Boat Hook), Leather
-Gloves
-Stevedore — Silver 1
-Skills: Bribery, Entertain (Storytelling), Gamble, Intimidate,
-Perception, Stealth (Urban)
-Talents: Criminal, Etiquette (Guilders), Strong Legs,
-Tenacious
-Trappings: Guild Licence, Leather Jerkin, Pipe and
-Tobacco, Porter Cap
-Foreman — Silver 3
-Skills: Cool, Evaluate, Intuition, Leadership
-Talents: Dealmaker, Embezzle, Etiquette (Criminals),
-Public Speaking
+Dockhand - Brass 3
+Trappings: Hand Weapon (Boat Hook), Leather Gloves
+Stevedore - Silver 1
+Trappings: Guild Licence, Leather Jerkin, Pipe and Tobacco, Porter Cap
+Foreman - Silver 3
 Trappings: Gang of Stevedores, Whistle
-Dock Master — Silver 5
-Skills: Charm, Lore (Taxes)
-Talents: Kingpin, Menacing, Numismatics, Read/Write
+Dock Master - Silver 5
 Trappings: Office and Staff, Writing Kit
-‘Look, I know we specialise in coal, but don’t fence us in, we’ll port
-anything if the coin’s good. So, let’s do it afore the deal porters arrive;
-anything goes here, mate.’
-– Albert Pförtner, Coal Porter
-‘Listen, boy. Don’t think them dockers have it easy. It’s dangerous,
-claustrophobic work, with heavy goods and high stacks, and if it’s
-done wrong, the cargo may overbalance, perhaps even capsizing the
-boat. What I’m saying is, pay the Stevedores right — and if you want
-a boat to sink, pay them extra.’
-– Aleida Fuchs, Merchant
-Amid the humdrum and repetition of the dockside there are good
-opportunities for adventure as a Stevedore. Stevedore gangs are
-virtually a law unto themselves, and they fight for every foot of
-riverside that they command. Stevedores are useful characters to have
-around, able to handle themselves, and deal with lowlifes.
-III
-99
-Cl ass and Careers - riverfolk
-Warhammer Fantasy Rolepl ay
-Wrecker
-Dwarf, Human, Wood Elf
-You lure vessels to a watery doom and make off with their cargo.
-Sometimes the gods send riverfolk an unexpected windfall as goods
-wash up from an ill-fated vessel. Sometimes the gods need a helping
-hand: that’s where Wreckers come in. Laying devious traps and sending
-disorienting signals, Wreckers lure unwary river traffic onto sand banks
-and rocks, then loot the wreck, no matter how any surviving crew may
-protest.
-Some Wreckers pride themselves on their clever traps, making any
-wreck seem like an accident, and keeping a plausible distance from the
-actual looters. Some board ships by force and throw its crew overboard,
-expert at spotting under-armed boats with valuable cargo. These River
-Pirates are hunted by road and riverwardens, constantly moving to
-evade the authorities.
-Wrecker Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Cargo Scavenger — Brass 2
-Skills: Climb, Consume Alcohol, Dodge, Endurance, Row,
-Melee (Basic) , Outdoor Survival, Swim
-Talents: Break and Enter, Criminal, Fisherman,
-Strong Back
+Cargo Scavenger - Brass 2
 Trappings: Crowbar, Large Sack, Leather Gloves
-Wrecker — Brass 3
-Skills: Bribery, Cool, Intuition, Navigation,
-Perception, Set Traps
-Talents: Flee!, Rover, Strong Swimmer, Trapper
-Trappings: Hand Weapon (Boat Hook), Leather Jack,
-Storm Lantern and Oil
-River Pirate — Brass 5
-Skills: Gossip, Intimidate, Ranged (Crossbow), Stealth (Rural)
-Talents: Dirty Fighting, Etiquette (Criminals), Menacing,
-Waterman
-Trappings: Crossbow with 10 Bolts, Grappling Hook and
-Rope, Riverboat
-Wrecker Captain — Silver 2
-Skills: Leadership, Lore (Riverways)
-Talents: Furious Assault, In-fighter, Pilot, Warrior Born
-Trappings: Fleet of Riverboats and Wrecker Crew, Keg of
-Ale, Manacles
-‘We spied this juicy ripe sloop on its way to Carroburg just as night
-was falling, and lit some fires on the left bank to make them think
-the village was a few hundred yards closer. They tacked to starboard
-just like we planned and hit the sand bank dead on. Sweet as. How
-were we to know the boat was transporting a company of pistoliers?’
-– Greta Lachsmann, shortly before her hanging
-‘Look, if we let the crew live, they’ll tell the wardens where we operate,
-so the only sensible thing is to kill ’em all.’
-– Mandel Stein, Pragmatic River Pirate
-A well-planned and executed wrecking is an adventure in itself:
-avoiding the authorities, disposing of the goods, keeping people’s
-mouths shut, and spending the ill-gotten gains all present their own
-opportunities and dangers. And who knows what cargo they will
-find, and who may come pursuing those who stole it. Wreckers who
-come across such adventure will have no trouble leaving their old lives
-behind or returning to them again when times are lean.
-III
-100
-Baw d
-Halfling, High Elf, Human
-Street-wise and mercenary, you make a living selling illicit goods in
-the seedier side of town.
-Bawds guide folk to establishments offering a variety of illegal and
-immoral services. Though many Humans and Dwarfs have objections
-to such activities, most Halflings and High Elves are quite matter-offact
-about drug-dens, brothels, or other houses of vice.
-Bawds include drug-dealers, dancers, hustlers and artists’ models.
-Many famous masterpieces of the modern era have been posed for
-by Bawds plucked from the street. Traveling armies are followed by
-camp followers, with Bawds among them looking to make coin in
-any way they can. Ringleaders, proprietors of establishments where
-Bawds gather, can accrue significant empires providing services to all
-types of rogues, from fences who need discreet access to rich clients,
-to providing safe bolt-holes for gang bosses and crime lords.
-Baw d Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Hustler — Brass 1
-Skills: Bribery, Charm, Consume Alcohol, Entertain (Any),
-Gamble, Gossip, Haggle, Intimidate
-Talents: Attractive, Alley Cat, Blather, Gregarious
+Wrecker - Brass 3
+Trappings: Hand Weapon (Boat Hook), Leather Jack, Storm Lantern and Oil
+River Pirate - Brass 5
+Trappings: Crossbow with 10 Bolts, Grappling Hook and Rope, Riverboat
+Wrecker Captain - Silver 2
+Trappings: Fleet of Riverboats and Wrecker Crew, Keg of Ale, Manacles
+Hustler - Brass 1
 Trappings: Flask of Spirits
-Bawd — Brass 3
-Skills: Dodge, Endurance, Intuition, Lore
-(Local), Melee (Basic), Perception
-Talents: Ambidextrous, Carouser, Criminal,
-Resistant (Disease)
+Bawd - Brass 3
 Trappings: Dose of Weirdroot, Quality Clothing
-Procurer — Silver 1
-Skills: Cool, Evaluate, Language (any), Lore (Law)
-Talents: Dealmaker, Embezzle, Etiquette (Any), Suave
+Procurer - Silver 1
 Trappings: A Ring of Hustlers
-Ringleader — Silver 3
-Skills: Leadership, Lore (Heraldry)
-Talents: Briber, Kingpin, Numismatics, Savvy
-Trappings: Townhouse with Discreet Back Entrance, a Ring
-of Bawds
-‘Come to the Hammer and Bucket, home of the best music and
-entertainment in old Altdorf town! You will not be disappointed!’
-– Raynald Schmid, Bawd
-‘Scoff all you like, but those clothes cost money. For a lad born ’neath
-the dung heap, he lives a life of luxury.’
-– Hertel Netzhoch, Innkeep
-Bawds living in urban areas sometimes travel to flee plagues and
-religious persecutions, the latter of which crop up all-to-frequently
-in areas dominated by Sigmar worship. Others, such as those who
-rove with entertainers, consider travel as part and parcel of their
-occupation. Those who secure a patron might have significant lengths
-of time left to their own devices.
-III
-101
-Cl ass and Careers - rogues
-Warhammer Fantasy Rolepl ay
-Charlatan
-Halfling, High Elf, Human
-Unscrupulous and charming, you separate fools from their money;
-thankfully, there is no shortage of fools…
-A Charlatan traffics in trust, yet profits from treachery. By preying on
-emotions and psychological weaknesses, Charlatans offer their ‘mark’ a
-prize that is too good to be true. Social privilege provides no protection,
-and even the loftiest citizens can fall victim to a skilled Charlatan. In
-addition to a knack for lying, a lack of conscience is also of benefit to
-Charlatans.
-Charlatans include Swindlers, Con Artists, Gamblers, and other
-Scoundrels seeking to prey on the gullible. Halflings often operate
-distraction cons in small family groups. Young High Elves, slumming it
-with Humans, treat their cons as one big game, not motivated by profit,
-but to prove their superiority. Some experienced Charlatans work with
-artists, who forge documentation for a cut of any profits.
-charlatan Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Swindler — Brass 3
-Skills: Bribery, Consume Alcohol, Charm, Entertain
-(Storytelling), Gamble, Gossip, Haggle, Sleight of Hand
-Talents: Cardsharp, Diceman, Etiquette (Any), Luck
+Ringleader - Silver 3
+Trappings: Townhouse with Discreet Back Entrance, a Ring of Bawds
+Swindler - Brass 3
 Trappings: Backpack, 2 Sets of Clothing, Deck of Cards, Dice
-Charlatan — Brass 5
-Skills: Cool, Dodge, Entertain (Acting), Evaluate,
-Intuition, Perception
-Talents: Blather, Criminal, Fast Hands, Secret Identity
-Trappings: 1 Forged Document, 2 Sets of Quality
-Clothing, Selection of Coloured Powders and Water,
-Selection of Trinkets and Charms
-Con Artist — Silver 2
-Skills: Language (Thief), Lore (Heraldry), Pick Lock,
-Secret Signs (Thief)
-Talents: Attractive, Cat-tongued, Dealmaker, Read/Write
-Trappings: Disguise Kit, Lock Picks, Multiple Forged
-Documents
-Scoundrel — Silver 4
-Skills: Lore (Genealogy), Research
-Talents: Gregarious, Master of Disguise, Nose for Trouble,
-Suave
+Charlatan - Brass 5
+Trappings: 1 Forged Document, 2 Sets of Quality Clothing, Selection of Coloured Powders and Water, Selection of Trinkets and Charms
+Con Artist - Silver 2
+Trappings: Disguise Kit, Lock Picks, Multiple Forged Documents
+Scoundrel - Silver 4
 Trappings: Forged Seal, Writing Kit
-‘I’ve carried this across countless leagues from the highest towers
-of the Elves. See how it sparkles in the moonlight? Only magic can
-cause this inner light! Unbelievable as it may be, I must grudgingly
-part with it. For such power, any price is but a trifle!’
-– Wolmar Rotte, Con Man
-‘The last living heir of Lord Schwalb, you say? Hogwash! You’re the
-fifth ‘heir’ to call this afternoon! How much did you pay for that scrap
-of paper? Better yet, who’s the swindler what sold it to you?’
-– Gerold Behn, Irritated Butler
-To avoid rousing suspicion, Charlatans rarely stay in one area for
-long. Few Swindlers openly admit to their calling, preferring instead
-to masquerade as anyone other than themselves. Because of this, there
-is little stopping Charlatans from pursuing side-matters of interests;
-equally, afterwards, they can return to grafting anywhere with rich
-fools willing to part with coin on naught but a promise.
-III
-102
-Fence
-Dwarf, Halfling, Human
-A shrewd assessor of valuables, you’ll buy anything, legal or not, and
-turn it around for a tidy profit.
-A Fence buys thieves’ spoils and sells it on for profit, often to those
-unaware the goods are stolen. Successful Fences sometimes operate as
-pawn brokers, importers, or other merchants. Others prefer to remain
-mobile, trafficking only in portable items. Though the average Fence
-deals in goods and valuables, there are also well-informed specialists
-who focus on information and forbidden knowledge. Some Fences
-move stolen items across the Empire. A painting stolen in Altdorf is
-easier to sell in Talabheim to an audience unaware of the theft. When
-high profile items vanish, Fences are also the first individuals to be
-consulted by those looking to acquire them. Some Fences even take
-commissions from clients, connecting them with those who can steal
-to order.
-Fence Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Broker — Silver 1
-Skills: Charm, Consume Alcohol, Dodge, Evaluate ,
-Gamble, Gossip, Haggle, Melee (Basic)
-Talents: Alley Cat, Cardsharp, Dealmaker, Gregarious
-Trappings: Hand Weapon, Stolen Goods worth 3d10
-Shillings
-Fence — Silver 2
-Skills: Cool, Intimidate, Intuition, Perception, Secret Signs
-(Thief), Trade (Engraver)
-Talents: Criminal, Etiquette (Criminals), Numismatics,
-Savvy
+Broker - Silver 1
+Trappings: Hand Weapon, Stolen Goods worth 3d10 Shillings
+Fence - Silver 2
 Trappings: Eye-glass, Trade Tools (Engraver), Writing Kit
-Master Fence — Silver 3
-Skills: Bribery, Entertain (Storytelling), Lore (Art),
-Lore (Local)
-Talents: Kingpin, Strike to Stun, Suave, Super
-Numerate
-Trappings: Pawnbroker’s Shop
-Black Marketeer — Silver 4
-Skills: Lore (Heraldry), Research
-Talents: Dirty Fighting, Iron Will, Menacing, Briber
-Trappings: Hired Muscle, Network of Informants,
-Warehouse
-‘I know it’s stolen. You know it’s stolen. Even old Sigmar knows it’s
-stolen. So when I ask you if it’s stolen, don’t insult me by telling me it
-isn’t stolen. Lucky for you, I deal in stolen, so stop panicking.’
-– Elene Weslach, Mover
-‘Why am I called a Fence? Well, it’s because I provide you with some
-de-fence from being caught, innit. So, you go thief, and I’ll make sure
-you don’t have to worry about how to shift the merchandise. Think of
-me like your partner-in-crime.’
-– ‘Boil’ Vakram, Fence
-The search for buyers and sellers, or the need to escape a terrible
-situation, can take a Fence anywhere. They can be found across the
-Empire and in many regions beyond its borders. Up-and-coming
-Brokers transport illicit goods between Old World cities in search
-of buyers. Others, looking to make a name for themselves elsewhere,
-attempt to make their own niches in existing city underworlds.
-Given that their interests often collide, Fences and merchants make
-occasional bedfellows, as well. With all of this criminal activity and
-movement, trouble often follows.
-III
-103
-Cl ass and Careers - rogues
-Warhammer Fantasy Rolepl ay
-Grave Robber
-Halfling, Human
-You brave the threat of necromancy, stealing from the dead to line
-your own pockets.
-Trafficking in bodies and body parts is lucrative, with high demand from
-universities and physicians for fresh cadavers. As well as the scholarly
-market, corpses sometimes interred with all manner of valuables can be
-found beneath the ravenstones in the tombs of Morr’s Gardens. Because
-their labours are obvious, illegal, and sacrilegious, Grave Robbers
-usually work under cover of darkness. Body Snatchers have been known
-to cut out the middle man and take beggars or other unfortunates
-straight off the streets. Tomb Robbers avoid the legal dangers of looting
-the recently dead, and instead journey to ancient ruins and barrows,
-risking the restless dead and brigands alike. Peculiarly, some successful
-Treasure Hunters find themselves celebrated as heroes, their treasures
-sold to, and displayed by, the aristocracy. It’s even rumoured that the
-great wealth of one of the Knightly Orders came from a group of their
-members plundering a foreign tomb.
-Grave Robber Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Body Snatcher — Brass 2
-Skills: Climb, Cool, Dodge, Endurance, Gossip, Intuition,
-Perception, Stealth (Any)
-Talents: Alley Cat, Criminal, Flee!, Strong Back
+Master Fence - Silver 3
+Trappings: Pawnbroker's Shop
+Black Marketeer - Silver 4
+Trappings: Hired Muscle, Network of Informants, Warehouse
+Body Snatcher - Brass 2
 Trappings: Crowbar, Handcart, Hooded Cloak, Tarpaulin
-Grave Robber — Brass 3
-Skills: Bribery, Drive, Evaluate, Haggle, Lore (Medicine),
-Melee (Basic)
-Talents: Break and Enter, Night Vision, Resistance (Disease),
-Very Strong
-Trappings: Backpack, Hand Weapon, Spade, Storm
-Lantern and Oil
-Tomb Robber — Silver 1
-Skills: Lore (History), Pick Lock, Research, Set Trap
-Talents: Read/Write, Strike Mighty Blow, Tenacious, Tunnel
-Rat
-Trappings: Hand Weapon (Pick), Horse and Cart, Leather
-Jack, Rope, Trade Tools (Thief)
-Treasure Hunter — Silver 5
-Skills: Navigation, Trade (Engineer)
-Talents: Fearless (Undead), Sixth Sense, Strongminded,
-Trapper
-Trappings: Bedroll, Maps, Tent, Trade Tools
-(Engineer), Writing Kit
-‘You can’t take it with you... but I can certainly take it with me.’
-– Symon Schreiber, Grave Robber
-‘It’s not just the jewels, Herbert. Look at all the bones! There’s
-professors in Altdorf who’d pay good money for these!’
-– Tyle ‘the Ghoul’ Grubsch, Body Snatcher
-‘The nightmares of Khemri still haunt me. The curses cast by those
-long-dead tyrants have sealed my fate. I only hope Morr can put a
-stop to the necromancy that rots my bones and blackens my heart.’
-– Lady Estelle Hauptleiter, Treasure Hunter (deceased)
-Grave Robbers easily take to the adventuring life, especially if their
-nocturnal sojourns are discovered by unsympathetic authorities.
-They may also be sought out by antiquarians who wish to engage
-their expert services in the excavation of a tomb, or perhaps they will
-feel compelled to track down a suspected necromancer who is using
-corpses for nefarious purposes.
-III
-104
-Outlaw
-Dwarf, Halfling, High Elf, Human, Wood Elf
-You prey upon travellers, extracting a toll from the vulnerable and the
-unsuspecting.
-Outlaws ply the roads of the Old World in search of vulnerable travellers
-and merchant caravans. They lead dangerous and often hardscrabble
-lives. Many do not see themselves as criminals, but as oppressed groups
-trying to live their lives free from outside constraints. Many Wood
-Elf outlaws fit this description, pushing back against the Humans
-proliferating at the edge of the forests, willing to take more drastic
-action than others of their kind. Particularly savvy and brutal Outlaws
-may form bands of their own, sometimes even uniting several bands
-under a single banner. Such Bandit Kings are feared and reviled by
-noble and peasant alike. Though few Outlaws discriminate in choosing
-their prey, some claim to protect the common man. These do-gooders
-focus their larceny on greedy nobles and, in return, locals may provide
-them with food, information, and safe harbour.
-Outlaw Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Brigand — Brass 1
-Skills: Athletics, Consume Alcohol, Cool, Endurance,
-Gamble, Intimidate , Melee (Basic), Outdoor Survival
-Talents: Combat Aware, Criminal, Rover, Flee!
-Trappings: Bedroll, Hand Weapon, Leather Jerkin,
-Tinderbox
-Outlaw — Brass 2
-Skills: Dodge, Heal, Lore (Local), Perception, Ranged
-(Bow), Stealth (Rural)
-Talents: Dirty Fighting, Marksman, Strike to Stun, Trapper
+Grave Robber - Brass 3
+Trappings: Backpack, Hand Weapon, Spade, Storm Lantern and Oil
+Tomb Robber - Silver 1
+Trappings: Hand Weapon (Pick), Horse and Cart, Leather Jack, Rope, Trade Tools (Thief)
+Treasure Hunter - Silver 5
+Trappings: Bedroll, Maps, Tent, Trade Tools (Engineer), Writing Kit
+Brigand - Brass 1
+Trappings: Bedroll, Hand Weapon, Leather Jerkin, Tinderbox
+Outlaw - Brass 2
 Trappings: Bow with 10 Arrows, Shield, Tent
-Outlaw Chief — Brass 4
-Skills: Gossip, Intuition, Leadership, Ride (Horse)
-Talents: Rapid Reload, Roughrider, Menacing, Very
-Resilient
-Trappings: Helmet, Riding Horse with Saddle and
-Tack, Sleeved Mail Shirt, Band of Outlaws
-Bandit King — Silver 2
-Skills: Charm, Lore (Empire)
-Talents: Deadeye Shot, Fearless (Road Wardens), Iron
-Will, Robust
-Trappings: ‘Fiefdom’ of Outlaw Chiefs, Lair
-‘They were children, not brigands. Starving, filthy, sickly. They held us
-under the sight of their arrows and we stood fast… my son’s age, they
-were. Children. Killed six of us…’
-– Valentin Behr, Road Warden
-‘...and he says, “Titus, why d’you carry them shears?” And I says,
-“These?” And he says, “Aye, those’re the only shears I see.” So I laughed
-and answered: “Sometimes they don’t want to take off their rings like
-I ask ’em to. When I show ’em the shears, most of ’ em change their
-tune right quick. And if they don’t…’’. Hehehe.’
-– Titus Widmann, Outlaw
-Outlaw bands are not all wild mobs, so many can be reasoned with
-if approached correctly. An Outlaw might be asked to accompany a
-group of adventurers as a guide or to protect them, especially if the
-group are trying to stop unholy activity in a Bandit King’s domain.
-Individual Outlaws may find it simple to join an adventuring band,
-although they may need to disguise themselves if they go anywhere
-the Outlaw is wanted.
-III
-105
-Cl ass and Careers - rogues
-Warhammer Fantasy Rolepl ay
-Racketeer
-Dwarf, Halfling, Human
-You are part of an organised criminal gang, collecting debts and
-extorting money from the weak.
-Racketeers extort money from law-abiding citizens and merchants,
-providing ‘protection’ or some similar fraudulent ‘service’. If the ‘fees’ are
-not paid on time, the victims, their families, and their livelihoods are
-at considerable risk. Large gangs bribe or intimidate local authorities
-to ignore their activities; their Thugs are always willing to kill — or
-worse — to keep business running smoothly. Thugs are employed to
-collect debts of all kind, especially those incurred through gambling
-losses or high-interest-rate loans. In a world brimming with poverty,
-the promise of easy wealth is an allure countless fools are unable to
-ignore. The more organised the graft, the larger and more complex the
-organisations running them become. While the smallest rackets are
-run by small gangs with limited territory beyond a building or two, the
-largest can span cities or even entire provinces, and the Crime Lords
-who run them can wield extraordinary power.
-Racketeer Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Thug — Brass 3
-Skills: Consume Alcohol, Cool, Dodge, Endurance,
-Intimidate , Lore (Local), Melee (Brawling), Stealth (Urban)
-Talents: Criminal, Etiquette (Criminals), Menacing, Strike
-Mighty Blow
+Outlaw Chief - Brass 4
+Trappings: Helmet, Riding Horse with Saddle and Tack, Sleeved Mail Shirt, Band of Outlaws
+Bandit King - Silver 2
+Trappings: 'Fiefdom' of Outlaw Chiefs, Lair 
+Thug - Brass 3
 Trappings: Knuckledusters, Leather Jack
-Racketeer — Brass 5
-Skills: Bribery, Charm, Evaluate, Gossip, Language (Estalian
-or Tilean), Melee (Basic)
-Talents: Dirty Fighting, Embezzle, Strike to Stun, Warrior
-Born
+Racketeer - Brass 5
 Trappings: Hand Weapon, Hat, Mail Shirt
-Gang Boss — Silver 3
-Skills: Intuition, Leadership, Perception, Ranged (Crossbow)
-Talents: Fearless (Watchmen), Iron Will, Resistance (Poison),
-Robust
-Trappings: Crossbow Pistol with 10 Bolts, Gang of Thugs
-and Racketeers, Lair
-Crime Lord — Silver 5
-Skills: Lore (Law), Lore (Politics)
-Talents: Commanding Presence, Kingpin, Frightening,
-Wealthy
-Trappings: Network of Informers, Quality Clothing and Hat,
-Subordinate Gang Bosses
-‘I hope you have Hazelmann’s money because I really hate the sound
-of breaking fingers.’
-– Claus Betelhof, Well-Mannered Racketeer
-‘IF YOU CAN’T PAE THE DEBT, DON’T MAKE THE BET.’
-– Sign in Bosco’s Bones (Altdorf gambling house)
-‘or bosco wil brake ya legs’
-– Bosco’s Bones Sign Addendum scrawled in chalk
-Thugs and Racketeers are always willing to resort to threats and
-violence, making them valuable members of any party that expects
-to face aggressive opposition. Gang Bosses might even take their
-business on the road, looking to expand their territory or explore new
-opportunities for intrigue and profit. Given the competitive nature
-of such rackets, even the most powerful Crime Lords might find
-themselves deposed by opponents or treachery. Forced to hide or
-flee, such experienced crooks can seek to use a group of experienced
-adventurers to their advantage.
-III
-106
-Thief
-Dwarf, Halfling, Human
-You steal from others in order to line your own pockets, and you’re
-rather good at it.
-Thieves steal all manner of wealth and goods from their fellow man.
-From the lowliest footpad to the wiliest burglar, the thought of an
-honest day’s work in return for a respectable wage is little more than
-a bad joke. Thieves often organize themselves into gangs alongside
-charlatans, racketeers, and fences to further their mutual wealth. Bitter
-feuds between such illicit organisations have been known to last for
-years or even decades. The lowliest Thieves target individuals, picking
-pockets or waylaying victims in rat-infested alleyways. Burglars avoid
-confrontation by breaking into businesses and residences, carrying off
-portable valuables. More ambitious thieves scope out their targets for
-days or weeks, even going so far as to infiltrate their target locations
-to get a more precise lay of the land. Working with other professional
-burglars, such experts can organise heists of which their lesser peers can
-only dream.
-Thief Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Prowler — Brass 1
-Skills: Athletics, Climb, Cool, Dodge, Endurance, Intuition,
-Perception, Stealth (Urban)
-Talents: Alley Cat, Criminal, Flee!, Strike to Stun
+Gang Boss - Silver 3
+Trappings: Crossbow Pistol with 10 Bolts, Gang of Thugs and Racketeers, Lair
+Crime Lord - Silver 5
+Trappings: Network of Informers, Quality Clothing and Hat, Subordinate Gang Bosses
+Prowler - Brass 1
 Trappings: Crowbar, Leather Jerkin, Sack
-Thief — Brass 3
-Skills: Evaluate, Gossip, Lore (Local), Pick Lock, Secret
-Signs (Thief), Sleight of Hand
-Talents: Break and Enter, Etiquette (Criminals), Fast Hands,
-Shadow
+Thief - Brass 3
 Trappings: Trade Tools (Thief), Rope
-Master Thief — Brass 5
-Skills: Bribery, Gamble, Intimidate, Ranged (Crossbow)
-Talents: Night Vision, Nimble Fingered, Step Aside, Trapper
+Master Thief - Brass 5
 Trappings: Crossbow Pistol with 10 Bolts
-Cat Burglar — Silver 3
-Skills: Charm, Set Trap
-Talents: Catfall, Scale Sheer Surface, Strong Legs,
-Wealthy
-Trappings: Dark Clothing, Grappling Hook, Mask
-or Scarves
-‘One creaky floorboard in the whole place and I’m the one to find it…’
-– Alette Zimmermann, Thief, Jailed
-‘What the...? Those aren’t dogs... they’re bears!’
-– Marx the Mauled, Unlucky Thief
-‘No, the list of charges does not include, “Stealing the magistrate’s
-heart away.” You must have me confused with a magistrate who has
-a heart.’
-– Leonora Nithardt, Magistrate
-Thieves who run afoul of the law are obliged to hide or flee from
-justice, putting many would-be inmates on the run. Sometimes
-the very items stolen by Thieves are of such exorbitant value or
-supernatural quality they seem to attract trouble like a mouldering
-corpse draws flies, which can lead them into all sorts of unexpected
-adventures. Of course, a Burglar’s talents are always valuable
-to adventurers, and reliable examples can expect to be wellcompensated
-for their skills.
-III
-107
-Cl ass and Careers - rogues
-Warhammer Fantasy Rolepl ay
-Witch
-Human
-Wilful and ambitious, you strive to master magic without an officially
-sanctioned licence to operate.
-Any with the rare talent to wield magic must, by law, be trained by
-wizards of the College of Magic. Not everyone accepts such a fate;
-some hide their powers or go on the run. Such folk are called Witches.
-They risk insanity and damnation as magic burns through them without
-correct tutelage, and rarely understand the nature of the forces in which
-they dabble. Others embrace their burgeoning powers wholeheartedly,
-accepting the risks. Witches come in all varieties, with the talent to
-wield magic playing no favourites. Some are benign figures simply
-seeking freedom. Others are nobles refusing to accept they are Witches,
-for to do so is to be disinherited. Yet others are terrified of what they
-may become, so run away. Whatever the case, few will admit what they
-are, as all risk burning by over-zealous Sigmarites.
-Witch Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Hexer — Brass 1
-Skills: Channelling, Cool, Endurance, Gossip, Intimidate,
-Language (Magick), Sleight of Hand, Stealth (Rural)
-Talents: Criminal, Instinctive Diction, Menacing, Petty Magic
+Cat Burglar - Silver 3
+Trappings: Dark Clothing, Grappling Hook, Mask or Scarves
+Hexer - Brass 1
 Trappings: Candles, Chalk, Doll, Pins
-Witch — Brass 2
-Skills: Charm Animal, Dodge, Intuition, Melee (Polearm),
-Perception, Trade (Herbalist)
-Talents: Arcane Magic (Witchery), Attractive, Second
-Sight, Witch!
-Trappings: Quarterstaff, Sack, Selection of Herbs, Trade
-Tools (Herbalist)
-Wyrd — Brass 3
-Skills: Bribery, Charm, Haggle, Lore (Dark Magic)
-Talents: Animal Affinity, Fast Hands, Frightening,
-Magical Sense
-Trappings: Backpack, Cloak with Several Pockets, Lucky
-Charm
-Warlock — Brass 5
-Skills: Lore (Daemonology), Lore (Magic)
-Talents: Aethyric Attunement, Luck, Strong-minded, Very
-Resilient
+Witch - Brass 2
+Trappings: Quarterstaff, Sack, Selection of Herbs, Trade Tools (Herbalist)
+Wyrd - Brass 3
+Trappings: Backpack, Cloak with Several Pockets, Lucky Charm
+Warlock - Brass 5
 Trappings: Robes, Skull
-‘Do you think only wizards can wield magic? Think again! I, too, have
-such understanding, and I refuse to become a slave to the so-called
-Colleges.’
-– Apprentice Franz Zimmel of the Gold Order,
-3 months before being captured by a Witch Hunter
-Witches lead dangerous lives. Though some pose as wizards, such
-deceptions are easily discerned by anyone with any knowledge of
-magic. Nevertheless, bands of adventurers — especially those without
-unwavering faith or moral qualms — rarely care for the specifics of
-a Witch’s education so long as the methods used are effective and
-have no truck with the Dark Gods. Although unsanctioned witchery
-is illegal — carrying the death penalty — most wizards have a brief
-experience as a Witch before entering the Colleges of Magic. This
-is acknowledged by both the Colleges and the cults, so a Witch, if
-discovered, should submit to the authorities. Training in the Colleges
-could be covered as time between adventures, meaning the Witch
-can return at a later date in the Wizard career, or it could become the
-focus of a new adventure.
-III
-108
-Ca valryman
-High Elf, Human, Wood Elf
-A dashing and fearless rider, you bring speed, versatility, and skill-atarms
-to the battlefield.
-Whether it’s units of Pistoliers, Outriders, Demilancers, Horse
-Archers, or similar, Cavalrymen are deployed for maximum strategic
-advantage. On campaign, that means scouting, raiding, harassing the
-enemy lines, or defending foragers. On the battlefield, they are also
-particularly versatile, able to strike quickly and melt away. For speed
-of movement, scouting, versatility, and sheer élan, Cavalrymen cannot
-be rivalled. Swift, lightly-armoured cavalry is employed by most
-armies, including forces of the cults and less formal armed bands
-including mercenaries or private armies. Bretonnian armies make use
-of mounted men at arms, while Wood Elf Gladeriders are some of the
-most feared light cavalry in the Old World.
-Ca valryman Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Horseman — Silver 2
-Skills: Animal Care, Charm Animal, Endurance, Language
-(Battle), Melee (Basic), Outdoor Survival, Perception, Ride
-(Horse)
-Talents: Combat Aware, Crack the Whip, Lightning
-Reflexes, Roughrider
-Trappings: Leather Jack, Riding Horse with Saddle and
-Tack
-Cavalryman — Silver 4
-Skills: Charm, Consume Alcohol, Cool, Gossip, Melee
-(Cavalry), Ranged (Blackpowder)
-Talents: Etiquette (Soldiers), Gunner, Seasoned Traveller,
-Trick Riding
-Trappings: Breastplate, Helmet, Light Warhorse with
-Saddle and Tack, Pistol with 10 Shots, Shield
-Cavalry Sergeant — Gold 1
-Skills: Intimidate, Intuition, Leadership, Lore (Warfare)
-Talents: Combat Reflexes, Fast Shot, Hatred (Any),
-Warleader
+Horseman - Silver 2
+Trappings: Leather Jack, Riding Horse with Saddle and Tack
+Cavalryman - Silver 4
+Trappings: Breastplate, Helmet, Light Warhorse with Saddle and Tack, Pistol with 10 Shots, Shield
+Cavalry Sergeant - Gold 1
 Trappings: Sash
-Cavalry Officer — Gold 2
-Skills: Gamble, Lore (Heraldry)
-Talents: Accurate Shot, Inspiring, Reaction Strike,
-Robust
+Cavalry Officer - Gold 2
 Trappings: Deck of Cards, Quality Clothing
-‘Any pistolier not dead by thirty is a scoundrel.’
-–General Lasaal, Reikland’s 5th Regiment of Cavalry
-‘An outrider came by yesterday, checking to see if we were safe. Gosh,
-he was so handsome and dashing, who wouldn’t want to go outriding
-with him? He grabbed my buns and was off like the wind. Never paid
-for them, mind.’
-–Lena Fluffe, Walfenburg baker
-A cavalryman currently in the State Army is not just going to drop
-everything on a whim. Should they have something they wish to
-personally pursue, they will require permission from senior officers,
-perhaps buy out their commission if they have one, or go absent
-without leave. As an alternative, they could be ordered to investigate
-matters of importance by their superiors? Mercenary cavalrymen have
-more flexibility to strike out adventuring, being little more than hired
-swords.
-III
-109
-Cl ass and Careers - warriors
-Warhammer Fantasy Rolepl ay
-Guard
-Dwarf, Halfling, High Elf, Human, Wood Elf
-Your job is simple: keep undesirables out.
-The best way to keep something safe is to post a guard. Guarding looks
-easy enough, it’s usually standing around doing very little. Guards live
-and die, quite literally, by how they behave during that one moment
-when they are required to spring into action. The best can command
-high wages and are entrusted with the lives of the Empire’s finest
-personages and most valuable items. Guards are everywhere, from
-the Imperial palace down to bouncers who stand outside taverns all
-night, ready to throw drunkards into the street. They also include grave
-wardens — those who defend Morr’s Gardens in the dead of night,
-watchful for grave robbers — and temple guards who defend holy sites
-and important priests. Merchants often employ many Guards to defend
-their valuable stock. Some claim bodyguards have it best because they
-stay close to their esteemed employers, and often partake of a life far
-beyond that which their station would normally allow.
-Guard Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Sentry — Silver 1
-Skills: Consume Alcohol, Endurance, Entertain
-(Storytelling), Gamble, Gossip, Intuition, Melee (Basic),
-Perception
-Talents: Diceman, Etiquette (Servants), Strike to Stun,
-Tenacious
-Trappings: Buckler, Leather Jerkin, Storm Lantern
-with Oil
-Guard — Silver 2
-Skills: Athletics, Cool, Dodge, Intimidate, Melee
-(Polearm), Ranged (Bow)
-Talents: Relentless, Reversal, Shieldsman, Strike
-Mighty Blow
-Trappings: Bow with 10 Arrows, Sleeved Mail Shirt,
-Shield, Spear
-Honour Guard — Silver 3
-Skills: Heal, Language (Battle), Lore (Etiquette),
-Melee (Two-handed)
-Talents: Fearless (Intruders), Jump Up, Stout-hearted,
-Unshakeable
+Sentry - Silver 1
+Trappings: Buckler, Leather Jerkin, Storm Lantern with Oil
+Guard - Silver 2
+Trappings: Bow with 10 Arrows, Sleeved Mail Shirt, Shield, Spear
+Honour Guard - Silver 3
 Trappings: Great Weapon or Halberd, Helmet, Uniform
-Guard Officer — Silver 5
-Skills: Leadership, Lore (Warfare)
-Talents: Combat Master, Furious Assault, Iron Will, Robust
+Guard Officer - Silver 5
 Trappings: Breastplate
-‘I stood outside the shrine for thirty days and thirty nights, without
-fail. No-one got in and no-one got out. Of course, it turned out I was
-stood outside the wrong door.’
-– Ernst Bluchard, Ex-Temple Guard of Manann
-‘If you’re not on the list, you’re not coming in!’
-– Anonymous Altdorf guard to the Grand Theogonist
-at the coronation of Karl-Franz I, apocryphal
-Guards can find adventure when their guardianship is compromised.
-Any guard worth his salt would wish to follow up and investigate
-those who have thwarted them, and get whatever they were guarding
-back to its true owner. This could easily turn into an exciting adventure.
-Many of those going on expeditions will require guards to accompany
-them, to adventure, profit or an untimely demise.
-III
-110
-Knight
-High Elf, Human, Wood Elf
-Thundering into battle on a heavy charger, you dominate the field,
-spreading fear in your wake.
-Many believe heavy cavalry are the pre-eminent warriors of the Old
-World. A massed charge is an awesome sight, but even alone a Knight
-can stand as a one-person army. There are many Knightly Orders in the
-Empire, the most famous including the Reiksguard, the White Wolves,
-the Knights Panther, and the Knights Griffon, each of which have
-their own gloried history and mighty heroes. Most Empire Knights
-belong to secular knightly orders, partly because training heavy lancers
-is too prohibitively expensive for most nobles. The templar orders,
-those dedicated to the service of a single deity are just as common but
-are somewhat more independent. Alongside these are an uncounted
-number of free-lances, mercenary knights, and disgraced knights, most
-of whom sell their lance to the highest bidder.
-Knight Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Squire — Silver 3
-Skills: Athletics, Animal Care, Charm Animal, Heal, Lore
-(Heraldry), Melee (Cavalry) , Ride (Horse), Trade (Farrier)
-Talents: Etiquette (any), Roughrider, Sturdy, Warrior
-Born
-Trappings: Leather Jack, Mail Shirt, Riding Horse with
-Saddle and Tack, Shield, Trade Tools (Farrier)
-Knight — Silver 5
-Skills: Cool, Dodge, Endurance, Intimidate, Language
-(Battle), Melee (Any)
-Talents: Menacing, Seasoned Traveller, Shieldsman, Strike
-Mighty Blow
-Trappings: Destrier with Saddle and Tack, Melee Weapon
-(Any), Lance, Plate Armour and Helm
-First Knight — Gold 2
-Skills: Charm, Consume Alcohol, Leadership, Lore
-(Warfare)
-Talents: Fearless (Any), Stout-hearted, Unshakeable,
-Warleader
+Squire - Silver 3
+Trappings: Leather Jack, Mail Shirt, Riding Horse with Saddle and Tack, Shield, Trade Tools (Farrier)
+Knight - Silver 5
+Trappings: Destrier with Saddle and Tack, Melee Weapon (Any), Lance, Plate Armour and Helm
+First Knight - Gold 2
 Trappings: Barding, Small Unit of Knights
-Knight of the Inner Circle — Gold 4
-Skills: Lore (Any), Secret Signs (Knightly Order)
-Talents: Disarm, Inspiring, Iron Will, Strike to Injure
-Trappings: Plumed Great Helm, Squire, Large Unit of
-Knights or Several Small Units of Knights
-‘The knight demanded I get out of his way. “Why?” I asked. “I am in
-the service of the people,” he replied. “Well, I’m the people,” I said, “so
-I don’t have to get out of your way.” He didn’t have an answer to that,
-of course. So he punched me in the face!’
-– Holger Kass, 1st Bögenhafen Halberdiers
-‘Lady Myrmaelia Jaeke is the finest knight in the Order of the
-Blazing Sun. How can I be so sure? Well, I used to hold that title,
-and she bested me.’
-– Birgitte van der Hoogenband, Abbess-General of the Monastery
-of the Black Maiden, former Knight of the Blazing Sun.
-Knights might be asked to venture out to fulfil a duty on behalf of
-their Order or be sought out by nobles and employed to accompany
-a restless heir around the Empire. Similarly, templars will have
-responsibility to do their god’s will. All of these provide perfect
-opportunities for Knights looking to adventure. By comparison, a
-free-lance is just that, and a life of adventure is what they follow by
-default.
-III
-111
-Cl ass and Careers - warriors
-Warhammer Fantasy Rolepl ay
-Pit Fighter
-Dwarf, Halfling, High Elf, Human, Wood Elf
-You fight for money, for glory, and for the entertainment of the
-masses.
-Watching fights is a popular pastime. In the cities, organised fights
-take place every night. There is money to be made charging spectators,
-and even more in gambling on the result. Winners earn coin and are
-celebrated as local heroes. Losers are hurt or killed. Because pit fighting
-is officially frowned upon, the fights are often controlled by criminal
-gangs, but the rich love to slum it on occasion, especially if it involves
-a little bloodshed. The gladiators of Tilea are the most renowned pit
-fighters, though the chain-fighters of Marienburg and bear-wrestlers of
-Kislev draw a crowd. Pugilists and wrestlers might work a travelling fair,
-challenging the public to survive three minutes in the ring with them,
-or they might fight a celebrated opponent in front of cheering crowds.
-Knives, clubs, chains, boxing, wrestling, there is an almost endless
-variation of styles and codes a Pit Fighter might adopt.
-Pit Fighter Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Pugilist — Brass 4
-Skills: Athletics, Cool, Dodge, Endurance, Gamble,
-Intimidate, Melee (Any) , Melee (Brawling)
-Talents: Dirty Fighting, In-fighter, Iron Jaw, Reversal
+Knight of the Inner Circle - Gold 4
+Trappings: Plumed Great Helm, Squire, Large Unit of Knights or Several Small Units of Knights
+Pugilist - Brass 4
 Trappings: Bandages, Knuckledusters, Leather Jack
-Pit Fighter — Silver 2
-Skills: Haggle, Intuition, Melee (Basic), Melee (Flail or
-Two-handed), Perception, Ranged (Entangling)
-Talents: Ambidextrous, Combat Reflexes, Dual Wielder,
-Shieldsman
-Trappings: Flail or Great Weapon, Hand Weapon, Net or
-Whip, Shield or Buckler
-Pit Champion — Silver 5
-Skills: Consume Alcohol, Gossip, Lore (Anatomy), Perform
-(Fight)
-Talents: Combat Master, Disarm, Menacing, Robust
+Pit Fighter - Silver 2
+Trappings: Flail or Great Weapon, Hand Weapon, Net or Whip, Shield or Buckler
+Pit Champion - Silver 5
 Trappings: Breast Plate, Helmet
-Pit Legend — Gold 2
-Skills: Charm, Ranged (Any)
-Talents: Frightening, Furious Assault, Implacable, Reaction
-Strike
+Pit Legend - Gold 2
 Trappings: Quality Helmet
-‘It was my big chance. The biggest fight of my life. Then the Hooks
-came and told me to go down in the fourth or they’d chop off my
-hand. Well, you know me, of course I went and won anyway. And I’ve
-no regrets. After all, there are lots of things you can do with one hand.’
-– Sigurda the Bull, Arm Wrestler
-‘Roll up! Roll up! Dare you face the might of Gosser Papa? Could you
-last three minutes with Resige Heuhaufer!’
-– Raimund Heenan, Ring Announcer
-Many Pit Fighters fall into their sport because they have the talent
-and they simply need the money. Some would jump at the chance to
-leave their seedy world behind and put their talents to a slightly better
-use. Fortunately, Pit fighters are generally free to use their time as they
-will, provided they turn up on time for the next big fight, and even if
-they don’t, there is always another pit…
-III
-112
-Protagonist
-Dwarf, High Elf, Human
-A strong-arm for hire, you bully, fight, and maybe even kill for coin.
-Protagonists live by their wits and their muscles and are not generally
-fussy about the sort of work they take on. A merchant might want to
-frighten their business rival. An employer might decide his workers
-need a bit of encouragement to get a job done quicker. A noble might
-want his daughter’s no-good suitor to be frightened off. Protagonists
-are the ones they turn to, and those with the worst reputation get the
-best jobs. A Protagonist could be the brute in the local bar everyone
-knows will bully for coin, or with the reputation for unflinching
-violence. Some Protagonists have their own code of what they will or
-won’t do; others care for nothing but the coin. Some are simple bullies
-who resort to picking arguments and fights with likely looking targets
-to see if they can score any money from the situation.
-Protagonist Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Braggart — Brass 2
-Skills: Athletics, Dodge, Endurance, Entertain (Taunt),
-Gossip, Haggle, Intimidate, Melee (Any)
-Talents: In-fighter, Dirty Fighting, Menacing, Warrior Born
+Braggart - Brass 2
 Trappings: Hood or Mask, Knuckledusters, Leather Jack
-Protagonist — Silver 1
-Skills: Bribery, Charm, Intuition, Melee (Basic),
-Perception, Ride (Horse)
-Talents: Combat Reflexes, Criminal, Reversal,
-Strike to Stun
-Trappings: Hand Weapon, Mail Shirt, Riding
-Horse with Saddle and Tack, Shield
-Hitman — Silver 4
-Skills: Climb, Cool, Navigation, Ranged (Thrown)
-Talents: Careful Strike, Disarm, Marksman,
-Relentless
-Trappings: Cloak, Garotte, Poison, Throwing
-Knives
-Assassin — Gold 1
-Skills: Entertain (Acting), Ranged (Crossbow)
-Talents: Accurate Shot, Ambidextrous, Furious
-Assault, Strike to Injure
+Protagonist - Silver 1
+Trappings: Hand Weapon, Mail Shirt, Riding Horse with Saddle and Tack, Shield
+Hitman - Silver 4
+Trappings: Cloak, Garotte, Poison, Throwing Knives
+Assassin - Gold 1
 Trappings: Crossbow with 10 shots, Disguise Kit
-‘Remember Thommy Two Knives? I’m not saying he crossed me. I’m
-just saying you don’t see him walking round town no more, do you?’
-– Gilly Three Knives, Protagonist
-‘Yeah, Big Yuri came round and destroyed all my merchandise. Said
-this town was only big enough for one lotus dealer, and that was that.
-I completely agreed, so I doubled his pay and sent him back to White
-Tiger’s den. And that was the end of that.’
-– Toni Miragliano, Lotus Dealer
-On the face of it, Protagonists are always up for an adventure because
-they’re always up for a fight. But they will usually expect to get
-paid for services rendered. Whether they will join others without a
-guarantee of payment is a question they will need to ask themselves.
-Could a hardened protagonist find a cause they will voluntarily
-pursue? Perhaps they could even turn over a new leaf?
-III
-113
-Cl ass and Careers - warriors
-Warhammer Fantasy Rolepl ay
-Slayer
-Dwarf
-You are rage and shame incarnate, seeking a worthy death to reclaim
-your lost honour.
-When Dwarfs suffer an unacceptable shame and lose their honour, they
-take the Slayer’s Oath and walk the path of Grimnir, their ancestral
-god of warriors. Covering their bodies in tattoos, shaving the sides of
-their head, dying their remaining hair a brilliant orange, and spiking it
-with animal grease, they set off into the world, axe in hand, seeking a
-glorious death.
-Slayers wander the Old World hunting deadly beasts, such as Trolls,
-Giants, or Dragons. Because of the shame they carry, many suffer from
-bouts of depression, glutting themselves on food, alcohol, or stronger
-stimulants. The more foes Slayers face and survive, the more dangerous
-and crazed they become, hunting progressively deadlier creatures in the
-hopes of finding something that can kill them.
-Slayer Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Troll Slayer — Brass 2
-Skills: Consume Alcohol, Cool, Dodge, Endurance,
-Gamble, Heal, Lore (Trolls), Melee (Basic)
-Talents: Dual Wielder, Fearless (Everything), Frenzy, Slayer
+Troll Slayer - Brass 2
 Trappings: Axe, Flask of Spirits, Shame, Tattoos
-Giant Slayer — Brass 2
-Skills: Evaluate, Intimidate, Language (Battle), Lore
-(Giants), Melee (Two-handed), Outdoor Survival
-Talents: Hardy, Implacable, Menacing, Reversal
-Trappings: Great Axe, Jewellery, Troll’s Head
-Dragon Slayer — Brass 2
-Skills: Entertain (Storytelling), Lore (Dragons),
-Perception, Ranged (Thrown)
-Talents: Ambidextrous, Furious Assault, Relentless,
-Robust
-Trappings: Giant’s Head, Throwing Axes
-Daemon Slayer — Brass 2
-Skills: Intuition, Lore (Chaos)
-Talents: Combat Master, Frightening, Strike Mighty Blow,
-Very Strong
-Trappings: Dragon’s Head
-‘We avoid them, if given the choice. They are outcasts and have no
-honour, only the hope of reclaiming such. Still, we’ll feed them, and
-give them a place to rest. They are Grimnir’s Chosen, now…’
-– Dimrond Zindrisson, Miner
-‘Herwig didn’t mean nothing by it, honest. He just asked why the
-Dwarf had them strange tattoos. It happened so fast, I didn’t even see
-the Dwarf move, just Herwig hitting the floor.’
-– Regimius, Stevedore
-‘We’re all going to die, manling. It’s the manner of our going that
-counts.’
-– Gotrek Gurnisson, Slayer
-Till they fall in battle, a Slayer’s life is one of adventure — they
-seek out opportunities to face powerful foes in battle. Slayers will
-occasionally take other odd jobs, for drinking money or to finance
-their travels, but will seek death along the way. All Slayers previously
-had a life and a career, so there is more to them than simply being a
-warrior with a deathwish.
-Playing a Slayer is a unique experience because your character wants
-to die. Embrace this. Seek a mighty doom. Reclaim your honour. Die
-well.
-III
-114
-Soldier
-Dwarf, Halfling, High Elf, Human, Wood Elf
-You are paid to train, be disciplined, and, when the need comes, go
-to war.
-By the command of Emperor Magnus the Pious after the Great War
-Against Chaos, all provinces of the Empire had to maintain a standing
-State Army. Soldiers are the mainstay of these armies, trained to fight
-as part of a larger group with individual skill supplemented by strength
-in numbers. Rarely encouraged to think for themselves, Soldiers are
-famous for their stoic fatalism as they are ordered from pillar to post
-in the service of their betters. Soldiers could be archers, crossbowmen,
-halberdiers, handgunners, swordsmen, or spearmen, and that’s just
-in a typical State regiment. Dwarfs employ soldiers like Hammerers
-and Thunderers, while Elven rank and file are usually archers and
-spearmen. There are many other Soldiers, such as Mercenaries, local
-Militias (which are rarely better than Recruits), private armies, cult
-forces, and more.
-Soldier Advance Scheme
-WS BS S T I Agi Dex Int WP Fel
-h h h
-Career Path
-h Recruit — Silver 1
-Skills: Athletics, Climb, Cool, Dodge, Endurance, Language
-(Battle), Melee (Basic) , Play (Drum or Fife)
-Talents: Diceman, Marksman, Strong Back, Warrior Born
+Giant Slayer - Brass 2
+Trappings: Great Axe, Jewellery, Troll's Head
+Dragon Slayer - Brass 2
+Trappings: Giant's Head, Throwing Axes
+Daemon Slayer - Brass 2
+Trappings: Dragon's Head
+Recruit - Silver 1
 Trappings: Dagger, Leather Breastplate, Uniform
-Soldier — Silver 3
-Skills: Consume Alcohol, Gamble, Gossip, Melee (Any),
-Ranged (Any), Outdoor Survival
-Talents: Drilled, Etiquette (Soldiers), Rapid Reload,
-Shieldsman
+Soldier - Silver 3
 Trappings: Breastplate, Helmet, Weapon (Any)
-Sergeant — Silver 5
-Skills: Heal, Intuition, Leadership, Perception
-Talents: Combat Aware, Enclosed Fighter, Unshakeable,
-Warleader
+Sergeant - Silver 5
 Trappings: Symbol of Rank, Unit of Troops
-Officer — Gold 1
-Skills: Lore (Warfare), Navigation
-Talents: Inspiring, Public Speaking, Seasoned Traveller,
-Stout-hearted
-Trappings: Letter of Commission, Light Warhorse with
-Saddle and Tack, Map, Orders, Unit of Soldiers, Quality
-Uniform, Symbol of Rank
-Novitiate — Brass 2
+Officer - Gold 1
+Trappings: Letter of Commission, Light Warhorse with Saddle and Tack, Map, Orders, Unit of Soldiers, Quality Uniform, Symbol of Rank
+Novitiate - Brass 2
 Trappings: Book (Religion), Leather Jerkin, Religious Symbol, Robes, Weapon (Any Melee)
-Warrior Priest — Silver 2
+Warrior Priest - Silver 2
 Trappings: Breastplate, Weapon (Any)
-Priest Sergeant — Silver 3
+Priest Sergeant - Silver 3
 Trappings: Light Warhorse with Saddle and Tack
-Priest Captain — Silver 4
+Priest Captain - Silver 4
 Trappings: Religious Relic
