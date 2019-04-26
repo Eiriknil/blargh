@@ -1,0 +1,25 @@
+{
+  "career": "Duellist",
+  "level": [
+    {
+      "name": ["Fencer"],
+      "status": ["Silver 3"],
+      "trappings": ["Hand Weapon or Rapier, Sling Bag containing Clothing and 1d10 Bandages"]
+    },
+    {
+      "name": ["Duellist"],
+      "status": ["Silver 5"],
+      "trappings": ["Main Gauche or Sword-breaker, Pistol with Gunpowder and Ammunition"]
+    },
+    {
+      "name": ["Duelmaster"],
+      "status": ["Gold 1"],
+      "trappings": ["Quality Rapier, Hand Weapon, Trusty Second, 2 Wooden Training Swords"]
+    },
+    {
+      "name": ["Judicial Champion"],
+      "status": ["Gold 3"],
+      "trappings": ["2 Quality Weapons"]
+    }
+  ]
+}

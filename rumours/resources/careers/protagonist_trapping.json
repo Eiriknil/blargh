@@ -1,0 +1,25 @@
+{
+  "career": "Protagonist",
+  "level": [
+    {
+      "name": ["Braggart"],
+      "status": ["Brass 2"],
+      "trappings": ["Hood or Mask, Knuckledusters, Leather Jack"]
+    },
+    {
+      "name": ["Protagonist"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon, Mail Shirt, Riding Horse with Saddle and Tack, Shield"]
+    },
+    {
+      "name": ["Hitman"],
+      "status": ["Silver 4"],
+      "trappings": ["Cloak, Garotte, Poison, Throwing Knives"]
+    },
+    {
+      "name": ["Assassin"],
+      "status": ["Gold 1"],
+      "trappings": ["Crossbow with 10 shots, Disguise Kit"]
+    }
+  ]
+}

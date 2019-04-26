@@ -1,0 +1,25 @@
+{
+  "career": "Guard",
+  "level": [
+    {
+      "name": ["Sentry"],
+      "status": ["Silver 1"],
+      "trappings": ["Buckler, Leather Jerkin, Storm Lantern with Oil"]
+    },
+    {
+      "name": ["Guard"],
+      "status": ["Silver 2"],
+      "trappings": ["Bow with 10 Arrows, Sleeved Mail Shirt, Shield, Spear"]
+    },
+    {
+      "name": ["Honour Guard"],
+      "status": ["Silver 3"],
+      "trappings": ["Great Weapon or Halberd, Helmet, Uniform"]
+    },
+    {
+      "name": ["Guard Officer"],
+      "status": ["Silver 5"],
+      "trappings": ["Breastplate"]
+    }
+  ]
+}

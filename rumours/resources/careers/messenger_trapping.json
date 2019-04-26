@@ -1,0 +1,25 @@
+{
+  "career": "Messenger",
+  "level": [
+    {
+      "name": ["Runner"],
+      "status": ["Brass 3"],
+      "trappings": ["Scroll Case"]
+    },
+    {
+      "name": ["Messenger"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon, Leather Jack, Riding Horse with Saddle and Tack"]
+    },
+    {
+      "name": ["Courier"],
+      "status": ["Silver 3"],
+      "trappings": ["Backpack, Saddlebags, Shield"]
+    },
+    {
+      "name": ["Courier-Captain"],
+      "status": ["Silver 5"],
+      "trappings": ["Couriers, Mail Shirt, Writing Kit"]
+    }
+  ]
+}

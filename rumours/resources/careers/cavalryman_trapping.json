@@ -1,0 +1,25 @@
+{
+  "career": "Cavalryman",
+  "level": [
+    {
+      "name": ["Horseman"],
+      "status": ["Silver 2"],
+      "trappings": ["Leather Jack, Riding Horse with Saddle and Tack"]
+    },
+    {
+      "name": ["Cavalryman"],
+      "status": ["Silver 4"],
+      "trappings": ["Breastplate, Helmet, Light Warhorse with Saddle and Tack, Pistol with 10 Shots, Shield"]
+    },
+    {
+      "name": ["Cavalry Sergeant"],
+      "status": ["Gold 1"],
+      "trappings": ["Sash"]
+    },
+    {
+      "name": ["Cavalry Officer"],
+      "status": ["Gold 2"],
+      "trappings": ["Deck of Cards, Quality Clothing"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "career": "Advisor",
+  "level": [
+    {
+      "name": ["Aide"],
+      "status": ["Silver 2"],
+      "trappings": ["Writing Kit"]
+    },
+    {
+      "name": ["Advisor"],
+      "status": ["Silver 4"],
+      "trappings": ["Livery"]
+    },
+    {
+      "name": ["Counsellor"],
+      "status": ["Gold 1"],
+      "trappings": ["Quality Clothing, Aide"]
+    },
+    {
+      "name": ["Chancellor"],
+      "status": ["Gold 3"],
+      "trappings": ["Riding Horse with Saddle and Harness, Quality Courtly Garb, Staff of Advisors and Aides"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "career": "Mystic",
+  "level": [
+    {
+      "name": ["Fortune Teller"],
+      "status": ["Brass 1"],
+      "trappings": ["Deck of Cards or Dice, Cheap Jewellery"]
+    },
+    {
+      "name": ["Mystic"],
+      "status": ["Brass 2"],
+      "trappings": ["Selection of Amulets"]
+    },
+    {
+      "name": ["Sage"],
+      "status": ["Brass 3"],
+      "trappings": ["Trade Tools (Writing)"]
+    },
+    {
+      "name": ["Seer"],
+      "status": ["Brass 4"],
+      "trappings": ["Trade Tools (Astrology)"]
+    }
+  ]
+}

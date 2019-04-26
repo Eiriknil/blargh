@@ -514,11 +514,12 @@ public interface Character {
 		private RandomCharacter() {
 		}
 		
-		public static Character create(String career, Races race, int careerRank, Random randomizer) {
+		public static Character create(String careerName, Races race, int careerRank, Random randomizer) {
 			
 			Character.Factory.setRandomizer(randomizer);
 			Character character = Factory.create(race);
-			character.changeCareer(Career.Factory.create(career));
+			Career career = Career.Factory.create(careerName);
+			character.changeCareer(career);
 			
 			return randomizeCharacter(character, careerRank, randomizer);
 		}

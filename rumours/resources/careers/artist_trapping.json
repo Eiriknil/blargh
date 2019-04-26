@@ -1,0 +1,25 @@
+{
+  "career": "Artist",
+  "level": [
+    {
+      "name": ["Apprentice Artist"],
+      "status": ["Silver 1"],
+      "trappings": ["Brush or Chisel or Quill Pen"]
+    },
+    {
+      "name": ["Artist"],
+      "status": ["Silver 3"],
+      "trappings": ["Sling Bag containing Trade Tools (Artist)"]
+    },
+    {
+      "name": ["Master Artist"],
+      "status": ["Silver 5"],
+      "trappings": ["Apprentice, Patron, Workshop (Artist)"]
+    },
+    {
+      "name": ["Maestro"],
+      "status": ["Gold 2"],
+      "trappings": ["Large Workshop (Artist), Library (Art), 3 Apprentices"]
+    }
+  ]
+}

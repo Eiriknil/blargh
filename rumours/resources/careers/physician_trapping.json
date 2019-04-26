@@ -1,0 +1,25 @@
+{
+  "career": "Physician",
+  "level": [
+    {
+      "name": ["Physician's Apprentice"],
+      "status": ["Brass 4"],
+      "trappings": ["Bandages, Healing Draught"]
+    },
+    {
+      "name": ["Physician"],
+      "status": ["Silver 3"],
+      "trappings": ["Book (Medicine), Guild Licence, Trade Tools (Medicine)"]
+    },
+    {
+      "name": ["Doktor"],
+      "status": ["Silver 5"],
+      "trappings": ["Apprentice, Workshop (Medicine)"]
+    },
+    {
+      "name": ["Court Physician"],
+      "status": ["Gold 1"],
+      "trappings": ["Courtly Attire, Letter of Appointment"]
+    }
+  ]
+}

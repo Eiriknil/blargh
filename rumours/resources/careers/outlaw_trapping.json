@@ -1,0 +1,25 @@
+{
+  "career": "Outlaw",
+  "level": [
+    {
+      "name": ["Brigand"],
+      "status": ["Brass 1"],
+      "trappings": ["Bedroll, Hand Weapon, Leather Jerkin, Tinderbox"]
+    },
+    {
+      "name": ["Outlaw"],
+      "status": ["Brass 2"],
+      "trappings": ["Bow with 10 Arrows, Shield, Tent"]
+    },
+    {
+      "name": ["Outlaw Chief"],
+      "status": ["Brass 4"],
+      "trappings": ["Helmet, Riding Horse with Saddle and Tack, Sleeved Mail Shirt, Band of Outlaws"]
+    },
+    {
+      "name": ["Bandit King"],
+      "status": ["Silver 2"],
+      "trappings": ["'Fiefdom' of Outlaw Chiefs, Lair "]
+    }
+  ]
+}

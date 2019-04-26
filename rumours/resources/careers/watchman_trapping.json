@@ -1,0 +1,25 @@
+{
+  "career": "Watchman",
+  "level": [
+    {
+      "name": ["Watch Recruit"],
+      "status": ["Brass 3"],
+      "trappings": ["Hand Weapon, Leather Jack, Uniform"]
+    },
+    {
+      "name": ["Watchman"],
+      "status": ["Silver 1"],
+      "trappings": ["Lantern and Pole, Lamp Oil, Copper Badge"]
+    },
+    {
+      "name": ["Watch Sergeant"],
+      "status": ["Silver 3"],
+      "trappings": ["Breastplate, Helm, Symbol of Rank"]
+    },
+    {
+      "name": ["Watch Captain"],
+      "status": ["Gold 1"],
+      "trappings": ["Riding Horse with Saddle and Tack, Quality Hat, Quality Hand weapon, Quality Symbol of Rank"]
+    }
+  ]
+}

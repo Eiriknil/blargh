@@ -1,0 +1,25 @@
+{
+  "career": "Boatman",
+  "level": [
+    {
+      "name": ["Boat-hand"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon (Boat Hook), Leather Jack, Pole"]
+    },
+    {
+      "name": ["Boatman"],
+      "status": ["Silver 2"],
+      "trappings": ["Rope, Rowboat"]
+    },
+    {
+      "name": ["Bargeswain"],
+      "status": ["Silver 3"],
+      "trappings": ["Backpack, Trade Tools (Carpenter)"]
+    },
+    {
+      "name": ["Barge Master"],
+      "status": ["Silver 5"],
+      "trappings": ["Hat, Riverboat and Crew"]
+    }
+  ]
+}

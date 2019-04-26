@@ -1,0 +1,25 @@
+{
+  "career": "Wrecker",
+  "level": [
+    {
+      "name": ["Cargo Scavenger"],
+      "status": ["Brass 2"],
+      "trappings": ["Crowbar, Large Sack, Leather Gloves"]
+    },
+    {
+      "name": ["Wrecker"],
+      "status": ["Brass 3"],
+      "trappings": ["Hand Weapon (Boat Hook), Leather Jack, Storm Lantern and Oil"]
+    },
+    {
+      "name": ["River Pirate"],
+      "status": ["Brass 5"],
+      "trappings": ["Crossbow with 10 Bolts, Grappling Hook and Rope, Riverboat"]
+    },
+    {
+      "name": ["Wrecker Captain"],
+      "status": ["Silver 2"],
+      "trappings": ["Fleet of Riverboats and Wrecker Crew, Keg of Ale, Manacles"]
+    }
+  ]
+}

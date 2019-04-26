@@ -1,0 +1,25 @@
+{
+  "career": "Witch",
+  "level": [
+    {
+      "name": ["Hexer"],
+      "status": ["Brass 1"],
+      "trappings": ["Candles, Chalk, Doll, Pins"]
+    },
+    {
+      "name": ["Witch"],
+      "status": ["Brass 2"],
+      "trappings": ["Quarterstaff, Sack, Selection of Herbs, Trade Tools (Herbalist)"]
+    },
+    {
+      "name": ["Wyrd"],
+      "status": ["Brass 3"],
+      "trappings": ["Backpack, Cloak with Several Pockets, Lucky Charm"]
+    },
+    {
+      "name": ["Warlock"],
+      "status": ["Brass 5"],
+      "trappings": ["Robes, Skull"]
+    }
+  ]
+}

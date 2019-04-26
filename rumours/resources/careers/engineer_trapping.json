@@ -1,0 +1,25 @@
+{
+  "career": "Engineer",
+  "level": [
+    {
+      "name": ["Student Engineer"],
+      "status": ["Brass 4"],
+      "trappings": ["Book (Engineer), Hammer and Spikes"]
+    },
+    {
+      "name": ["Engineer"],
+      "status": ["Silver 2"],
+      "trappings": ["Guild Licence, Trade Tools"]
+    },
+    {
+      "name": ["Master Engineer"],
+      "status": ["Silver 4"],
+      "trappings": ["Workshop"]
+    },
+    {
+      "name": ["Chartered Engineer"],
+      "status": ["Gold 2"],
+      "trappings": ["Guild License, Library (Engineer), Quality"]
+    }
+  ]
+}

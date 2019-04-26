@@ -1,0 +1,25 @@
+{
+  "career": "Pedlar",
+  "level": [
+    {
+      "name": ["Vagabond"],
+      "status": ["Brass 1"],
+      "trappings": ["Backpack, Bedroll, Goods worth 2d10 Brass, Tent"]
+    },
+    {
+      "name": ["Pedlar"],
+      "status": ["Brass 4"],
+      "trappings": ["Mule and Saddlebags, Goods worth 2d10 Silver, Selection of Pots and Pans, Trade Tools (Tinker)"]
+    },
+    {
+      "name": ["Master Pedlar"],
+      "status": ["Silver 1"],
+      "trappings": ["Cart, Goods worth at least 2d10 Gold"]
+    },
+    {
+      "name": ["Wandering Trader"],
+      "status": ["Silver 3"],
+      "trappings": ["Draught Horse and Wagon, Goods worth at least 5d10 Gold, 50 Silver in Coin"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "career": "Scout",
+  "level": [
+    {
+      "name": ["Guide"],
+      "status": ["Brass 3"],
+      "trappings": ["Hand Weapon, Leather Jack, Sturdy Boots and Cloak, Rope"]
+    },
+    {
+      "name": ["Scout"],
+      "status": ["Brass 5"],
+      "trappings": ["Bow and 10 Arrows, Mail Shirt"]
+    },
+    {
+      "name": ["Pathfinder"],
+      "status": ["Silver 1"],
+      "trappings": ["Map, Riding Horse with Saddle and Tack, Saddlebags with 2 weeks' Rations, Tent"]
+    },
+    {
+      "name": ["Explorer"],
+      "status": ["Silver 5"],
+      "trappings": ["Selection of Maps, Trade Tools (Cartographer)"]
+    }
+  ]
+}

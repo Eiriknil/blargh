@@ -1,0 +1,25 @@
+{
+  "career": "Bounty Hunter",
+  "level": [
+    {
+      "name": ["Thief-taker"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon, Leather Jerkin, Rope"]
+    },
+    {
+      "name": ["Bounty Hunter"],
+      "status": ["Silver 3"],
+      "trappings": ["Crossbow and 10 bolts, Leather Skullcap, Manacles, Net, Warrant Papers"]
+    },
+    {
+      "name": ["Master Bounty Hunter"],
+      "status": ["Silver 5"],
+      "trappings": ["Mail Shirt, Riding Horse and Saddle"]
+    },
+    {
+      "name": ["Bounty Hunter General"],
+      "status": ["Gold 1"],
+      "trappings": ["Draught Horse and Cart, Mail Shirt, 4 Pairs of Manacles"]
+    }
+  ]
+}

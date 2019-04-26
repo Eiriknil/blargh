@@ -1,0 +1,25 @@
+{
+  "career": "Knight",
+  "level": [
+    {
+      "name": ["Squire"],
+      "status": ["Silver 3"],
+      "trappings": ["Leather Jack, Mail Shirt, Riding Horse with Saddle and Tack, Shield, Trade Tools (Farrier)"]
+    },
+    {
+      "name": ["Knight"],
+      "status": ["Silver 5"],
+      "trappings": ["Destrier with Saddle and Tack, Melee Weapon (Any), Lance, Plate Armour and Helm"]
+    },
+    {
+      "name": ["First Knight"],
+      "status": ["Gold 2"],
+      "trappings": ["Barding, Small Unit of Knights"]
+    },
+    {
+      "name": ["Knight of the Inner Circle"],
+      "status": ["Gold 4"],
+      "trappings": ["Plumed Great Helm, Squire, Large Unit of Knights or Several Small Units of Knights"]
+    }
+  ]
+}

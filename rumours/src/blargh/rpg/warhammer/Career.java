@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -16,9 +17,10 @@ public interface Career {
 	public List<Skill> skillList(int level);
 	public List<Skill> allSkills(int level);
 	public List<Talent> talentList(int level);
+	public List<String> trappingList(int level);
 	public List<Characteristics> statList(int level);
 	public List<Characteristics> allStats(int level);
-	public String name();
+	public String name(int level);
 
 	public static class Factory {
 
@@ -28,13 +30,16 @@ public interface Career {
 		private static CareerDto readCareerDefinition(String careerName) {
 
 			ObjectMapper mapper = new ObjectMapper();
-			CareerDto careerDef = null;
 			try {
-				careerDef = mapper.readValue(new File(String.format("resources/careers/%s.json", careerName)), CareerDto.class);
+				final CareerDto careerDef = mapper.readValue(new File(String.format("resources/careers/%s.json", careerName)), CareerDto.class);
+				final CareerDto careerTrappingsDef = mapper.readValue(new File(String.format("resources/careers/%s_trapping.json", careerName)), CareerDto.class);
+				AtomicInteger index = new AtomicInteger(0);
+				careerTrappingsDef.getLevel().forEach(trappings -> careerDef.getLevel().get(index.getAndIncrement()).putAll(trappings));
+				return careerDef;
 			} catch (IOException e) {
 				e.printStackTrace();
+				throw new RuntimeException(e.getMessage());
 			}
-			return careerDef;
 		}
 
 		public static Career create(String name) {
@@ -78,8 +83,8 @@ public interface Career {
 			}
 
 			@Override
-			public String name() {
-				return careerDef.getCareer();
+			public String name(int level) {
+				return String.format("%s (%s)", careerDef.getLevel().get(level - 1).get("name").get(0), careerDef.getCareer());
 			}
 
 			@Override
@@ -107,6 +112,15 @@ public interface Career {
 			@Override
 			public String toString() {
 				return String.format("Career [careerDef=%s]", careerDef);
+			}
+
+			@Override
+			public List<String> trappingList(int level) {
+				
+				return careerDef.getLevel().subList(0, level).stream()
+						.map(attribute -> attribute.get("trappings"))
+						.map(list -> list.get(0))
+						.collect(Collectors.toList());
 			}
 		}
 	}

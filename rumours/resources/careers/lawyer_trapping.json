@@ -1,0 +1,25 @@
+{
+  "career": "Lawyer",
+  "level": [
+    {
+      "name": ["Student Lawyer"],
+      "status": ["Brass 4"],
+      "trappings": ["Book (Law), Magnifying Glass"]
+    },
+    {
+      "name": ["Lawyer"],
+      "status": ["Silver 3"],
+      "trappings": ["Court Robes, Guild Licence, Writing Kit"]
+    },
+    {
+      "name": ["Barrister"],
+      "status": ["Gold 1"],
+      "trappings": ["Office, Assistant (Student or Servant)"]
+    },
+    {
+      "name": ["Judge"],
+      "status": ["Gold 2"],
+      "trappings": ["Gavel, Ostentatious Wig"]
+    }
+  ]
+}

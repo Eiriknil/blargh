@@ -1,0 +1,25 @@
+{
+  "career": "Apothecary",
+  "level": [
+    {
+      "name": ["Apothecary's Apprentice"],
+      "status": ["Brass 3"],
+      "trappings": ["Book (Blank), Healing Draught, Leather Jerkin, Pestle and Mortar"]
+    },
+    {
+      "name": ["Apothecary"],
+      "status": ["Silver 1"],
+      "trappings": ["Guild Licence, Trade Tools"]
+    },
+    {
+      "name": ["Master Apothecary"],
+      "status": ["Silver 3"],
+      "trappings": ["Book (Apothecary), Apprentice, Workshop"]
+    },
+    {
+      "name": ["Apothecary-General"],
+      "status": ["Gold 1"],
+      "trappings": ["Commission Papers, Large Workshop"]
+    }
+  ]
+}

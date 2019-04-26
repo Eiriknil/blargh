@@ -1,0 +1,25 @@
+{
+  "career": "Villager",
+  "level": [
+    {
+      "name": ["Peasant"],
+      "status": ["Brass 2"],
+      "trappings": ["None"]
+    },
+    {
+      "name": ["Villager"],
+      "status": ["Brass 3"],
+      "trappings": ["Leather Jerkin, Hand Weapon (Axe), Trade Tools (as Trade)"]
+    },
+    {
+      "name": ["Councillor"],
+      "status": ["Brass 4"],
+      "trappings": ["Mule and Cart, Village Home and Workshop"]
+    },
+    {
+      "name": ["Village Elder"],
+      "status": ["Silver 2"],
+      "trappings": ["The Respect of the Village"]
+    }
+  ]
+}

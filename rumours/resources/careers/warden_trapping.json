@@ -1,0 +1,25 @@
+{
+  "career": "Warden",
+  "level": [
+    {
+      "name": ["Custodian"],
+      "status": ["Silver 1"],
+      "trappings": ["Keys, Lantern, Lamp Oil, Livery"]
+    },
+    {
+      "name": ["Warden"],
+      "status": ["Silver 3"],
+      "trappings": ["Hand Weapon or Bow with 10 arrows, Riding Horse with Saddle and Harness, Leather Jack"]
+    },
+    {
+      "name": ["Seneschal"],
+      "status": ["Gold 1"],
+      "trappings": ["Breastplate, Ceremonial Staff of Office, Staff of Wardens and Custodians"]
+    },
+    {
+      "name": ["Governor"],
+      "status": ["Gold 3"],
+      "trappings": ["Aide, Governor's Residence, Servant"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "career": "Seaman",
+  "level": [
+    {
+      "name": ["Landsman"],
+      "status": ["Silver 1"],
+      "trappings": ["Bucket, Brush, Mop"]
+    },
+    {
+      "name": ["Seaman"],
+      "status": ["Silver 3"],
+      "trappings": ["Hand Weapon (Boat Hook), Leather Jerkin"]
+    },
+    {
+      "name": ["Boatswain"],
+      "status": ["Silver 5"],
+      "trappings": ["Trade Tools (Carpenter)"]
+    },
+    {
+      "name": ["Ship's Master"],
+      "status": ["Gold 2"],
+      "trappings": ["Shipping Charts, Sailing Ship and Crew, Sextant, Spyglass"]
+    }
+  ]
+}

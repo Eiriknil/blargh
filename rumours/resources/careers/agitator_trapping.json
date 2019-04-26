@@ -1,0 +1,25 @@
+{
+  "career": "Agitator",
+  "level": [
+    {
+      "name": ["Pamphleteer"],
+      "status": ["Brass 1"],
+      "trappings": ["Writing Kit, Hammer and Nails, Pile of Leaflets"]
+    },
+    {
+      "name": ["Agitator"],
+      "status": ["Brass 2"],
+      "trappings": ["Leather Jack"]
+    },
+    {
+      "name": ["Rabble Rouser"],
+      "status": ["Brass 3"],
+      "trappings": ["Hand Weapon, Pamphleteer"]
+    },
+    {
+      "name": ["Demagogue"],
+      "status": ["Brass 5"],
+      "trappings": ["3 Pamphleteers, Patron, Printing Press, Impressive Hat"]
+    }
+  ]
+}

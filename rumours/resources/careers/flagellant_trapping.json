@@ -1,0 +1,25 @@
+{
+  "career": "Flagellant",
+  "level": [
+    {
+      "name": ["Zealot"],
+      "status": ["Brass 0"],
+      "trappings": ["Flail, Tattered Robes"]
+    },
+    {
+      "name": ["Flagellant"],
+      "status": ["Brass 0"],
+      "trappings": ["Placard, Religious Symbol, Sling"]
+    },
+    {
+      "name": ["Penitent"],
+      "status": ["Brass 0"],
+      "trappings": ["Religious Relic"]
+    },
+    {
+      "name": ["Prophet of Doom"],
+      "status": ["Brass 0"],
+      "trappings": ["Book (Religion), Followers (including Penitents, Flagellants, and Zealots)"]
+    }
+  ]
+}

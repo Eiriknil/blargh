@@ -1,0 +1,25 @@
+{
+  "career": "Noble",
+  "level": [
+    {
+      "name": ["Scion"],
+      "status": ["Gold 1"],
+      "trappings": ["Courtly Garb, Foil or Hand Mirror, Jewellery worth 3d10 gc , Personal Servant"]
+    },
+    {
+      "name": ["Noble"],
+      "status": ["Gold 3"],
+      "trappings": ["4 Household Servants, Quality Courtly Garb, Courtly Garb, Riding Horse with Saddle and Harness or Coach, Main Gauche or Quality Cloak, Jewellery worth 50 gc"]
+    },
+    {
+      "name": ["Magnate"],
+      "status": ["Gold 5"],
+      "trappings": ["2 sets of Quality Courtly Garb, 200 gc , Fiefdom, Jewellery worth 200 gc , Signet Ring"]
+    },
+    {
+      "name": ["Noble Lord"],
+      "status": ["Gold 7"],
+      "trappings": ["4 sets of Best Quality Courtly Garb, Quality Foil or Hand Mirror, 500 gc , Jewellery worth 500 gc , Province"]
+    }
+  ]
+}

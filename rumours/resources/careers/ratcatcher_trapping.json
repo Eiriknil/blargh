@@ -1,0 +1,25 @@
+{
+  "career": "Rat Catcher",
+  "level": [
+    {
+      "name": ["Rat Hunter"],
+      "status": ["Brass 3"],
+      "trappings": ["Sling with Ammunition, Sack, Small but Vicious Dog"]
+    },
+    {
+      "name": ["Rat Catcher"],
+      "status": ["Silver 1"],
+      "trappings": ["Animal Traps, Pole for Dead Rats"]
+    },
+    {
+      "name": ["Sewer Jack"],
+      "status": ["Silver 2"],
+      "trappings": ["Davrich Lantern, Hand Weapon, Leather Jack"]
+    },
+    {
+      "name": ["Exterminator"],
+      "status": ["Silver 3"],
+      "trappings": ["Assistant, Large and Vicious Dog, Sack"]
+    }
+  ]
+}

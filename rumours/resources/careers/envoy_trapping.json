@@ -1,0 +1,25 @@
+{
+  "career": "Envoy",
+  "level": [
+    {
+      "name": ["Herald"],
+      "status": ["Silver 2"],
+      "trappings": ["Leather Jack, Livery, Scroll Case"]
+    },
+    {
+      "name": ["Envoy"],
+      "status": ["Silver 4"],
+      "trappings": ["Quill and Ink, 10 sheets of parchment"]
+    },
+    {
+      "name": ["Diplomat"],
+      "status": ["Gold 2"],
+      "trappings": ["Aide, Quality Clothes, Map"]
+    },
+    {
+      "name": ["Ambassador"],
+      "status": ["Gold 5"],
+      "trappings": ["Aide, Best Quality Courtly Clothes, Staff of Diplomats, Herald"]
+    }
+  ]
+}

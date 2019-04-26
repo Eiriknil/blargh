@@ -1,0 +1,25 @@
+{
+  "career": "Entertainer",
+  "level": [
+    {
+      "name": ["Busker"],
+      "status": ["Brass 3"],
+      "trappings": ["Bowl, Instrument"]
+    },
+    {
+      "name": ["Entertainer"],
+      "status": ["Brass 5"],
+      "trappings": ["Costume, Instrument, Selection of Scripts (that you can't yet read), Throwing Weapons"]
+    },
+    {
+      "name": ["Troubadour"],
+      "status": ["Silver 3"],
+      "trappings": ["Trained Animal, Writing Kit"]
+    },
+    {
+      "name": ["Troupe Leader"],
+      "status": ["Gold 1"],
+      "trappings": ["Draught Horses and Wagon (Stage), Wardrobe of Costumes and Props, Troupe of Entertainers"]
+    }
+  ]
+}

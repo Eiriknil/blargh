@@ -1,0 +1,25 @@
+{
+  "career": "Servant",
+  "level": [
+    {
+      "name": ["Menial"],
+      "status": ["Silver 1"],
+      "trappings": ["Floor Brush"]
+    },
+    {
+      "name": ["Servant"],
+      "status": ["Silver 3"],
+      "trappings": ["Livery"]
+    },
+    {
+      "name": ["Attendant"],
+      "status": ["Silver 5"],
+      "trappings": ["Quality Livery, Storm Lantern, Tinderbox, Lamp Oil"]
+    },
+    {
+      "name": ["Steward"],
+      "status": ["Gold 1"],
+      "trappings": ["Hand Weapon, Fine Clothes, Servant"]
+    }
+  ]
+}

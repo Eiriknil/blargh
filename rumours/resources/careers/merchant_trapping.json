@@ -1,0 +1,25 @@
+{
+  "career": "Merchant",
+  "level": [
+    {
+      "name": ["Trader"],
+      "status": ["Silver 2"],
+      "trappings": ["Abacus, Mule and Cart, Canvas Tarpaulin, 3d10 Silver Shillings"]
+    },
+    {
+      "name": ["Merchant"],
+      "status": ["Silver 5"],
+      "trappings": ["Riverboat or 2 Wagons, Guild License, 20 GC"]
+    },
+    {
+      "name": ["Master Merchant"],
+      "status": ["Gold 1"],
+      "trappings": ["Town House with Servants, Warehouse, 100 GC"]
+    },
+    {
+      "name": ["Merchant Prince"],
+      "status": ["Gold 3"],
+      "trappings": ["2 Riverboats or 4 Wagons, Large Town Estate, 2 Warehouses, 1000 GC, Quality Clothing"]
+    }
+  ]
+}

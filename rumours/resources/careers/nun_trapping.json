@@ -1,0 +1,25 @@
+{
+  "career": "Nun",
+  "level": [
+    {
+      "name": ["Novitiate"],
+      "status": ["Brass 1"],
+      "trappings": ["Religious Symbol, Robes"]
+    },
+    {
+      "name": ["Nun"],
+      "status": ["Brass 4"],
+      "trappings": ["Book (Religion), Religious Relic, Trade Tools (Any)"]
+    },
+    {
+      "name": ["Abbess"],
+      "status": ["Silver 2"],
+      "trappings": ["Abbey, Library (Theology)"]
+    },
+    {
+      "name": ["Prioress General"],
+      "status": ["Silver 5"],
+      "trappings": ["Religious Order"]
+    }
+  ]
+}

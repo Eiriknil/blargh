@@ -1,0 +1,25 @@
+{
+  "career": "Warrior Priest",
+  "level": [
+    {
+      "name": ["Novitiate"],
+      "status": ["Brass 2"],
+      "trappings": ["Book (Religion), Leather Jerkin, Religious Symbol, Robes, Weapon (Any Melee)"]
+    },
+    {
+      "name": ["Warrior Priest"],
+      "status": ["Silver 2"],
+      "trappings": ["Breastplate, Weapon (Any)"]
+    },
+    {
+      "name": ["Priest Sergeant"],
+      "status": ["Silver 3"],
+      "trappings": ["Light Warhorse with Saddle and Tack"]
+    },
+    {
+      "name": ["Priest Captain"],
+      "status": ["Silver 4"],
+      "trappings": ["Religious Relic"]
+    }
+  ]
+}

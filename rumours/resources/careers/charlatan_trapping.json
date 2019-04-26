@@ -1,0 +1,25 @@
+{
+  "career": "Charlatan",
+  "level": [
+    {
+      "name": ["Swindler"],
+      "status": ["Brass 3"],
+      "trappings": ["Backpack, 2 Sets of Clothing, Deck of Cards, Dice"]
+    },
+    {
+      "name": ["Charlatan"],
+      "status": ["Brass 5"],
+      "trappings": ["1 Forged Document, 2 Sets of Quality Clothing, Selection of Coloured Powders and Water, Selection of Trinkets and Charms"]
+    },
+    {
+      "name": ["Con Artist"],
+      "status": ["Silver 2"],
+      "trappings": ["Disguise Kit, Lock Picks, Multiple Forged Documents"]
+    },
+    {
+      "name": ["Scoundrel"],
+      "status": ["Silver 4"],
+      "trappings": ["Forged Seal, Writing Kit"]
+    }
+  ]
+}

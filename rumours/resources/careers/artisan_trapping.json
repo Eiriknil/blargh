@@ -1,0 +1,25 @@
+{
+  "career": "Artisan",
+  "level": [
+    {
+      "name": ["Apprentice Artisan"],
+      "status": ["Brass 2"],
+      "trappings": ["Chalk, Leather Jerkin, d10 rags"]
+    },
+    {
+      "name": ["Artisan"],
+      "status": ["Silver 1"],
+      "trappings": ["Guild Licence, Trade Tools"]
+    },
+    {
+      "name": ["Master Artisan"],
+      "status": ["Silver 3"],
+      "trappings": ["Apprentice, Workshop"]
+    },
+    {
+      "name": ["Guildmaster"],
+      "status": ["Gold 1"],
+      "trappings": ["Guild, Quality Clothing"]
+    }
+  ]
+}

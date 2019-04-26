@@ -1,0 +1,25 @@
+{
+  "career": "Coachman",
+  "level": [
+    {
+      "name": ["Postilion"],
+      "status": ["Silver 1"],
+      "trappings": ["Warm Coat and Gloves, Whip"]
+    },
+    {
+      "name": ["Coachman"],
+      "status": ["Silver 2"],
+      "trappings": ["Blunderbuss with 10 Shots, Coach Horn, Leather Jack, Hat"]
+    },
+    {
+      "name": ["Coach Master"],
+      "status": ["Silver 3"],
+      "trappings": ["Mail Shirt, Pistol, Quality Cloak"]
+    },
+    {
+      "name": ["Route Master"],
+      "status": ["Silver 5"],
+      "trappings": ["Fleet of Coaches and Horses, Maps"]
+    }
+  ]
+}

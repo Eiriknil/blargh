@@ -1,0 +1,25 @@
+{
+  "career": "Hunter",
+  "level": [
+    {
+      "name": ["Trapper"],
+      "status": ["Brass 2"],
+      "trappings": ["Selection of Animal Traps, Hand Weapon, Sling with 10 Stone Bullets, Sturdy Boots and Cloak"]
+    },
+    {
+      "name": ["Hunter"],
+      "status": ["Brass 4"],
+      "trappings": ["Bow with 10 arrows"]
+    },
+    {
+      "name": ["Tracker"],
+      "status": ["Silver 1"],
+      "trappings": ["Backpack, Bedroll, Tent"]
+    },
+    {
+      "name": ["Huntsmaster"],
+      "status": ["Silver 3"],
+      "trappings": ["Riding Horse with Saddle and Tack, Kennel of Hunting Dogs"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "career": "Grave Robber",
+  "level": [
+    {
+      "name": ["Body Snatcher"],
+      "status": ["Brass 2"],
+      "trappings": ["Crowbar, Handcart, Hooded Cloak, Tarpaulin"]
+    },
+    {
+      "name": ["Grave Robber"],
+      "status": ["Brass 3"],
+      "trappings": ["Backpack, Hand Weapon, Spade, Storm Lantern and Oil"]
+    },
+    {
+      "name": ["Tomb Robber"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon (Pick), Horse and Cart, Leather Jack, Rope, Trade Tools (Thief)"]
+    },
+    {
+      "name": ["Treasure Hunter"],
+      "status": ["Silver 5"],
+      "trappings": ["Bedroll, Maps, Tent, Trade Tools (Engineer), Writing Kit"]
+    }
+  ]
+}

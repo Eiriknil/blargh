@@ -1,0 +1,25 @@
+{
+  "career": "Riverwoman",
+  "level": [
+    {
+      "name": ["Greenfish"],
+      "status": ["Brass 2"],
+      "trappings": ["Bucket, Fishing Rod and Bait, Leather Leggings"]
+    },
+    {
+      "name": ["Riverwoman"],
+      "status": ["Brass 3"],
+      "trappings": ["Eel Trap, Leather Jerkin, Net, Spear"]
+    },
+    {
+      "name": ["Riverwise"],
+      "status": ["Brass 5"],
+      "trappings": ["Row Boat, Storm Lantern and Oil"]
+    },
+    {
+      "name": ["River Elder"],
+      "status": ["Silver 2"],
+      "trappings": ["Hut or Riverboat"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "career": "Herbalist",
+  "level": [
+    {
+      "name": ["Herb Gatherer"],
+      "status": ["Brass 2"],
+      "trappings": ["Boots, Cloak, Sling Bag containing Assortment of Herbs"]
+    },
+    {
+      "name": ["Herbalist"],
+      "status": ["Brass 4"],
+      "trappings": ["Hand Weapon (Sickle), Healing Poultice, Trade Tools (Herbalist)"]
+    },
+    {
+      "name": ["Herb Master"],
+      "status": ["Silver 1"],
+      "trappings": ["Herb Gatherer, 3 Healing Poultices, Healing Draught, Workshop (Herbalist)"]
+    },
+    {
+      "name": ["Herbwise"],
+      "status": ["Silver 3"],
+      "trappings": ["Pony and Cart"]
+    }
+  ]
+}

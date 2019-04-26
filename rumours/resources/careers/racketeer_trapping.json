@@ -1,0 +1,25 @@
+{
+  "career": "Racketeer",
+  "level": [
+    {
+      "name": ["Thug"],
+      "status": ["Brass 3"],
+      "trappings": ["Knuckledusters, Leather Jack"]
+    },
+    {
+      "name": ["Racketeer"],
+      "status": ["Brass 5"],
+      "trappings": ["Hand Weapon, Hat, Mail Shirt"]
+    },
+    {
+      "name": ["Gang Boss"],
+      "status": ["Silver 3"],
+      "trappings": ["Crossbow Pistol with 10 Bolts, Gang of Thugs and Racketeers, Lair"]
+    },
+    {
+      "name": ["Crime Lord"],
+      "status": ["Silver 5"],
+      "trappings": ["Network of Informers, Quality Clothing and Hat, Subordinate Gang Bosses"]
+    }
+  ]
+}

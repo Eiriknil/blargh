@@ -1,0 +1,25 @@
+{
+  "career": "Soldier",
+  "level": [
+    {
+      "name": ["Recruit"],
+      "status": ["Silver 1"],
+      "trappings": ["Dagger, Leather Breastplate, Uniform"]
+    },
+    {
+      "name": ["Soldier"],
+      "status": ["Silver 3"],
+      "trappings": ["Breastplate, Helmet, Weapon (Any)"]
+    },
+    {
+      "name": ["Sergeant"],
+      "status": ["Silver 5"],
+      "trappings": ["Symbol of Rank, Unit of Troops"]
+    },
+    {
+      "name": ["Officer"],
+      "status": ["Gold 1"],
+      "trappings": ["Letter of Commission, Light Warhorse with Saddle and Tack, Map, Orders, Unit of Soldiers, Quality Uniform, Symbol of Rank"]
+    }
+  ]
+}

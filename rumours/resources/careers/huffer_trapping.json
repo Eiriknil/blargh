@@ -1,0 +1,25 @@
+{
+  "career": "Huffer",
+  "level": [
+    {
+      "name": ["Riverguide"],
+      "status": ["Brass 4"],
+      "trappings": ["Hand Weapon (Boat Hook), Storm Lantern and Oil"]
+    },
+    {
+      "name": ["Huffer"],
+      "status": ["Silver 1"],
+      "trappings": ["Leather Jerkin, Rope, Row Boat"]
+    },
+    {
+      "name": ["Pilot"],
+      "status": ["Silver 3"],
+      "trappings": ["Pole, Storm Lantern and Oil"]
+    },
+    {
+      "name": ["Master Pilot"],
+      "status": ["Silver 5"],
+      "trappings": ["Boathand, Small Riverboat"]
+    }
+  ]
+}

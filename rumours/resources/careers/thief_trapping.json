@@ -1,0 +1,25 @@
+{
+  "career": "Thief",
+  "level": [
+    {
+      "name": ["Prowler"],
+      "status": ["Brass 1"],
+      "trappings": ["Crowbar, Leather Jerkin, Sack"]
+    },
+    {
+      "name": ["Thief"],
+      "status": ["Brass 3"],
+      "trappings": ["Trade Tools (Thief), Rope"]
+    },
+    {
+      "name": ["Master Thief"],
+      "status": ["Brass 5"],
+      "trappings": ["Crossbow Pistol with 10 Bolts"]
+    },
+    {
+      "name": ["Cat Burglar"],
+      "status": ["Silver 3"],
+      "trappings": ["Dark Clothing, Grappling Hook, Mask or Scarves"]
+    }
+  ]
+}

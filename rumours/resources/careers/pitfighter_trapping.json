@@ -1,0 +1,25 @@
+{
+  "career": "Pit Fighter",
+  "level": [
+    {
+      "name": ["Pugilist"],
+      "status": ["Brass 4"],
+      "trappings": ["Bandages, Knuckledusters, Leather Jack"]
+    },
+    {
+      "name": ["Pit Fighter"],
+      "status": ["Silver 2"],
+      "trappings": ["Flail or Great Weapon, Hand Weapon, Net or Whip, Shield or Buckler"]
+    },
+    {
+      "name": ["Pit Champion"],
+      "status": ["Silver 5"],
+      "trappings": ["Breast Plate, Helmet"]
+    },
+    {
+      "name": ["Pit Legend"],
+      "status": ["Gold 2"],
+      "trappings": ["Quality Helmet"]
+    }
+  ]
+}

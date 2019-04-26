@@ -1,0 +1,25 @@
+{
+  "career": "Bawd",
+  "level": [
+    {
+      "name": ["Hustler"],
+      "status": ["Brass 1"],
+      "trappings": ["Flask of Spirits"]
+    },
+    {
+      "name": ["Bawd"],
+      "status": ["Brass 3"],
+      "trappings": ["Dose of Weirdroot, Quality Clothing"]
+    },
+    {
+      "name": ["Procurer"],
+      "status": ["Silver 1"],
+      "trappings": ["A Ring of Hustlers"]
+    },
+    {
+      "name": ["Ringleader"],
+      "status": ["Silver 3"],
+      "trappings": ["Townhouse with Discreet Back Entrance, a Ring of Bawds"]
+    }
+  ]
+}

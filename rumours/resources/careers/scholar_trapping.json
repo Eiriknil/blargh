@@ -1,0 +1,25 @@
+{
+  "career": "Scholar",
+  "level": [
+    {
+      "name": ["Student"],
+      "status": ["Brass 3"],
+      "trappings": ["Alcohol, Book, Opinions, Writing Kit"]
+    },
+    {
+      "name": ["Scholar"],
+      "status": ["Silver 2"],
+      "trappings": ["Access to a Library, Degree"]
+    },
+    {
+      "name": ["Fellow"],
+      "status": ["Silver 5"],
+      "trappings": ["Mortarboard, Robes"]
+    },
+    {
+      "name": ["Professor"],
+      "status": ["Gold 1"],
+      "trappings": ["Study"]
+    }
+  ]
+}

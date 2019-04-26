@@ -1,0 +1,25 @@
+{
+  "career": "Riverwarden",
+  "level": [
+    {
+      "name": ["River Recruit"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon (Sword), Leather Jack, Uniform"]
+    },
+    {
+      "name": ["Riverwarden"],
+      "status": ["Silver 2"],
+      "trappings": ["Lantern and Oil, Pistol with 10 shot, Shield "]
+    },
+    {
+      "name": ["Shipsword"],
+      "status": ["Silver 4"],
+      "trappings": ["Grappling Hook, Helmet, Mail Shirt"]
+    },
+    {
+      "name": ["Shipsword Master"],
+      "status": ["Gold 1"],
+      "trappings": ["Patrol Boats and Crew, Symbol of Rank"]
+    }
+  ]
+}

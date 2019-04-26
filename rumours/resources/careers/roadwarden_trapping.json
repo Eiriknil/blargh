@@ -1,0 +1,25 @@
+{
+  "career": "Road Warden",
+  "level": [
+    {
+      "name": ["Toll Keeper"],
+      "status": ["Brass 5"],
+      "trappings": ["Crossbow with 10 Bolts, Leather Jack"]
+    },
+    {
+      "name": ["Road Warden"],
+      "status": ["Silver 2"],
+      "trappings": ["Hand Weapon, Mail Shirt, Riding Horse with Saddle and Harness, Rope"]
+    },
+    {
+      "name": ["Road Sergeant"],
+      "status": ["Silver 4"],
+      "trappings": ["Squad of Road Wardens, Pistol with 10 Shots, Shield, Symbol of Rank"]
+    },
+    {
+      "name": ["Road Captain"],
+      "status": ["Gold 1"],
+      "trappings": ["Light Warhorse, Pistol with 10 Shots, Quality Hat and Cloak, Unit of Road Wardens"]
+    }
+  ]
+}

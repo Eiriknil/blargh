@@ -1,0 +1,25 @@
+{
+  "career": "Bailiff",
+  "level": [
+    {
+      "name": ["Tax Collector"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand weapon, small lock box"]
+    },
+    {
+      "name": ["Bailiff"],
+      "status": ["Silver 5"],
+      "trappings": ["Leather Jack, 3 Tax Collectors"]
+    },
+    {
+      "name": ["Reeve"],
+      "status": ["Gold 1"],
+      "trappings": ["Horse with Saddle and Tack, Breastplate, Bailiff"]
+    },
+    {
+      "name": ["Magistrate"],
+      "status": ["Gold 3"],
+      "trappings": ["Library (Law), Quality Robes, Seal of Office"]
+    }
+  ]
+}

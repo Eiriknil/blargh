@@ -1,0 +1,25 @@
+{
+  "career": "Investigator",
+  "level": [
+    {
+      "name": ["Sleuth"],
+      "status": ["Silver 1"],
+      "trappings": ["Lantern, Lamp Oil, Journal, Quill and Ink"]
+    },
+    {
+      "name": ["Investigator"],
+      "status": ["Silver 2"],
+      "trappings": ["Leather Jack, Hand Weapon, Magnifying Glass, Lockpick"]
+    },
+    {
+      "name": ["Master Investigator"],
+      "status": ["Silver 3"],
+      "trappings": ["Assistant, Office"]
+    },
+    {
+      "name": ["Detective"],
+      "status": ["Silver 5"],
+      "trappings": ["Network of Informants, Spyglass"]
+    }
+  ]
+}

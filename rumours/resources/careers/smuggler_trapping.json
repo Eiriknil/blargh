@@ -1,0 +1,25 @@
+{
+  "career": "Smuggler",
+  "level": [
+    {
+      "name": ["River Runner"],
+      "status": ["Brass 2"],
+      "trappings": ["Large Sack, Mask or Scarves, Tinderbox, Storm Lantern and Oil"]
+    },
+    {
+      "name": ["Smuggler"],
+      "status": ["Brass 3"],
+      "trappings": ["2 Barrels, Hand Weapon, Leather Jack, Row Boat"]
+    },
+    {
+      "name": ["Master Smuggler"],
+      "status": ["Brass 5"],
+      "trappings": ["River Runner, Speedy Riverboat"]
+    },
+    {
+      "name": ["Smuggler King"],
+      "status": ["Silver 2"],
+      "trappings": ["Disguise Kit, Small Fleet of Riverboats"]
+    }
+  ]
+}

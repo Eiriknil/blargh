@@ -1,0 +1,25 @@
+{
+  "career": "Beggar",
+  "level": [
+    {
+      "name": ["Pauper"],
+      "status": ["Brass 0"],
+      "trappings": ["Poor Quality Blanket, Cup"]
+    },
+    {
+      "name": ["Beggar"],
+      "status": ["Brass 2"],
+      "trappings": ["Crutch, Bowl"]
+    },
+    {
+      "name": ["Master Beggar"],
+      "status": ["Brass 4"],
+      "trappings": ["Disguise Kit, Hiding Place, Pauper Follower"]
+    },
+    {
+      "name": ["Beggar King"],
+      "status": ["Silver 2"],
+      "trappings": ["Lair, Large Group of Beggar Followers"]
+    }
+  ]
+}

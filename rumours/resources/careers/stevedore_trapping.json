@@ -1,0 +1,25 @@
+{
+  "career": "Stevedore",
+  "level": [
+    {
+      "name": ["Dockhand"],
+      "status": ["Brass 3"],
+      "trappings": ["Hand Weapon (Boat Hook), Leather Gloves"]
+    },
+    {
+      "name": ["Stevedore"],
+      "status": ["Silver 1"],
+      "trappings": ["Guild Licence, Leather Jerkin, Pipe and Tobacco, Porter Cap"]
+    },
+    {
+      "name": ["Foreman"],
+      "status": ["Silver 3"],
+      "trappings": ["Gang of Stevedores, Whistle"]
+    },
+    {
+      "name": ["Dock Master"],
+      "status": ["Silver 5"],
+      "trappings": ["Office and Staff, Writing Kit"]
+    }
+  ]
+}

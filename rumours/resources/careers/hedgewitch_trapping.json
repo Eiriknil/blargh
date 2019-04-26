@@ -1,0 +1,25 @@
+{
+  "career": "Hedge Witch",
+  "level": [
+    {
+      "name": ["Hedge Apprentice"],
+      "status": ["Brass 1"],
+      "trappings": ["1d10 Lucky Charms, Quarterstaff, Backpack"]
+    },
+    {
+      "name": ["Hedge Witch"],
+      "status": ["Brass 2"],
+      "trappings": ["Antitoxin Kit, Healing Poultice, Trade Tools(Herbalist)"]
+    },
+    {
+      "name": ["Hedge Master"],
+      "status": ["Brass 3"],
+      "trappings": ["Isolated Hut, Apprentice"]
+    },
+    {
+      "name": ["Hedgewise"],
+      "status": ["Brass 5"],
+      "trappings": ["Assortment of Animal Skulls, Ceremonial Cloak and Garland"]
+    }
+  ]
+}

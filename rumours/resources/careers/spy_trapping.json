@@ -1,0 +1,25 @@
+{
+  "career": "Spy",
+  "level": [
+    {
+      "name": ["Informer"],
+      "status": ["Brass 3"],
+      "trappings": ["Charcoal stick, Sling Bag containing 2 different sets of clothing and Hooded Cloak"]
+    },
+    {
+      "name": ["Spy"],
+      "status": ["Silver 3"],
+      "trappings": ["Informer, Hand Weapon, Disguise Kit, Ring of Informers, Telescope"]
+    },
+    {
+      "name": ["Agent"],
+      "status": ["Gold 1"],
+      "trappings": ["Book (Cryptography), Ring of Spies and Informers, Loft of Homing Pigeons, Quill and Ink"]
+    },
+    {
+      "name": ["Spymaster"],
+      "status": ["Gold 4"],
+      "trappings": ["Office and Staff, Large Spy Ring of Agents, Spies, and Informers"]
+    }
+  ]
+}

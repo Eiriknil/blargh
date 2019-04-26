@@ -1,0 +1,25 @@
+{
+  "career": "Wizard",
+  "level": [
+    {
+      "name": ["Wizard's Apprentice"],
+      "status": ["Brass 3"],
+      "trappings": ["Grimoire, Quarterstaff"]
+    },
+    {
+      "name": ["Wizard"],
+      "status": ["Silver 3"],
+      "trappings": ["Magical License"]
+    },
+    {
+      "name": ["Master Wizard"],
+      "status": ["Gold 1"],
+      "trappings": ["Apprentice, Light Warhorse, Magical Item"]
+    },
+    {
+      "name": ["Wizard Lord"],
+      "status": ["Gold 2"],
+      "trappings": ["Apprentice, Library (Magic), Workshop (Magic)"]
+    }
+  ]
+}

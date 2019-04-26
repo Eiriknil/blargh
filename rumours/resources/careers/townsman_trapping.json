@@ -1,0 +1,25 @@
+{
+  "career": "Townsman",
+  "level": [
+    {
+      "name": ["Clerk"],
+      "status": ["Silver 1"],
+      "trappings": ["Lodgings, Sturdy Boots"]
+    },
+    {
+      "name": ["Townsman"],
+      "status": ["Silver 2"],
+      "trappings": ["Modest Townhouse, Servant, Quill and Ink"]
+    },
+    {
+      "name": ["Town Councillor"],
+      "status": ["Silver 5"],
+      "trappings": ["Coach and Driver, Townhouse"]
+    },
+    {
+      "name": ["Burgomeister"],
+      "status": ["Gold 1"],
+      "trappings": ["Chains of Office, Coach and Footman, Quality Clothing, Large Townhouse with Gardens and Servants"]
+    }
+  ]
+}

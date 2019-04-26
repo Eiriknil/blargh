@@ -1,0 +1,25 @@
+{
+  "career": "Fence",
+  "level": [
+    {
+      "name": ["Broker"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon, Stolen Goods worth 3d10 Shillings"]
+    },
+    {
+      "name": ["Fence"],
+      "status": ["Silver 2"],
+      "trappings": ["Eye-glass, Trade Tools (Engraver), Writing Kit"]
+    },
+    {
+      "name": ["Master Fence"],
+      "status": ["Silver 3"],
+      "trappings": ["Pawnbroker's Shop"]
+    },
+    {
+      "name": ["Black Marketeer"],
+      "status": ["Silver 4"],
+      "trappings": ["Hired Muscle, Network of Informants, Warehouse"]
+    }
+  ]
+}

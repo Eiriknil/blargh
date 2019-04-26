@@ -255,7 +255,7 @@ class CharacterTest {
 	@Test
 	public void presentCharacter() {
 		Character randomCharacter = Character.RandomCharacter.create("warriorpriest", HUMAN, 4, new Random());
-		System.out.println(randomCharacter.career().name());
+		System.out.println(randomCharacter.career().name(4));
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4s ", stat.name()));
 		System.out.println();
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> System.out.printf("%4d ", randomCharacter.characteristic(stat)));

@@ -1,0 +1,25 @@
+{
+  "career": "Witch Hunter",
+  "level": [
+    {
+      "name": ["Interrogator"],
+      "status": ["Silver 1"],
+      "trappings": ["Hand Weapon, Instruments of Torture"]
+    },
+    {
+      "name": ["Witch Hunter"],
+      "status": ["Silver 3"],
+      "trappings": ["Crossbow Pistol or Pistol, Hat (Henin), Leather Jack, Riding Horse with Saddle and Tack, Rope, Silvered Sword"]
+    },
+    {
+      "name": ["Inquisitor"],
+      "status": ["Silver 5"],
+      "trappings": ["Quality Clothing, Subordinate Interrogators"]
+    },
+    {
+      "name": ["Witchfinder General"],
+      "status": ["Gold 1"],
+      "trappings": ["Best Quality Courtly Garb, Subordinate Witch Hunters"]
+    }
+  ]
+}

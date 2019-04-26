@@ -1,0 +1,25 @@
+{
+  "career": "Priest",
+  "level": [
+    {
+      "name": ["Initiate"],
+      "status": ["Brass 2"],
+      "trappings": ["Religious Symbol, Robes"]
+    },
+    {
+      "name": ["Priest"],
+      "status": ["Silver 1"],
+      "trappings": ["Book (Religion), Ceremonial Robes"]
+    },
+    {
+      "name": ["High Priest"],
+      "status": ["Gold 1"],
+      "trappings": ["Quality Robes, Religious Relic, Subordinate Priests, Temple"]
+    },
+    {
+      "name": ["Lector"],
+      "status": ["Gold 2"],
+      "trappings": ["Library (Theology), Subordinate High Priests"]
+    }
+  ]
+}

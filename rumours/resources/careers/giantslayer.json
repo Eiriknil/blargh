@@ -1,0 +1,25 @@
+{
+  career: "Giant Slayer",
+  level: [
+    {
+      name: "Troll Slayer",
+      status: "Brass 2",
+      trappings: "Axe, Flask of Spirits, Shame, Tattoos"
+    },
+    {
+      name: "Giant Slayer",
+      status: "Brass 2",
+      trappings: "Great Axe, Jewellery, Troll's Head"
+    },
+    {
+      name: "Dragon Slayer",
+      status: "Brass 2",
+      trappings: "Giant's Head, Throwing Axes"
+    },
+    {
+      name: "Daemon Slayer",
+      status: "Brass 2",
+      trappings: "Dragon's Head"
+    }
+  ]
+}

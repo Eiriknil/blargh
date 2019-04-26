@@ -1,0 +1,25 @@
+{
+  "career": "Miner",
+  "level": [
+    {
+      "name": ["Prospector"],
+      "status": ["Brass 2"],
+      "trappings": ["Charcoal Stick, Crude Map, Pan, Spade"]
+    },
+    {
+      "name": ["Miner"],
+      "status": ["Brass 4"],
+      "trappings": ["Davrich Lamp, Hand Weapon (Pick), Lamp Oil, Leather Jack"]
+    },
+    {
+      "name": ["Master Miner"],
+      "status": ["Brass 5"],
+      "trappings": ["Great Weapon (Two-handed Pick), Helmet, Trade Tools (Engineer)"]
+    },
+    {
+      "name": ["Mine Foreman"],
+      "status": ["Silver 4"],
+      "trappings": ["Crew of Miners, Writing Kit"]
+    }
+  ]
+}
