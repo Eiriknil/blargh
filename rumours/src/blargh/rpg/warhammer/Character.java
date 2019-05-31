@@ -560,6 +560,11 @@ public interface Character {
 					character.advanceCharacteristic(stat, 5);
 					}
 				});
+			
+			if(lastRank > 1) {
+				List<Characteristics> allStats = character.career().allStats(rank);
+				character.advanceCharacteristic(allStats.get(allStats.size() -1), maxAdvances - 10);
+			}
 		}
 
 		private static void improveSkills(Character character, Random randomizer, int rank, boolean halfRank) {

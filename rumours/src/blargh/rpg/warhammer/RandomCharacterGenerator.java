@@ -26,6 +26,10 @@ public class RandomCharacterGenerator {
 		output.append(String.format("%s %s rank %d%n", Character.capitilizeAndClean(race.name()), randomCharacter.career().name(level), level));
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> output.append(String.format("%4s ", stat.name())));
 		output.append("%n");
+		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> output.append(String.format("%4d ", randomCharacter.characteristic(stat) - randomCharacter.charAdvances(stat))));
+		output.append("%n");
+		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> output.append(String.format("%4d ", randomCharacter.charAdvances(stat))));
+		output.append("%n");
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> output.append(String.format("%4d ", randomCharacter.characteristic(stat))));
 		output.append("%n");
 		
@@ -47,9 +51,10 @@ public class RandomCharacterGenerator {
 	}
 	
 	public static void main(String... args) {
-		try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("/temp/soldier.txt")))
+		String careerName = "warriorpriest";
+		try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get(String.format("/temp/%s.txt", careerName))))
 		{
-			String character = String.format(create("warriorpriest", 1, Races.HUMAN, new Random()));
+			String character = String.format(create(careerName, 4, Races.HUMAN, new Random()));
 			System.out.println(character);
 			bufferedWriter.write(character);
 		} catch (IOException e) {
