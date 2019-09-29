@@ -3,7 +3,7 @@
 	"level": [{
 		"stats": ["T", "S", "DEX"],
 		"skills": ["Athletics", "Cool", "Consume Alcohol", "Dodge", "Endurance", "Evaluate", "Stealth(Urban)", "Trade(Any)"],
-		"talents": ["Artistic", "Craftsman(any)", "Strong Back", "Very Strong"]
+		"talents": ["Artistic", "Craftsman(Any)", "Strong Back", "Very Strong"]
 	},
 	{
 		"stats": ["FEL"],

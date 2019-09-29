@@ -1,0 +1,841 @@
+[{
+	"name": "Accurate Shot",
+	"max": "BS",
+	"tests": "",
+	"description": "Deal your Accurate Shot level in extra Damage with all ranged weapons."
+}, {
+	"name": "Acute Sense",
+	"max": "I",
+	"tests": "Perception (Sense). ",
+	"description": "May take Perception Tests to detect normally imperceptible details with the associated sense."
+}, {
+	"name": "Aethyric Attunement",
+	"max": "I",
+	"tests": "Channel (Any)",
+	"description": "You do not suffer a Miscast if you roll a double on a successful Channel Test."
+}, {
+	"name": "Alley Cat",
+	"max": "I",
+	"tests": "Stealth (Uran)",
+	"description": "When using Stealth (Urban), you may reverse the dice of any failed Test if this will score a Success."
+}, {
+	"name": "Ambidextrous",
+	"max": "2",
+	"tests": "",
+	"description": "You only suffer a penalty of -10 to Tests relying solely on your secondary hand, not -20. If you have this Talent twice, you suffer no penalty at all. (Also see Two-weapon fighting p.163)"
+}, {
+	"name": "Animal Affinity",
+	"max": "WP",
+	"tests": "Charm Animal",
+	"description": "All creatures with the bestial Trait not trained to be belligerent will automatically be calm in your presence unless they have a reason not to be, such as pain, an attack, being naturally hyper-aggressive, or having nearby young."
+}, {
+	"name": "Arcane Magic",
+	"max": "1",
+	"tests": "",
+	"description": "(p.133)  You study one Lore of Magic.  You may now memorize spells from your chosen Lore."
+}, {
+	"name": "Argumentative",
+	"max": "FEL",
+	"tests": "Charm Tests arguing and debating",
+	"description": "If you roll a successful Charm Test to debate with an opponent, you can choose to either use your rolled SL, or the number rolled on your units die. So, a successful roll of 24 could be used for +4 SL."
+}, {
+	"name": "Artistic",
+	"max": "DEX",
+	"tests": "Trade (Artist)",
+	"description": "You have a natural talent for art, able to produce precise sketches with nothing ubt time and appropriate media. Further to this, add Trade (Artist) to any Career you enter"
+}, {
+	"name": "Attractive",
+	"max": "FEL",
+	"tests": "Charm influence those attracted to you",
+	"description": "When you successfully use Charm to influence those attracted to you, you can choose to either use your rolled SL, or the number rolled on your units die. So, a successful roll of 38 could be used for +8 SL."
+}, {
+	"name": "Average Size",
+	"max": "1",
+	"tests": "",
+	"description": "Gain Size Combat Modifiers against smaller creatures (see p.341)"
+}, {
+	"name": "Battle Rage",
+	"max": "WP",
+	"tests": "Melee Tests when Frenzied",
+	"description": "You are better able to control yourself while Frenzied. You can end your Frenzy with a successful Cool Test at the end of the round."
+}, {
+	"name": "Beat Blade",
+	"max": "WS",
+	"tests": "Melee for a Beat Blade",
+	"description": "For your Action, you can choose to Beat Blade before rolling. Perform a Melee Test"
+}, {
+	"name": "Beneath Notice",
+	"max": "FEL",
+	"tests": "Stealth when in plain sight",
+	"description": "Assuming you are properly attired and not in an incongruous position, those of a higher Status Tier will normally ignore you unless your presence becomes inappropriate, which can make it very easy to listen into conversations you perhaps shouldn't. Further, characters with a higher Status Tier than you gain no Advantage for striking or wounding you in combat, as there is nothing to be gained for defeating such a lowly cur."
+}, {
+	"name": "Berserk Charge",
+	"max": "S",
+	"tests": "Melee on a Round when you Charge",
+	"description": "When you Charge, you gain +1 Damage to all Melee attacks per level in this Talent."
+}, {
+	"name": "Blather",
+	"max": "FEL",
+	"tests": "Charm to lather",
+	"description": "Attempt an Opposed Charm/Intelligence Test. Success gives your opponent a Stunned Condition. Further, for each level you have in Blather, your opponent gains another Stunned Condition. Targets Stunned by Blather may do nothing other than stare at you dumfounded as they try to catch-up with or understand what you are saying. Once the last Stunned Condition comes to an end, the target finally gets a word in, and may not be best pleased with you; after all, you have been talking about nothing or nonsense for some time. Should you stop talking, your opponent immediately loses all Stunned Conditions caused by your Blather. Generally, you can only attempt to Blather at a character once per scene, or perhaps longer as determined by the GM, as the target soon wises up to your antics."
+}, {
+	"name": "Bless",
+	"max": "1",
+	"tests": "",
+	"description": "You can now deploy the blessings of your deity as listed in Chapter 7: Religion and Belief. Under normal circumstances, you may only ever know one Divine Lore for the Bless Talent."
+}, {
+	"name": "Bookish",
+	"max": "INT",
+	"tests": "Research",
+	"description": "When using Research, you may reverse the dice of any failed Test if this will score a success."
+}, {
+	"name": "Break and Enter",
+	"max": "S",
+	"tests": "Melee when forcing or breaking inanimate objects",
+	"description": "You may add +1 Damage for each level in this Talent when determining damage against inanimate objects such as windows, chests, doors, and similar."
+}, {
+	"name": "Briber",
+	"max": "FEL",
+	"tests": "Bribery",
+	"description": "The GM should reduce the base cost of any required bribe by 10% per level you have in Briber, to a minimum of 10% of the original amount."
+}, {
+	"name": "Cardsharp",
+	"max": "INT",
+	"tests": "Gamble/Sleight of Hand playing cards",
+	"description": "When you successfully use Gamble or Sleight of Hand when playing cards, you can choose to either use your rolled SL, or the number rolled on your units die. So, a successful roll of 28 could be used for +8 SL. If you play a real card game to represent what is happening in-game, you may receive an extra number of cards per deal equal to your level in Cardsharp, then discard down to the appropriate hand-size before each round of play."
+}, {
+	"name": "Careful Strike",
+	"max": "I",
+	"tests": "",
+	"description": "You may modify your Hit Location result by up to +/-10 per time you have this Talent. So, if you had this Talent twice and hit location 34, the Right Arm, you could modify this down to 14, the Left Arm, or up to 54, the body (see page 159)."
+}, {
+	"name": "Carouser",
+	"max": "T",
+	"tests": "Charm/Gossip at Parties",
+	"description": "Consume Alcohol,You may reverse the dice of any failed Consume Alcohol Test if this will score a Success."
+}, {
+	"name": "Catfall",
+	"max": "AG",
+	"tests": "Athletics when falling",
+	"description": "Whenever you fall, you attempt an Athletics Test. If successful, reduce the distance fallen by 1 yard, +1 extra yard per +1 SL scored, for the purposes of calculating Damage."
+}, {
+	"name": "Cat-tongued",
+	"max": "FEL",
+	"tests": "Charm when lying",
+	"description": "When using Charm to lie, listeners do not get to oppose your Charm with their Intuition to detect if there is something fishy in what you say."
+}, {
+	"name": "Chaos Magic",
+	"max": "1",
+	"tests": "",
+	"description": "Number of Spells available in chosen Chaos Magic Lore. (see p.134)"
+}, {
+	"name": "Combat Aware",
+	"max": "I",
+	"tests": "Perception during melee",
+	"description": "You may take a Challenging (+0) Perception Test to ignore Surprise, which is modified by circumstance as normal."
+}, {
+	"name": "Combat Master",
+	"max": "AG",
+	"tests": "",
+	"description": "For each level in this Talent, you count as one more person for the purposes of determining if one side outnumbers the other. This Talent only comes into play when you are out-numbered. See page 162 for the rules for out-numbering."
+}, {
+	"name": "Combat Reflexes",
+	"max": "I",
+	"tests": "",
+	"description": "Add 10 to your Initiative for each level in this Talent when determining Combat Initiative."
+}, {
+	"name": "Commanding Presence",
+	"max": "FEL",
+	"tests": "Leadership",
+	"description": "Such is your aura of authority, those with a lower Status may not resist your Leadership tests with their Willpower. Of course, enemies are still no more likely to respect or obey you, but the common folk rarely stand against you."
+}, {
+	"name": "Concoct",
+	"max": "INT",
+	"tests": "Lore (Apothecary)",
+	"description": "You may take one free Crafting Endeavour to use Trade (Apothecary) without need of a Workshop. Other Crafting Endeavours use the normal rules."
+}, {
+	"name": "Contortionist",
+	"max": "AG",
+	"tests": "Perform/Agility when contorting helps",
+	"description": "This allows you to squeeze through unlikely gaps and bend your body in crazy ways, giving benefits determined by the GM, possibly with a successful Agility test."
+}, {
+	"name": "Coolheaded",
+	"max": "1",
+	"tests": "",
+	"description": "You gain a permanent +5 bonus to your starting Willpower Characteristic this does not count towards your Advances."
+}, {
+	"name": "Crack the Whip",
+	"max": "DEX",
+	"tests": "Drive or Ride Tests when Fleeing/Running",
+	"description": "When an animal you control is Fleeing or Running, it gains +1 Movement if you are using a whip."
+}, {
+	"name": "Craftsman",
+	"max": "DEX",
+	"tests": "Trade (any one)",
+	"description": "Add the associated Trade Skill to any Career you enter. If the Trade Skill is already in your Career, you may instead purchase the Skill for 5 XP fewer per Advance."
+}, {
+	"name": "Criminal",
+	"max": "NONE",
+	"tests": "",
+	"description": "You are an active criminal making money from illegal sources, and you're not always quiet about it. For the purposes of securing money, either when Earning during play or performing an Income Endeavour, refer to p.135.  Also, law enforcement is always suspicious of your motivations per GM usage."
+}, {
+	"name": "Deadeye Shot",
+	"max": "1",
+	"tests": "",
+	"description": "Instead of reversing the dice to determine which Hit Location is struck with your ranged weapons, you may pick a location."
+}, {
+	"name": "Dealmaker",
+	"max": "FEL",
+	"tests": "Haggle",
+	"description": "When using the Haggle skill, you reduce or increase the price of the products by an extra 10%. Note: The GM may put a lower limit on prices here to show a seller refusing to sell below cost."
+}, {
+	"name": "Detect Artefact",
+	"max": "I",
+	"tests": "Intuition tests to detect magical artefacts",
+	"description": "You may attempt an Intuition Test for any magical artefact touched. If successful, you sense the item is magical"
+}, {
+	"name": "Diceman",
+	"max": "INT",
+	"tests": "Gamble/Sleight of Hand playing dice",
+	"description": "When you successfully use Gamble or Sleight of Hand when playing with dice, you can choose to either use your rolled SL, or the number rolled on your units die. So, a successful roll of 06 could be used for +6 SL. If you play any real-life dice games to represent in-game dice games, always roll extra dice equal to your Diceman level and choose the best results."
+}, {
+	"name": "Dirty Fighting",
+	"max": "WS",
+	"tests": "Melee (Brawling)",
+	"description": "You may choose to cause an extra +1 Damage for each level in Dirty Fighting with any successful Melee (Brawling) hit. Note: using this Talent will be seen as cheating in any formal bout."
+}, {
+	"name": "Disarm",
+	"max": "I",
+	"tests": "Melee Tests using Disarm",
+	"description": "For your Action, you may attempt an Opposed Melee/Melee test. If you win, your opponent loses a held weapon, which flies 1d10 feet in a random direction (with further effects as determined by the GM). If you win by 2 SL, you can determine how far the weapon is flung instead of rolling randomly"
+}, {
+	"name": "Distract",
+	"max": "AG",
+	"tests": "Athletics to Distract",
+	"description": "You may use your Move to perform a Distraction. This is resolved by an Opposed Athletics/Cool Test. If you win, your opponent can gain no Advantage until the end of the next Round."
+}, {
+	"name": "Doomed",
+	"max": "1",
+	"tests": "",
+	"description": "See p.136.  Bonus x.p. to your next character if current character dies in accordance with Dooming."
+}, {
+	"name": "Drilled",
+	"max": "WS",
+	"tests": "Melee Tests next to ally with Drilled",
+	"description": "If an enemy causes you to lose Advantage when standing beside an active ally with the Drilled Talent, you may keep 1 lost Advantage for each time you've taken the Drilled Talent."
+}, {
+	"name": "Dual Wielder",
+	"max": "AG",
+	"tests": "Melee/Ranged attacking with two weapons",
+	"description": "(p.136). When armed with two weapons, you may attack with both for your Action. Roll to hit with the weapon held in your primary hand. If you hit, determine Damage as normal, but remember to keep your dice roll, as you will use it again. If the first strike hits, once it is resolved, the weapon in your secondary hand can then target an available opponent of your choice using the same dice roll for the first strike, but reversed. So, if you rolled 34 to hit with the first weapon, you use 43 to hit with the second. Remember to modify this second roll by your off-hand penalty (-20 unless you have the Amidextrous Talent). This second attack is Opposed with a new defending roll, and damage for this second strike is calculated as normal. The only exception to this is if you roll a Critical for your first strike. If this happens, use the roll on the Critical table to also act as the roll for the second attack. So, if you scored a critical to the head and rolled 56 on the Critical table for a Major Eye Wound, your second attack would then strike out with a to-hit value of 56. If you choose to attack with both weapons, all your defensive rolls until the start of your next Turn suffer a penalty of -20. You do not gain an Advantage when you successfully strike or Wound an opponent when Dual Wielder unless both attacks hit. (Also see p.163 Two-weapon fighting)"
+}, {
+	"name": "Embezzle",
+	"max": "INT",
+	"tests": "Intelligence (Embezzling)",
+	"description": "Whenever you secure money when Earning (during play or performing an Income Endeavour), employer (assuming you have one). If you win, you skim 2d10 + SL brass pennies, 1d10 + SL silver shillings, or 1 + SL gold crowns (depending upon the size of the business in question, as determined by the GM) without being detected. If your employer wins by 6+ SL, you gain the money, but your embezzling is detected"
+}, {
+	"name": "Enclosed Fighter",
+	"max": "AG",
+	"tests": "Dodge in enclosed environments",
+	"description": "You ignore penalties to Melee caused by confined spaces such as tunnels, the frontline, small fighting pits, and similar, and can use the Dodge Skill, even if it would normally be disallowed due to lack of space."
+}, {
+	"name": "Etiquette",
+	"max": "FEL",
+	"tests": "Charm and Gossip (Social Group)",
+	"description": "Example social groups for this Talent are: Criminals, Cultists, Guilders, Nobles, Scholars, Servants, and Soldiers. If you do not have the Talent, those with it will note your discomfort in the unfamiliar environment. This is primarily a matter for roleplaying, but may confer a bonus to Fellowship Tests at the GMs discretion."
+}, {
+	"name": "Fast Hands",
+	"max": "DEX",
+	"tests": "Sleight of Hand",
+	"description": "Melee (Brawling) touch opponent,Bystanders get no passive Perception Tests to spot your use of the Sleight of Hand Skill, instead they only get to Oppose your Sleight of Hand Tests if they actively suspect and are looking for your movements. Further, attempts to use Melee (Brawling) to simply touch an opponent gain a bonus of +10 times your level in Fast Hands."
+}, {
+	"name": "Fast Shot",
+	"max": "AG",
+	"tests": "Ranged making a Fast Shot",
+	"description": "If you have a loaded ranged weapon, you can fire it outside the normal Initiative Order before any other combatant reacts in the following Round. You roll to hit using all the normal modifiers. Employing Fast Shot requires oth your Action and Move for your upcoming turn, and these will count as having been spent when your next turn arrives. If two or more characters use Fast Shot, the character who has taken this Talent most goes first. If any characters have taken Fast Shot an equal number of times, both shots are fired simultaneously, and should both be handled at the same time."
+}, {
+	"name": "Fearless",
+	"max": "WP",
+	"tests": "Cool opposing Intimidate/Fear/Terror",
+	"description": "With a single Average (+20) Cool Test, you may ignore any Intimidate, Fear, or Terror effects from the specified enemy when encountered. Typical enemies include Beastmen, Greenskins, Outlaws, Vampires, Watchmen, and Witches."
+}, {
+	"name": "Feint",
+	"max": "WS",
+	"tests": "Melee (Fencing) using Feint",
+	"description": "You may now make a Feint for your Action against any opponent using a weapon. This is resolved with an Opposed Melee (Fencing)/Melee Test. If you win, and you attack the same opponent before the end of the next Round, you may add the SL of your Feint to your attack roll."
+}, {
+	"name": "Field Dressing",
+	"max": "INT",
+	"tests": "Heal during combat Rounds",
+	"description": "If you fail a Heal Test when using bandages, you may reverse the result if this will score a success"
+}, {
+	"name": "Fisherman",
+	"max": "I",
+	"tests": "Any Test involving fishing",
+	"description": "Assuming a large enough body of water is available, you are automatically assumed to be able to fish enough to feed yourself and a number of others equal to your level in Fisherman, assuming you choose to spend at least an hour or so with a line and bait. You may secure more fish in addition to this using the normal rules for foraging (see page 127)."
+}, {
+	"name": "Flagellant",
+	"max": "T",
+	"tests": "Resisting the Ruinous Powers",
+	"description": "Each day, you must spend half a bell (half an hour) praying as you maintain a number of Wounds suffered equal to your level in Flagellant. Until your next sleep, if you have the Frenzy Talent you may enter Frenzy immediately without testing. The Frenzy Talent is added to the Talent list of any career you are in. Should you fail to flagellate yourself on any given day, or allow your castigated flesh to be healed, you may not spend any Resilience or Resolve until you flagellate yourself again."
+}, {
+	"name": "Flee",
+	"max": "AG",
+	"tests": "Athletics when Fleeing",
+	"description": "Your Movement Attribute counts as 1 higher when Fleeing (see page 165)."
+}, {
+	"name": "Fleet Footed",
+	"max": "1",
+	"tests": "",
+	"description": "You gain +1 to your Movement Attribute."
+}, {
+	"name": "Frenzy",
+	"max": "1",
+	"tests": "",
+	"description": "You can Frenzy as described on page 190."
+}, {
+	"name": "Frightening",
+	"max": "S",
+	"tests": "",
+	"description": "Anyone sane thinks twice before approaching you. If you wish, you have a Fear Rating of 1 (see page 190). Add +1 to this number per extra time you have this Talent."
+}, {
+	"name": "Furious Assault",
+	"max": "AG",
+	"tests": "Melee making extra attacks",
+	"description": "Once per Round, if you hit an opponent in close combat, you may immediately spend an Advantage or your Move to make an extra attack (assuming you have your Move remaining)."
+}, {
+	"name": "Gregarious",
+	"max": "FEL",
+	"tests": "Gossip Tests with travellers",
+	"description": "You may reverse any failed Gossip Test if this allows the Test to succeed."
+}, {
+	"name": "Gunner",
+	"max": "DEX",
+	"tests": "",
+	"description": "Add SL equal to your level in Gunner to any Extended Test to reload a blackpowder weapon."
+}, {
+	"name": "Hardy",
+	"max": "T",
+	"tests": "",
+	"description": "Gain a permanent addition to your Wounds, equal to your Toughness bonus. If your Toughness bonus should increase, then the number of Wounds Hardy provides also increases."
+}, {
+	"name": "Hatred",
+	"max": "WP",
+	"tests": "Willpower (Resist Group)",
+	"description": "You are consumed with hatred for something in the Old World, as descried on page 190. Each time you take this Talent you develop hatred for a new group."
+}, {
+	"name": "Holy Hatred",
+	"max": "FEL",
+	"tests": "",
+	"description": "You deal +1 Damage with Miracles for each level in this Talent."
+}, {
+	"name": "Holy Visions",
+	"max": "I",
+	"tests": "Intuition Tests on holy ground",
+	"description": "You automatically know when you enter Holy Ground, and may take an Intuition Test to receive visions (often obscure, and seen through the paradigm of your cult or individual belief-system) regarding the local area if significant events have occurred there in the past."
+}, {
+	"name": "Hunter's Eye",
+	"max": "I",
+	"tests": "Trail or capture game",
+	"description": "When travelling through well-stocked lands, you are automatically assumed to be ale to hunt down enough game to feed yourself and a number of others equal to your level in Hunter's Eye, so long as you have time and the correct equipment. You may secure more food in addition to this using the normal rules for foraging (see page 127)."
+}, {
+	"name": "Impassioned Zeal",
+	"max": "FEL",
+	"tests": "Charm speaking about your cause",
+	"description": "You may double your Fellowship for the purposes of determining the number of people influenced by your Pulic Speaking (see page 142) when talking about your cause."
+}, {
+	"name": "Implacable",
+	"max": "T",
+	"tests": "",
+	"description": "You can ignore the Wound loss from a Bleeding Condition. Each level in this Talent lets you ignore the Wound loss from an extra Bleeding Condition."
+}, {
+	"name": "In-fighter",
+	"max": "DEX",
+	"tests": "Melee in-fighting",
+	"description": "or enter in-fighting,You suffer no penalties for fighting against an opponent with a longer weapon than you. Further, if you use the optional rules for In-fighting (see page 297), gain a bonus of +10 to hit your opponent."
+}, {
+	"name": "Inspiring",
+	"max": "FEL",
+	"tests": "Leadership during war",
+	"description": "Refer to the following table to see how many people you can now influence with your Leadership Skill (see page 126 and p.139) when at war."
+}, {
+	"name": "Instinctive Diction",
+	"max": "I",
+	"tests": "Language (Magick) when casting",
+	"description": "You do not suffer a Miscast if you roll a double on a successful Language (Magick) Test."
+}, {
+	"name": "Invoke",
+	"max": "1",
+	"tests": "",
+	"description": "(p.139) You can empower one of your Cult's Miracles."
+}, {
+	"name": "Iron Jaw",
+	"max": "T",
+	"tests": "Endurance resist Stunned",
+	"description": "Whenever you gain one or more Stunned Conditions, you may make an immediate Challenging (+0) Endurance Test to not take one of them, with each SL removing an extra Stunned Condition."
+}, {
+	"name": "Iron Will",
+	"max": "WP",
+	"tests": "Cool Tests to oppose Intimidate",
+	"description": "Use of the Intimidate skill does not cause Fear in you, and will not stop you speaking out against the intimidating party."
+}, {
+	"name": "Jump Up",
+	"max": "1",
+	"tests": "",
+	"description": "Challenging (+0) Agility Test to immediately regain your feet whenever you gain a Prone Condition. This Athletics Test is often modified by the Strength behind the blow that knocks you down: for every +10 Strength the blow has over your Toughness, you suffer a penalty of -10 to the Athletics Test, and vice versa ."
+}, {
+	"name": "Kingpin",
+	"max": "1",
+	"tests": "",
+	"description": "Ignore the Status loss of the Criminal Talent."
+}, {
+	"name": "Lightning Reflexes",
+	"max": "1",
+	"tests": "",
+	"description": "You gain a permanent +5 bonus to your starting Agility Characteristic (this does not count towards your Advances)."
+}, {
+	"name": "Linguistics",
+	"max": "INT",
+	"tests": "Language (All)",
+	"description": "You have a natural affinity for languages. Given a month's exposure to any Language, you count the associated Language Skill as a basic Skill with a successful Intelligence Test (which can be attempted once per month). Note: Does not work with Language (Magick)."
+}, {
+	"name": "Lip Reading",
+	"max": "I",
+	"tests": "Perception Lip Reading",
+	"description": "Can tell what people are saying by simply watching their lips"
+}, {
+	"name": "Luck",
+	"max": "FEL",
+	"tests": "",
+	"description": "Your maximum Fortune Points now equal your current Fate points plus the number of times you've taken Luck."
+}, {
+	"name": "Magical Sense",
+	"max": "I",
+	"tests": "Intuition detect Wizards",
+	"description": "You are able to sense the Winds of Magic in others. You may attempt an Average (+20) Intuition Test whenever you encounter a spellcaster. If you pass, you sense the target is a witch. Further, if you score an Astounding Success (+6), can also determine the target's highest Channelling Specialisation."
+}, {
+	"name": "Magic Resistance",
+	"max": "1",
+	"tests": "",
+	"description": "Must Oppose any incoming spell with your Willpower, just as if you were a spellcaster using Language (Magick) to dispel (see page 237). Further, you may never learn the Arcane Magic, Bless, Invoke, Petty Magic, or Witch! Talents."
+}, {
+	"name": "Magnum Opus",
+	"max": "NONE",
+	"tests": "",
+	"description": "Each time you take this Talent you may create a single, extraordinary work of art with one of your Art or Trade Skills. This work is unrivaled in your field, a unique piece that will always impress, giving bonuses as determined by the GM, most commonly to Fellowship Tests from those who have witnessed your astounding work. Selling the piece will net you at least ten times its normal value."
+}, {
+	"name": "Marksman",
+	"max": "1",
+	"tests": "",
+	"description": "You gain a permanent +5 bonus to your starting ballistic Skill (this does not count towards your Advances)."
+}, {
+	"name": "Master of Disguise",
+	"max": "FEL",
+	"tests": "Entertain (Acting) being someone else",
+	"description": "With nothing but posture changes, face twisting, and careful use of appropriate clothing, you no longer look like yourself without having to use a Disguise Kit."
+}, {
+	"name": "Master Orator",
+	"max": "FEL",
+	"tests": "",
+	"description": "Gain a SL bonus equal to your levels of Master Orator to any Charm Test when Public Speaking before a crowd."
+}, {
+	"name": "Master Tradesman (Trade)",
+	"max": "DEX ",
+	"tests": "Extended Trade Tests",
+	"description": "Reduce the required SL of any Extended Test using your Trade Skill by the level of your Master Tradesman Talent."
+}, {
+	"name": "Menacing",
+	"max": "S",
+	"tests": "Intimidate",
+	"description": "When using the Intimidate Skill, gain a SL bonus equal to your levels of Menacing."
+}, {
+	"name": "Mimic",
+	"max": "I",
+	"tests": "Entertain (Acting) where accents are important",
+	"description": "May replicate any accent you are exposed to for at least a day with an Initiative Test"
+}, {
+	"name": "Night Vision",
+	"max": "I",
+	"tests": "Perception in low-light conditions",
+	"description": "Assuming you have at least a faint source of light (such as starlight, moonlight, or bioluminescence) you can see clearly for 20 yards per level of Night Vision. Further, you can extend the effective illumination distance of any light sources by 20 yards per level of Night Vision."
+}, {
+	"name": "Nimble Fingered",
+	"max": "1",
+	"tests": "",
+	"description": "gain a permanent +5 bonus to your starting Dexterity (this does not count towards your Advances)."
+}, {
+	"name": "Noble Blood",
+	"max": "1",
+	"tests": "Any Test influenced by your Status",
+	"description": "Assuming dressed appropriately, you are always considered of higher Status than others unless they also have the Noble blood Talent, where Status is compared as normal."
+}, {
+	"name": "Nose for Trouble",
+	"max": "I",
+	"tests": "Any Test to spot Troublemakers",
+	"description": "May attempt an Intuition Test to spot those seeking to cause trouble or seeking to cause you harm, even if normally you would not be allowed a Test (Because of Talents or a Spell, for example). Test will likely be Opposed if others are hiding, and the GM may prefer to take this Test on your ehalf in secret so you do not know the results should you fail. If any troulemakers you spot start combat, you may ignore any Surprised Condition they would normally inflict."
+}, {
+	"name": "Numismatics",
+	"max": "I",
+	"tests": "Evaluate to establish the worth of coins",
+	"description": "Can judge the true value of a coin by experience alone, not even requiring a Test. Further, you can identify forged coins with a Simple Evaluate Test"
+}, {
+	"name": "Old Salt",
+	"max": "AG",
+	"tests": "Sail (any Sea-worthy Vessels)",
+	"description": "Can ignore all negative modifiers to Tests at sea derived from poor weather, rolling ships, and similar. Further, you count as two seamen towards the minimum number of crew to pilot a sea-going vessel."
+}, {
+	"name": "Orientation",
+	"max": "I",
+	"tests": "Navigation",
+	"description": "Automatically know which direction is north with a glimpse at the stars, trees, or whatever other signs you are familiar with."
+}, {
+	"name": "Panhandle",
+	"max": "FEL",
+	"tests": "Charm (Begging)",
+	"description": "Can perform a Charm Test every half hour when Begging, not every hour (see page 120)."
+}, {
+	"name": "Perfect Pitch",
+	"max": "I",
+	"tests": "Entertain (Singing)",
+	"description": "Language (Tonal),You have perfect pitch, able to replicate notes perfectly and identify them without even making a Test. Further, add Entertain (Singing) to any Career you enter"
+}, {
+	"name": "Petty Magic",
+	"max": "1",
+	"tests": "",
+	"description": "When you take this Talent, you manifest, and permanently memorize, a number of spells equal to your Willpower bonus. You can learn extra Petty spells for the following cost in XP. No. of Petty Spells Currently Known XP Cost for a new spell XP Willpower bonus ?1 50 XP Willpower bonus ?2 100 XP Willpower bonus ?3 150 XP Willpower bonus ?4 200 XP. . . and so on. So, if your Willpower bonus is 3, it will cost you 50 XP for the first 3 spells, then 100 XP for the next 3, and so on. Full rules for learning new spells are provided in Chapter 8: Magic."
+}, {
+	"name": "Pharmacist",
+	"max": "INT",
+	"tests": "Trade (Apothecary)",
+	"description": "May reverse any failed Trade (Apothecary) test if this allows the Test to succeed."
+}, {
+	"name": "Pilot",
+	"max": "I",
+	"tests": "Row/Sail navigating unsure waters",
+	"description": "If you fail a Test to pass through dangerous waters, you may reverse the result if it will score a success"
+}, {
+	"name": "Public Speaking",
+	"max": "FEL",
+	"tests": "",
+	"description": "Refer to the following table to see how many people you can now influence with your Charm Skill (see page 120) when Public Speaking. Talent Taken number influenced1 As normal ?52 As normal ?103 As normal ?204 As normal ?505 As normal ?1006 As normal ?2007 As normal ?5008 As normal ?10009 All who can hear your golden voice."
+}, {
+	"name": "Pure Soul",
+	"max": "W",
+	"tests": "",
+	"description": "You may gain extra Corruption points equal to your level of Pure Soul before having to Test to see if you become corrupt."
+}, {
+	"name": "Rapid Reload",
+	"max": "DEX",
+	"tests": "",
+	"description": "Add SL equal to your level in Rapid Reload to any Test to reload a ranged weapon."
+}, {
+	"name": "Reaction Strike",
+	"max": "I",
+	"tests": "Initiative Tests concerning this Talent",
+	"description": "When you are Charged, you may attempt a Challenging (+0) Initiative Test to gain an immediate Free Attack outside the normal turn sequence. This attack is resolved with whatever weapon you are carrying in your primary hand. You may make as many Reaction Strikes in a Round as you have levels in this Talent, but can only attack each individual charger once each."
+}, {
+	"name": "Read/Write",
+	"max": "1",
+	"tests": "",
+	"description": "Assumed to be able to read and write (if appropriate) all of the Languages you can speak."
+}, {
+	"name": "Relentless",
+	"max": "AG",
+	"tests": "",
+	"description": "If you use Advantage when Disengaging, you may keep a number of Advantage equal to your level of Relentless. Further, you may use Advantage to Disengage even if you have lower Advantage than your opponents."
+}, {
+	"name": "Resistance",
+	"max": "T",
+	"tests": "All those to resist the associated Threat",
+	"description": "May automatically pass the first Test to resist the specified threat, such as Magic, Poison, Disease, Mutation, every session. If SL is important, use your Toughness bonus as SL for the Test."
+}, {
+	"name": "Resolute",
+	"max": "S",
+	"tests": "",
+	"description": "Add your level of Resolute to your Strength bonus when you Charge."
+}, {
+	"name": "Reversal",
+	"max": "WS",
+	"tests": "Melee when defending",
+	"description": "If you win an Opposed Melee Test, instead of gaining +1 Advantage, you may take all your opponents Current Advantage. If you do this, you do not cause any Damage, even if it is your Turn in the Round."
+}, {
+	"name": "Riposte",
+	"max": "AG",
+	"tests": "Melee when defending",
+	"description": "If your weapon has the Fast quality, you may cause Damage when you are attacked, just as if it was your Action. You can Riposte a number of attacks per round equal to your Riposte level."
+}, {
+	"name": "River Guide",
+	"max": "I",
+	"tests": "Any Lore Test concerning river matters",
+	"description": "Don't need to Test for passing through dangerous stretches of water until the Difficulty for doing so is -10 or lower you automatically pass all Tests easier than this. Further, if you have the appropriate Lore (Local) Skill, you need never Test for navigating dangerous waters you are assumed to know the route through."
+}, {
+	"name": "Robust",
+	"max": "T",
+	"tests": "",
+	"description": "Reduce all incoming Damage by an extra +1 per time you have taken the Robust Talent, even if the Damage cannot normally be reduced, but still suffer a minimum of 1 Wound from any Damage source."
+}, {
+	"name": "Roughrider",
+	"max": "AG",
+	"tests": "Ride (Horse) when in combat",
+	"description": "Assuming you have the Ride skill, you can direct your mount to take an Action, not just a Move, without a Ride test."
+}, {
+	"name": "Rover",
+	"max": "AG",
+	"tests": "Stealth Tests in a Rural environment",
+	"description": "When using Stealth in a rural environment, bystanders do not get passive Perception Tests to detect you"
+}, {
+	"name": "Savant",
+	"max": "INT",
+	"tests": "Lore (chosen Lore)",
+	"description": "Automatically know a number of pieces of correct information equal to your Savant (Lore) level about a relevant issue without having to test your Lore Skill. Testing, as always, will provide yet more information as normal as determined by the GM."
+}, {
+	"name": "Savvy",
+	"max": "1",
+	"tests": "",
+	"description": "Gain a permanent +5 bonus to starting Intelligence (this does not count towards your Advances)."
+}, {
+	"name": "Scale Sheer Surface",
+	"max": "S",
+	"tests": "Climb",
+	"description": "Can attempt to climb even seemingly impossible surfaces and you ignore any penalties to Climb Tests derived from the difficulty of the surface climbed."
+}, {
+	"name": "Schemer",
+	"max": "INT",
+	"tests": "Intelligence Tests concerning this Talent",
+	"description": "Once per session, you may ask the GM one question regarding a political situation or entangled web of social connections"
+}, {
+	"name": "Sea Legs",
+	"max": "T",
+	"tests": "All those taken to resist Sea Sickness",
+	"description": "Under normal conditions at sea, you need never Test to see if you become Seasick. At other times (such as a storm, or a magically induced bout of Sea Sickness), you can ignore any penalties to Tests to avoid Sea Sickness."
+}, {
+	"name": "Seasoned Traveller",
+	"max": "INT",
+	"tests": "Any Lore Test concerning local detail",
+	"description": "Add Lore (Local) to any Career you enter"
+}, {
+	"name": "Second Sight",
+	"max": "I",
+	"tests": "Any Test to detect the Winds of Magic",
+	"description": "(see page 233)."
+}, {
+	"name": "Secret Identity",
+	"max": "INT",
+	"tests": "Entertain (Acting) Tests to support your secret identities",
+	"description": "With GM permission, choose any one Career. As long as you are dressed appropriately, you may use the Social Status of the chosen Career you masquerade as rather than your own for modifying Fellowship Tests, and can even ignore the Criminal Talent. However, maintaining this identity will require Entertain (Acting) rolls when you encounter those who may recognize your falsehood. You may create a new Secret Identity for each level you have in this Talent."
+}, {
+	"name": "Shadow",
+	"max": "AG",
+	"tests": "Any Test involving Shadowing",
+	"description": "May use the Shadowing rules on page 130 without doing a Combined Test. Instead you test against just your Perception or your Stealth Skill, whichever is higher."
+}, {
+	"name": "Sharp",
+	"max": "1",
+	"tests": "",
+	"description": "Gain a permanent +5 bonus to your starting Initiative Characteristic (this does not count towards your Advances)."
+}, {
+	"name": "Sharpshooter",
+	"max": "1",
+	"tests": "",
+	"description": "Ignore any negative Difficulty modifiers to Ranged Tests due to the size of your target."
+}, {
+	"name": "Shieldsman",
+	"max": "S",
+	"tests": "Any Test to defend with a shield",
+	"description": "When using a Shield to defend, you gain Advantage equal to the number of levels you have in Shieldsman if you lose the Opposed Test."
+}, {
+	"name": "Sixth Sense",
+	"max": "I",
+	"tests": "Intuition Tests involving your Sixth Sense",
+	"description": "GM may warn you if you are walking into danger"
+}, {
+	"name": "Slayer",
+	"max": "1",
+	"tests": "",
+	"description": "When determining Damage use your opponent's Toughness bonus as your Strength bonus if it is higher"
+}, {
+	"name": "Small",
+	"max": "1",
+	"tests": "",
+	"description": "Full rules for different Sizes are found in Chapter 12: Bestiary on page 341"
+}, {
+	"name": "Sniper",
+	"max": "4",
+	"tests": "Ranged (Long/extreme Range)",
+	"description": "Suffer no penalties for shooting at Long range, and half the penalties for Extreme range."
+}, {
+	"name": "Speedreader",
+	"max": "INT",
+	"tests": "Research and Language Tests where speed of reading is important",
+	"description": "May reverse a failed Research Test (make singular if previous suggestion is taken) if this will grant success. If the speed at which you read is important during combat, a successful Language Test lets you read and fully comprehend a number of pages per Round equal to your SL plus Speedreader level (minimum of 1, even if you fail the Test)."
+}, {
+	"name": "Sprinter",
+	"max": "S",
+	"tests": "Athletics Tests concerning Running",
+	"description": "Movement Attribute counts as 1 higher when Running."
+}, {
+	"name": "Step Aside",
+	"max": "AG",
+	"tests": "Dodge Tests to activate this Talent",
+	"description": "If you use Dodge to defend against an incoming attack and win the Opposed Test, you may move up to 2 yards as you dive away, and no longer count as Engaged. None of your opponents will gain a Free Attack when you do this."
+}, {
+	"name": "Stone Soup",
+	"max": "T",
+	"tests": "Endurance Tests to resist hunger",
+	"description": "Can subsist on half the amount of food required without any negative penalties (Bar feeling really hungry), and need only test for Starvation every 3 days, not 2 (see page 181)."
+}, {
+	"name": "Stout-hearted",
+	"max": "WP",
+	"tests": "Cool Tests to remove Broken Conditions",
+	"description": "May attempt a Cool Test to remove a Broken Condition at the end of each of your Turns as well as at the end of the Round (see page 168 for more on this)."
+}, {
+	"name": "Strider",
+	"max": "AG",
+	"tests": "Athletics Tests to traverse the Terrain",
+	"description": "Ignore all movement penalties when crossing over or through a specified terrain."
+}, {
+	"name": "Strike Mighty Blow",
+	"max": "S",
+	"tests": "",
+	"description": "Deal your level of Strike Mighty Blow in extra Damage with melee weapons."
+}, {
+	"name": "Strike to Injure",
+	"max": "I",
+	"tests": "",
+	"description": "Inflict your level of Strike to Injure in additional Wounds when you cause a Critical Wound."
+}, {
+	"name": "Strike to Stun",
+	"max": "WS",
+	"tests": "Melee Tests when Striking to Stun",
+	"description": "Ignore the Called Shot penalty to strike the Head Hit Location when using a melee weapon with the Pummel Quality (see page298). Further, you count all improvised weapons as having the Pummel Quality."
+}, {
+	"name": "Strong Back",
+	"max": "S",
+	"tests": "Row and Swim",
+	"description": "Add your levels in Strong Back to your SL in any Opposed Strength Tests, and can carry additional Encumbrance points of trappings(see page 293) equal to your level of Strong Back."
+}, {
+	"name": "Strong Legs",
+	"max": "S",
+	"tests": "",
+	"description": "Add your Strong Legs level to your SL in any Athletics Tests involving Leaping (see page 166)."
+}, {
+	"name": "Strong-minded",
+	"max": "WP",
+	"tests": "",
+	"description": "Add your level in Strong Minded to your maximum Resolve pool."
+}, {
+	"name": "Strong Swimmer",
+	"max": "S",
+	"tests": "Swim",
+	"description": "Gain a bonus of your level in Strong Swimmer to your Toughness bonus for the purposes of holding your breath."
+}, {
+	"name": "Sturdy",
+	"max": "S",
+	"tests": "Strength Tests when lifting",
+	"description": "Increase the number of Encumbrance Points you can carry by your Sturdy level x 2"
+}, {
+	"name": "Suave",
+	"max": "1",
+	"tests": "",
+	"description": "You gain a permanent +5 bonus to your starting Fellowship (this does not count towards your Advances)."
+}, {
+	"name": "Super Numerate",
+	"max": "INT",
+	"tests": "Evaluate",
+	"description": "Gamble,May use a simple calculator to represent what your PC is capable of mentally computing."
+}, {
+	"name": "Supportive",
+	"max": "FEL",
+	"tests": "Social Tests to influence a superior",
+	"description": "When you successfully use a social Skill to influence those with a higher Status tier, you can choose to either use your rolled SL, or the number rolled on your units die. So, a successful roll of 46 could be used for +6 SL."
+}, {
+	"name": "Sure Shot",
+	"max": "I",
+	"tests": "",
+	"description": "When you hit a target with a Ranged weapon, you may ignore Armour Points equal to your Sure Shot level."
+}, {
+	"name": "Surgery",
+	"max": "INT",
+	"tests": "Heal Tests outside combat rounds",
+	"description": "Heal Tests outside combat rounds."
+}, {
+	"name": "Tenacious",
+	"max": "T",
+	"tests": "Endurance Tests for enduring hardships",
+	"description": "Can double the length of time successful Endurance Tests allow you to endure a hardship. This includes enduring prolonged riding, exposure, rituals, and similar adversities."
+}, {
+	"name": "Tinker",
+	"max": "DEX",
+	"tests": "Trade Tests to repair Broken items",
+	"description": "Count all non-magical Trade Skills as basic when repairing Broken items."
+}, {
+	"name": "Tower of Memories",
+	"max": "INT",
+	"tests": "",
+	"description": "P.146."
+}, {
+	"name": "Trapper",
+	"max": "I",
+	"tests": "Perception Tests to spot traps",
+	"description": "Set Trap,May take a Perception Test to spot traps automatically without having to tell the GM of your intention"
+}, {
+	"name": "Trick Riding",
+	"max": "AG",
+	"tests": "Dodge Tests on Horseback",
+	"description": "Ride (Horse),Can use any of your Performer Skills and unmodified Dodge skill when on horseback. Further, when mounted, you can make your Move at the start of the Round instead of on your Turn."
+}, {
+	"name": "Tunnel Rat",
+	"max": "AG",
+	"tests": "Stealth Tests when underground",
+	"description": "When using Stealth in an underground environment, bystanders do not get passive Perception Tests to detect you"
+}, {
+	"name": "Unshakeable",
+	"max": "WP",
+	"tests": "Cool Tests to resist blackpowder panic",
+	"description": "Need only take a Cool Test to resist a Broken Condition if you are successfully wounded by a blackpowder weapon, not just if you are shot at."
+}, {
+	"name": "Very Resilient",
+	"max": "1",
+	"tests": "Sail Tests for river-going vessels",
+	"description": "Gain a permanent +5 bonus to your starting Toughness (this does not count towards your Advances)."
+}, {
+	"name": "Very Strong",
+	"max": "1",
+	"tests": "",
+	"description": "Gain a permanent +5 bonus to your starting Strength (this does not count towards your Advances)."
+}, {
+	"name": "War Leader",
+	"max": "FEL",
+	"tests": "",
+	"description": "Skills: Leadership Tests during War. All subordinates able to see you may add your level in War Leader to their SL in one Willpower Test per Round. This bonus does not stack."
+}, {
+	"name": "War Wizard",
+	"max": "1",
+	"tests": "",
+	"description": "Trained to cast magic while in the thick of combat. On your Turn, you may cast one Spell with a Casting number of 5 or less for free without using your Action. However, if you do this, you may not cast another spell this Turn."
+}, {
+	"name": "Warrior Born",
+	"max": "1",
+	"tests": "",
+	"description": "Gain permanent +5 bonus to your starting Weapon Skill (doesn't count as Advances)."
+}, {
+	"name": "Waterman",
+	"max": "AG",
+	"tests": "",
+	"description": "Can ignore all negatives to your Tests when onboard a barge derived from rolling waters, swaying vessels, unsure footing, and similar"
+}, {
+	"name": "Wealthy",
+	"max": "NONE",
+	"tests": "",
+	"description": "When Earning (including Income Endeavours) you secure +1GC per time you have this Talent."
+}, {
+	"name": "Well-prepared",
+	"max": "I",
+	"tests": "",
+	"description": "A number of times per session equal to your level of Well-Prepared, you may pull the trapping required for the current situation from your backpack (or similar) as long as it is Encumbrance 0, could feasibly been bought recently, and doesn't stretch credibility too far. This could be anything from a flask of spirits to fortify a wounded comrade to a pfennig-whistle needed by a passing entertainer. Whenever you do this, you must deduct the cost for the prepared item from your purse, representing the coin you spent earlier."
+}, {
+	"name": "Witch",
+	"max": "WP",
+	"tests": "",
+	"description": "Add Language (Magick) to any Career you enter"
+}]

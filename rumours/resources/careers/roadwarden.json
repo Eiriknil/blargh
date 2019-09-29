@@ -13,7 +13,7 @@
 	{
 		"stats": ["FEL"],
 		"skills": ["Athletics", "Charm", "Leadership", "Ranged(Blackpowder)"],
-		"talents": ["Etiquette(Soldiers)", "Fearless(Outlaws)", "Hatred(any)", "Nose for Trouble"]
+		"talents": ["Etiquette(Soldiers)", "Fearless(Outlaws)", "Hatred(Any)", "Nose for Trouble"]
 	},
 	{
 		"stats": ["INT"],

@@ -3,7 +3,7 @@
 	"level": [{
 		"stats": ["I", "S", "AG"],
 		"skills": ["Melee(Cavalry)", "Athletics", "Animal Care", "Charm Animal", "Heal", "Lore(Heraldry)", "Ride(Horse)", "Trade(Farrier)"],
-		"talents": ["Etiquette(any)", "Roughrider", "Sturdy", "Warrior Born"]
+		"talents": ["Etiquette(Any)", "Roughrider", "Sturdy", "Warrior Born"]
 	},
 	{
 		"stats": ["WS"],

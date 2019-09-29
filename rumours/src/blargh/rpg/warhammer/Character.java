@@ -8,14 +8,14 @@ import static blargh.rpg.warhammer.Modifier.CHALLENGING;
 import static blargh.rpg.warhammer.Races.HUMAN;
 import static blargh.rpg.warhammer.Talents.SMALL;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Random;
-import java.util.Set;
+import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
@@ -27,7 +27,7 @@ public interface Character {
 	public static class Skill implements Comparable<Skill>{
 		private Skills skillType;
 		private String specialisation;
-		
+
 		public Skill(String skillName) {
 			String skillTypeString = skillName;
 			specialisation = "";
@@ -38,22 +38,22 @@ public interface Character {
 			}
 			skillType = Skills.valueOf(skillTypeString);
 		}
-		
+
 		public Skill(Skills skillType, String specialisation) {
 			this.skillType = skillType;
 			this.specialisation = specialisation;
 		}
-		
+
 		public Skill(Skills skillType) {
 			this.skillType = skillType;
 			this.specialisation = "";
 		}
-		
+
 		@Override
 		public int hashCode() {
 			return Objects.hash(skillType, specialisation);
 		}
-		
+
 		@Override
 		public boolean equals(Object obj) {
 			if (this == obj) {
@@ -83,16 +83,16 @@ public interface Character {
 		}
 
 		public String presentation() {
-			
-			String presentation = capitilizeAndClean(skillType.name());
+
+			String presentation = capitalizeAndClean(skillType.name());
 			if(!Objects.isNull(specialisation)&&!specialisation.isEmpty()) {
-				presentation = String.format("%s(%s)", capitilizeAndClean(presentation), capitilizeAndClean(specialisation));
+				presentation = String.format("%s(%s)", capitalizeAndClean(presentation), capitalizeAndClean(specialisation));
 			}
-			
+
 			return presentation;
 		}
 	}
-	
+
 	public static class Talent implements Comparable<Talent> {
 
 		private Talents talentType;
@@ -102,7 +102,7 @@ public interface Character {
 			this.talentType = talentType;
 			specialisation = "";
 		}
-		
+
 		public Talent(String talentName) {
 			String talentTypeString = talentName;
 			specialisation = "";
@@ -113,22 +113,22 @@ public interface Character {
 			}
 			talentType = Talents.valueOf(talentTypeString);
 		}
-		
+
 		public Talent(Talents talentType, String specialisation) {
 			this.talentType = talentType;
 			this.specialisation = specialisation;
 		}
-		
+
 		@Override
 		public int compareTo(Talent o) {
-			
+
 			return talentType.compareTo(o.getTalentType());
 		}
 
 		public Talents getTalentType() {
 			return talentType;
 		}
-		
+
 		public String getSpecialisation() {
 			return specialisation;
 		}
@@ -153,16 +153,36 @@ public interface Character {
 			return Objects.equals(specialisation, other.specialisation) && talentType == other.talentType;
 		}
 
-		public String presentation() {
-			
-			StringBuilder presentation = new StringBuilder(capitilizeAndClean(talentType.name()));
-			
-			if(!specialisation.isEmpty()) {
-				presentation.append(String.format("(%s)", capitilizeAndClean(specialisation)));
-			}
-			
-			return presentation.toString();
+		public String presentation(int number) {
+			return String.join("%n - ", 
+					String.join("", 
+							capitalizeAndClean(talentType.name()), 
+							specialisation.isEmpty() ? "" : String.format("(%s)", capitalizeAndClean(specialisation)), 
+									String.format(" (%d/%s)", number, talentType.max())),
+					talentType.tests().isEmpty() ? "Tests: none" : String.format("Tests: %s", talentType.tests()), 
+							presentDescription(talentType.description()));
 		}
+
+		private String presentDescription(String description) {
+			final StringBuilder splitDescription = new StringBuilder("");
+			final StringBuilder line = new StringBuilder();
+			Arrays.asList(description.split(" ")).forEach(word -> {
+				line.append(" ").append(word);
+				if(line.length() > 100) {
+					splitDescription.append(line.toString().trim()).append("%n");
+					line.delete(0, line.length());
+				}
+			});;
+			splitDescription.append(line.toString().trim());
+
+			return splitDescription.toString();
+		}
+
+		@Override
+		public String toString() {
+			return "Talent [talentType=" + talentType + ", specialisation=" + specialisation + "]";
+		}
+
 	}
 
 	public class TrainingResult {
@@ -185,7 +205,7 @@ public interface Character {
 	}
 
 	public int maxWounds();
-	
+
 	public int currentWounds();
 	public List<Crit> crits();
 	public void applyWounds(int wound);
@@ -207,36 +227,36 @@ public interface Character {
 	public Map<Skill, Integer> allTrainedSkills();
 
 	public void addTalent(Talent talent);
-	public Set<Talent> talents();
-	
+	public Map<Talent, Integer> talents();
+
 	public Career career();
 	public void changeCareer(Career career);
 
-	public static String capitilizeAndClean(String input) {
+	public static String capitalizeAndClean(String input) {
 		return String.format("%S%s", input.substring(0, 1).toUpperCase(), input.substring(1).toLowerCase()).replace("_", " ");
 	}
-	
+
 	public static class Factory {
 
 		private static Random random = new Random();
 
 		private Factory() {
 		}
-		
+
 		public static void setRandomizer(Random random) {
 			Factory.random = random;
 		}
-		
+
 		public static Character create() {
 
 			return new CharacterImpl();
 		}
-		
+
 		public static Character create(Races race) {
-			
+
 			return new CharacterImpl(race);
 		}
-		
+
 		public static Character create(Map<Characteristics, Characteristic> statMap) {
 			return new CharacterImpl(statMap);
 		}
@@ -244,11 +264,11 @@ public interface Character {
 		public static Character create(Map<Characteristics, Characteristic> statMap, Races race) {
 			return new CharacterImpl(statMap, race);
 		}
-		
+
 		private static class CharacterImpl implements Character {
-			
+
 			private Map<Characteristics, Characteristic> charMap = new ConcurrentHashMap<>();
-			private Set<Talent> talentSet = new HashSet<>();
+			private Map<Talent, Integer> talentMap = new TreeMap<>();
 			private Map<Skill, Integer> skillMap = new ConcurrentHashMap<>();
 			private int woundsTaken = 0;
 			private List<Crit> critList = new CopyOnWriteArrayList<>();
@@ -259,9 +279,9 @@ public interface Character {
 			public CharacterImpl(Map<Characteristics, Characteristic> charMap) {
 				this(charMap, HUMAN);
 			}
-			
+
 			public CharacterImpl(Map<Characteristics, Characteristic> charMap, Races race) {
-				
+
 				this.race = race;
 				this.charMap = new ConcurrentHashMap<>(charMap);
 			}
@@ -269,7 +289,7 @@ public interface Character {
 			public CharacterImpl() {
 				this(HUMAN);
 			}
-			
+
 			public CharacterImpl(Races characterRace) {
 				this.race = characterRace;
 				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, new Characteristic(stat, race.statModifier(stat) + 2 + random.nextInt(10) + random.nextInt(10))));
@@ -286,7 +306,7 @@ public interface Character {
 			@Override
 			public int maxWounds() {
 
-				if(talentSet.contains(new Talent(SMALL))) {
+				if(talentMap.containsKey(new Talent(SMALL))) {
 					return characteristicBonus(T)*2 + characteristicBonus(WP);
 				}
 				return characteristicBonus(T)*2 + characteristicBonus(WP) + characteristicBonus(S);
@@ -323,13 +343,13 @@ public interface Character {
 			public int checkSkill(Skill skill, Modifier modifier) {
 				int roll = random.nextInt(100) + 1;
 				int successLevel = ((skillValue(skill) + modifier.value())/10) - (roll/10);
-				
+
 				System.out.println("Skill: " + skillValue(skill) + " Modifier: " + modifier.modifierPresentation() + " = " + (skillValue(skill) + modifier.value()) 
 						+ " Roll: " + roll + " => SL = " + successLevel );
-				
+
 				return successLevel;
 			}
-			
+
 			@Override
 			public int skillValue(Skill skill) {
 				return skillAdvances(skill) + characteristic(skill.getSkillType().characteristics());
@@ -337,7 +357,7 @@ public interface Character {
 
 			@Override
 			public int advanceSkill(Skill skill, int value) {
-				
+
 				Integer skillValue = skillAdvances(skill);
 				skillMap.put(skill, skillValue + value);
 				return 0;
@@ -355,11 +375,11 @@ public interface Character {
 					usedXp += cost;
 					cost = Characteristic.cost(charAdvances + boughtAdvances);
 				}
-				
+
 				charMap.get(characteristic).advance(boughtAdvances);
-				
+
 				System.out.println(characteristic.name() + " advanced " + boughtAdvances + " to " + charMap.get(characteristic).value() + " using " + usedXp + " of " + xp + " xp");
-				
+
 				return new TrainingResult(xp - usedXp, charMap.get(characteristic).getAdvances());
 			}
 
@@ -375,27 +395,27 @@ public interface Character {
 					usedXp += cost;
 					cost = skillCost(skillAdvances + boughtAdvances);
 				}
-				
+
 				advanceSkill(skill, boughtAdvances);
-				
+
 				System.out.println(skill.getSkillType().name() + " advanced " + boughtAdvances + " to " + skillMap.get(skill) + " using " + usedXp + " of " + xp + " xp");
-				
+
 				return new TrainingResult(xp - usedXp, skillMap.get(skill));
 			}
 
 			private int skillCost(int currentAdvances) {
-				
+
 				int costIndex = (int)(currentAdvances/5);
 				if(costIndex >= skillCosts.length) {
 					costIndex = skillCosts.length - 1;
 				}
-				
+
 				return skillCosts[costIndex];
 			}
 
 			@Override
 			public int charAdvances(Characteristics characteristic) {
-				
+
 				return charMap.get(characteristic).getAdvances();
 			}
 
@@ -419,7 +439,25 @@ public interface Character {
 
 			@Override
 			public void addTalent(Talent talent) {
-				talentSet.add(talent);
+				String maxString = talent.getTalentType().max();
+				int maxTaken = 1;
+				if(!maxString.equals("1")) {
+					try {
+						maxTaken = Integer.parseInt(maxString);
+					} catch(NumberFormatException e) {
+						if(maxString.equalsIgnoreCase("none")) {
+							maxTaken = 999;
+						} else {
+							maxTaken = characteristicBonus(Characteristics.valueOf(maxString));
+						}
+					}
+				}
+				Integer numberTaken = talentMap.getOrDefault(talent, 0);
+				if(numberTaken < maxTaken) {
+					talentMap.put(talent, numberTaken + 1);
+				} else {
+					System.out.println("Talent limit reached");
+				}
 			}
 
 			@Override
@@ -436,7 +474,7 @@ public interface Character {
 			public String toString() {
 				return String.format(
 						"Character [charMap=%s, talentSet=%s, skillMap=%s, woundsTaken=%s, critList=%s, race=%s, career=%s]",
-						charMap, talentSet, skillMap, woundsTaken, critList, race, career);
+						charMap, talentMap, skillMap, woundsTaken, critList, race, career);
 			}
 
 			@Override
@@ -446,7 +484,7 @@ public interface Character {
 
 			@Override
 			public Map<Skill, Integer> allTrainedSkills() {
-				
+
 				return skillMap.entrySet().stream()
 						.filter(entry -> entry.getValue() > 0)
 						.collect(Collectors.toMap(Entry::getKey, Entry::getValue));
@@ -458,11 +496,11 @@ public interface Character {
 			}
 
 			@Override
-			public Set<Talent> talents() {
-				return new HashSet<>(talentSet);
+			public Map<Talent, Integer> talents() {
+				return new TreeMap<>(talentMap);
 			}
 		}
-		
+
 		private static class Characteristic {
 			private Characteristics type;
 			private int advances;
@@ -475,25 +513,25 @@ public interface Character {
 				this.initialValue = initialValue;
 				this.advances = 0;
 			}
-			
+
 			public static int cost(int currentAdvances) {
 
 				int costIndex = (int)(currentAdvances/5);
 				if(costIndex >= costs.length) {
 					costIndex = costs.length - 1;
 				}
-				
+
 				return costs[costIndex];
 			}
 
 			public int value() {
 				return initialValue + advances;
 			}
-			
+
 			public void advance(int advances) {
 				this.advances += advances; 
 			}
-			
+
 			public Characteristics getType() {
 				return type;
 			}
@@ -510,32 +548,32 @@ public interface Character {
 	}
 
 	public static class RandomCharacter {
-		
+
 		private RandomCharacter() {
 		}
-		
+
 		public static Character create(String careerName, Races race, int careerRank, Random randomizer) {
-			
+
 			Character.Factory.setRandomizer(randomizer);
 			Character character = Factory.create(race);
 			Career career = Career.Factory.create(careerName);
 			character.changeCareer(career);
-			
+
 			return randomizeCharacter(character, careerRank, randomizer);
 		}
-		
-		
+
+
 		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.warhammer.Character.Factory.Characteristic> stats, Random randomizer) {
 
 			Character.Factory.setRandomizer(randomizer);
 			Character character = Factory.create(stats);
 			character.changeCareer(Career.Factory.create(career));
-			
+
 			return randomizeCharacter(character, careerRank, randomizer);
 		}
 
 		private static Character randomizeCharacter(Character character, int rank, Random randomizer) {
-			
+
 			Skill primarySkill =  character.career().allSkills(1).get(0);
 			character.advanceSkill(primarySkill, rank*5);
 
@@ -543,10 +581,27 @@ public interface Character {
 
 				improveStats(character, i);
 				improveSkills(character, randomizer, i, i == rank);
-				character.addTalent(character.career().talentList(i).get(randomizer.nextInt(4)));
+				addTalents(character, randomizer, i);
 			}
-			
+
 			return character;
+		}
+
+		private static void addTalents(Character character, Random randomizer, int i) {
+			int randomNumbers = randomizer.nextInt(20);
+			int talentNumbers = 
+					randomNumbers == 20 ? 7 :
+						randomNumbers > 18 ? 6 :
+							randomNumbers > 16 ? 5 :
+								randomNumbers > 15 ? 4 : 
+									randomNumbers > 10 ? 3 : 
+										randomNumbers > 6 ? 2 : 
+											1;
+										while (talentNumbers > 0) {
+											Talent talent = character.career().talentList(i).get(randomizer.nextInt(4));
+											character.addTalent(talent);
+											talentNumbers--;
+										}
 		}
 
 		private static void improveStats(Character character, int rank) {
@@ -558,8 +613,8 @@ public interface Character {
 			character.career().allStats(lastRank).forEach(stat -> {
 				while(character.charAdvances(stat) < maxAdvances) { 
 					character.advanceCharacteristic(stat, 5);
-					}
-				});
+				}
+			});
 		}
 
 		private static void improveSkills(Character character, Random randomizer, int rank, boolean halfRank) {
@@ -574,6 +629,17 @@ public interface Character {
 				int advances = character.skillAdvances(randomSkill);
 				character.advanceSkill(randomSkill, (rank*5)-advances);
 			}
+
+			int randomSkills = randomizer.nextInt(10);
+			int numberOfRandomSkill = randomSkills == 10 ? 3 : randomSkills > 7 ? 2 : randomSkills > 4 ? 1 : 0;
+
+			while(numberOfRandomSkill > 0) {
+				int randomAdvances = randomizer.nextInt(5);
+				Skill skill = new ArrayList<Skill>(character.allSkills().keySet()).get(randomizer.nextInt(character.allSkills().size()));
+				character.advanceSkill(skill, randomAdvances);
+				numberOfRandomSkill--;
+			}
+
 		}
 	}
 

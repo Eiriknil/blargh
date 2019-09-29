@@ -3,7 +3,7 @@
 	"level": [{
 		"stats": ["BS", "T", "WP"],
 		"skills": ["Drive", "Animal Care", "Charm Animal", "Climb", "Endurance", "Perception", "Ranged(Entangling)", "Ride(Horse)"],
-		"talents": ["Animal Affinity", "Seasoned Traveller", "Trick-Riding", "Tenacious"]
+		"talents": ["Animal Affinity", "Seasoned Traveller", "Trick Riding", "Tenacious"]
 	},
 	{
 		"stats": ["AG"],

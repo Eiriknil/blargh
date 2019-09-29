@@ -8,7 +8,7 @@
 	{
 		"stats": ["WS"],
 		"skills": ["Animal Care", "Melee(Basic)", "Outdoor Survival", "Ranged(Bow)", "Ride(Horse)", "Swim"],
-		"talents": ["Animal Affinity", "Etiquette(Servants)", "Strider(any)", "Rover"]
+		"talents": ["Animal Affinity", "Etiquette(Servants)", "Strider(Any)", "Rover"]
 	},
 	{
 		"stats": ["FEL"],
@@ -18,6 +18,6 @@
 	{
 		"stats": ["INT"],
 		"skills": ["Evaluate", "Language(Any)"],
-		"talents": ["Commanding Presence", "Etiquette(any)", "Savant(local)", "Suave"]
+		"talents": ["Commanding Presence", "Etiquette(Any)", "Savant(Local)", "Suave"]
 	}]
 }

@@ -3,7 +3,7 @@
 	"level": [{
 		"stats": ["T", "I", "AG"],
 		"skills": ["Perception", "Charm Animal", "Climb", "Endurance", "Gossip", "Lore(Local)", "Melee(Basic)", "Outdoor Survival"],
-		"talents": ["Orientation", "Rover", "Sharp", "Strider(any)"]
+		"talents": ["Orientation", "Rover", "Sharp", "Strider(Any)"]
 	},
 	{
 		"stats": ["BS"],

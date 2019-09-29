@@ -3,7 +3,7 @@
 	"level": [{
 		"stats": ["S", "T", "DEX"],
 		"skills": ["Charm Animal", "Climb", "Endurance", "Lore(Beasts)", "Outdoor Survival", "Perception", "Ranged(Sling)", "Set Trap"],
-		"talents": ["Hardy", "Rover", "Strider(any)", "Trapper"]
+		"talents": ["Hardy", "Rover", "Strider(Any)", "Trapper"]
 	},
 	{
 		"stats": ["BS"],
@@ -13,7 +13,7 @@
 	{
 		"stats": ["I"],
 		"skills": ["Navigation", "Ride(Horse)", "Swim", "Track"],
-		"talents": ["Acute Sense(any)", "Deadeye Shot", "Fearless(Animals)", "Sharpshooter"]
+		"talents": ["Acute Sense(Any)", "Deadeye Shot", "Fearless(Animals)", "Sharpshooter"]
 	},
 	{
 		"stats": ["INT"],

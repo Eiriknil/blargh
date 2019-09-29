@@ -204,7 +204,7 @@ class CharacterTest {
 			System.out.println(randomCharacter.toString());
 			randomCharacter.allTrainedSkills().forEach((skill, value) -> System.out.printf("Skill: %s = %d%n", skill.getSkillType().name(), value));
 			assertThat(randomCharacter.characteristic(DEX), is(36));
-			assertThat(randomCharacter.skillValue(new Skill(Skills.TRADE, "Apothecary")), is(41));
+			assertThat(randomCharacter.skillValue(new Skill(Skills.TRADE, "Apothecary")), is(36));
 			assertThat(randomCharacter.skillValue(new Skill(Skills.ART, "Writing")), is(36));
 			assertThat(randomCharacter.characteristic(AG), is(36));
 			assertThat(randomCharacter.skillValue(new Skill(Skills.ATHLETICS, "")), is(36));
@@ -269,7 +269,7 @@ class CharacterTest {
 		
 		System.out.println("Talents:");
 		StringBuilder talentString = new StringBuilder("");
-		randomCharacter.talents().forEach(talent -> talentString.append(talentString.length() > 0 ? ", " : "").append(Character.capitilizeAndClean(talent.presentation())));
+		randomCharacter.talents().entrySet().forEach(entry -> talentString.append(talentString.length() > 0 ? ", " : "").append(Character.capitalizeAndClean(entry.getKey().presentation(entry.getValue()))));
 		System.out.println(talentString.toString());
 	}
 }

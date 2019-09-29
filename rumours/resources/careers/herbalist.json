@@ -3,7 +3,7 @@
 	"level": [{
 		"stats": ["T", "I", "AG"],
 		"skills": ["Trade(Herbalist)", "Charm Animal", "Climb", "Endurance", "Lore(Herbs)", "Outdoor Survival", "Perception", "Swim"],
-		"talents": ["Acute Sense(Taste)", "Orientation", "Rover", "Strider(any)"]
+		"talents": ["Acute Sense(Taste)", "Orientation", "Rover", "Strider(Any)"]
 	},
 	{
 		"stats": ["DEX"],
