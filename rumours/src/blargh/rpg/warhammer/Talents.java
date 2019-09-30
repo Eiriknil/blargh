@@ -206,7 +206,7 @@ public enum Talents {
 			List<TalentDto> talentList = mapper.convertValue(mapper.readValue(new File("resources/talents.json"), List.class), new TypeReference<List<TalentDto>>() {});
 			
 			talentList.forEach(talent -> {
-				talentsMap.put(talent.getName().toUpperCase().replaceAll(" ", "_"), talent);
+				talentsMap.put(talent.getName().toUpperCase().replaceAll(" ", "_").replaceAll("-", "_"), talent);
 			});
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -9,7 +9,7 @@ public class RaceDto {
 	private List<String> skills;
 	private List<String> talents;
 	private int random;
-	private List<List<Map<String, String>>> choice;
+	private List<Map<String, String>> choice;
 	
 	public String getRace() {
 		return race;
@@ -43,11 +43,11 @@ public class RaceDto {
 		this.random = random;
 	}
 
-	public List<List<Map<String, String>>> getChoice() {
+	public List<Map<String, String>> getChoice() {
 		return choice;
 	}
 
-	public void setChoice(List<List<Map<String, String>>> choice) {
+	public void setChoice(List<Map<String, String>> choice) {
 		this.choice = choice;
 	}
 

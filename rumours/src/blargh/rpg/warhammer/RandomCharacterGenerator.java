@@ -58,7 +58,7 @@ public class RandomCharacterGenerator {
 		{
 			int level = 1;
 			while(level <= 4) {
-				String character = String.format(create("slayer", level, Races.DWARF, new Random()));
+				String character = String.format(create("knight", level, Races.HUMAN, new Random()));
 				System.out.println(character);
 				System.out.println();
 				bufferedWriter.write(character);
