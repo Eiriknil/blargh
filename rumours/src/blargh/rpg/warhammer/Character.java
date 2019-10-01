@@ -31,13 +31,14 @@ public interface Character {
 		private String specialisation;
 
 		public Skill(String skillName) {
-			String skillTypeString = skillName;
+			String skillTypeString = skillName.toUpperCase();
 			specialisation = "";
 			if(skillName.contains("(")) {
 				String[] splitSkillName = skillName.split("\\(");
 				skillTypeString = splitSkillName[0];
 				specialisation = splitSkillName[1].replace("(", "").replace(")", "");
 			}
+			skillTypeString = skillTypeString.toUpperCase().replaceAll(" ", "_");
 			skillType = Skills.valueOf(skillTypeString);
 		}
 
@@ -113,6 +114,7 @@ public interface Character {
 				talentTypeString = splitTalentName[0];
 				specialisation = splitTalentName[1].replace("(", "").replace(")", "");
 			}
+			talentTypeString = talentTypeString.toUpperCase().replaceAll(" ", "_").replace("/", "_");
 			talentType = Talents.valueOf(talentTypeString);
 		}
 
@@ -302,7 +304,14 @@ public interface Character {
 			}
 
 			private void addTalents() {
-//				race.racialTalents();
+				Set<String> racialTalents = race.racialTalents(random);
+				racialTalents.addAll(race.racialTalents(random));
+				racialTalents.addAll(race.randomTalents(random));
+				
+				racialTalents.forEach(talentName -> {
+					Talent talent = new Talent(talentName);
+					talentMap.put(talent, 1);
+				});
 			}
 
 			private void addRandomSkills() {

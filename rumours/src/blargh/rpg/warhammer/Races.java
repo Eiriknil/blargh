@@ -67,7 +67,7 @@ public enum Races {
 		int randomNumber100 = randomizer.nextInt(100) + 1;
 		AtomicInteger hit = new AtomicInteger(0);
 		randomRange.forEach(number -> {
-			if(number <= randomNumber100) {
+			if(randomNumber100 <= number && hit.get() == 0) {
 				hit.set(number);
 			}
 		});
@@ -105,5 +105,15 @@ public enum Races {
 		raceMap.get(name()).getChoice().stream().map(choice -> choice.entrySet());
 		
 		return talentSet;
+	}
+	
+	public Set<String> randomTalents(Random randomizer) {
+		Set<String> randomTalentsSet = new HashSet<>();
+		
+		while(randomTalentsSet.size() < raceMap.get(name()).getRandom()) {
+			randomTalentsSet.add(randomTalent(randomizer));
+		}
+		
+		return randomTalentsSet;
 	}
 }
