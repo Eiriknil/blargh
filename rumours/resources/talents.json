@@ -804,7 +804,7 @@
 	"tests": "",
 	"description": "Gain a permanent +5 bonus to your starting Strength (this does not count towards your Advances)."
 }, {
-	"name": "War Leader",
+	"name": "Warleader",
 	"max": "FEL",
 	"tests": "",
 	"description": "Skills: Leadership Tests during War. All subordinates able to see you may add your level in War Leader to their SL in one Willpower Test per Round. This bonus does not stack."

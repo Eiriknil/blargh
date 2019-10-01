@@ -8,7 +8,7 @@
 			{
 				"Savvy": 50,
 				"Suave": 100
-			}				
+			}
 		]
 	},
 	{
@@ -16,6 +16,7 @@
 		"skills": ["Consume Alcohol", "Cool", "Endurance", "Entertain(Storytelling)", "Evaluate", "Intimidate", "Language", "Khazalid", "Lore(Dwarfs)", "Lore(Geologi)", "Lore(Metallurgy)", "Melee(Basic)", "Trade(any)"],
 		"talents": ["Magic Resistance", "Night Vision", "Sturdy"],
 		"choice": [
+			
 			{
 				"Read/Write": 50,
 				"Relentless": 100
