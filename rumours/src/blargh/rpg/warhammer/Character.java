@@ -10,11 +10,13 @@ import static blargh.rpg.warhammer.Talents.SMALL;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Random;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -295,6 +297,33 @@ public interface Character {
 				Arrays.stream(Characteristics.values()).forEach(stat -> charMap.put(stat, new Characteristic(stat, race.statModifier(stat) + 2 + random.nextInt(10) + random.nextInt(10))));
 				charMap.put(M, new Characteristic(M, race.statModifier(M)));
 				Skills.basicSkills().forEach(skill -> skillMap.put(new Skill(skill, skill.defaultSpec()), 0));
+				addRandomSkills();
+				addTalents();
+			}
+
+			private void addTalents() {
+//				race.racialTalents();
+			}
+
+			private void addRandomSkills() {
+				Set<String> randomSkills = new HashSet<>();
+				Set<String> randomSkills5 = new HashSet<>();
+				while(randomSkills.size() < 3) {
+					String randomSkill = race.randomSkill(random);
+					randomSkills.add(randomSkill);
+					randomSkills5.add(randomSkill);
+				}
+				randomSkills5.forEach(skill -> skillMap.put(new Skill(skill), 5));
+
+				Set<String> randomSkills3 = new HashSet<>();
+				while(randomSkills.size() < 3) {
+					String randomSkill = race.randomSkill(random);
+					randomSkills.add(randomSkill);
+					if(!randomSkills5.contains(randomSkill)) {
+						randomSkills3.add(randomSkill);
+					}
+				}
+				randomSkills3.forEach(skill -> skillMap.put(new Skill(skill), 3));
 			}
 
 			@Override

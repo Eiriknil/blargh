@@ -5,10 +5,10 @@
 		"talents": ["Doomed"],
 		"random": 3,
 		"choice": [
-			[
-				{"Savvy": 50},
-				{"Suave": 100}
-			]
+			{
+				"Savvy": 50,
+				"Suave": 100
+			}				
 		]
 	},
 	{
@@ -16,13 +16,13 @@
 		"skills": ["Consume Alcohol", "Cool", "Endurance", "Entertain(Storytelling)", "Evaluate", "Intimidate", "Language", "Khazalid", "Lore(Dwarfs)", "Lore(Geologi)", "Lore(Metallurgy)", "Melee(Basic)", "Trade(any)"],
 		"talents": ["Magic Resistance", "Night Vision", "Sturdy"],
 		"choice": [
-			[
-				{"Read/Write": 50},
-				{"Relentless": 100}
-			],[
-				{"Resolute": 50},
-				{"Strong-Minded": 100}
-			]
+			{
+				"Read/Write": 50,
+				"Relentless": 100
+			},{
+				"Resolute": 50,
+				"Strong-Minded": 100
+			}
 		]
 	},
 	{
@@ -30,7 +30,7 @@
 		"skills": ["Charm", "Consume Alcohol", "Dodge", "Gamble", "Haggle", "Intuition", "Language(Mootish)", "Lore(Reikland)", "Perception", "Sleight of Hand", "Stealth(Any)", "Trade(Cook)"],
 		"talents": ["Acute Sense(Taste)", "Night Vision", "Resistance(Chaos)", "Small,"],
 		"random": 2,
-		"choice": [[]]
+		"choice": []
 	},
 	{
 		"race": "high elves",
@@ -38,13 +38,13 @@
 		"talents": ["Acute Sense(Sight), Night Vision, Read/Write"],
 		"random": 0,
 		"choice": [
-			[
-				{"Second Sight": 50},
-				{"Relentless": 100}
-			],[
-				{"Coolheaded": 50},
-				{"Savvy": 100}
-			]
+			{
+				"Second Sight": 50,
+				"Relentless": 100
+			},{
+				"Coolheaded": 50,
+				"Savvy": 100
+			}
 		]
 	},
 	{
@@ -53,13 +53,13 @@
 		"talents": ["Acute Sense (Sight)", "Night Vision", "Rover"],
 		"random": 0,
 		"choice": [
-			[
-				{"Read/Write": 50},
-				{"Very Resilient": 100}
-			],[
-				{"Hardy": 50},
-				{"Second Sight": 100}
-			]
+			{
+				"Read/Write": 50,
+				"Very Resilient": 100
+			},{
+				"Hardy": 50,
+				"Second Sight": 100
+			}
 		]
 	}
 ]
