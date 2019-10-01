@@ -13,7 +13,7 @@
 	},
 	{
 		"race": "dwarf",
-		"skills": ["Consume Alcohol", "Cool", "Endurance", "Entertain(Storytelling)", "Evaluate", "Intimidate", "Language", "Khazalid", "Lore(Dwarfs)", "Lore(Geologi)", "Lore(Metallurgy)", "Melee(Basic)", "Trade(any)"],
+		"skills": ["Consume Alcohol", "Cool", "Endurance", "Entertain(Storytelling)", "Evaluate", "Intimidate", "Language(Khazalid)", "Lore(Dwarfs)", "Lore(Geologi)", "Lore(Metallurgy)", "Melee(Basic)", "Trade(any)"],
 		"talents": ["Magic Resistance", "Night Vision", "Sturdy"],
 		"choice": [
 			

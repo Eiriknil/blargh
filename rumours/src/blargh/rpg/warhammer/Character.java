@@ -94,6 +94,11 @@ public interface Character {
 
 			return presentation;
 		}
+
+		@Override
+		public String toString() {
+			return String.format("%s%s", capitalizeAndClean(skillType.toString()), (specialisation != null && ! specialisation.isEmpty()) ? String.format("(%s)", specialisation) : "");
+		}
 	}
 
 	public static class Talent implements Comparable<Talent> {
@@ -184,7 +189,7 @@ public interface Character {
 
 		@Override
 		public String toString() {
-			return "Talent [talentType=" + talentType + ", specialisation=" + specialisation + "]";
+			return String.format("%s%s", capitalizeAndClean(talentType.toString()), (specialisation != null && ! specialisation.isEmpty()) ? String.format("(%s)", specialisation) : "");
 		}
 
 	}
@@ -235,6 +240,8 @@ public interface Character {
 
 	public Career career();
 	public void changeCareer(Career career);
+
+	public CharacterDto characterDto();
 
 	public static String capitalizeAndClean(String input) {
 		return String.format("%S%s", input.substring(0, 1).toUpperCase(), input.substring(1).toLowerCase()).replace("_", " ");
@@ -537,52 +544,21 @@ public interface Character {
 			public Map<Talent, Integer> talents() {
 				return new TreeMap<>(talentMap);
 			}
-		}
-
-		private static class Characteristic {
-			private Characteristics type;
-			private int advances;
-			private int initialValue;
-
-			private static int[] costs = {25, 30, 40, 50, 70, 90, 120, 150, 190, 230, 280, 330, 390, 450, 520};
-
-			Characteristic(Characteristics type, int initialValue){
-				this.type = type;
-				this.initialValue = initialValue;
-				this.advances = 0;
-			}
-
-			public static int cost(int currentAdvances) {
-
-				int costIndex = (int)(currentAdvances/5);
-				if(costIndex >= costs.length) {
-					costIndex = costs.length - 1;
-				}
-
-				return costs[costIndex];
-			}
-
-			public int value() {
-				return initialValue + advances;
-			}
-
-			public void advance(int advances) {
-				this.advances += advances; 
-			}
-
-			public Characteristics getType() {
-				return type;
-			}
-
-			public int getAdvances() {
-				return advances;
-			}
 
 			@Override
-			public String toString() {
-				return String.format("Characteristic [type=%s, advances=%s, initialValue=%s]", type, advances, initialValue);
+			public CharacterDto characterDto() {
+				
+				CharacterDto characterDto = new CharacterDto();
+//				characterDto.setCareer(career.toCareerDto());
+				characterDto.setCharacteristics(charMap);
+				characterDto.setRace(race);
+				characterDto.setSkills(skillMap);
+				characterDto.setTalents(talentMap);
+				
+				return characterDto;
 			}
 		}
+
 	}
 
 	public static class RandomCharacter {
@@ -601,7 +577,7 @@ public interface Character {
 		}
 
 
-		public static Character create(String career, Races race, int careerRank, Map<Characteristics, blargh.rpg.warhammer.Character.Factory.Characteristic> stats, Random randomizer) {
+		public static Character create(String career, Races race, int careerRank, Map<Characteristics, Characteristic> stats, Random randomizer) {
 
 			Character.Factory.setRandomizer(randomizer);
 			Character character = Factory.create(stats);
@@ -680,6 +656,7 @@ public interface Character {
 
 		}
 	}
+
 
 
 

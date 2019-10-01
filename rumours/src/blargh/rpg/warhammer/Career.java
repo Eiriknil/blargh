@@ -21,6 +21,7 @@ public interface Career {
 	public List<Characteristics> statList(int level);
 	public List<Characteristics> allStats(int level);
 	public String name(int level);
+	public CareerDto toCareerDto();
 
 	public static class Factory {
 
@@ -121,6 +122,11 @@ public interface Career {
 						.map(attribute -> attribute.get("trappings"))
 						.map(list -> list.get(0))
 						.collect(Collectors.toList());
+			}
+
+			@Override
+			public CareerDto toCareerDto() {
+				return careerDef;
 			}
 		}
 	}
