@@ -500,8 +500,6 @@ public interface Character {
 				Integer numberTaken = talentMap.getOrDefault(talent, 0);
 				if(numberTaken < maxTaken) {
 					talentMap.put(talent, numberTaken + 1);
-				} else {
-					System.out.println("Talent limit reached");
 				}
 			}
 
@@ -591,14 +589,51 @@ public interface Character {
 			Skill primarySkill =  character.career().allSkills(1).get(0);
 			character.advanceSkill(primarySkill, rank*5);
 
-			for(int i = 1;i <= rank;i++) {
+			for(int currentRank = 1;currentRank <= rank;currentRank++) {
 
-				improveStats(character, i);
-				improveSkills(character, randomizer, i, i == rank);
-				addTalents(character, randomizer, i);
+				improveStats(character, currentRank);
+				improveSkills(character, randomizer, currentRank, currentRank == rank);
+				addTalents(character, randomizer, currentRank);
+				addSpellsAndBlessings(character, randomizer, currentRank);
 			}
 
 			return character;
+		}
+
+		private static void addSpellsAndBlessings(Character character, Random randomizer, int rank) {
+			Set<Talents> talentTypeSet = character.talents().keySet().stream().map(talent -> talent.talentType).collect(Collectors.toSet());
+			if(talentTypeSet.contains(Talents.PETTY_MAGIC)) {
+				addPettyMagic(character, randomizer, rank);
+			}
+			if(talentTypeSet.contains(Talents.ARCANE_MAGIC)) {
+				addArcaneMagic(character, randomizer, rank);
+			}
+			if(talentTypeSet.contains(Talents.CHAOS_MAGIC_LORE)) {
+				addChaosMagic(character, randomizer, rank);
+			}
+			if(talentTypeSet.contains(Talents.WITCH)) {
+				addWitchcraft(character, randomizer, rank);
+			}
+		}
+
+		private static void addWitchcraft(Character character, Random randomizer, int rank) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		private static void addChaosMagic(Character character, Random randomizer, int rank) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		private static void addArcaneMagic(Character character, Random randomizer, int rank) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		private static void addPettyMagic(Character character, Random randomizer, int rank) {
+			// TODO Auto-generated method stub
+			
 		}
 
 		private static void addTalents(Character character, Random randomizer, int i) {

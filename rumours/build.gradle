@@ -19,13 +19,16 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     mavenCentral()
     jcenter()
+    maven {
+        url 'http://clojars.org/repo'
+    }
 }
 
 dependencies {
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
 	compile 'com.fasterxml.jackson.core:jackson-core:2.9.8'
 	compile 'com.fasterxml.jackson.core:jackson-databind:2.9.8' 
-
+	compile "json-to-pdf:json-to-pdf:0.8.1"
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'

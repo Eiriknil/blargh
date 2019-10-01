@@ -15,6 +15,8 @@ import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
 
+import org.yogthos.JsonPDF;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -22,7 +24,13 @@ import blargh.rpg.warhammer.Character.Skill;
 
 public class RandomCharacterGenerator {
 
-	public static String create(String career, int level, Races race, Random randomizer) {
+	public enum OutputType {
+		JSON,
+		TEXT;
+	}
+		
+	
+	public static String create(String career, int level, Races race, Random randomizer, OutputType outputType) {
 		
 		StringBuilder output = new StringBuilder();
 		
@@ -54,20 +62,34 @@ public class RandomCharacterGenerator {
 		randomCharacter.career().trappingList(level).forEach(trappings -> output.append(trappings).append("%n"));
 		
 		ObjectMapper mapper = new ObjectMapper();
-		try {
-			CharacterDto characterDto = randomCharacter.characterDto();
-			return mapper.writeValueAsString(characterDto);
-		} catch (JsonProcessingException e) {
+		switch (outputType) {
+		case JSON: 
+			try {
+				CharacterDto characterDto = randomCharacter.characterDto();
+				return mapper.writeValueAsString(characterDto);
+			} catch (JsonProcessingException e) {
+				return output.toString();
+			}
+		case TEXT:
+			return output.toString();
+		default:
 			return output.toString();
 		}
+	}
+	
+	public static void writeToPdf(String fileName, String output) {
+		
+		String jsonDoc = String.join("", "[\"pages\"orientation\":\"landscape\"}");
+		
+		JsonPDF.writeToFile(jsonDoc, fileName, null);
 	}
 	
 	public static void main(String... args) {
 //		try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("/temp/soldier.txt")))
 //		{
 			int level = 1;
-			while(level <= 1) {
-				String character = String.format(create("slayer", level, Races.DWARF, new Random()));
+			while(level <= 4) {
+				String character = String.format(create("slayer", level, Races.DWARF, new Random(), OutputType.TEXT));
 				System.out.println(character);
 				System.out.println();
 //				bufferedWriter.write(character);

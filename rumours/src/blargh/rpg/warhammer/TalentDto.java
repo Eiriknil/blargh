@@ -6,6 +6,8 @@ public class TalentDto {
 	private String max;
 	private String tests;
 	private String description;
+	private String skill;
+	
 	public String getName() {
 		return name;
 	}
@@ -33,5 +35,11 @@ public class TalentDto {
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	public String getSkill() {
+		return skill;
+	}
+	public void setSkill(String skill) {
+		this.skill = skill;
 	}
 }

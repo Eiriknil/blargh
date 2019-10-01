@@ -741,8 +741,8 @@
 }, {
 	"name": "Super Numerate",
 	"max": "INT",
-	"tests": "Evaluate",
-	"description": "Gamble,May use a simple calculator to represent what your PC is capable of mentally computing."
+	"tests": "Evaluate, Gamble",
+	"description": "May use a simple calculator to represent what your PC is capable of mentally computing."
 }, {
 	"name": "Supportive",
 	"max": "FEL",
@@ -776,13 +776,13 @@
 }, {
 	"name": "Trapper",
 	"max": "I",
-	"tests": "Perception Tests to spot traps",
-	"description": "Set Trap,May take a Perception Test to spot traps automatically without having to tell the GM of your intention"
+	"tests": "Perception Tests to spot traps, Set Trap",
+	"description": "May take a Perception Test to spot traps automatically without having to tell the GM of your intention"
 }, {
 	"name": "Trick Riding",
 	"max": "AG",
-	"tests": "Dodge Tests on Horseback",
-	"description": "Ride (Horse),Can use any of your Performer Skills and unmodified Dodge skill when on horseback. Further, when mounted, you can make your Move at the start of the Round instead of on your Turn."
+	"tests": "Dodge Tests on Horseback, Ride (Horse)",
+	"description": "Can use any of your Performer Skills and unmodified Dodge skill when on horseback. Further, when mounted, you can make your Move at the start of the Round instead of on your Turn."
 }, {
 	"name": "Tunnel Rat",
 	"max": "AG",
@@ -806,8 +806,8 @@
 }, {
 	"name": "Warleader",
 	"max": "FEL",
-	"tests": "",
-	"description": "Skills: Leadership Tests during War. All subordinates able to see you may add your level in War Leader to their SL in one Willpower Test per Round. This bonus does not stack."
+	"tests": "Leadership Tests during War.",
+	"description": "All subordinates able to see you may add your level in War Leader to their SL in one Willpower Test per Round. This bonus does not stack."
 }, {
 	"name": "War Wizard",
 	"max": "1",
@@ -837,5 +837,6 @@
 	"name": "Witch",
 	"max": "WP",
 	"tests": "",
+	"skill": "Language(Magick)",
 	"description": "Add Language (Magick) to any Career you enter"
 }]
