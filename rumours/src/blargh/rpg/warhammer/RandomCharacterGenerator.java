@@ -32,12 +32,14 @@ public class RandomCharacterGenerator {
 	
 	public static String create(String career, int level, Races race, Random randomizer, OutputType outputType) {
 		
-		StringBuilder output = new StringBuilder();
+		StringBuilder output = new StringBuilder("----- Start -----%n");
 		
 		Character randomCharacter = Character.RandomCharacter.create(career, race, level, randomizer);
 		output.append(String.format("%s %s rank %d%n", Character.capitalizeAndClean(race.name()), randomCharacter.career().name(level), level));
+		output.append("Stats:  ");
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> output.append(String.format("%4s ", stat.name())));
 		output.append("%n");
+		output.append("Values: ");
 		Arrays.stream(Characteristics.values()).filter(stat -> stat != NONE).forEach(stat -> output.append(String.format("%4d ", randomCharacter.characteristic(stat))));
 		output.append("%n");
 		output.append(String.format("Wounds: %d", randomCharacter.maxWounds()));
@@ -61,6 +63,8 @@ public class RandomCharacterGenerator {
 		output.append("%nTrappings:%n");
 		randomCharacter.career().trappingList(level).forEach(trappings -> output.append(trappings).append("%n"));
 		
+		output.append("%n----- End -----%n");
+		
 		ObjectMapper mapper = new ObjectMapper();
 		switch (outputType) {
 		case JSON: 
@@ -77,9 +81,22 @@ public class RandomCharacterGenerator {
 		}
 	}
 	
-	public static void writeToPdf(String fileName, String output) {
+	public static void writeToPdf(String fileName, String characterPresentation) {
 		
-		String jsonDoc = String.join("", "[\"pages\"orientation\":\"landscape\"}");
+		String jsonDoc = String.join("", "[{\"pages\": true, \"orientation\":\"landscape\"}", characterPresentation.replaceAll("----- Start -----", ", \\[\"paragraph\", \"").replaceAll("----- End -----", "\"\\]\\]"));
+		jsonDoc = jsonDoc.replace("Stats:     M   WS   BS    S    T   AG    I  DEX  INT   WP  FEL", 
+				"\"], [\"table\",{\"header\": [\"\", \"M\", \"WS\", \"BS\", \"S\", \"T\", \"AG\", \"I\", \"DEX\", \"INT\", \"WP\", \"FEL\"]}, [");
+		List<String> statValueList = Arrays.stream(characterPresentation.split("\\r?\\n")).filter(line -> line.startsWith("Values:")).collect(Collectors.toList());
+		for(String statLine: statValueList) {
+			String line = statLine.trim();
+			while(line.indexOf("  ") > 0) {
+				line = line.replaceAll("  ", " ");
+			}
+			String join = "" + String.join(", ", Arrays.stream(line.split(" ")).map(value -> String.join("", "\"", value, "\"")).collect(Collectors.toList())) + "]], [\"paragraph\", \"";
+//			System.out.println(join);
+			jsonDoc = jsonDoc.replace(statLine, join);
+		}
+		System.out.println(jsonDoc);
 		
 		JsonPDF.writeToFile(jsonDoc, fileName, null);
 	}
@@ -88,10 +105,11 @@ public class RandomCharacterGenerator {
 //		try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("/temp/soldier.txt")))
 //		{
 			int level = 1;
-			while(level <= 4) {
+			while(level <= 1) {
 				String character = String.format(create("slayer", level, Races.DWARF, new Random(), OutputType.TEXT));
 				System.out.println(character);
 				System.out.println();
+				writeToPdf("test.pdf", character);
 //				bufferedWriter.write(character);
 				level++;
 			}
