@@ -24,6 +24,9 @@ import blargh.rpg.warhammer.Character.Skill;
 
 public class RandomCharacterGenerator {
 
+	private static final String STAT_WIDTHS = "\"widths\": [2,1,1,1,1,1,1,1,1,1,1,1],";
+	private static final String CELL_ALIGN_CENTER = "[\"cell\", {\"align\": \"center\"}, ";
+
 	public enum OutputType {
 		JSON,
 		TEXT;
@@ -80,23 +83,35 @@ public class RandomCharacterGenerator {
 			return output.toString();
 		}
 	}
-	
+	 
 	public static void writeToPdf(String fileName, String characterPresentation) {
 		
 		String jsonDoc = String.join("", "[{\"pages\": true, \"orientation\":\"landscape\"}", characterPresentation.replaceAll("----- Start -----", ", \\[\"paragraph\", \"").replaceAll("----- End -----", "\"\\]\\]"));
 		jsonDoc = jsonDoc.replace("Stats:     M   WS   BS    S    T   AG    I  DEX  INT   WP  FEL", 
-				"\"], [\"table\",{\"header\": [\"\", \"M\", \"WS\", \"BS\", \"S\", \"T\", \"AG\", \"I\", \"DEX\", \"INT\", \"WP\", \"FEL\"]}, [");
+				String.join("", "\"], [\"table\",{", 
+						STAT_WIDTHS,
+						"\"header\": [\"\", ",
+						CELL_ALIGN_CENTER, "\"M\"], ",
+						CELL_ALIGN_CENTER, "\"WS\"], ",
+						CELL_ALIGN_CENTER, "\"BS\"], ",
+						CELL_ALIGN_CENTER, "\"S\"], ",
+						CELL_ALIGN_CENTER, "\"T\"], ",
+						CELL_ALIGN_CENTER, "\"AG\"], ", 
+						CELL_ALIGN_CENTER, "\"I\"], ",
+						CELL_ALIGN_CENTER, "\"DEX\"], ",
+						CELL_ALIGN_CENTER, "\"INT\"], ",
+						CELL_ALIGN_CENTER, "\"WP\"], ",
+						CELL_ALIGN_CENTER, "\"FEL\"]],",
+						"\"width\": 50}, ["));
 		List<String> statValueList = Arrays.stream(characterPresentation.split("\\r?\\n")).filter(line -> line.startsWith("Values:")).collect(Collectors.toList());
 		for(String statLine: statValueList) {
 			String line = statLine.trim();
 			while(line.indexOf("  ") > 0) {
 				line = line.replaceAll("  ", " ");
 			}
-			String join = "" + String.join(", ", Arrays.stream(line.split(" ")).map(value -> String.join("", "\"", value, "\"")).collect(Collectors.toList())) + "]], [\"paragraph\", \"";
-//			System.out.println(join);
+			String join = "" + String.join(", ", Arrays.stream(line.split(" ")).map(value -> String.join("", "[\"cell\", {\"align\": \"center\", \"background-color\": [200, 200, 200]}, \"", value, "\"]")).collect(Collectors.toList())) + "]], [\"paragraph\", \"";
 			jsonDoc = jsonDoc.replace(statLine, join);
 		}
-		System.out.println(jsonDoc);
 		
 		JsonPDF.writeToFile(jsonDoc, fileName, null);
 	}
