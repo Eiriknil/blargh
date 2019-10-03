@@ -22,7 +22,7 @@ import blargh.rpg.warhammer.Character.Skill;
 public class RandomCharacterGenerator {
 
 	private static final String STAT_WIDTHS = "\"widths\": [2,1,1,1,1,1,1,1,1,1,1,1],";
-	private static final String CELL_ALIGN_CENTER = "[\"cell\", {\"align\": \"center\"}, ";
+	private static final String CELL_ALIGN_CENTER = "[\"cell\", {\"align\": \"center\", \"width\": 10}, ";
 	private static final String CELL_ALIGN_LEFT = "[\"cell\", {\"align\": \"left\"}, ";
 
 	public enum OutputType {
@@ -86,7 +86,7 @@ public class RandomCharacterGenerator {
 		
 		String jsonDoc = String.join("", "[{\"pages\": true, \"orientation\":\"landscape\"}", characterPresentation.replaceAll("----- Start -----", ", \\[\"paragraph\", \"")
 				.replaceAll("----- End -----", "\"\\]\\]"));
-//		jsonDoc = createStatPdf(characterPresentation, jsonDoc);
+		jsonDoc = createStatPdf(characterPresentation, jsonDoc);
 		
 		AtomicBoolean collect = new AtomicBoolean(false);
 		List<String> skillList = new ArrayList<>();
@@ -102,7 +102,7 @@ public class RandomCharacterGenerator {
 			}
 		});
 
-		jsonDoc = jsonDoc.replace("Skills:", "\"], [\"heading\", \"Skills:\"],[\"table\", {\"widths\": [2, 1, 1, 1]},");
+		jsonDoc = jsonDoc.replace("Skills:", "\"], [\"heading\", \"Skills:\"],[\"table\", {\"border\": false},");
 		jsonDoc = jsonDoc.replace("Talents:", "], [\"heading\", \"Talents:\"],[\"paragraph\", \"");
 		
 		List<String> skillPdfList = skillList.stream().map(line -> {
@@ -117,8 +117,8 @@ public class RandomCharacterGenerator {
 			String[] split = newLine.split(":");
 			String skillName = split[0].trim();
 			
-			newLine = String.join(",", Arrays.stream(split[1].split(" ")).map(value -> String.format("%s\"%s\"]", CELL_ALIGN_LEFT, value)).collect(Collectors.toList()));
-			newLine = String.join("", "[", String.format("%s\"%s\"], ", CELL_ALIGN_CENTER, skillName),  newLine, "]");
+			newLine = String.join(",", Arrays.stream(split[1].split(" ")).map(value -> String.format("%s\"%s\"]", CELL_ALIGN_CENTER, value)).collect(Collectors.toList()));
+			newLine = String.join("", "[", String.format("%s\"%s\"], ", CELL_ALIGN_LEFT, skillName),  newLine, "]");
 			
 			return newLine;
 		}).collect(Collectors.toList());
